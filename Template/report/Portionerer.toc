@@ -1,0 +1,16 @@
+\acswitchoff 
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{Inhaltsverzeichnis}{i}{chapter*.1}%
+\contentsline {chapter}{Abbildungsverzeichnis}{iii}{chapter*.2}%
+\contentsline {chapter}{Tabellenverzeichnis}{v}{chapter*.3}%
+\contentsline {chapter}{ Liste des Listings}{vii}{chapter*.4}%
+\contentsline {chapter}{Acronyms}{ix}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Erstes Kapitel}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}CAGD}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Materialliste}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Materialliste2}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}SBOM}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Methodology}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {7}doxygen - Example}{13}{chapter.7}%
+\contentsline {chapter}{ Literaturverzeichnis}{15}{chapter.7}%
+\contentsline {chapter}{Index}{17}{chapter*.6}%

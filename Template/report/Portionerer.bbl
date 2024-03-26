@@ -1,0 +1,235 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{anyt/global//global/global}
+  \entry{DIN66025}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{DIN Deutsches Institut f{\"u}r Normung e.V.}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Beuth Verlag}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{shorthand}{DIN66025-2}
+    \field{label}{DIN66025-2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{DIN66025-2}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{DIN 66025-2:1988-09: Programmaufbau f{\"u}r numerisch
+  gesteuerte Arbeitsmaschinen: Wegbedingungen und Zusatzfunktionen}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{type}{Norm}
+    \field{month}{09}
+    \field{year}{1988}
+  \endentry
+
+  \entry{Farouki:2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FR}{%
+         family={Farouki},
+         familyi={F\bibinitperiod},
+         given={Rida},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Srinathu},
+         familyi={S\bibinitperiod},
+         given={Jyothirmai},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FRSJ1}
+    \strng{fullhash}{FRSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{FS17}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1016/j.cad.2017.01.001
+    \endverb
+    \field{title}{A real-time CNC interpolator algorithm for trimming and
+  filling planar offset curves}
+    \field{volume}{86}
+    \field{journaltitle}{Computer-Aided Design}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Farin:2002}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FG}{%
+         family={Farin},
+         familyi={F\bibinitperiod},
+         given={Gerald},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \strng{namehash}{FG1}
+    \strng{fullhash}{FG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Far02}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{edition}{5.}
+    \field{note}{\textcolor{blue}{\href{ExterneDokumente/Farin G. Curves and
+  Surfaces for CAGD. A Practical Guide.pdf}{[pdf]}}}
+    \field{title}{{C}urves and {S}urfaces for {CAGD}}
+    \list{location}{1}{%
+      {San Diego, CA}%
+    }
+    \field{year}{2002}
+  \endentry
+
+  \entry{Patent3D}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=RD}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hernandez},
+         familyi={H\bibinitperiod},
+         given={Andres},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kinsly},
+         familyi={K\bibinitperiod},
+         given={Joshua},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Berlin},
+         familyi={B\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RD+1}
+    \strng{fullhash}{RDHAKJBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Rus+07}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{howpublished}{United States Patent, Patent N0.: US 7,291,002 B2}
+    \field{title}{Apparatus and Methods for 3D Printing}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Zafeiropoulos:2020}{inproceedings}{}
+    \name{author}{11}{}{%
+      {{hash=ZA}{%
+         family={Zafeiropoulos},
+         familyi={Z\bibinitperiod},
+         given={Anastasios},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fotopoulou},
+         familyi={F\bibinitperiod},
+         given={Eleni},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Peuster},
+         familyi={P\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gouvas},
+         familyi={G\bibinitperiod},
+         given={Panagiotis},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Behnke},
+         familyi={B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BPB}{%
+         family={Bök},
+         familyi={B\bibinitperiod},
+         given={Patrick-Benjamin},
+         giveni={P\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Panagiotis},
+         familyi={P\bibinitperiod},
+         given={Trakadas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Panagiotis},
+         familyi={P\bibinitperiod},
+         given={Karkazis},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Karl},
+         familyi={K\bibinitperiod},
+         given={Holger},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZA+1}
+    \strng{fullhash}{ZAFEPMSSGPBDMMBPBPTPKKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Zaf+20}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{booktitle}{IEEE Conference on Network Softwarization, NetSoft 2020}
+    \verb{doi}
+    \verb 10.1109/NetSoft48620.2020.9165393
+    \endverb
+    \field{title}{Benchmarking and Profiling 5G Verticals' Applications: An
+  Industrial IoT Use Case}
+    \field{year}{2020}
+  \endentry
+\enddatalist
+\endinput

@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Portionerer.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Portionerer-blx.bib
+Database file #2: ../Documents/literature.bib
+Database file #3: ../Documents/MyLiterature.bib
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 6 entries,
+            6399 wiz_defined-function locations,
+            1247 strings with 10347 characters,
+and the built_in function-call counts, 52914 in all, are:
+= -- 4428
+> -- 688
+< -- 218
++ -- 1671
+- -- 254
+* -- 3678
+:= -- 6506
+add.period$ -- 0
+call.type$ -- 6
+change.case$ -- 5
+chr.to.int$ -- 56
+cite$ -- 10
+duplicate$ -- 5657
+empty$ -- 4411
+format.name$ -- 417
+if$ -- 10444
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 0
+newline$ -- 231
+num.names$ -- 277
+pop$ -- 2012
+preamble$ -- 1
+purify$ -- 149
+quote$ -- 0
+skip$ -- 1191
+stack$ -- 0
+substring$ -- 8194
+swap$ -- 927
+text.length$ -- 193
+text.prefix$ -- 8
+top$ -- 1
+type$ -- 188
+warning$ -- 0
+while$ -- 853
+width$ -- 0
+write$ -- 226
