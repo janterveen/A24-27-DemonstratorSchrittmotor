@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  26 MAR 2024 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  27 MAR 2024 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2428,35 +2428,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-0.
+4.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-0.
+4.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-40.
+44.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-40.
+44.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 40.
+(Font)              <10.95> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 40.
+(Font)              <8> on input line 44.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+(Font)              <6> on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2465,7 +2465,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -2474,25 +2474,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 40
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 44
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 45.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [1
+) [1
 
 
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./General/Logo.
-png>])
-(./Portionerer.toc
+png>]
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 49.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[2]) (./Portionerer.toc
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 )
 \tf@toc=\write8
@@ -2503,21 +2511,14 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 
 ]
 
-Package marginnote Warning: Consecutive odd pages found.
-(marginnote)                Note, it is not recommended to use consecutive
-(marginnote)                odd pages in a double-ended document.
-(marginnote)                The pages of your document should always
-(marginnote)                be a sequence: odd-even-odd-even-...
-(marginnote)                Maybe you've forgotten a \cleardoubleoddpage before
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(marginnote)                changing the page numbering on page i.
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 43.
-[2
-
-
-] (./Portionerer.lof
+[2] (./Portionerer.lof
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 )
 \tf@lof=\write9
@@ -2526,13 +2527,15 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 2.
  [3
 
 
+
+
 ] [4
 
 
 ] (./Portionerer.lot
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 13.
 )
 \tf@lot=\write10
 \openout10 = `Portionerer.lot'.
@@ -2586,154 +2589,225 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \chapter
+l.27 \chapter
              {CAGD} [1
 
 
 
 
-] [2
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \chapter
+             {CAGD} [2
 
 
 ]
 chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 37.
+(Font)              <10> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 39.
 ) [3] [4
 
 
-]
+] (./Contents/de/Projektbeschreibung.tex
 chapter 3.
+) [5
+
+
+] [6
+
+
+]
+(./Contents/de/Beschreibung der Hardware des Arduino Nano 33 BLE Sense Lite.tex
+chapter 4.
+) [7
+
+
+] [8
+
+
+] (./Contents/de/Beschreibung der Software IDE.tex
+chapter 5.
+) [9
+
+
+] [10
+
+
+] (./Contents/de/Beschreibung des Schrittmotors 28BYJ_48.tex
+chapter 6.
+) [11
+
+
+] [12
+
+
+] (./Contents/de/Beschreibung des Programms auf dem Arduino.tex
+chapter 7.
+) [13
+
+
+] [14
+
+
+] (./Contents/de/TestdurchlÃ¤ufe.tex
+chapter 8.
+) [15
+
+
+] [16
+
+
+] (./Contents/de/Offene Punkte.tex
+chapter 9.
+) [17
+
+
+] [18
+
+
+] (./Contents/de/Literatur.tex
+chapter 10.
+) [19
+
+
+] [20
+
+
+]
+chapter 11.
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd)
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 149--149
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 173--173
 []|\T1/lmr/bx/n/8 (-20) Pos.| 
  []
 
 
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 149--149
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 173--173
 []|\T1/lmr/bx/n/8 (-20) Stk.| 
  []
 
 
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 149--149
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 173--173
 []|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\T1/lmr/m/n/8 (+20) Schrittmotor und
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 149--149
+Underfull \hbox (badness 1264) in paragraph at lines 173--173
 []|\T1/lmr/m/n/8 (+20) - USB-A-Micro Ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\T1/lmr/m/n/8 (+20) PLA Fi-la-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\T1/lmr/m/n/8 (+20) Linearführung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\T1/lmr/m/n/8 (+20) Entwicklerboards -
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 151.
+(caption)                particular \caption on input line 175.
 See the caption package documentation for explanation.
 
-[5] [6
+[21] [22
 
 
 ]
-chapter 4.
+chapter 12.
 
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 184--184
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 208--208
 []|\T1/lmr/bx/n/8 (-20) Pos.| 
  []
 
 
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 184--184
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 208--208
 []|\T1/lmr/bx/n/8 (-20) Stk.| 
  []
 
 
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 184--184
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 208--208
 []|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\T1/lmr/m/n/8 (+20) Schrittmotor und
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 184--184
+Underfull \hbox (badness 1264) in paragraph at lines 208--208
 []|\T1/lmr/m/n/8 (+20) - USB-A-Micro Ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\T1/lmr/m/n/8 (+20) PLA Fi-la-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\T1/lmr/m/n/8 (+20) Rillenkugellager
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 184--184
+Underfull \hbox (badness 6526) in paragraph at lines 208--208
 \T1/lmr/m/n/8 (+20) 693ZZ (D=8; d=3;
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 186.
+(caption)                particular \caption on input line 210.
 See the caption package documentation for explanation.
 
-[7] [8
+[23] [24
 
 
 ]
-chapter 5.
-[9] [10
+chapter 13.
+[25] [26
 
 
 ]
-chapter 6.
-[11] [12
+chapter 14.
+[27] [28
 
 
 ]
-chapter 7.
-[13] [14
+chapter 15.
+[29] [30
 
 
 ]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- [15
+ [31
 
 
-] [16
+] [32
 
 
 ]
@@ -2749,12 +2823,17 @@ Overfull \hbox (1.79065pt too wide) in paragraph at lines 20--21
 []\T1/lmr/m/n/12 (-20) Speicherprogrammierbare Steue^^?rung 
  []
 
-[17
+[33
 
 
 
 
-]) (./Portionerer.aux
+])
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (43 not 45).
+               Rerun to correct this.
+
+(./Portionerer.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 34.
 )
 
@@ -2767,31 +2846,35 @@ Package logreq Info: Writing requests to 'Portionerer.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 73691 strings out of 476024
- 1824703 string characters out of 5794016
+ 73772 strings out of 476024
+ 1827135 string characters out of 5794016
  2755792 words of memory out of 5000000
- 92881 multiletter control sequences out of 15000+600000
- 619852 words of font info for 244 fonts, out of 8000000 for 9000
+ 92913 multiletter control sequences out of 15000+600000
+ 619867 words of font info for 244 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
- 110i,9n,136p,10606b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/tex
-mf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:
-/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2022/texm
-f-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/lm/lmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc1
-0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/
-lmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive
-/2022/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/lm/lmro17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c
-:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Portionerer.pdf (28 pages, 301694 bytes).
+ 110i,11n,136p,10606b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{table.10.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf
+-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips
+/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/t
+exlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2022/texmf-
+dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/lm/lmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.
+pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lm
+r7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmro17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm
+/lmss17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/
+texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Portionerer.pdf (45 pages, 311532 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 50 named destinations out of 1000 (max. 500000)
- 50402 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 50466 words of extra memory for PDF output out of 51595 (max. 10000000)
 
