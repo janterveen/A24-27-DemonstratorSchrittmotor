@@ -1,0 +1,36 @@
+\acswitchoff 
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{Inhaltsverzeichnis}{i}{chapter*.1}%
+\contentsline {chapter}{Abbildungsverzeichnis}{iii}{chapter*.2}%
+\contentsline {chapter}{Tabellenverzeichnis}{v}{chapter*.3}%
+\contentsline {chapter}{ Liste des Listings}{vii}{chapter*.4}%
+\contentsline {chapter}{Acronyms}{ix}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Erstes Kapitel}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}CAGD}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Projektbeschreibung}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Beschreibung der Hardware des Arduino Nano 33 BLE Sense Lite}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Aufbau des Arduinos}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Elektronik inklusive aller Sensoren und Aktoren}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Beschreibung der Schnittstellen}{11}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Digitale Ein- und Ausgangspins}{12}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Analoge Eingangspins:}{12}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}UART:}{12}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}I2C:}{12}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}PI:}{13}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}USB:}{13}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Andere Pins:}{13}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}Beschreibung der Firmware}{14}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Bezugsquellen}{14}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Beschreibung der Software IDE}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Beschreibung des Schrittmotors 28BYJ-48}{17}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Beschreibung des Programms auf dem Arduino}{19}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Testdurchläufe}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Offene Punkte}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Literatur}{25}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Materialliste}{27}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Materialliste2}{29}{chapter.12}%
+\contentsline {chapter}{\numberline {13}SBOM}{31}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Methodology}{33}{chapter.14}%
+\contentsline {chapter}{\numberline {15}doxygen - Example}{35}{chapter.15}%
+\contentsline {chapter}{ Literaturverzeichnis}{37}{chapter.15}%
+\contentsline {chapter}{Index}{39}{chapter*.8}%
