@@ -1,6 +1,5 @@
 % !TeX spellcheck = de_DE/GB
 
-
 \chapter{Beschreibung der Hardware des Arduino Nano 33 BLE Sense Lite}
 \begin{figure}[htb]
 	\begin{center}
@@ -10,46 +9,36 @@
 	\end{center}
 \end{figure}
 \section{Aufbau des Arduinos}
-\cite{eTech.2021}\cite{ArdSense.2023}
+\cite{Ard}
 \\
-Der Arduino Nano 33 BLE Sense Lite ist ein kleiner Mikrocontroller basierend auf dem Nordic nRF52840-SoC (System-on-a-Chip) und verfügt über verschiedene integrierte Sensoren, Aktoren und konnektive Schnittstellen (siehe \autoref{Arduino Nano 33 BLE Sense}). Im Folgenden wird die verbaute Hardware und die wichtigsten Merkmale aufgelistet:
-\\ \textbf{(Hinweis: Der Arduino Nano 33 BLE Sense Lite ist eine komprimierte Variante vom ursprünglichen Arduino Nano 33 BLE Sense, welcher zusätzlich noch über einen Temperatur- und Feuchtigkeitssensor verfügt!)} 
+Der Arduino Nano 33 Bluetooth Low Energie (BLE) Sense Lite ist ein Mikrocontroller basierend auf dem Nordic nRF52840-SoC (System-on-a-Chip). Trotz seiner kompakten Bauweise mit einer Größe von 45 x 18 mm verfügt es über mehrere verschiedene integrierte Sensoren, Aktoren und konnektive Schnittstellen (siehe \autoref{Arduino Nano 33 BLE Sense}). Zudem hat der Arduino-Prozessor einen 1 MB Flash-Speicher und 256 KB RAM. Bei dem Prozessor handelt es sich um einen Arm \textregistered Cortex-M4F Prozessorkern, welcher für eingebettete Systeme und Mikrocontroller Anwendungen optimiert ist. Dieser bietet eine gute Leistung bei geringen Stromverbrauch und ist für Echtzeitverarbeitungsaufgaben geeignet. Außerdem besitzt der Prozessor eine Floating Point Unit (FPU), wodurch sich Datenverarbeitungsoperationen effizient verarbeiten lassen.\cite{Arm}
+Mithilfe einer integrierten Steckverbindung (engl. \glqq header \grqq) kann der Mikrocontroller direkt auf ein Board gesteckt werden. Zu den integrierten Sensoren, Aktoren und Schnittstellen gehören:
+\\ \emph{(Hinweis: Der Arduino Nano 33 BLE Sense Lite ist eine komprimierte Variante vom ursprünglichen Arduino Nano 33 BLE Sense, welcher zusätzlich noch über einen Temperatur- und Feuchtigkeitssensor verfügt!)} 
 
 \begin{itemize}
-	\item \textbf{Abmessungen}: Der Arduino Nano 33 BLE-Sense Lite ist sehr kompakt und misst nur 45 mm x 18 mm.
-	\item \textbf{Prozessor}: Der Arduino Nano 33 BLE-Sense Lite verwendet den Nordic nRF52840 SoC, der auf einer ARM-Cortex-M4F-CPU basiert und mit einer Taktrate von 64 MHz arbeitet.
-	\item \textbf{Speicher}: Es verfügt über 1 MB Flash-Speicher und 256 KB SRAM, die zur Speicherung von Programmen und Daten verwendet werden können.
-	\item \textbf{Integrierte Sensoren}: Der Arduino Nano 33 BLE-Sense Lite enthält eine Vielzahl von Sensoren, darunter einen 9-Achsen-IMU (Beschleunigungsmesser, Gyroskop und Magnetometer), einen Drucksensor, einen Temperatursensor, ein Mikrophon und einen Lichtsensor.
-	\item \textbf{Konnektivität}: verschiedene Konnektivität´s Optionen sind möglich, darunter Bluetooth Low Energy (BLE), NFC und eine USB-Schnittstelle.
-	\item \textbf{Stromversorgung}: Das Board kann über USB oder einen externen 3,7 V Lithium-Ionen-Akku betrieben werden.
-	\item \textbf{Anschlüsse}: Es verfügt über 22 digitale Ein- und Ausgangspins, von denen 12 PWM-fähig sind, sowie 8 analoge Eingänge.
+	\item \textbf{Integrierte Sensoren}: 9-Achsen-IMU (Beschleunigungsmesser, Gyroskop und Magnetometer), Drucksensor, Temperatursensor, Mikrophon und einen Lichtsensor
+	\item \textbf{Konnektivität}: Bluetooth Low Energy (BLE), NFC und eine USB-Schnittstelle
+	\item \textbf{Stromversorgung}: Über USB oder dem Voltage Input (VIN) -Pin
+	\item \textbf{Anschlüsse}: 14 digitale Pins (D2-D12 mit Pulsweitenmodulation), 8 analoge Eingänge (A0-A7 mit Pulsweitenmodulation) 
 	\item  \textbf{4 LED-Lampen}: 
-	\subitem Power-LED (grün): Sie zeigt an, dass das Arduino-Board eingeschaltet ist.
-	\subitem Programmierbare LED (orange): Das Board verfügt wie jedes andere Arduino-Board über eine eingebaute LED, die  programmiert werden kann.
-	\subitem Programmierbare RGB-LED: Das Board wird mit einer programmierbaren LED geliefert, die mit den Pin 22 (ROT), 23 (Grün) und 23 (Blau) verbunden ist.
+	\subitem Power-LED (grün): Zeigt an, dass das Arduino-Board eingeschaltet ist.
+	\subitem Programmierbare LED (orange)
+	\subitem Programmierbare RGB-LED
 \end{itemize}
-\newpage
-\section{Elektronik inklusive aller Sensoren und Aktoren}
-Der Arduino Nano 33 BLE-Sense Lite verfügt über eine Vielzahl von integrierten Sensoren und Aktoren, diese werden im folgenden aufgezeigt \cite{ArdSense.2023}:
-\begin{itemize}
-	\item \textbf{IMU für die Bewegungserkennung (LSM9DS1-9)}:\\
-	Die Trägheitsmesseinheit LSM9DS1-9 ist ein System-in-Package, d.h. auf engsten Raum werden mehrere elektronische Komponenten oder Chips in einem Paket miteinander kombiniert.\cite{Wagner.2013} \\Die IMU  verfügt über einen 3D-Linearbeschleunigungsmesser, ein 3D-Gyroskop und einen 3D Magnetometer. Außerdem beinhaltet das System eine serielle I2C-Bus Schnittstelle, die einen Standard und einen Fast Mode (100/400 kHz) bereit stellt außerdem eine serielle SPI-Standardschnittstelle. 
-	Der Sensor hat einen linearen Beschleunigungsmesser (Accelerometer) mit wählbarer Skala von ±2g/±4g/±8/±16 g, es misst die lineare Beschleunigung in drei Achsen (x, y, z) und ermöglicht die Erfassung von Änderungen der Geschwindigkeit und Position. Das Magnetfeld ist mit einer wählbaren Skala von ±4/±8/±12/±16 Gauß ausgestattet, damit misst es das magnetische Feld in den drei Achsen und ermöglicht die Bestimmung der Ausrichtung relativ zur Erdmagnetfeldrichtung. Das 3-achsige Gyroskop ist mit wählbarem Skalenendwert: ±125/±250/±500/±1000/±2000 dps und ist dafür zuständig, die Winkelgeschwindigkeit bzw. Drehbewegung um die drei Achsen zu erfassen. \cite{StmicrElec.2015}
-	\\Mögliche Anwendungsbereiche wären zum Beispiel: Bewegungssteuerungen (Spielesteuerungen, Drohnensteuerung, Robotik und industrielle Automatisierung), Schwingungsüberwachung und -kompensation, Antennen, Plattformen, optische Bild- und Objektivstabilisierung  
-	\\
-	\item \textbf{Näherungs-,Umgebungslicht-, Farb- und Gestensensor \\ (APDS9960)}:\\
-	Hierbei handelt sich um einen sehr umfangreichen Sensor. Er dient zur Gestenerkennung, Farberkennung, Abstandsmessung und Umgebungslichtmessung. Die Gestenerkennung nutzt vier gerichtete Fotodioden, um die reflektierte IR-Energie (die von der integrierten LED stammt) zu erfassen um die physischen Bewegungsinformationen (d.h. Geschwindigkeit, Richtung und Entfernung) in digitale Informationen zu übersetzen.\\
-	Die Näherungserkennung ermöglicht die Messung der Entfernung (z. B. beim Smartphone die Distanz vom Mikrophone zum Ohr des Benutzers), durch die Erkennung der reflektierten IR-Energie, (von der integrierten LED) mit Hilfe einer Fotodiode. Erkennungsereignisse sind interruptgesteuert und treten immer dann auf, wenn das Näherungsergebnis die oberen und/oder unteren Schwellenwerte überschreitet. Der Sensor verfügt zudem über Offset-Einstellregister, um den System-Offset zu kompensieren, der durch unerwünschte IR-Energiereflexionen am Sensor entsteht. Die IR-LED-Intensität ist werksseitig eingestellt, so dass eine Kalibrierung der Endgeräte aufgrund von Bauteilschwankungen nicht erforderlich ist. \\
-	Die Farb- und Umgebungslichterkennung liefert Daten zur roten, grünen, blauen Farbspektrum und Daten zur klaren Lichtintensität. Jeder der Kanäle R, G, B, C hat einen UV- und IR-Sperrfilter und einen speziellen Datenkonverter, der gleichzeitig 16-Bit-Daten erzeugt. Diese Architektur ermöglicht Anwendungen eine genaue Messung des Umgebungslichts zu messen und die Farbe zu erkennen, was es den Geräten wiederum ermöglicht, die Farbtemperatur zu berechnen und die Hintergrundbeleuchtung des Displays dementsprechend anzupassen.\cite{Avago:2015}
-	\\
-	\item \textbf{Barometrischer Drucksensor (LPS22HB)}:\\
-	Der LPS22HB ist ein sehr kompakter Absolutdrucksensor, der auf dem piezoresistiven Prinzip basiert. Er fungiert als Barometer und verfügt über einen digitalen Ausgang. Das Gerät besteht aus einem Sensorelement und einer IC-Schnittstelle, die eine Kommunikation zwischen der Sensoreinheit und der Anwendung über I2C oder SPI ermöglicht.	Das Sensorelement erfasst den absoluten Druck und besteht aus einer speziell hergestellten, aufgehängten Membran. Der LPS22HB ist in einem vollständig vergossenem LGA-Gehäuse (HLGA) untergebracht, das kleine Löcher aufweist. Durch diese Öffnung gelangt der externe Druck auf das Sensorelement. Der Betrieb des Sensors ist über einen Temperaturbereich von -40 °C bis +85 °C gewährleistet.\cite{StmicElec.2017}
-	\\Anwendungsbereiche für diesen Sensor währen zum Beispiel: Wetterstationen, Höhenmesser, Luftdrucküberwachung in industriellen Prozessen oder tragbare smarte Geräte, wie Sportuhren oder Smartphones.
-	\\
-	\item \textbf{Digitales Mikrophon (MP34DT05)}:\\
+
+\section{Integrierte Sensorik}
+Der Arduino Nano 33 BLE-Sense Lite verfügt über eine Vielzahl von integrierten Sensoren und Aktoren mit denen verschiedene Umwelteigenschaften detektiert werden können. Zu diesen Sensoren gehören:
+\subsection{9-Achs-IMU für die Bewegungserkennung (LSM9DS1)}
+	Die Trägheitsmesseinheit LSM9DS1 ist ein System-in-Package, d.h. auf engsten Raum werden mehrere elektronische Komponenten oder Chips in einem Paket miteinander kombiniert.\cite{Wag} Die IMU verfügt über einen 3D-Linearbeschleunigungsmesser, ein 3D-Gyroskop und einen 3D Magnetometer. Außerdem beinhaltet das System eine serielle I2C-Bus Schnittstelle, die einen Standard und einen Fast Mode (100/400 kHz) bereitstellt außerdem eine serielle SPI-Standardschnittstelle. Der Sensor hat einen linearen Beschleunigungsmesser (Accelerometer) mit wählbarer Skala von ±2g/±4g/±8/±16 g, es misst die lineare Beschleunigung in drei Achsen (x, y, z) und ermöglicht die Erfassung von Änderungen der Geschwindigkeit und Position. Das Magnetfeld ist mit einer wählbaren Skala von ±4/±8/±12/±16 Gauß ausgestattet, damit misst es das magnetische Feld in den drei Achsen und ermöglicht die Bestimmung der Ausrichtung relativ zur Erdmagnetfeldrichtung. Das 3D-Gyroskop ist mit wählbarem Skalenendwert: ±125/±250/±500/±1000/±2000 $\frac{Grad}{s}$ und ist dafür zuständig, die Winkelgeschwindigkeit bzw. Drehbewegung um die drei Achsen zu erfassen.\cite{STM1}
+	Mögliche Anwendungsbereiche sind zum Beispiel eine Bewegungssteuerungen (Drohnensteuerung, Robotik und industrielle Automatisierung), Schwingungsüberwachung und -kompensation, Antennen, Plattformen, optische Bild- und Objektivstabilisierung.  
+\subsection{Näherungs-,Umgebungslicht-, Farb- und Gestensensor (APDS9960)}
+	Hierbei handelt sich um einen sehr vielseitigen Sensor. Er dient zur Gestenerkennung, Farberkennung, Abstandsmessung und Umgebungslichtmessung. Die Gestenerkennung nutzt vier gerichtete Fotodioden, um reflektierte Infrarot-Energie (die von der integrierten LED stammt) zu erfassen, um die physischen Bewegungsinformationen (d.h. Geschwindigkeit, Richtung und Entfernung) in digitale Informationen zu übersetzen. Die Näherungserkennung ermöglicht die Messung der Entfernung, durch die Erkennung der reflektierten Infrarot-Energie, (von der integrierten LED) mit Hilfe einer Fotodiode. Erkennungsereignisse sind interruptgesteuert und treten immer dann auf, wenn das Näherungsergebnis die oberen und/oder unteren Schwellenwerte überschreitet. Der Sensor verfügt zudem über Offset-Einstellregister, um den System-Offset zu kompensieren, der durch unerwünschte Infrarot-Energiereflexionen am Sensor entsteht. Die Infrarot-LED-Intensität ist werksseitig eingestellt, so dass eine Kalibrierung der Endgeräte aufgrund von Bauteilschwankungen nicht erforderlich ist.	Die Farb- und Umgebungslichterkennung liefert Daten zur roten, grünen, blauen Farbspektrum und Daten zur klaren Lichtintensität. Jeder der Kanäle R, G, B, C hat einen UV- und Infrarot-Sperrfilter und einen speziellen Datenkonverter, der gleichzeitig 16-Bit-Daten erzeugt. Diese Architektur ermöglicht Anwendungen eine genaue Messung des Umgebungslichts zu messen und die Farbe zu erkennen, was es den Geräten wiederum ermöglicht, die Farbtemperatur zu berechnen und die Hintergrundbeleuchtung des Displays dementsprechend anzupassen.\cite{AT}
+\subsection{Barometrischer Drucksensor (LPS22HB)}
+	Der LPS22HB ist ein sehr kompakter Absolutdrucksensor, der auf dem piezoresistiven Prinzip basiert. Er fungiert als Barometer und verfügt über einen digitalen Ausgang. Das Gerät besteht aus einem Sensorelement und einer Integrated-Circuit (IC)-Schnittstelle, die eine Kommunikation zwischen der Sensoreinheit und der Anwendung über Inter-Integrated Circuit (I2C) oder Serial Peripheral Interface (SPI) ermöglicht. Das Sensorelement erfasst den absoluten Druck und besteht aus einer speziell hergestellten, aufgehängten Membran. Der LPS22HB ist in einem vollständig vergossenem Land Grid Array (LGA) -Gehäuse untergebracht, das kleine Löcher aufweist. Durch diese Öffnung gelangt der externe Druck auf das Sensorelement. Der Betrieb des Sensors ist über einen Temperaturbereich von -40 °C bis +85 °C gewährleistet.\cite{STM2}
+	Anwendungsbereiche für diesen Sensor währen zum Beispiel: Wetterstationen, Höhenmesser, Luftdrucküberwachung in industriellen Prozessen oder tragbare smarte Geräte, wie Sportuhren oder Smartphones.
+\subsection{Digitales Mikrophon (MP34DT05)}
 	Das MP34DT05-A ist ein kleines, energiesparendes Mikrophon mit kapazitiven Sensor. Es verwendet ein spezielles Silizium-Mikrobearbeitungsverfahren, um Schallsignale zu erkennen. Das Mikrofon hat eine Schnittstelle, die ein digitales Signal in einem speziellen Format bereitstellen kann. Darüber hinaus ist es ein hochwertiges Mikrofon mit geringer Verzerrung, gutem Signal-Rausch-Abstand von 64 dB und hoher Empfindlichkeit von -26 dBFS ±3 dB. Es ist in einem kompakten Gehäuse erhältlich und funktioniert bei Temperaturen im Bereich von -40 °C bis +85 °C. Abmessungen des Gehäuses HCLGA-4 LD sind 3 x 4 x 1 (in mm).\cite{StmicElec.2021}
-	
-\end{itemize}
+
 \section{Beschreibung der Schnittstellen}
 Der Arduino Nano 33 BLE-Sense bietet eine Vielzahl von Schnittstellen, die das Board mit anderen Komponenten und Geräten einfach verbinden lassen. Hier sind einige Details zu den wichtigsten Schnittstellen des Boards:
 \bigskip
@@ -59,7 +48,7 @@ Der Arduino Nano 33 BLE-Sense bietet eine Vielzahl von Schnittstellen, die das B
 		\cite{Arduino2023}
 	\end{center}
 \end{figure}
-\newpage
+
 \section{Digitale Ein- und Ausgangspins}
 
 Das Board verfügt über 14 digitale Ein- und Ausgangspins, Die digitalen Arduino-Pins können nur zwei Zustände lesen: wenn ein Spannungssignal vorliegt und wenn kein Signal vorhanden ist. Diese Art der Eingabe wird normalerweise als digital (oder binär) bezeichnet, und diese Zustände werden als HIGH und LOW oder 1 und 0 bezeichnet.
