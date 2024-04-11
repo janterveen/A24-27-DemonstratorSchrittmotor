@@ -1,0 +1,36 @@
+% !TeX spellcheck = de_DE/GB
+
+\chapter{Weitere Hardware}
+In den nachfolgenden Kapiteln folgt eine Aufzählung und Erläuterung der wesentlichen, zusätzlich benötigten Hardware. Dazu zählen Aktoren zur Darstellung des Betriebszustandes, Schalter und weitere Komponente, die für den Aufbau des Schrittmotor-Demonstrators nötig waren.  
+
+\subsection{LC-Display-Modul}
+Zur Feststellung des aktuellen Betriebszustandes und zur Ausgabe des eingestellten Verfahrweges des Schlittens dient ein Liquid Crystal Display (LC-Display). LC-Displays nutzen ein passives Anzeigetechnologie, denn sie emittieren selbst kein Licht, stattdessen nutzen sie das Umgebungslicht, hier in Form einer 5 V LED. Dadurch sind sie sehr Verbrauchsarm und können relativ kompakt gebaut werden.\cite{HTech.2015} Insgesamt ist das Modul 80 mm x 36 mm groß mit einer Displaygröße von 73,8 mm x 27,1 mm (3 Zoll). Auf dem Display können zeitgleich 16 Zeichen pro Zeile auf insgesamt 2 Zeilen angezeigt werden. Der beste Betrachtungswinkel ist von unten nach oben und das Blickfeld ist in der Frontansicht 60 Grad groß. Bei größeren Abständen wird das Bild zunehmend schlechter, dies ist jedoch für dieses Projekt völlig ausreichend. Zur Stromversorgung wird 5 V Gleichstromspannung benötigt. Mithilfe von 4 Steckbrückenkabel ist es mit dem Arduino verbunden, um es mit der nötigen Spannung zu versorgen und die I2C Verbindung herzustellen (Verdrahtung detailliert in Kapitel XX). Die zur I2C-Kommunikation nötige Adresse ist 0x3F. %oder 0x27 (je nach Chip)
+Zusätzliche Spezifikationen des Displays sind: 
+	\begin{itemize}
+		\item I2C-Kommunikationsschnittstelle 
+		\item Kontraststeuerung
+		\item blaue Hintergrundbeleuchtung mit weißer Schrift
+	\end{itemize}
+\cite{WaveShare.2007}
+
+\subsection{Signalleuchte}
+Zusätzlich zum LC-Display ist eine SMD-LED-Signalleuchte zur Zustandserkennung verbaut. Sie soll Störungen und Fehler erkenntlich machen. SMD steht für \emph{Surface Mount Device} und bedeutet, dass die Signalleuchte für Oberflächenmontagen konzipiert ist. Die Leuchte ist dabei mit einem einfachen Stecksystem am Gehäuse befestigt. Dazu wird sie in einer 8 mm Montagebohrung des Gehäuses gesteckt und über die 10 mm Gehäuseblende der Signalleuchte fixiert. Die Leuchte hat eine 3 mm Durchmesser große LED und emittiert ein rotes Licht. Die Betriebsspannung liegt zwischen 2 bis 2,4 V und der Betriebsstrom bei 20 mA. Angeschlossen wird sie über 4 Litzen am Arduino (verweis auf Schaltplan).\cite{Mentor.2024}
+
+\subsection{Spannungswandler}
+Damit der Schrittmotor mit genügend Spannung versorgt werden kann, ist noch ein Spannungswandler verbaut. 
+\subsection{Linearführung}
+Zur Demonstration einer linearen Bewegung wird eine kompakte Linearführung verwendet. Die Führung ist 400 mm lang und 12 mm breit. Diese Linearführung wird vor allem in Fused Deposition Modeling (FDM) -Drucker verwendet, wo es auf hohe Präzision bei niedrigen Toleranzen ankommt. Deshalb eignet sich diese Führung auch gut für dieses Projekt, wo es nicht darum geht, große Lasten zu Bewegen, sondern möglichst genau die Schrittauflösung auf eine Millimeterskala zu übertragen.
+%Von dem Kaufteil gibt es kein Datenblatt
+\subsection{Drehwinkel-Encoder}
+Der Demonstrator soll mehrere Programme fahren können, deswegen wird ein Drehwinkel-Encoder verwendet. %Erklärung...Drehencoder...
+Weitere Details: \begin{itemize}
+	\item \textbf{Abmessungen (b x l x h):} 18 mm x 31 mm x 30 mm
+	\item \textbf{Betriebsspannung:} 3,3 V - 5 V
+	
+\end{itemize}
+\section{Schaltplan}
+fehlt noch...
+
+
+
+
