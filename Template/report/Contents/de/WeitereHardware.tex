@@ -17,8 +17,26 @@ Zusätzliche Spezifikationen des Displays sind:
 Zusätzlich zum LC-Display ist eine SMD-LED-Signalleuchte zur Zustandserkennung verbaut. Sie soll Störungen und Fehler erkenntlich machen. SMD steht für \emph{Surface Mount Device} und bedeutet, dass die Signalleuchte für Oberflächenmontagen konzipiert ist. Die Leuchte ist dabei mit einem einfachen Stecksystem am Gehäuse befestigt. Dazu wird sie in einer 8 mm Montagebohrung des Gehäuses gesteckt und über die 10 mm Gehäuseblende der Signalleuchte fixiert. Die Leuchte hat eine 3 mm Durchmesser große LED und emittiert ein rotes Licht. Die Betriebsspannung liegt zwischen 2 bis 2,4 V und der Betriebsstrom bei 20 mA. Angeschlossen wird sie über vier Litzen am Arduino (verweis auf Schaltplan).\cite{Mentor.2024}
 
 \section{Spannungswandler}
-Für den Aufbau des Demonstrators sind mehrere Spannungswandler nötig. Zum einen ist ein Wechselspannung/Gleichspannungswandler (AD/DC Wandler) in Form des Schaltnetzteils SNT RD 50A eingesetzt. 
+Für den Aufbau des Demonstrators sind mehrere Spannungswandler nötig. Folgende Wandler wurden in der Schaltung verwendet.
+\subsection{Netzteil SNT RD 50A}
+Dieser Wechselspannung-/Gleichspannungswandler (AC/DC-Wandler) wandelt die 230 V des Netzanschlusses in 12 V Gleichspannung um. %%%Verwendung im Bezug auf den Schrittmotor noch ergänzen
+Weitere Spezifikationen des Wandlers sind:
+\begin{itemize}
+	\item \textbf{Bauteilabmessung (L x B x H):} 99 mm x 97 mm x 36 mm
+	\item \textbf{Ausgangsstrom:} 2 A
+	\item \textbf{Leistung:} 54 W
+	\item \textbf{Wirkungsgrad:} 79 \% 
+\end{itemize} 
+\cite{Meanwell.2019}
 
+\subsection{Spannungswandler ASM1117}
+Dieser Spannungswandler wandelt die 12 V vom Netzteil SNT RD 50A in jeweils 3,3 V und 5 V um. Die 3,3 V werden für den Arduino verwendet und 5 V jeweils für den LC-Display und dem Drehwinkel-Encoder. Weitere Technische Daten des Wandlers:
+\begin{itemize}
+	\item \textbf{Bauteilabmessung (L x B x H):} 40 mm x 40 mm x 20 mm 
+	\item \textbf{Ausgangsstrom:} 800 mA
+\end{itemize}
+	\cite{AMS}
+	
 \section{Linearführung}
 Zur Demonstration einer linearen Bewegung wird eine kompakte Linearführung verwendet. Die Führung ist 400 mm lang und 12 mm breit. Diese Linearführung wird vor allem in Fused Deposition Modeling (FDM) -Drucker verwendet, wo es auf hohe Präzision bei niedrigen Toleranzen ankommt. Deshalb eignet sich diese Führung auch gut für dieses Projekt, wo es nicht darum geht, große Lasten zu Bewegen, sondern möglichst genau die Schrittauflösung auf eine Millimeterskala zu übertragen.
 %Von dem Kaufteil gibt es kein Datenblatt
