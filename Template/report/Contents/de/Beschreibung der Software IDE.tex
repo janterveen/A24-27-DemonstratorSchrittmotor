@@ -4,10 +4,10 @@
 \chapter{Beschreibung der Software IDE}
 
 \section{Installation der Arduino IDE}
-Um Mikrocontroller von Arduino, wie den verwendeten Arduino Nano 33 BLE Sense Lite, programmieren zu können, wird die Software namens „Arduino IDE“ in der Version 2.3.2 verwendet. 
-Alternativ dazu könnten auch andere Entwicklungsumgebungen, wie Qt verwendet werden, die eine Programmierung in der Programmiersprache C++ ermöglicht. \\
-Vorteil der Arduino IDE sind vor allem ihre Funktionen, die das Einbinden der Software auf dem Mikrocontroller vereinfachen.\\
-Der Bezug der Software Arduino IDE erfolgt über die offizielle Webseite von Arduino, welche unter www.arduino.cc/software erreichbar ist. Auf dieser Plattform stehen diverse Versionen, für unterschiedliche Betriebssysteme, wie Windows, Linux und Mac OS X, sowie in verschiedenen Dateiformaten, zur Auswahl bereit. Um die Anwendung zu installieren, muss die heruntergeladene Datei ausgeführt und den Installationsanweisungen gefolgt werden. Danach ist die korrekte Konfiguration des verwendeten Entwicklungsboards sowie die Installation entsprechender Bibliotheken erforderlich.\\
+Um Mikrocontroller von Arduino, wie den verwendeten Arduino Nano 33 BLE Sense Lite, programmieren zu können, wird die Software namens Arduino IDE in der Version 2.3.2 verwendet. 
+Alternativ dazu könnten auch andere Entwicklungsumgebungen, wie Qt verwendet werden, die eine Programmierung in der Programmiersprache C++ ermöglicht.
+Vorteil der Arduino IDE sind vor allem ihre Funktionen, die das Einbinden der Software auf dem Mikrocontroller vereinfachen.
+Der Bezug der Software Arduino IDE erfolgt über die offizielle Webseite von Arduino, welche unter \url{www.arduino.cc/software} erreichbar ist. Auf dieser Plattform stehen diverse Versionen, für unterschiedliche Betriebssysteme, wie Windows, Linux und Mac OS X, sowie in verschiedenen Dateiformaten, zur Auswahl bereit \cite{Arduino.2024}. Um die Anwendung zu installieren, muss die heruntergeladene Datei ausgeführt und den Installationsanweisungen gefolgt werden. Danach ist die korrekte Konfiguration des verwendeten Entwicklungsboards sowie die Installation entsprechender Bibliotheken erforderlich.
 
 \section{Beschreibung der Entwicklungsumgebung}
 Nach dem Start der installierten Anwendung öffnet sich die Hauptoberfläche.
@@ -17,65 +17,64 @@ Nach dem Start der installierten Anwendung öffnet sich die Hauptoberfläche.
 		\caption{Hauptoberfläche in der Arduino IDE} \label{Hauptoberfläche in der Arduino IDE}
 	\end{center}
 \end{figure}
-Oben in der Hauptoberfläche befindet sich eine Menüleiste, die verschiedene Menüs wie "Datei", "Bearbeiten" und "Sketch" enthält. Diese Menüs ermöglichen das Bearbeiten und Öffnen von Sketches, also Programmen in der IDE, das Kompilieren und Hochladen von Code sowie das Verwalten von Bibliotheken. Außerdem bietet die Menüleiste ein Hilfe-Menü, das bei Fragen und Problemen hilfreich ist. \\
-Die Symbolleiste auf der linken Seite der Hauptoberfläche bietet Schaltflächen für häufig genutzte Funktionen wie das Verwalten von Sketches, Boards und Bibliotheken.\\
-Im Zentrum der Hauptoberfläche befindet sich ein Code-Editor, der die Bearbeitung der Sketches ermöglicht. Direkt darunter erscheint nach dem ersten Kompilieren eines Sketches ein Ausgabefenster, das den Kompilierungs- und Hochladeprozess sowie eventuelle Fehler während der Kompilierung anzeigt. Dadurch können Probleme im Code schnell identifiziert werden.\\
+Oben in der Hauptoberfläche befindet sich eine Menüleiste, die verschiedene Menüs wie \textit{Datei}, \textit{Bearbeiten} und \textit{Sketch} enthält. Diese Menüs ermöglichen das Bearbeiten und Öffnen von Sketches, also Programmen in der IDE, das Kompilieren und Hochladen von Code sowie das Verwalten von Bibliotheken. Außerdem bietet die Menüleiste ein Hilfe-Menü, das bei Fragen und Problemen hilfreich ist. 
+Die Symbolleiste auf der linken Seite der Hauptoberfläche bietet Schaltflächen für häufig genutzte Funktionen wie das Verwalten von Sketches, Boards und Bibliotheken.
+Im Zentrum der Hauptoberfläche befindet sich ein Code-Editor, der die Bearbeitung der Sketches ermöglicht. Direkt darunter erscheint nach dem ersten Kompilieren eines Sketches ein Ausgabefenster, das den Kompilierungs- und Hochladeprozess sowie eventuelle Fehler während der Kompilierung anzeigt. Dadurch können Probleme im Code schnell identifiziert werden.
 
 \section{Erste Schritte in der Entwicklungsumgebung}
 \subsection{Auswahl des Mikrocontrollers}
-In der Entwicklungsumgebung können sofort Sketche geöffnet und geschrieben werden. Dafür wird zunächst noch kein Mikrocontroller benötigt. Um den Sketch aber kompilieren zu können, muss das korrekte Board ausgewählt werden.
-Dafür muss zunächst das passende Board installiert werden. \\
- Dies erfolgt über den „Boards-Manager“.
+In der Entwicklungsumgebung können sofort Sketche geöffnet und geschrieben werden. Um den Sketch aber kompilieren zu können, muss das korrekte Board ausgewählt werden.
+Dafür muss zunächst das passende Board installiert werden. 
+ Dies erfolgt über den \textit{Boards-Manager}.
 \begin{figure}[htb]
 	\begin{center}
 		\includegraphics[width=\textwidth]{General/Boardsmanager}
 		\caption{Installation des Boards} \label{Installation des Boards}
 	\end{center}
 \end{figure}
-Dort kann in diesem Fall die Datei „Arduino Mbed OS Nano“ in der aktuellen Version 4.1.1 heruntergeladen und installiert werden. Danach kann unter „Select Board“ das Board „Arduino BLE Sense 33“ ausgewählt werden.\\
-Alternativ kann man das Board über ein USB-Kabel angeschlossen werden, sollte man den Mikrocontroller bereits zur Hand haben. Unter „Select Board“ sollten nun bereits das korrekte Board und der entsprechende COM, also in diesem Fall der USB-Port, angeboten werden. Wählt man diese nun aus, muss man dann nur noch den Installationsanweisungen folgen, um das Board zu installieren.\\
+Im \textit{Boards Manager} kann in diesem Fall die Datei Arduino Mbed OS Nano in der aktuellen Version 4.1.1 heruntergeladen und installiert werden. Danach kann unter \textit{Select Board} das Board Arduino BLE Sense 33 ausgewählt werden \cite{Arduino.2024b}.
+Alternativ kann das Board über ein USB-Kabel angeschlossen werden, sollte man den Mikrocontroller bereits zur Hand haben. Unter\textit{ Select Board} sollten nun bereits das korrekte Board und der entsprechende COM, also in diesem Fall der USB-Port, angeboten werden. Wählt man diese nun aus, muss man dann nur noch den Installationsanweisungen folgen, um das Board zu installieren.
 
 \subsection{Bibliotheken einbinden}
 Von Arduino gibt es bereits sehr viele offiziell unterstützte Bibliotheken. Will man diese in einem Sketch nutzen, muss man diese zunächst installieren.
-Dafür kann man über den „Library Manager“ die nötige Bibliothek herunterladen und installieren. Die Suchfunktion hilft dabei, die korrekte Bibliothek zu finden.
-\begin{figure}[htb]
+Dafür kann über den \textit{Library Manager} die nötige Bibliothek heruntergeladen und installiert werden. Die Suchfunktion hilft dabei, die korrekte Bibliothek zu finden \cite{Arduino.2024c}.
+\begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{General/Librarymanager}
 		\caption{Herunterladen von Bibliotheken} \label{Herunterladen von Bibliotheken}
 	\end{center}
 \end{figure}
-Nachdem die Bibliothek installiert ist, kann sie im „header“ in den Sketch eingebunden werden.\\
-Möchte man eine Bibliothek nutzen, die nicht im „Library Manager“ zu finden ist, kann diese über „Sketch->Include Libraries->Add .ZIP Library…“ eingebunden werden.
+Nachdem die Bibliothek installiert ist, kann sie im header in den Sketch eingebunden werden.
+Möchte man eine Bibliothek nutzen, die nicht im \textit{Library Manager} zu finden ist, kann diese über \textit{Sketch->Include Libraries->Add .ZIP Library…} eingebunden werden.
 
 \section{Programmierung}
-Wird ein neuer Sketch geöffnet, sind bereits die Funktionen „void setup()“ und „void loop“ hinterlegt.
+Wird ein neuer Sketch geöffnet, sind bereits die Funktionen \textit{void setup()} und \textit{void loop()} hinterlegt.
 
 \subsection{header}
-Im „header“ werden vor allem alle nötigen Bibliotheken hinterlegt und initialisiert. Gleichzeitig können hier aber auch Adressen von Peripheriegeräten hinterlegt erste wichtige Variablen definiert.
+Im \textit{header} werden vor allem alle nötigen Bibliotheken hinterlegt und initialisiert. Gleichzeitig können hier aber auch Adressen von Peripheriegeräten hinterlegt und erste wichtige Variablen definiert werden.
 
-\subsection{void setup()}
-Die „void setup()“-Funktion wird jedes Mal einmal ausgeführt, wenn der Arduino an den Strom angeschlossen wird, oder der Reset-Knopf gedrückt wird.
+\subsection{setup()}
+Die \textit{void setup()}-Funktion wird bei jedem Neustart oder Reset einmal ausgeführt \cite{Arduino.2024d}.
 Hier wird zum Beispiel die serielle Kommunikation gestartet, aber auch verwendete Pins initialisiert und zugewiesen.
 
-\subsection{void loop()}
-In der „void loop()“-Funktion findet der größte Teil des Programmes statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird und somit zunächst erst die „void setup()“-Funktion wieder gestartet wird.
+\subsection{loop()}
+In der \textit{void loop()}-Funktion findet der größte Teil des Programms statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird und somit zunächst erst die \textit{void setup()}-Funktion wieder gestartet wird \cite{Arduino.2024e}.
 
-\section{"hello world"}
-Um die Funktion eines Systems zu testen, wird oft zunächst ein sehr simples Programm oder eine sehr grundlegende Funktion getestet.\\
-In diesem Fall kann hier über Datei -> Beispiele -> 01.Basics -> Blink ein Sketch geöffnet werden, in dem die auf dem Arduino Nano 33 BLE Sense Lite aufgebrachte LED in einem fest gelegten Takt blinkt, wodurch die korrekte Auswahl des Boards und die Übertragung des Sketches auf den Mikrocontroller getestet werden können. \\
+\section{Erster Programmtest}
+Um die Funktion eines Systems zu testen, wird oft zunächst ein sehr simples Programm oder eine sehr grundlegende Funktion getestet.
+In diesem Fall kann hier über \textit{Datei -> Beispiele -> 01.Basics -> Blink} ein Sketch geöffnet werden, in dem die auf dem Arduino Nano 33 BLE Sense Lite aufgebrachte LED in einem fest gelegten Takt blinkt, wodurch die korrekte Auswahl des Boards und die Übertragung des Sketches auf den Mikrocontroller getestet werden können.
 
-%void setup() {
-%	// initialize digital pin LED_BUILTIN as an output.
-%	pinMode(LED_BUILTIN, OUTPUT);
-%}
-%
-%void loop() {
-%	digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-%	delay(1000);                      // wait for a second
-%	digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-%	delay(1000);                      // wait for a second
-%}
+\begin{lstlisting}
+void setup() {
+	pinMode(LED_BUILTIN, OUTPUT);
+}
+void loop() {
+	digitalWrite(LED_BUILTIN, HIGH);
+	delay(1000);                     
+	digitalWrite(LED_BUILTIN, LOW);  
+	delay(1000);                     
+}
+\end{lstlisting}
 
-
-In der „void setup()“-Funktion wird in diesem Beispiel zunächst über den Ausdruck "pinMode(LED_BUILTIN, OUTPUT)" die auf dem Mikrocontroller verbaute LED in dem Sketch aufgerufen und eingebunden.\\
-In „void loop()“ wird durch den Befehl „digitalWrite()“ zunächst die LED eingeschaltet, indem eine Spannung an sie angelegt wird, dann nach einer kurzen Verzögerung durch den gleichen Befehl wieder ausgeschaltet, indem die anliegende Spannung gesenkt wird. Die Verzögerung kann mit dem „delay()“-Befehl eingestellt werden, indem der Wert in der Klammer angepasst wird. Dabei wird der Wert in Millisekunden angegeben.
+In der \textit{void setup()}-Funktion wird in diesem Beispiel zunächst über den Ausdruck \textit{pinMode(LED BUILTIN, OUTPUT)} die auf dem Mikrocontroller verbaute LED in dem Sketch aufgerufen und eingebunden.
+In \textit{void loop()} wird durch den Befehl\textit{ digitalWrite()} zunächst die LED eingeschaltet, indem eine Spannung an sie angelegt wird. Nach einer kurzen Verzögerung durch den gleichen Befehl wird die LED dann wieder ausgeschaltet, indem die anliegende Spannung gesenkt wird. Die Verzögerung kann mit dem \textit{delay()}-Befehl eingestellt werden, indem der Wert in der Klammer angepasst wird. Dabei wird der Wert in Millisekunden angegeben.
