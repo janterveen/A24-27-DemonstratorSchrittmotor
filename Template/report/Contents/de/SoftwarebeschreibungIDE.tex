@@ -60,7 +60,7 @@ Hier wird zum Beispiel die serielle Kommunikation gestartet, aber auch verwendet
 \subsection{void loop()}
 In der „void loop()“-Funktion findet der größte Teil des Programmes statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird und somit zunächst erst die „void setup()“-Funktion wieder gestartet wird.
 
-\section{"hello world"}
+\section{hello world}
 Um die Funktion eines Systems zu testen, wird oft zunächst ein sehr simples Programm oder eine sehr grundlegende Funktion getestet.\\
 In diesem Fall kann hier über Datei -> Beispiele -> 01.Basics -> Blink ein Sketch geöffnet werden, in dem die auf dem Arduino Nano 33 BLE Sense Lite aufgebrachte LED in einem fest gelegten Takt blinkt, wodurch die korrekte Auswahl des Boards und die Übertragung des Sketches auf den Mikrocontroller getestet werden können. \\
 
@@ -77,5 +77,5 @@ In diesem Fall kann hier über Datei -> Beispiele -> 01.Basics -> Blink ein Sket
 %}
 
 
-In der „void setup()“-Funktion wird in diesem Beispiel zunächst über den Ausdruck "pinMode(LED_BUILTIN, OUTPUT)" die auf dem Mikrocontroller verbaute LED in dem Sketch aufgerufen und eingebunden.\\
-In „void loop()“ wird durch den Befehl „digitalWrite()“ zunächst die LED eingeschaltet, indem eine Spannung an sie angelegt wird, dann nach einer kurzen Verzögerung durch den gleichen Befehl wieder ausgeschaltet, indem die anliegende Spannung gesenkt wird. Die Verzögerung kann mit dem „delay()“-Befehl eingestellt werden, indem der Wert in der Klammer angepasst wird. Dabei wird der Wert in Millisekunden angegeben.
+In der \textit{void setup()}-Funktion wird in diesem Beispiel zunächst über den Ausdruck \textit{pinMode(LED\_ BUILTIN, OUTPUT)} die auf dem Mikrocontroller verbaute LED in dem Sketch aufgerufen und eingebunden.
+In \textit{void loop()} wird durch den Befehl \textit{digitalWrite()} zunächst die LED eingeschaltet, indem eine Spannung an sie angelegt wird, dann nach einer kurzen Verzögerung durch den gleichen Befehl wieder ausgeschaltet, indem die anliegende Spannung gesenkt wird. Die Verzögerung kann mit dem \textit{delay()}-Befehl eingestellt werden, indem der Wert in der Klammer angepasst wird. Dabei wird der Wert in Millisekunden angegeben.
