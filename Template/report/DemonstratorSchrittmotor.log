@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  4 APR 2024 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  16 APR 2024 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,7 +143,7 @@ Class scrbook Info: Redefining `\numberline' on input line 7330.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 24.
+e 15.
 
 (./General/packages.tex
 (c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
@@ -1704,7 +1704,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 25.
+e 16.
 
 (./General/commands.tex
 LaTeX Info: Redefining \Atan2 on input line 39.
@@ -1728,7 +1728,7 @@ Package tocbasic Info: setting babel extension for `locode' on input line 147.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 26.
+e 17.
 
 (./General/tikzdefs.tex
 (c:/texlive/2022/texmf-dist/tex/latex/pgfplots/pgfplots.sty
@@ -2065,25 +2065,25 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./DemonstratorSchrittmotor.aux)
 \openout1 = `DemonstratorSchrittmotor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-Package tocbasic Info: usage of `tocbibind' detected on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+Package tocbasic Info: usage of `tocbibind' detected on input line 25.
 
 
 Package tocbasic Warning: `tocbibind' redefinition of `\tableofcontents'
@@ -2159,7 +2159,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 25.
 
 (./DemonstratorSchrittmotor.out) (./DemonstratorSchrittmotor.out)
 \@outlinefile=\write7
@@ -2172,7 +2172,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 34.
+(scrbook)           before \begin{document} on input line 25.
 
 (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -2182,156 +2182,156 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count663
 ))
 \c@lstlisting=\count664
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 34
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 25
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <12> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 34.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/scsl' undefined
-(Font)              using `T1/fvm/m/sc' instead on input line 34.
+(Font)              using `T1/fvm/m/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/sc' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 34.
+(Font)              using `T1/fvm/m/n' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/b/it' in size <12> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 34.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/b/scsl' undefined
-(Font)              using `T1/fvm/b/sc' instead on input line 34.
+(Font)              using `T1/fvm/b/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/b/sc' undefined
-(Font)              using `T1/fvm/b/n' instead on input line 34.
+(Font)              using `T1/fvm/b/n' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <12> not available
-(Font)              Font shape `T1/fvm/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/bx/it' in size <12> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 34.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/bx/sl' in size <12> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 34.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/bx/scsl' undefined
-(Font)              using `T1/fvm/bx/sc' instead on input line 34.
+(Font)              using `T1/fvm/bx/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/bx/sc' undefined
-(Font)              using `T1/fvm/bx/n' instead on input line 34.
+(Font)              using `T1/fvm/bx/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sbx/sc' undefined
-(Font)              using `T1/fvm/sb/sc' instead on input line 34.
+(Font)              using `T1/fvm/sb/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/n' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 34.
+(Font)              using `T1/fvm/m/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/it' undefined
-(Font)              using `T1/fvm/sb/n' instead on input line 34.
+(Font)              using `T1/fvm/sb/n' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/sb/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/sl' undefined
-(Font)              using `T1/fvm/sb/it' instead on input line 34.
+(Font)              using `T1/fvm/sb/it' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/sb/it' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/scit' undefined
-(Font)              using `T1/fvm/sb/sc' instead on input line 34.
+(Font)              using `T1/fvm/sb/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/sc' undefined
-(Font)              using `T1/fvm/sb/n' instead on input line 34.
+(Font)              using `T1/fvm/sb/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sbc/sc' undefined
-(Font)              using `T1/fvm/c/sc' instead on input line 34.
+(Font)              using `T1/fvm/c/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/c/n' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 34.
+(Font)              using `T1/fvm/m/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/c/it' undefined
-(Font)              using `T1/fvm/c/n' instead on input line 34.
+(Font)              using `T1/fvm/c/n' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/c/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/c/sl' undefined
-(Font)              using `T1/fvm/c/it' instead on input line 34.
+(Font)              using `T1/fvm/c/it' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/c/it' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/c/scit' undefined
-(Font)              using `T1/fvm/c/sc' instead on input line 34.
+(Font)              using `T1/fvm/c/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/c/sc' undefined
-(Font)              using `T1/fvm/c/n' instead on input line 34.
+(Font)              using `T1/fvm/c/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/lc/sc' undefined
-(Font)              using `T1/fvm/l/sc' instead on input line 34.
+(Font)              using `T1/fvm/l/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/l/n' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 34.
+(Font)              using `T1/fvm/m/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/l/it' undefined
-(Font)              using `T1/fvm/l/n' instead on input line 34.
+(Font)              using `T1/fvm/l/n' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/l/n' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/l/sl' undefined
-(Font)              using `T1/fvm/l/it' instead on input line 34.
+(Font)              using `T1/fvm/l/it' instead on input line 25.
 
 LaTeX Font Info:    Font shape `T1/fvm/l/it' will be
-(Font)              scaled to size 10.79993pt on input line 34.
+(Font)              scaled to size 10.79993pt on input line 25.
 
 LaTeX Font Warning: Font shape `T1/fvm/l/scit' undefined
-(Font)              using `T1/fvm/l/sc' instead on input line 34.
+(Font)              using `T1/fvm/l/sc' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/l/sc' undefined
-(Font)              using `T1/fvm/l/n' instead on input line 34.
+(Font)              using `T1/fvm/l/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/ui' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 34.
+(Font)              using `T1/fvm/m/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/bx/ui' undefined
-(Font)              using `T1/fvm/bx/n' instead on input line 34.
+(Font)              using `T1/fvm/bx/n' instead on input line 25.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/In' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 34.
+(Font)              using `T1/fvm/m/n' instead on input line 25.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionar
@@ -2340,7 +2340,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 34.
+or `german'. on input line 25.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -2381,29 +2381,29 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DemonstratorSchrittmotor.bbl' found.
 
 (./DemonstratorSchrittmotor.bbl)
-Package biblatex Info: Reference section=0 on input line 34.
-Package biblatex Info: Reference segment=0 on input line 34.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
 Package newfloat Info: `float' package detected.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 34.
+ on input line 25.
 
-LaTeX Info: Redefining \microtypecontext on input line 34.
-Package microtype Info: Applying patch `item' on input line 34.
-Package microtype Info: Applying patch `toc' on input line 34.
-Package microtype Info: Applying patch `eqnum' on input line 34.
-Package microtype Info: Applying patch `footnote' on input line 34.
-Package microtype Info: Applying patch `verbatim' on input line 34.
+LaTeX Info: Redefining \microtypecontext on input line 25.
+Package microtype Info: Applying patch `item' on input line 25.
+Package microtype Info: Applying patch `toc' on input line 25.
+Package microtype Info: Applying patch `eqnum' on input line 25.
+Package microtype Info: Applying patch `footnote' on input line 25.
+Package microtype Info: Applying patch `verbatim' on input line 25.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 34.
+LaTeX Info: Redefining \showhyphens on input line 25.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2413,11 +2413,12 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 (./Contents/de/TitlePage.tex
-<General/Logo.png, id=31, 228.855pt x 77.088pt>
-File: General/Logo.png Graphic file (type png)
-<use General/Logo.png>
-Package pdftex.def Info: General/Logo.png  used on input line 13.
-(pdftex.def)             Requested size: 199.16928pt x 67.0907pt.
+<General/Logo_HS_Emden_Leer.jpg, id=31, 1275.0837pt x 427.1157pt>
+File: General/Logo_HS_Emden_Leer.jpg Graphic file (type jpg)
+<use General/Logo_HS_Emden_Leer.jpg>
+Package pdftex.def Info: General/Logo_HS_Emden_Leer.jpg  used on input line 13.
+
+(pdftex.def)             Requested size: 199.16928pt x 66.71059pt.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
 1.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -2427,36 +2428,42 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [1
+
+
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./General/Logo_
+HS_Emden_Leer.jpg>]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-4.
+9.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-4.
+9.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-44.
+49.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-44.
+49.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 44.
+(Font)              <10.95> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+(Font)              <6> on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2465,7 +2472,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -2474,19 +2481,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 44
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-
-
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./General/Logo.
-png>]
+)
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 49.
+(Font)              scaled to size 9.85492pt on input line 54.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2503,8 +2505,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [2]) (./DemonstratorSchrittmotor.toc
 Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 12.
- [1
+(Font)              <12> on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+3.
+
+(c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1
 
 
 ])
@@ -2568,7 +2575,7 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 ]
 (./Contents/de/Symbols.tex)
 No file DemonstratorSchrittmotor.nls.
-(./Contents/de/FirstChapter.tex
+(./Contents/de/Projektbeschreibung.tex
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -2585,13 +2592,21 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface.
 
-
+Package biblatex Info: Reference segment=1 on input line 6.
+Package biblatex Info: Setting label 'refsegment:01' on input line 6.
+Package biblatex Info: Reference segment=2 on input line 10.
+Package biblatex Info: Setting label 'refsegment:02' on input line 10.
+Package biblatex Info: Reference segment=3 on input line 14.
+Package biblatex Info: Setting label 'refsegment:03' on input line 14.
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \chapter
-             {CAGD} [1
+l.69 \cleardoublepage
+                      [1
+
+
 
 
 
@@ -2601,56 +2616,175 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \chapter
-             {CAGD} [2
+l.69 \cleardoublepage
+                      [2
 
 
 ]
+(./Contents/de/HardwarebeschreibungArduinoNano33BLESenseLite.tex
 chapter 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 42.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 42.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 42.
-) [3] [4
-
-
-] (./Contents/de/Projektbeschreibung.tex
-chapter 3.
-) [5
-
-
-] [6
-
-
-]
-(./Contents/de/Beschreibung der Hardware des Arduino Nano 33 BLE Sense Lite.tex
-chapter 4.
-<General/ArduinoBoard.png, id=227, 618.81187pt x 298.61563pt>
+<General/ArduinoBoard.png, id=246, 618.81187pt x 298.61563pt>
 File: General/ArduinoBoard.png Graphic file (type png)
 <use General/ArduinoBoard.png>
-Package pdftex.def Info: General/ArduinoBoard.png  used on input line 8.
+Package pdftex.def Info: General/ArduinoBoard.png  used on input line 6.
 (pdftex.def)             Requested size: 369.88583pt x 178.50095pt.
 
-LaTeX Warning: Citation 'eTech.2021' on page 7 undefined on input line 9.
+LaTeX Warning: Citation 'eTech.2021' on page 3 undefined on input line 7.
 
-Package biblatex Info: Reference segment=1 on input line 12.
-Package biblatex Info: Setting label 'refsegment:01' on input line 12.
+Package biblatex Info: Reference segment=4 on input line 10.
+Package biblatex Info: Setting label 'refsegment:04' on input line 10.
 
-LaTeX Warning: Citation 'eTech.2021' on page 7 undefined on input line 13.
+LaTeX Warning: Citation 'Ard.2024' on page 3 undefined on input line 11.
 
 
-LaTeX Warning: Citation 'ArdSense.2023' on page 7 undefined on input line 13.
+LaTeX Warning: Citation 'Arm' on page 3 undefined on input line 13.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-9.
-(c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7
+
+Overfull \hbox (3.14395pt too wide) in paragraph at lines 11--15
+\T1/lmr/m/n/12 (-20) kro^^?con^^?trol^^?ler ba^^?sie^^?rend auf dem Nor^^?dic n
+RF52840-SoC (Sys^^?tem-on-a-Chip).
+ []
+
+[3
 
 
  <./General/ArduinoBoard.png>]
+Package biblatex Info: Reference segment=5 on input line 16.
+Package biblatex Info: Setting label 'refsegment:05' on input line 16.
+
+
+LaTeX Warning: Citation 'Wagner.2013' on page 4 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'STM1.2015' on page 4 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Ard.2024' on page 4 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'AT.2015' on page 4 undefined on input line 23.
+
+
+LaTeX Warning: Citation 'Ard.2024' on page 4 undefined on input line 23.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[4]
+
+LaTeX Warning: Citation 'STM2.2017' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'Ard.2024' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'STM3.2021' on page 5 undefined on input line 34.
+
+
+LaTeX Warning: Citation 'Ard.2024' on page 5 undefined on input line 34.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 35.
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[5]
+
+LaTeX Warning: Citation 'Ard.2024' on page 6 undefined on input line 37.
+
+Package biblatex Info: Reference segment=6 on input line 39.
+Package biblatex Info: Setting label 'refsegment:06' on input line 39.
+<General/ArduinoPinBoard.png, id=267, 499.8675pt x 303.1325pt>
+File: General/ArduinoPinBoard.png Graphic file (type png)
+<use General/ArduinoPinBoard.png>
+Package pdftex.def Info: General/ArduinoPinBoard.png  used on input line 42.
+(pdftex.def)             Requested size: 398.33858pt x 241.57199pt.
+
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 42--43
+[][] 
+ []
+
+
+LaTeX Warning: Citation 'Arduino2023' on page 6 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'Meroth.2018' on page 6 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'STM1.2015' on page 6 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'Gehrke.2022' on page 6 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'Meroth.2018' on page 6 undefined on input line 48.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[6]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+53.
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Citation 'Ard.2024' on page 7 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'NrdSem3.2024' on page 7 undefined on input line 54.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 55.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[7 <./General/ArduinoPinBoard.png>]
+
+LaTeX Warning: Citation 'Ard.2024' on page 8 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'NrdSem3.2024' on page 8 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'NrdSem.2024' on page 8 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'Gehrke.2022' on page 8 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'NrdSem2.2024' on page 8 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'NrdSem3.2023' on page 8 undefined on input line 65.
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2660,33 +2794,16 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [8]
-Package biblatex Info: Reference segment=2 on input line 32.
-Package biblatex Info: Setting label 'refsegment:02' on input line 32.
+
+LaTeX Warning: Citation 'Ard.2024' on page 9 undefined on input line 69.
 
 
-LaTeX Warning: Citation 'ArdSense.2023' on page 9 undefined on input line 33.
+LaTeX Warning: Citation 'Ard.2024' on page 9 undefined on input line 72.
 
 
-LaTeX Warning: Citation 'Wagner.2013' on page 9 undefined on input line 36.
+LaTeX Warning: Citation 'Ard.2024' on page 9 undefined on input line 81.
 
-
-LaTeX Warning: Citation 'StmicrElec.2015' on page 9 undefined on input line 37.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--40
-
- []
-
-
-LaTeX Warning: Citation 'Avago:2015' on page 9 undefined on input line 43.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--45
-
- []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 45.
+Package cleveref Info: loaded `ngerman' language definitions on input line 88.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2697,92 +2814,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [9]
 
-LaTeX Warning: Citation 'StmicElec.2017' on page 10 undefined on input line 46.
+LaTeX Warning: Citation 'Ard.2024' on page 10 undefined on input line 90.
 
+Package biblatex Info: Reference segment=7 on input line 93.
+Package biblatex Info: Setting label 'refsegment:07' on input line 93.
+Package biblatex Info: Reference segment=8 on input line 97.
+Package biblatex Info: Setting label 'refsegment:08' on input line 97.
 
+LaTeX Warning: Citation 'PetrFilipi.2022' on page 10 undefined on input line 98
+.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
-
- []
-
-
-LaTeX Warning: Citation 'StmicElec.2021' on page 10 undefined on input line 50.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[10]
-Package biblatex Info: Reference segment=3 on input line 53.
-Package biblatex Info: Setting label 'refsegment:03' on input line 53.
-<General/ArduinoPinBoard.png, id=253, 499.8675pt x 303.1325pt>
-File: General/ArduinoPinBoard.png Graphic file (type png)
-<use General/ArduinoPinBoard.png>
-Package pdftex.def Info: General/ArduinoPinBoard.png  used on input line 57.
-(pdftex.def)             Requested size: 398.33858pt x 241.57199pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 57--58
-[][] 
- []
-
-
-LaTeX Warning: Citation 'Arduino2023' on page 11 undefined on input line 59.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 62.
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[11 <./General/ArduinoPinBoard.png>]
-Package biblatex Info: Reference segment=4 on input line 63.
-Package biblatex Info: Setting label 'refsegment:04' on input line 63.
-
-
-LaTeX Warning: Citation 'eTech.2021' on page 12 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'ArdSense.2023' on page 12 undefined on input line 66.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-
- []
-
-Package biblatex Info: Reference segment=5 on input line 94.
-Package biblatex Info: Setting label 'refsegment:05' on input line 94.
-
-LaTeX Warning: Citation 'Bruhlmann.2012' on page 13 undefined on input line 96.
-
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 98.
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[13]
-Package biblatex Info: Reference segment=6 on input line 102.
-Package biblatex Info: Setting label 'refsegment:06' on input line 102.
+Package biblatex Info: Reference segment=9 on input line 99.
+Package biblatex Info: Setting label 'refsegment:09' on input line 99.
 )
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2792,205 +2835,525 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[14] (./Contents/de/Beschreibung der Software IDE.tex
+[10] (./Contents/de/WeitereHardware.tex
+chapter 3.
+Package biblatex Info: Reference segment=10 on input line 6.
+Package biblatex Info: Setting label 'refsegment:010' on input line 6.
+
+LaTeX Warning: Citation 'HTech.2015' on page 11 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'DISPLAYVISIONSGmbH.012011' on page 11 undefined on inp
+ut line 15.
+
+Package biblatex Info: Reference segment=11 on input line 17.
+Package biblatex Info: Setting label 'refsegment:011' on input line 17.
+
+LaTeX Warning: Citation 'Mentor.2024' on page 11 undefined on input line 18.
+
+[11
+
+
+
+
+]
+Package biblatex Info: Reference segment=12 on input line 20.
+Package biblatex Info: Setting label 'refsegment:012' on input line 20.
+
+
+LaTeX Warning: Citation 'Meanwell.2019' on page 12 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'AMS' on page 12 undefined on input line 39.
+
+Package biblatex Info: Reference segment=13 on input line 41.
+Package biblatex Info: Setting label 'refsegment:013' on input line 41.
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[12]
+Package biblatex Info: Reference segment=14 on input line 45.
+Package biblatex Info: Setting label 'refsegment:014' on input line 45.
+
+
+LaTeX Warning: Citation 'Basler.2016' on page 13 undefined on input line 46.
+
+
+LaTeX Warning: Citation 'SimacElec.2019' on page 13 undefined on input line 50.
+
+
+Package biblatex Info: Reference segment=15 on input line 52.
+Package biblatex Info: Setting label 'refsegment:015' on input line 52.
+Package cleveref Info: loaded `ngerman' language definitions on input line 55.
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[13]
+
+LaTeX Warning: Citation 'Allegro.2022' on page 14 undefined on input line 59.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[14] (./Contents/de/Materialliste.tex
+chapter 4.
+
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 58--58
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 58--58
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 58--58
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) - USB-A-Micro Ver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) CR-10 Ne-ma 17
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Schaltnetzteil, ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Spannungswandler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-schei-be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-schei-be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Linearführung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) 40 Pin Du-pont /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Wippschalter Ein /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Entwicklerboards -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Drucktaster But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Entwicklerboards -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/lmr/m/n/8 (+20) Schritt-mo-tor-steue-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+
+
+
+]
+Overfull \vbox (43.49551pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[16]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 72--72
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 72--72
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 72--72
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 72--72
+[]|\T1/lmr/m/n/8 (+20) Signallleuchte, SMD-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|\T1/lmr/m/n/8 (+20) LCD-Display mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|\T1/lmr/m/n/8 (+20) Einpressmuttern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 74.
+See the caption package documentation for explanation.
+
+Package biblatex Info: Reference segment=16 on input line 77.
+Package biblatex Info: Setting label 'refsegment:016' on input line 77.
+<Images/Schaltplan1.png, id=431, 1291.224pt x 993.04333pt>
+File: Images/Schaltplan1.png Graphic file (type png)
+<use Images/Schaltplan1.png>
+Package pdftex.def Info: Images/Schaltplan1.png  used on input line 80.
+(pdftex.def)             Requested size: 369.88583pt x 284.45978pt.
+)
+Package cleveref Info: loaded `ngerman' language definitions on input line 78.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[17 <./Images/Schaltplan1.png>] [18
+
+
+] (./Contents/de/SoftwarebeschreibungIDE.tex
 chapter 5.
-) [15
+Package biblatex Info: Reference segment=17 on input line 6.
+Package biblatex Info: Setting label 'refsegment:017' on input line 6.
+
+LaTeX Warning: Citation 'Arduino.2024' on page 19 undefined on input line 10.
+
+Package biblatex Info: Reference segment=18 on input line 12.
+Package biblatex Info: Setting label 'refsegment:018' on input line 12.
+<General/HauptoberflaecheIDE.png, id=445, 455.45157pt x 283.81032pt>
+File: General/HauptoberflaecheIDE.png Graphic file (type png)
+<use General/HauptoberflaecheIDE.png>
+Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
+.
+(pdftex.def)             Requested size: 369.88583pt x 230.4957pt.
+[19
+
+
+]
+Package biblatex Info: Reference segment=19 on input line 24.
+Package biblatex Info: Setting label 'refsegment:019' on input line 24.
+<General/Boardsmanager.png, id=452, 269.50688pt x 260.47313pt>
+File: General/Boardsmanager.png Graphic file (type png)
+<use General/Boardsmanager.png>
+Package pdftex.def Info: General/Boardsmanager.png  used on input line 31.
+(pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
+
+
+LaTeX Warning: Citation 'Arduino.2024b' on page 20 undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Arduino.2024c' on page 20 undefined on input line 40.
+
+<General/Librarymanager.png, id=453, 268.75406pt x 402.75468pt>
+File: General/Librarymanager.png Graphic file (type png)
+<use General/Librarymanager.png>
+Package pdftex.def Info: General/Librarymanager.png  used on input line 43.
+(pdftex.def)             Requested size: 369.88583pt x 554.31483pt.
+
+Underfull \vbox (badness 7851) has occurred while \output is active []
 
 
 
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-] [16
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[20 <./General/HauptoberflaecheIDE.png>]
+Package biblatex Info: Reference segment=20 on input line 50.
+Package biblatex Info: Setting label 'refsegment:020' on input line 50.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 53.
 
 
-] (./Contents/de/Beschreibung des Schrittmotors 28BYJ_48.tex
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[21 <./General/Boardsmanager.png>]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[22 <./General/Librarymanager.png>]
+
+LaTeX Warning: Citation 'Arduino.2024d' on page 23 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'Arduino.2024e' on page 23 undefined on input line 61.
+
+Package biblatex Info: Reference segment=21 on input line 63.
+Package biblatex Info: Setting label 'refsegment:021' on input line 63.
+)
+Package cleveref Info: loaded `ngerman' language definitions on input line 80.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[23]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[24] (./Contents/de/SchrittmotorProgrammbeschreibung.tex
 chapter 6.
-) [17
-
-
-] [18
-
-
-] (./Contents/de/Beschreibung des Programms auf dem Arduino.tex
-chapter 7.
-) [19
-
-
-] [20
-
-
-] (./Contents/de/TestdurchlÃ¤ufe.tex
-chapter 8.
-) [21
-
-
-] [22
-
-
-] (./Contents/de/Offene Punkte.tex
-chapter 9.
-) [23
-
-
-] [24
-
-
-] (./Contents/de/Literatur.tex
-chapter 10.
 ) [25
+
+
 
 
 ] [26
 
 
-]
-chapter 11.
+] (./Contents/de/Schrittmotorbeschreibung.tex
+chapter 7.
+Package biblatex Info: Reference segment=22 on input line 16.
+Package biblatex Info: Setting label 'refsegment:022' on input line 16.
 
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 173--173
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
-
-
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 173--173
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
+LaTeX Warning: Citation 'Babiel.2023' on page 27 undefined on input line 17.
 
 
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 173--173
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
+LaTeX Warning: Citation 'Hagl.2021' on page 27 undefined on input line 17.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\T1/lmr/m/n/8 (+20) Schrittmotor und
- []
+LaTeX Warning: Citation 'Hagl.2021' on page 27 undefined on input line 19.
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 173--173
-[]|\T1/lmr/m/n/8 (+20) - USB-A-Micro Ver-
- []
+LaTeX Warning: Citation 'Bernstein.2018' on page 27 undefined on input line 19.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\T1/lmr/m/n/8 (+20) PLA Fi-la-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\T1/lmr/m/n/8 (+20) Linearführung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]|\T1/lmr/m/n/8 (+20) Entwicklerboards -
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 175.
-See the caption package documentation for explanation.
-
-[27] [28
+[27
 
 
 ]
-chapter 12.
 
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 208--208
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
+LaTeX Warning: Citation 'Schroder.2013' on page 28 undefined on input line 27.
 
 
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 208--208
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
+LaTeX Warning: Citation 'Hagl.2021' on page 28 undefined on input line 27.
 
 
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 208--208
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
+LaTeX Warning: Citation 'Babiel.2023' on page 28 undefined on input line 27.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]|\T1/lmr/m/n/8 (+20) Schrittmotor und
- []
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[28])
+Package cleveref Info: loaded `ngerman' language definitions on input line 87.
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 208--208
-[]|\T1/lmr/m/n/8 (+20) - USB-A-Micro Ver-
- []
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]|\T1/lmr/m/n/8 (+20) PLA Fi-la-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]|\T1/lmr/m/n/8 (+20) Rillenkugellager
- []
-
-
-Underfull \hbox (badness 6526) in paragraph at lines 208--208
-\T1/lmr/m/n/8 (+20) 693ZZ (D=8; d=3;
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 210.
-See the caption package documentation for explanation.
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [29] [30
 
 
-]
-chapter 13.
-[31] [32
+] (./Contents/de/TestdurchlÃ¤ufe.tex
+chapter 8.
+) [31
 
 
-]
-chapter 14.
-[33] [34
+] [32
 
 
-]
-chapter 15.
-[35] [36
+] (./Contents/de/OffenePunkte.tex
+chapter 9.
+) [33
 
 
-]
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/12'.
-(microtype)             Ignoring protrusion settings for this character.
- [37
+] [34
 
 
-] [38
+] (./Contents/de/Literatur.tex
+chapter 10.
+) [35
+
+
+] [36
 
 
 ]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
- (./DemonstratorSchrittmotor.ind
-Overfull \hbox (3.35614pt too wide) in paragraph at lines 8--9
-[]\T1/lmr/m/n/12 (-20) Speicherprogrammierbare Steue^^?rung,
- []
+ (./DemonstratorSchrittmotor.ind)
 
+Package acro Warning: Empty acronym list. If you have used acronyms then
+(acro)                re-compile to get the list filled. Otherwise remove
+(acro)                \printacronyms
 
-Overfull \hbox (1.79065pt too wide) in paragraph at lines 20--21
-[]\T1/lmr/m/n/12 (-20) Speicherprogrammierbare Steue^^?rung 
- []
-
-[39
-
-
-
-
-]) (./DemonstratorSchrittmotor.aux
+(./DemonstratorSchrittmotor.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 34.
 )
 
@@ -3012,32 +3375,33 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 73952 strings out of 476024
- 1830831 string characters out of 5794016
- 2757027 words of memory out of 5000000
- 92999 multiletter control sequences out of 15000+600000
- 631733 words of font info for 283 fonts, out of 8000000 for 9000
+ 74485 strings out of 476024
+ 1835999 string characters out of 5794016
+ 2776012 words of memory out of 5000000
+ 93473 multiletter control sequences out of 15000+600000
+ 616259 words of font info for 280 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,11n,136p,10619b,2999s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/tex
-mf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:
-/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2022/texm
-f-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/typ
-e1/public/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8
-.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm
-/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
-lm/lmro17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/
-texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on DemonstratorSchrittmotor.pdf (51 pages, 1689512 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022
+/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/
+dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c
+:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/tex
+mf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/pub
+lic/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2022/
+texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/t
+ype1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr1
+0.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2
+022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/l
+mro17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-d
+ist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
+blic/lm/lmsy8.pfb>
+Output written on DemonstratorSchrittmotor.pdf (48 pages, 3146929 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
- 94 named destinations out of 1000 (max. 500000)
- 56716 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 669 compressed objects within 7 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 48744 words of extra memory for PDF output out of 51595 (max. 10000000)
 
