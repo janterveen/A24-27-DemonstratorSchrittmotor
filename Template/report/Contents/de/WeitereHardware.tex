@@ -4,7 +4,7 @@
 In den nachfolgenden Kapiteln folgt eine Aufzählung und Erläuterung der wesentlichen, zusätzlich benötigten Hardware. Dazu zählen Aktoren zur Darstellung des Betriebszustandes, Schalter und weitere Komponenten, die für den Aufbau des Schrittmotor-Demonstrators nötig waren.  
 
 \section{OLED-Display}
-Zur Feststellung des aktuellen Betriebszustandes und zur Ausgabe des eingestellten Bewegungsstufe des Schlittens dient ein 1,3\ Zoll OLED-Display \emph{(Organic Light Emitting Diode)} . Bei OLED-Displays sind jeweils drei OLEDs für einen Pixel zuständig und benötigt keine Hinterleuchtungen oder LC-Zellen, dadurch ist eine scharfe Kontrastierung möglich. Die OLED-Displays zeichnen sich durch die Reaktionsschnelligkeit aus. Die Helligkeit eines Pixels wechselt in weniger als einer Mikrosekunde.\cite{DieterStotz.2019} Insgesamt ist das Modul $36 \ mm \times 34  \ mm \times36 \ mm$ groß mit einer Bildschirmdiagonalen von $1,9 \ Zoll $. Das Display besteht aus $128 \times 64 \ $ weißen OLED-Bildpunkten. Durch die I2C Kommunikation kann das Display mit dem Arduino verbunden werden. Zur Stromversorgung wird  3,3\ V Gleichstromspannung, bei einem Stromverbrauch von weniger als 11 \ mA, benötigt. Mithilfe von 4 Steckbrückenkabel ist es mit dem Arduino verbunden, um es mit der nötigen Spannung zu versorgen und die I2C Verbindung herzustellen (Verdrahtung detailliert in Kapitel \ref{MLLS} \nameref{MLLS}). Die zur I2C-Kommunikation nötige Adresse ist 0x3F. %oder 0x27 (je nach Chip)
+Zur Feststellung des aktuellen Betriebszustandes und zur Ausgabe des eingestellten Bewegungsstufe des Schlittens dient ein 1,3\ Zoll OLED-Display \emph{(Organic Light Emitting Diode)} . Bei OLED-Displays sind jeweils drei OLEDs für einen Pixel zuständig und benötigt keine Hinterleuchtungen oder LC-Zellen, dadurch ist eine scharfe Kontrastierung möglich. Die OLED-Displays zeichnen sich durch die Reaktionsschnelligkeit aus. Die Helligkeit eines Pixels wechselt in weniger als einer Mikrosekunde.\cite{DieterStotz.2019} Insgesamt ist das Modul $36 \ mm \times 34  \ mm \times36 \ mm$ groß mit einer Bildschirmdiagonalen von $1,9\ Zoll $. Das Display besteht aus $128 \times 64 \ $ weißen OLED-Bildpunkten. Durch die I2C-Kommunikation kann das Display mit dem Arduino verbunden werden. Zur Stromversorgung wird  3,3\ V Gleichstromspannung, bei einem Stromverbrauch von weniger als 11\ mA, benötigt. Mithilfe von 4 Steckbrückenkabel ist es mit dem Arduino verbunden, um es mit der nötigen Spannung zu versorgen und die I2C-Verbindung herzustellen (Verdrahtung detailliert in Kapitel \ref{MLLS} \nameref{MLLS}). Die zur I2C-Kommunikation nötige Adresse ist 0x3F. %oder 0x27 (je nach Chip)
 Zusätzliche Spezifikationen des Displays sind: 
 	\begin{itemize}
 		\item Pixelgröße: $0.21 \ mm \times 0,21 \ mm $
@@ -16,7 +16,7 @@ Zusätzliche Spezifikationen des Displays sind:
 
 
 \section{Signalleuchte}
-Zusätzlich zum OLED-Display ist eine SMD-LED-Signalleuchte zur Zustandserkennung verbaut. Sie soll Störungen und Fehler erkenntlich machen. SMD steht für \emph{Surface Mount Device} und bedeutet, dass die Signalleuchte für Oberflächenmontagen konzipiert ist. Die Leuchte ist dabei mit einem einfachen Stecksystem am Gehäuse befestigt. Dazu wird sie in einer 8\ mm Montagebohrung des Gehäuses gesteckt und über die 10\ mm Gehäuseblende der Signalleuchte fixiert. Die Leuchte hat eine 3\ mm Durchmesser große LED und emittiert ein rotes Licht. Die Betriebsspannung liegt zwischen 2 bis 2,4\ V und der Betriebsstrom bei 20\ mA. Angeschlossen wird sie über vier Litzen am Arduino (verweis auf Schaltplan).\cite{Mentor.2024}
+Zusätzlich zum OLED-Display ist eine SMD-LED-Signalleuchte zur Zustandserkennung verbaut. Sie soll Störungen und Fehler erkenntlich machen. SMD steht für \emph{Surface Mount Device} und bedeutet, dass die Signalleuchte für Oberflächenmontagen konzipiert ist. Die Leuchte ist dabei mit einem einfachen Stecksystem am Gehäuse befestigt. Dazu wird sie in einer 8\ mm Montagebohrung des Gehäuses gesteckt und über die 10\ mm Gehäuseblende der Signalleuchte fixiert. Die Leuchte hat eine 3\ mm im Durchmesser große LED und emittiert ein rotes Licht. Die Betriebsspannung liegt zwischen 2 bis 2,4\ V und der Betriebsstrom bei 20\ mA. Angeschlossen wird sie über vier Litzen am Arduino (verweis auf Schaltplan).\cite{Mentor.2024}
 
 \section{Spannungswandler}
 Für den Aufbau des Demonstrators sind mehrere Spannungswandler nötig. Folgende Wandler wurden in der Schaltung verwendet.
@@ -32,7 +32,7 @@ Weitere Spezifikationen des Wandlers sind:
 \cite{Meanwell.2019}
 
 \subsection{Spannungswandler ASM1117}
-Dieser Spannungswandler wandelt die 12\ V vom Netzteil SNT RD 50A in jeweils 3,3\ V und 5\ V um. Die 3,3\ V werden für den Arduino, Schrittmotorsteuerung, LC-Display und dem Drehwinkel-Encoder verwendet. Der 5\ V Ausgang hat keinen Nutzen für dieses Projekt. Weitere Technische Daten des Wandlers:
+Dieser Spannungswandler wandelt die 12\ V vom Netzteil SNT RD 50A in jeweils 3,3\ V und 5\ V um. Die 3,3\ V werden für den Arduino, Schrittmotorsteuerung, LC-Display und dem Drehwinkel-Encoder verwendet. Weitere Technische Daten des Wandlers sind:
 \begin{itemize}
 	\item \textbf{Bauteilabmessung ($L\times B \times H$):} $40 \ mm \times 40 \ mm \times 20 \ mm$
 	\item \textbf{Ausgangsstrom:} 800\ mA
@@ -40,7 +40,7 @@ Dieser Spannungswandler wandelt die 12\ V vom Netzteil SNT RD 50A in jeweils 3,3
 	\cite{AMS}
 	
 \section{Linearführung}
-Zur Demonstration einer linearen Bewegung wird eine kompakte Linearführung verwendet. Die Führung ist 400 mm lang und 12 mm breit. Diese Linearführung wird vor allem in Fused Deposition Modeling (FDM) -Drucker verwendet, wo es auf hohe Präzision bei niedrigen Toleranzen ankommt. Deshalb eignet sich diese Führung auch gut für dieses Projekt, wo es nicht darum geht, große Lasten zu Bewegen, sondern möglichst genau die Schrittauflösung auf eine Millimeterskala zu übertragen.
+Zur Demonstration einer linearen Bewegung wird eine kompakte Linearführung verwendet. Die Führung ist 400\ mm lang und 12\ mm breit. Diese Linearführung wird vor allem in Fused Deposition Modeling (FDM) -Drucker verwendet, wo es auf hohe Präzision bei niedrigen Toleranzen ankommt. Deshalb eignet sich diese Führung auch gut für dieses Projekt, wo es nicht darum geht, große Lasten zu Bewegen, sondern möglichst genau die Schrittauflösung auf eine Millimeterskala zu übertragen.
 %Von dem Kaufteil gibt es kein Datenblatt
 
 \section{Drehwinkel-Encoder}
