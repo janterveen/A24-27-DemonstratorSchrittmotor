@@ -1,5 +1,101 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'DemonstratorSchrittmotor.blg'
-[453] biber-MSWIN32:340> INFO - === 
-[2238] Utils.pm:410> ERROR - Cannot find 'DemonstratorSchrittmotor.bcf'!
-[2238] Biber.pm:136> INFO - ERRORS: 1
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: DemonstratorSchrittmotor.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: DemonstratorSchrittmotor-blx.bib
+Database file #2: ../Documents/literature.bib
+Database file #3: ../Documents/MyLiterature.bib
+Warning--I didn't find a database entry for "eTech.2021"
+Warning--I didn't find a database entry for "Ard.2024"
+Warning--I didn't find a database entry for "Arm"
+Warning--I didn't find a database entry for "Wagner.2013"
+Warning--I didn't find a database entry for "STM1.2015"
+Warning--I didn't find a database entry for "AT.2015"
+Warning--I didn't find a database entry for "STM2.2017"
+Warning--I didn't find a database entry for "STM3.2021"
+Warning--I didn't find a database entry for "Arduino2023"
+Warning--I didn't find a database entry for "Meroth.2018"
+Warning--I didn't find a database entry for "Gehrke.2022"
+Warning--I didn't find a database entry for "NrdSem3.2024"
+Warning--I didn't find a database entry for "NrdSem.2024"
+Warning--I didn't find a database entry for "NrdSem2.2024"
+Warning--I didn't find a database entry for "NrdSem3.2023"
+Warning--I didn't find a database entry for "PetrFilipi.2022"
+Warning--I didn't find a database entry for "DieterStotz.2019"
+Warning--I didn't find a database entry for "AZDelivery.24"
+Warning--I didn't find a database entry for "Mentor.2024"
+Warning--I didn't find a database entry for "Meanwell.2019"
+Warning--I didn't find a database entry for "AMS"
+Warning--I didn't find a database entry for "Basler.2016"
+Warning--I didn't find a database entry for "SimacElec.2019"
+Warning--I didn't find a database entry for "Allegro.2022"
+Warning--I didn't find a database entry for "Arduino.2024"
+Warning--I didn't find a database entry for "Arduino.2024b"
+Warning--I didn't find a database entry for "Arduino.2024c"
+Warning--I didn't find a database entry for "Arduino.2024d"
+Warning--I didn't find a database entry for "Arduino.2024e"
+Warning--I didn't find a database entry for "Babiel.2023"
+Warning--I didn't find a database entry for "Hagl.2021"
+Warning--I didn't find a database entry for "Bernstein.2018"
+Warning--I didn't find a database entry for "Schroder.2013"
+Warning--I didn't find a database entry for "Jkongmotor."
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 1 entry,
+            6399 wiz_defined-function locations,
+            1276 strings with 9883 characters,
+and the built_in function-call counts, 1562 in all, are:
+= -- 74
+> -- 73
+< -- 1
++ -- 52
+- -- 30
+* -- 33
+:= -- 375
+add.period$ -- 0
+call.type$ -- 1
+change.case$ -- 0
+chr.to.int$ -- 44
+cite$ -- 0
+duplicate$ -- 11
+empty$ -- 105
+format.name$ -- 0
+if$ -- 329
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 20
+num.names$ -- 0
+pop$ -- 47
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 79
+stack$ -- 0
+substring$ -- 158
+swap$ -- 1
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 22
+warning$ -- 0
+while$ -- 65
+width$ -- 0
+write$ -- 20
+(There were 34 warnings)
