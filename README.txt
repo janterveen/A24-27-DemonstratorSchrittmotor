@@ -1,10 +1,10 @@
-Automatisierungstechnik Projekt im Jahr 2024
+Automatisierungstechnik Projekt aus dem Jahr 2024
 
 Projektname: Demonstrator für einen Schrittmotor
 
 Betreuer: Prof. Dr. Elmar Wings
 
-Gruppenmitglieder:
+Autoren:
 
 1. ter Veen, Jan, 7022071
 2. Stein, Enno, 7021960
@@ -12,44 +12,47 @@ Gruppenmitglieder:
 4. Hanneken, Lars, 7021910
 5. Grönke, Jannik, 7022006
 
-Projektbeschreibung: Die Aufgabe besteht darin, mithilfe eines Arduino Nano 33 BLE Sense Lite einen Demonstrator für einen Schrittmotor zu entwickeln. 
-Mittels einer Konstruktion, die über einen Schrittmotor verfügt, welcher einen Riemen antreibt, soll ein Schlitten auf einer Linearführung verfahren werden. 
-Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. 
-Durch die Programmierung des Arduino, wird der Schrittmotor gesteuert und wird in die gewünschte Richtung und Position bewegt. 
-Dies beinhaltet eine korrekte Programmierung, sowie die korrekte Ausgabe durch den Schrittmotor und eine Konstruktion, die mit allen Teilen funktionsfähig ist. 
-Nachfolgend wird die Hardware beschrieben, sowie die Entwicklung der Software und die Konstruktion und Fertigung des Demonstrators.
+Projektbeschreibung: 
+Die Aufgabe besteht darin, mithilfe eines Arduino Nano 33 BLE Sense Lite einen Demonstrator für einen Schrittmotor zu entwickeln. 
+Mittels einer Konstruktion, die einen Schrittmotor beinhaltet, welcher einen Riemen antreibt, soll ein Schlitten auf einer Linearführung verfahren werden. 
+Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der Schrittmotor wird über den Arduino angesteuert und in die gewünschte Richtung und Position bewegt. 
 
 Verzeichnisstruktur: 
-Beispiel Verzeichnisstruktur: 
-- SchrittmotorArduino-main\author
-- SchrittmotorArduino-main\Projektplan
-- SchrittmotorArduino-main\README
-- SchrittmotorArduino-main\DemonstratorSchrittmotor
-	- SchrittmotorArduino-main\DemonstratorSchrittmotor\Code
-	- SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Datenblätter
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Literatur
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Manuals
-	- SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Chapters
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\General
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Images
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\HandbuchDemonstratorSchrittmotor.tex
-	- SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\images
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\tikzposter.tex
-	- SchrittmotorArduino-main\DemonstratorSchrittmotor\Presentations
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\Presentations\PraesDemonstratorSchrittmotor
-	- SchrittmotorArduino-main\DemonstratorSchrittmotor\report
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\report\Contents\de
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\report\General
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\report\Images
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\report\tikz
-		- SchrittmotorArduino-main\DemonstratorSchrittmotor\report\DemonstratorSchrittmotor.tex
+#Autor, Projektplan und README
+	SchrittmotorArduino-main{author.xlsx}
+	SchrittmotorArduino-main{Projektplan.xlsx}
+	SchrittmotorArduino-main{README.md}
+
+#Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\Chapters
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\General
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\Images
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly{MontageDemontageAnleitung}
+
+#verwendeter Code
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Code
+
+#verwendete Datenblätter und Literatur in PDF
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Datenblätter
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Literatur
+
+#Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Chapters
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\General
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Images
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual{HandbuchDemonstratorSchrittmotor.tex}
+
+#Das Poster zum Projekt (sämtliche Inhalte und die verwendeten Bilder)
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\images
+	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster{tikzposter.tex}
 
 
 
-Kurzbeschreibung der Dateien:
+#Detailierte Beschreibung der Dateien:
 
 SchrittmotorArduino-main\author:
 Excel-Datei in der persönliche Daten über die einzelnen Gruppenmitglieder wiederzufinden sind
@@ -59,33 +62,39 @@ Excel-Datei die während des Projekts zur Projektplanung diente
 
 
 
+SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDisassembly\Chapters:
+Ort an dem sich die Tex-Dateien für die einzelnen Kapiteln der Montage- und Demontageanleitung befinden
+
+SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDisassembly\General:
+In diesem Ordner sind Dateien, zur Gestaltung der Montage- und Demontageanleitung
+
+SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDisassembly\Images:
+Ablage der Bilder, die in der Montage- und Demontageanleitung benutzt werden
+
+SchrittmotorArduino-main \DemonstratorSchrittmotor\AssemblyDisassembly{MontageDemontageAnleitung.tex}:
+Tex-Datei für die Montage- und Demontageanleitung
+
+
+
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Datenblätter:
-Unter diesem Pfad befinden sich die Datenblätter die in Bezug auf die Dokumentation zur Zitation benötigt wurden.
+Unter diesem Pfad befinden sich die Datenblätter, die für die Dokumentation benötigt wurden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Literatur:
-Hier befindet sich die Literatur, die zu späterem Zeitpunkt eingefügt wird
+Hier befindet sich die verwendete Literatur
 
 
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Chapters:
-Ort an dem sich die Tex-Dateien für die einzelnen Kapitel befinden
+Ort an dem sich die Tex-Dateien für die einzelnen Kapitel des Handbuches befinden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\General:
-In dem Ordner liegen Dateien ab, zur Gestaltung des Dokuments
+In diesem Ordner sind Dateien, zur Gestaltung des Handbuches
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Images:
-Ablage der Bilder die im Handbuch benutzt werden
+Ablage der Bilder, die im Handbuch benutzt werden
 
-SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\HandbuchDemonstratorSchrittmotor.tex:
+SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual{HandbuchDemonstratorSchrittmotor.tex}:
 Tex-Datei für das Benutzerhandbuch
-
-
-
-SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\images:
-Ablage der Bilder für das Poster
-
-SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\tikzposter.tex:
-Tex-Datei für das Poster
 
 
 
@@ -93,7 +102,7 @@ SchrittmotorArduino-main\DemonstratorSchrittmotor\report\Contents\de:
 Hier befinden sich die Tex-Dateien für die einzelnen Kapitel, der Service- und Entwicklerdokumentation
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\General:
-In dem Ordner liegen Dateien ab, zur Gestaltung der Service- und Entwicklerdokumentation
+In diesem Ordner sind Dateien, zur Gestaltung der Service- und Entwicklerdokumentation
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\Images:
 Ablage der Bilder, die in der Service- und Entwicklerdokumentation benutzt werden
@@ -101,5 +110,5 @@ Ablage der Bilder, die in der Service- und Entwicklerdokumentation benutzt werde
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\tikz:
 Tex-Dateien zur Ersetllung von Tikz-Diagrammen
 
-SchrittmotorArduino-main\DemonstratorSchrittmotor\report\DemonstratorSchrittmotor.tex:
+SchrittmotorArduino-main\DemonstratorSchrittmotor\report{DemonstratorSchrittmotor.tex}:
 Tex-Datei für die Service- und Entwicklerdokumentation
