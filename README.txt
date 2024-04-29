@@ -52,7 +52,7 @@ Verzeichnisstruktur:
 
 
 
-#Detailierte Beschreibung der Dateien:
+Detailierte Beschreibung der Dateien:
 
 SchrittmotorArduino-main\author:
 Excel-Datei in der persönliche Daten über die einzelnen Gruppenmitglieder wiederzufinden sind
