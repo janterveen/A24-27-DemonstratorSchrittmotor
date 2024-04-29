@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  16 APR 2024 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  29 APR 2024 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2413,11 +2413,10 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 (./Contents/de/TitlePage.tex
-<General/Logo_HS_Emden_Leer.jpg, id=31, 1275.0837pt x 427.1157pt>
-File: General/Logo_HS_Emden_Leer.jpg Graphic file (type jpg)
-<use General/Logo_HS_Emden_Leer.jpg>
-Package pdftex.def Info: General/Logo_HS_Emden_Leer.jpg  used on input line 13.
-
+<General/LogoHSEmdenLeer.jpg, id=31, 1275.0837pt x 427.1157pt>
+File: General/LogoHSEmdenLeer.jpg Graphic file (type jpg)
+<use General/LogoHSEmdenLeer.jpg>
+Package pdftex.def Info: General/LogoHSEmdenLeer.jpg  used on input line 13.
 (pdftex.def)             Requested size: 199.16928pt x 66.71059pt.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
 1.
@@ -2432,8 +2431,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./General/Logo_
-HS_Emden_Leer.jpg>]
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./General/LogoH
+SEmdenLeer.jpg>]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 9.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -2623,7 +2622,7 @@ l.69 \cleardoublepage
 ]
 (./Contents/de/HardwarebeschreibungArduinoNano33BLESenseLite.tex
 chapter 2.
-<General/ArduinoBoard.png, id=246, 618.81187pt x 298.61563pt>
+<General/ArduinoBoard.png, id=250, 618.81187pt x 298.61563pt>
 File: General/ArduinoBoard.png Graphic file (type png)
 <use General/ArduinoBoard.png>
 Package pdftex.def Info: General/ArduinoBoard.png  used on input line 6.
@@ -2703,7 +2702,7 @@ LaTeX Warning: Citation 'Ard.2024' on page 6 undefined on input line 37.
 
 Package biblatex Info: Reference segment=6 on input line 39.
 Package biblatex Info: Setting label 'refsegment:06' on input line 39.
-<General/ArduinoPinBoard.png, id=267, 499.8675pt x 303.1325pt>
+<General/ArduinoPinBoard.png, id=271, 499.8675pt x 303.1325pt>
 File: General/ArduinoPinBoard.png Graphic file (type png)
 <use General/ArduinoPinBoard.png>
 Package pdftex.def Info: General/ArduinoPinBoard.png  used on input line 42.
@@ -2840,16 +2839,16 @@ chapter 3.
 Package biblatex Info: Reference segment=10 on input line 6.
 Package biblatex Info: Setting label 'refsegment:010' on input line 6.
 
-LaTeX Warning: Citation 'HTech.2015' on page 11 undefined on input line 7.
+LaTeX Warning: Citation 'DieterStotz.2019' on page 11 undefined on input line 7
+.
 
 
-LaTeX Warning: Citation 'DISPLAYVISIONSGmbH.012011' on page 11 undefined on inp
-ut line 15.
+LaTeX Warning: Citation 'AZDelivery.24' on page 11 undefined on input line 15.
 
-Package biblatex Info: Reference segment=11 on input line 17.
-Package biblatex Info: Setting label 'refsegment:011' on input line 17.
+Package biblatex Info: Reference segment=11 on input line 18.
+Package biblatex Info: Setting label 'refsegment:011' on input line 18.
 
-LaTeX Warning: Citation 'Mentor.2024' on page 11 undefined on input line 18.
+LaTeX Warning: Citation 'Mentor.2024' on page 11 undefined on input line 19.
 
 [11
 
@@ -2857,17 +2856,17 @@ LaTeX Warning: Citation 'Mentor.2024' on page 11 undefined on input line 18.
 
 
 ]
-Package biblatex Info: Reference segment=12 on input line 20.
-Package biblatex Info: Setting label 'refsegment:012' on input line 20.
+Package biblatex Info: Reference segment=12 on input line 21.
+Package biblatex Info: Setting label 'refsegment:012' on input line 21.
 
 
-LaTeX Warning: Citation 'Meanwell.2019' on page 12 undefined on input line 31.
+LaTeX Warning: Citation 'Meanwell.2019' on page 12 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'AMS' on page 12 undefined on input line 39.
+LaTeX Warning: Citation 'AMS' on page 12 undefined on input line 40.
 
-Package biblatex Info: Reference segment=13 on input line 41.
-Package biblatex Info: Setting label 'refsegment:013' on input line 41.
+Package biblatex Info: Reference segment=13 on input line 42.
+Package biblatex Info: Setting label 'refsegment:013' on input line 42.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2877,19 +2876,19 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [12]
-Package biblatex Info: Reference segment=14 on input line 45.
-Package biblatex Info: Setting label 'refsegment:014' on input line 45.
+Package biblatex Info: Reference segment=14 on input line 46.
+Package biblatex Info: Setting label 'refsegment:014' on input line 46.
 
 
-LaTeX Warning: Citation 'Basler.2016' on page 13 undefined on input line 46.
+LaTeX Warning: Citation 'Basler.2016' on page 13 undefined on input line 47.
 
 
-LaTeX Warning: Citation 'SimacElec.2019' on page 13 undefined on input line 50.
+LaTeX Warning: Citation 'SimacElec.2019' on page 13 undefined on input line 51.
 
 
-Package biblatex Info: Reference segment=15 on input line 52.
-Package biblatex Info: Setting label 'refsegment:015' on input line 52.
-Package cleveref Info: loaded `ngerman' language definitions on input line 55.
+Package biblatex Info: Reference segment=15 on input line 53.
+Package biblatex Info: Setting label 'refsegment:015' on input line 53.
+Package cleveref Info: loaded `ngerman' language definitions on input line 56.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2900,7 +2899,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [13]
 
-LaTeX Warning: Citation 'Allegro.2022' on page 14 undefined on input line 59.
+LaTeX Warning: Citation 'Allegro.2022' on page 14 undefined on input line 60.
 
 )
 
@@ -3029,13 +3028,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Wippschalter Ein /
+Underfull \hbox (badness 4156) in paragraph at lines 58--58
+[]|\T1/lmr/m/n/8 (+20) Artillery Si-de-win-der
  []
 
 
@@ -3082,7 +3076,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \vbox (43.49551pt too high) has occurred while \output is active []
+Overfull \vbox (53.49551pt too high) has occurred while \output is active []
 
 
 
@@ -3115,7 +3109,12 @@ Underfull \hbox (badness 1117) in paragraph at lines 72--72
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T1/lmr/m/n/8 (+20) LCD-Display mit
+[]|\T1/lmr/m/n/8 (+20) 0.96�LED Dis-play
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
@@ -3135,11 +3134,11 @@ See the caption package documentation for explanation.
 
 Package biblatex Info: Reference segment=16 on input line 77.
 Package biblatex Info: Setting label 'refsegment:016' on input line 77.
-<Images/Schaltplan1.png, id=431, 1291.224pt x 993.04333pt>
+<Images/Schaltplan1.png, id=436, 1261.7685pt x 993.0555pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 80.
-(pdftex.def)             Requested size: 369.88583pt x 284.45978pt.
+(pdftex.def)             Requested size: 369.88583pt x 291.11534pt.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 78.
 
@@ -3163,7 +3162,7 @@ LaTeX Warning: Citation 'Arduino.2024' on page 19 undefined on input line 10.
 
 Package biblatex Info: Reference segment=18 on input line 12.
 Package biblatex Info: Setting label 'refsegment:018' on input line 12.
-<General/HauptoberflaecheIDE.png, id=445, 455.45157pt x 283.81032pt>
+<General/HauptoberflaecheIDE.png, id=451, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
@@ -3175,7 +3174,7 @@ Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
 ]
 Package biblatex Info: Reference segment=19 on input line 24.
 Package biblatex Info: Setting label 'refsegment:019' on input line 24.
-<General/Boardsmanager.png, id=452, 269.50688pt x 260.47313pt>
+<General/Boardsmanager.png, id=458, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 31.
@@ -3187,7 +3186,7 @@ LaTeX Warning: Citation 'Arduino.2024b' on page 20 undefined on input line 35.
 
 LaTeX Warning: Citation 'Arduino.2024c' on page 20 undefined on input line 40.
 
-<General/Librarymanager.png, id=453, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=459, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 43.
@@ -3306,8 +3305,17 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[28])
-Package cleveref Info: loaded `ngerman' language definitions on input line 87.
+[28]
+
+LaTeX Warning: Citation 'Schroder.2013' on page 29 undefined on input line 29.
+
+Package biblatex Info: Reference segment=23 on input line 30.
+Package biblatex Info: Setting label 'refsegment:023' on input line 30.
+
+LaTeX Warning: Citation 'Jkongmotor.' on page 29 undefined on input line 31.
+
+)
+Package cleveref Info: loaded `ngerman' language definitions on input line 86.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3317,12 +3325,20 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[29] [30
+[29]
 
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-] (./Contents/de/Testdurchläufe.tex
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[30] (./Contents/de/Testdurchläufe.tex
 chapter 8.
 ) [31
+
+
 
 
 ] [32
@@ -3375,11 +3391,11 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 74485 strings out of 476024
- 1835999 string characters out of 5794016
- 2776012 words of memory out of 5000000
- 93473 multiletter control sequences out of 15000+600000
- 616259 words of font info for 280 fonts, out of 8000000 for 9000
+ 74484 strings out of 476024
+ 1835596 string characters out of 5794016
+ 2776269 words of memory out of 5000000
+ 93464 multiletter control sequences out of 15000+600000
+ 616504 words of font info for 283 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,11n,136p,10619b,2999s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022
@@ -3398,10 +3414,10 @@ mro17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texl
 ive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-d
 ist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/pu
 blic/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (48 pages, 3146929 bytes).
+Output written on DemonstratorSchrittmotor.pdf (48 pages, 3414993 bytes).
 PDF statistics:
- 840 PDF objects out of 1000 (max. 8388607)
- 669 compressed objects within 7 object streams
- 123 named destinations out of 1000 (max. 500000)
- 48744 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 681 compressed objects within 7 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 48760 words of extra memory for PDF output out of 51595 (max. 10000000)
 
