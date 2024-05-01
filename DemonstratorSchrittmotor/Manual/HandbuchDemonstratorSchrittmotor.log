@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  29 APR 2024 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  1 MAY 2024 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,7 +1311,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface.
 
-<Images/Konstruktion1.png, id=93, 2141.75156pt x 533.74406pt>
+<Images/Konstruktion1.png, id=95, 2141.75156pt x 533.74406pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
 Package pdftex.def Info: Images/Konstruktion1.png  used on input line 20.
@@ -1333,7 +1333,7 @@ been already used, duplicate ignored
 l.14 \chapter
              {Elemente auf der Frontblende} [2]
 chapter 2.
-<Images/Konstruktion2.png, id=105, 615.0478pt x 481.04718pt>
+<Images/Konstruktion2.png, id=107, 615.0478pt x 481.04718pt>
 File: Images/Konstruktion2.png Graphic file (type png)
 <use Images/Konstruktion2.png>
 Package pdftex.def Info: Images/Konstruktion2.png  used on input line 17.
@@ -1346,7 +1346,7 @@ Package pdftex.def Info: Images/Konstruktion2.png  used on input line 17.
 
 ]
 chapter 3.
-<Images/Konstruktion3.png, id=119, 610.53094pt x 373.395pt>
+<Images/Konstruktion3.png, id=121, 610.53094pt x 373.395pt>
 File: Images/Konstruktion3.png Graphic file (type png)
 <use Images/Konstruktion3.png>
 Package pdftex.def Info: Images/Konstruktion3.png  used on input line 17.
@@ -1356,7 +1356,7 @@ Package pdftex.def Info: Images/Konstruktion3.png  used on input line 17.
 
 ]
 chapter 4.
-<Images/Konstruktion4.png, id=129, 1205.2528pt x 713.66624pt>
+<Images/Konstruktion4.png, id=131, 1205.2528pt x 713.66624pt>
 File: Images/Konstruktion4.png Graphic file (type png)
 <use Images/Konstruktion4.png>
 Package pdftex.def Info: Images/Konstruktion4.png  used on input line 17.
@@ -1366,16 +1366,21 @@ Package pdftex.def Info: Images/Konstruktion4.png  used on input line 17.
 
 ]
 chapter 5.
-) (./Chapters/de/Bewegungsablauf.tex [9] [10
+) (./Chapters/de/Disp.tex [9] [10
 
 
 ]
 chapter 6.
-) (./Chapters/de/Functions.tex [11] [12
+) (./Chapters/de/Bewegungsablauf.tex [11] [12
 
 
 ]
 chapter 7.
+) (./Chapters/de/Functions.tex [13] [14
+
+
+]
+chapter 8.
 
 Overfull \hbox (1.10077pt too wide) in paragraph at lines 43--43
 []|\T1/cmr/bx/n/8 (-20) Drehschalterstellung| 
@@ -1391,37 +1396,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []|\T1/cmr/bx/n/8 (+20) Max Be-schleu-ni-gung
  []
 
-) (./Chapters/de/Maintenance.tex [13] [14
-
-
-]
-chapter 8.
-) (./Chapters/de/Haftungsausschluss.tex [15] [16
+) (./Chapters/de/Maintenance.tex [15] [16
 
 
 ]
 chapter 9.
-) (./Chapters/de/SafetyGuidelines.tex [17] [18
+) (./Chapters/de/Haftungsausschluss.tex [17] [18
 
 
 ]
 chapter 10.
-) (./Chapters/de/Troubleshooting.tex [19] [20
+) (./Chapters/de/SafetyGuidelines.tex [19] [20
 
 
 ]
 chapter 11.
-) (./Chapters/de/TechnischeDaten.tex [21] [22
+) (./Chapters/de/Troubleshooting.tex [21] [22
 
 
 ]
 chapter 12.
-) [23] [24
+) (./Chapters/de/TechnischeDaten.tex [23] [24
+
+
+]
+chapter 13.
+) [25] [26
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 80.
+LaTeX Warning: Empty bibliography on input line 81.
 
 (./HandbuchDemonstratorSchrittmotor.aux)
 Package rerunfilecheck Info: File `HandbuchDemonstratorSchrittmotor.out' has no
@@ -1433,11 +1438,11 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36561 strings out of 476024
- 826466 string characters out of 5794016
+ 36595 strings out of 476024
+ 826868 string characters out of 5794016
  1863382 words of memory out of 5000000
- 56319 multiletter control sequences out of 15000+600000
- 556786 words of font info for 220 fonts, out of 8000000 for 9000
+ 56323 multiletter control sequences out of 15000+600000
+ 557438 words of font info for 230 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,10n,106p,10627b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/tex
@@ -1457,11 +1462,11 @@ l2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb>
 <c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texliv
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 1937957 bytes
+Output written on HandbuchDemonstratorSchrittmotor.pdf (36 pages, 1941426 bytes
 ).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 45722 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 45730 words of extra memory for PDF output out of 51595 (max. 10000000)
 
