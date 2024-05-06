@@ -27,27 +27,27 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 - [Inhalte](DemonstratorSchrittmotor/AssemblyDisassembly/Chapters)
 - [Gestaltung](DemonstratorSchrittmotor/AssemblyDisassembly/General)
 - [Bilder](DemonstratorSchrittmotor/AssemblyDisassembly/Images)
-- [TEX-Datei](DemonstratorSchrittmotor/AssemblyDisassembly/MontageDemontageAnleitung.tex)
+- [PDF](DemonstratorSchrittmotor/AssemblyDisassembly/MontageDemontageAnleitung.pdf)
 
 ## verwendeter Code
 - [Code](DemonstratorSchrittmotor/Code)
 
 ## verwendete Datenblätter und Literatur in PDF
-- [Dokumente](DemonstratorSchrittmotor\Documents)
-- [Datenblaetter](DemonstratorSchrittmotor\Documents\Datenblätter)
-- [Literatur](DemonstratorSchrittmotor\Documents\Literatur)
+- [Dokumente](DemonstratorSchrittmotor/Documents)
+- [Datenblaetter](DemonstratorSchrittmotor/Documents/Datenblätter)
+- [Literatur](DemonstratorSchrittmotor/Documents/Literatur)
 
 ## Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Chapters
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\General
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Images
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual{HandbuchDemonstratorSchrittmotor.tex}
+- [Handbuch](DemonstratorSchrittmotor/Manual)
+- [Inhalte](DemonstratorSchrittmotor/Manual/Chapters)
+- [Gestaltung](DemonstratorSchrittmotor/Manual/General)
+- [Bilder](DemonstratorSchrittmotor/Manual/Images)
+- [Handbuch-PDF](DemonstratorSchrittmotor/Manual/HandbuchDemonstratorSchrittmotor.pdf)
 
 ## Das Poster zum Projekt (sämtliche Inhalte und die verwendeten Bilder)
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\images
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster{tikzposter.tex}
+- [Poster](DemonstratorSchrittmotor/Poster)
+- [Bilder](DemonstratorSchrittmotor/Poster/images)
+- [Poster-PDF](DemonstratorSchrittmotor/Poster/tikzposter.pdf)
 
 
 # Detailierte Beschreibung der Dateien:
