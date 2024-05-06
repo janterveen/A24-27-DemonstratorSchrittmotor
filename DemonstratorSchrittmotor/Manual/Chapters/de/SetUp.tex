@@ -22,6 +22,25 @@
 	
 	\item \textbf{Einschalten}: Schalten Sie das Gerät über den \textbf{Power-Schalter} ein. Das \textbf{Display} zeigt zunächst den Status \glqq \textit{Bitte warten...}\grqq \ an, bis es nach einer kurzen Pufferzeit die voreingestellte \textit{\glqq Bewegungsstufe 1\grqq} anzeigt.
 	Die \textbf{Status-LED} zeigt parallel dazu ebenfalls den Status des Demonstrators an. Sobald das System bereit ist, leuchtet die LED \textit{grün}.
+\begin{center}	
+	\begin{tikzpicture}
+	% Grauer Hintergrund
+	\fill[mygray] (-1,-1) rectangle (10,3);
+	
+	% Linkes Panel
+	\fill[black] (0,0) rectangle (4,2);
+	\node[align=center, white, text=myblue, scale=1.4] at (2,1) {Bitte warten...};
+	
+	% Rechtes Panel
+	\fill[black] (5,0) rectangle (9,2);
+	\node[align=center, white, text=myblue, scale=1.2] at (7,1) {Bewegungsstufe 1};
+	
+	% Weißer Strich
+	\draw[white, thick] (4.5,-1) -- (4.5,3);
+\end{tikzpicture}
+\end{center}
+
+
 	
 	\item \textbf{Auswahl der Bewegungsstufe}: Wählen Sie nun über den \textbf{Drehschalter} eine der zehn verschiedenen Bewegungsstufen (nähere Informationen dazu in Kapitel \ref{bew} \nameref{bew}) aus, indem Sie den Drehschalter drehen. Wird der Drehschalter um einen Schritt im Uhrzeigersinn gedreht, zeigt das \textbf{Display} die nächsthöhere Bewegungsstufe an. Wird der Drehschalter um einen Schritt entgegen den Uhrzeigersinn gedreht, zeigt das \textbf{Display} die nächstniedrigere Bewegungsstufe an. Sobald Sie die gewünschte Bewegungsstufe erreicht haben, bestätigen Sie dies durch Eindrücken des Drehschalters.	
 	
