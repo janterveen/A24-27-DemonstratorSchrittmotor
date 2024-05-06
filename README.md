@@ -53,60 +53,60 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 # Detailierte Beschreibung der Dateien:
 
 SchrittmotorArduino-main\author:
-Excel-Datei in der persönliche Daten über die einzelnen Gruppenmitglieder wiederzufinden sind
+- Excel-Datei in der persönliche Daten über die einzelnen Gruppenmitglieder wiederzufinden sind
 
 SchrittmotorArduino-main\Projektplan:
-Excel-Datei die während des Projekts zur Projektplanung diente
+- Excel-Datei die während des Projekts zur Projektplanung diente
 
 
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDisassembly\Chapters:
-Ort an dem sich die Tex-Dateien für die einzelnen Kapiteln der Montage- und Demontageanleitung befinden
+- Ort an dem sich die Tex-Dateien für die einzelnen Kapiteln der Montage- und Demontageanleitung befinden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDisassembly\General:
-In diesem Ordner sind Dateien, zur Gestaltung der Montage- und Demontageanleitung
+- In diesem Ordner sind Dateien, zur Gestaltung der Montage- und Demontageanleitung
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDisassembly\Images:
-Ablage der Bilder, die in der Montage- und Demontageanleitung benutzt werden
+- Ablage der Bilder, die in der Montage- und Demontageanleitung benutzt werden
 
 SchrittmotorArduino-main \DemonstratorSchrittmotor\AssemblyDisassembly{MontageDemontageAnleitung.tex}:
-Tex-Datei für die Montage- und Demontageanleitung
+- Tex-Datei für die Montage- und Demontageanleitung
 
 
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Datenblätter:
-Unter diesem Pfad befinden sich die Datenblätter, die für die Dokumentation benötigt wurden
+- Unter diesem Pfad befinden sich die Datenblätter, die für die Dokumentation benötigt wurden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Literatur:
-Hier befindet sich die verwendete Literatur
+- Hier befindet sich die verwendete Literatur
 
 
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Chapters:
-Ort an dem sich die Tex-Dateien für die einzelnen Kapitel des Handbuches befinden
+- Ort an dem sich die Tex-Dateien für die einzelnen Kapitel des Handbuches befinden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\General:
-In diesem Ordner sind Dateien, zur Gestaltung des Handbuches
+- In diesem Ordner sind Dateien, zur Gestaltung des Handbuches
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Images:
-Ablage der Bilder, die im Handbuch benutzt werden
+- Ablage der Bilder, die im Handbuch benutzt werden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual{HandbuchDemonstratorSchrittmotor.tex}:
-Tex-Datei für das Benutzerhandbuch
+- Tex-Datei für das Benutzerhandbuch
 
 
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\Contents\de:
-Hier befinden sich die Tex-Dateien für die einzelnen Kapitel, der Service- und Entwicklerdokumentation
+- Hier befinden sich die Tex-Dateien für die einzelnen Kapitel, der Service- und Entwicklerdokumentation
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\General:
-In diesem Ordner sind Dateien, zur Gestaltung der Service- und Entwicklerdokumentation
+- In diesem Ordner sind Dateien, zur Gestaltung der Service- und Entwicklerdokumentation
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\Images:
-Ablage der Bilder, die in der Service- und Entwicklerdokumentation benutzt werden
+- Ablage der Bilder, die in der Service- und Entwicklerdokumentation benutzt werden
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report\tikz:
-Tex-Dateien zur Ersetllung von Tikz-Diagrammen
+- Tex-Dateien zur Ersetllung von Tikz-Diagrammen
 
 SchrittmotorArduino-main\DemonstratorSchrittmotor\report{DemonstratorSchrittmotor.tex}:
-Tex-Datei für die Service- und Entwicklerdokumentation
+- Tex-Datei für die Service- und Entwicklerdokumentation
