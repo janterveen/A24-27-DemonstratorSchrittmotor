@@ -1,0 +1,24 @@
+
+\documentclass[12pt,a4paper]{scrbook}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\begin{figure}[!ht]
+	\centering
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ color={rgb,255:red,255; green,255; blue,255} , fill={rgb,255:red,0; green,128; blue,128}] (9.25,16.5) rectangle (14.5,5.5);
+			\draw [ color={rgb,255:red,2; green,4; blue,4} , fill={rgb,255:red,128; green,128; blue,128}] (10.75,17) rectangle (13,15);
+			\draw [ color={rgb,255:red,2; green,4; blue,4} , fill={rgb,255:red,128; green,128; blue,128}] (10.75,5.5) rectangle (13,8);
+			\draw [ color={rgb,255:red,2; green,4; blue,4} , fill={rgb,255:red,89; green,179; blue,0}] (10.75,6.5) rectangle (13,5.5);
+			\draw [ color={rgb,255:red,2; green,4; blue,4} , fill={rgb,255:red,89; green,179; blue,0}] (13.75,16) circle (0.25cm);
+			\draw [ color={rgb,255:red,2; green,4; blue,4} , fill={rgb,255:red,255; green,128; blue,64}] (10,16) circle (0.25cm);
+			\draw [ color={rgb,255:red,2; green,4; blue,4}, line width=2pt, short] (9,14) -- (9,14);
+		\end{circuitikz}
+	}%
+	
+	\label{fig:my_label}
+\end{figure}
+\end{document}

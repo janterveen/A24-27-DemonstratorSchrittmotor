@@ -29,35 +29,35 @@
 \contentsline {section}{\numberline {2.4}Schaltplan}{10}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Hinweis Arduino 33 BLE Sense Lite }{10}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Bezugsquellen}{10}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Weitere Hardware}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}OLED-Display}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Signalleuchte}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Spannungswandler}{12}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Netzteil SNT RD 50A}{12}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Spannungswandler ASM1117}{12}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Linearführung}{13}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Drehwinkel-Encoder}{13}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Schrittmotorsteuerung}{13}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Schaltplan}{15}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Materialliste}{17}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Beschreibung der Software IDE}{21}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Installation der Arduino IDE}{21}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Beschreibung der Entwicklungsumgebung}{21}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Erste Schritte in der Entwicklungsumgebung}{22}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Auswahl des Mikrocontrollers}{22}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Bibliotheken einbinden}{23}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Programmierung}{25}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}header}{25}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}setup()}{25}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}loop()}{25}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}Erster Programmtest}{25}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Beschreibung des Programms auf dem Arduino}{27}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Beschreibung des Schrittmotors}{29}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Beschreibung eines Schrittmotors}{29}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Aufbau und Funktionsweise eines Schrittmotors}{29}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Schrittmotor Bauformen}{30}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Betriebsarten unipolar und bipolar}{31}{subsection.8.1.3}%
-\contentsline {section}{\numberline {8.2}Beschreibung des verwendeten Schrittmotors}{31}{section.8.2}%
-\contentsline {chapter}{\numberline {9}Testdurchläufe}{33}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Offene Punkte}{35}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Literatur}{37}{chapter.11}%
+\contentsline {chapter}{\numberline {3}Weitere Hardware}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}OLED-Display}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Signalleuchte}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Spannungswandler}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Netzteil SNT RD 50A}{14}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Spannungswandler ASM1117}{14}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Linearführung}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Drehwinkel-Encoder}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Schrittmotorsteuerung}{15}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Schaltplan}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Materialliste}{19}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Beschreibung der Software IDE}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Installation der Arduino IDE}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Beschreibung der Entwicklungsumgebung}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Erste Schritte in der Entwicklungsumgebung}{24}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Auswahl des Mikrocontrollers}{24}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Bibliotheken einbinden}{25}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Programmierung}{27}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}header}{27}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}setup()}{27}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}loop()}{27}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Erster Programmtest}{27}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Beschreibung des Programms auf dem Arduino}{29}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Beschreibung des Schrittmotors}{31}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Beschreibung eines Schrittmotors}{31}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Aufbau und Funktionsweise eines Schrittmotors}{31}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Schrittmotor Bauformen}{32}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Betriebsarten unipolar und bipolar}{33}{subsection.8.1.3}%
+\contentsline {section}{\numberline {8.2}Beschreibung des verwendeten Schrittmotors}{33}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Testdurchläufe}{35}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Offene Punkte}{37}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Literatur}{39}{chapter.11}%
