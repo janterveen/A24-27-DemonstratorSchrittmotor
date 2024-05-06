@@ -1,5 +1,12 @@
 <b><h3> Automatisierungstechnik Projekt aus dem Jahr 2024 </h3></b>
-<p> Projektname: Demonstrator für einen Schrittmotor </p>
+<div align="center">
+  <p>
+      <img width="20%" src="/arduino-icon.svg">
+  </p>
+  <b><h3> Automatisierungstechnik Projekt aus dem Jahr 2024 </h3></b>
+  <p> Demonstrator für einen Schrittmotor mit <a href="https://www.arduino.cc"> Arduino-Ansteuerung </a></p>
+</div>
+<br>
 
 # Betreuer: Prof. Dr. Elmar Wings
 
