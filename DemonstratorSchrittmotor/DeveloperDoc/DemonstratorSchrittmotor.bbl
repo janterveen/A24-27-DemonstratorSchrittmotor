@@ -16,5 +16,960 @@
   {}
 \endgroup
 
-\datalist[entry]{anyt/global//global/global}\enddatalist
+\datalist[entry]{anyt/global//global/global}
+  \entry{AZDelivery.24}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=AD}{%
+         family={AZ-Delivery},
+         familyi={A\bibinithyphendelim D\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=AD}{%
+         family={AZ-Delivery},
+         familyi={A\bibinithyphendelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AD1}
+    \strng{fullhash}{AD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{AD24}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{1,3 Zoll OLED Display Datenblatt}
+    \verb{url}
+    \verb \url{https://www.az-delivery.de/products/1-3zoll-i2c-oled-display}
+    \endverb
+    \field{year}{24}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{AMS}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Adcanced Monolithic System}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{ALLDATASHEET;ARCHIVE;CATALOG;CHIP;DATABOOK;Datasheet;ELECTRONIC
+  COMPONENT;IC;ISO COMPONENT;PDF;PDF DATASHEET;SEMICONDUCTOR;TRANSISTOR}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Adc}}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    DATASHEET SEARCH, DATABOOK, COMPONENT, FREE DOWNLOAD SITE%
+    }
+    \field{title}{AMS1117 ADMOS | Alldatasheet}
+    \verb{url}
+    \verb \url{http://www.advanced-monolithic.com/pdf/ds1117.pdf}
+    \endverb
+    \verb{file}
+    \verb AMS1117-Datasheet:Attachments/AMS1117-Datasheet.PDF:application/pdf
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Allegro.2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Allegro},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{A4988;Motorsteuerung;Treiber}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{All22}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{edition}{8}
+    \field{title}{A4988-Datasheet}
+    \verb{url}
+    \verb \url{https://www.allegromicro.com}
+    \endverb
+    \verb{file}
+    \verb A4988-Datasheet:Attachments/A4988-Datasheet.pdf:application/pdf
+    \endverb
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Ard.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A3}
+    \strng{fullhash}{A3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ard24}
+    \field{extraalpha}{1}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{ABX00031-Datasheet}
+    \verb{file}
+    \verb ABX00031-datasheet:Attachments/ABX00031-datasheet.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{Arduino.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A3}
+    \strng{fullhash}{A3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ard24}
+    \field{extraalpha}{2}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Downloads: Arduino IDE 2.3.2}
+    \verb{url}
+    \verb \url{https://www.arduino.cc/en/software}
+    \endverb
+    \list{location}{1}{%
+      {https://www.arduino.cc/en/software}%
+    }
+    \verb{file}
+    \verb 20240412ArduinoSoftware:Attachments/20240412ArduinoSoftware.pdf:appli
+    \verb cation/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Arduino.2024c}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A3}
+    \strng{fullhash}{A3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ard24}
+    \field{extraalpha}{3}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Installing Libraries}
+    \verb{url}
+    \verb \url{https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-install
+    \verb ing-a-library/}
+    \endverb
+    \verb{file}
+    \verb 20240412InstallingLibraries:Attachments/20240412InstallingLibraries.p
+    \verb df:application/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Arduino.2024b}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A3}
+    \strng{fullhash}{A3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ard24}
+    \field{extraalpha}{4}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Installing a Board Package in the IDE 2}
+    \verb{url}
+    \verb \url{https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-m
+    \verb anager/?queryID=145da8e8c0ca68927b79659df14079a5&_gl=1*1c27moy*_ga*MT
+    \verb Q0NDAyMjU0Ni4xNzEyMjI4NjMx*_ga_NEXN8H46L5*MTcxMjkzNTM5NS4xMi4xLjE3MTI
+    \verb 5MzYxNTguMC4wLjE4MTYyNDUyNw..*_fplc*R3haa2kwYmJ5b0owSXBZQmNtNDElMkYyS
+    \verb TNJZEZjVDdueVdoViUyQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1ST
+    \verb FaZDl6c0txNGtBV1lETklqUzdGUFdKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHd
+    \verb uVnhKWEd6dyUzRCUzRA..}
+    \endverb
+    \verb{file}
+    \verb 20240412InstallingaBoardPackage:Attachments/20240412InstallingaBoardP
+    \verb ackage.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Arduino.2024e}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=A}{%
+         family={Arduino},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A3}
+    \strng{fullhash}{A3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ard24}
+    \field{extraalpha}{5}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{loop()}
+    \verb{url}
+    \verb \url{https://www.arduino.cc/reference/en/language/structure/sketch/lo
+    \verb op/}
+    \endverb
+    \verb{file}
+    \verb 20240412loop:Attachments/20240412loop.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{AT.2015}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Avago Technologies}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A4}
+    \strng{fullhash}{A4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Ava}15}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Datasheet - APDS-9960 - Digital Proximity, Ambient Light, RGB
+  and Gesture Sensor}
+    \verb{file}
+    \verb APDS-9960-datasheet:Attachments/APDS-9960-datasheet.pdf:application/p
+    \verb df
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{Babiel.2023}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BG}{%
+         family={Babiel},
+         familyi={B\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+    \strng{namehash}{BG1}
+    \strng{fullhash}{BG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bab23}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb \url{10.1007/978-3-658-40586-1}
+    \endverb
+    \field{edition}{5. Auflage}
+    \field{isbn}{978-3-658-40585-4}
+    \field{title}{Elektrische Antriebe in der Fahrzeugtechnik: Lehr- und
+  Arbeitsbuch}
+    \list{location}{2}{%
+      {Wiesbaden}%
+      {Heidelberg}%
+    }
+    \list{institution}{1}{%
+      {{Springer Fachmedien Wiesbaden}}%
+    }
+    \verb{file}
+    \verb Babiel 2023 - Elektrische Antriebe in der Fahrzeugtechnik:Attachments
+    \verb /Babiel 2023 - Elektrische Antriebe in der Fahrzeugtechnik.pdf:applic
+    \verb ation/pdf
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{Basler.2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BS}{%
+         family={Basler},
+         familyi={B\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Fachmedien Wiesbaden}}%
+    }
+    \keyw{Drehgeber;Encoder}
+    \strng{namehash}{BS1}
+    \strng{fullhash}{BS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bas16}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb \url{10.1007/978-3-658-12844-9}
+    \endverb
+    \field{isbn}{978-3-658-12843-2}
+    \field{title}{Encoder und Motor-Feedback-Systeme}
+    \verb{url}
+    \verb \url{https://link.springer.com/book/10.1007/978-3-658-12844-9}
+    \endverb
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \verb{file}
+    \verb Encoder{\&}MotorFeedbacksysteme:Attachments/Encoder{\&}MotorFeedbacks
+    \verb ysteme.pdf:application/pdf
+    \endverb
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Bernstein.2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BH}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+    \strng{namehash}{BH1}
+    \strng{fullhash}{BH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ber18}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb \url{10.1007/978-3-658-20838-7}
+    \endverb
+    \field{edition}{3., {\"u}berarbeitete Auflage}
+    \field{isbn}{978-3-658-20837-0}
+    \field{series}{Lehrbuch}
+    \field{title}{Elektrotechnik/Elektronik f{\"u}r Maschinenbauer: Einfach und
+  praxisgerecht}
+    \list{location}{2}{%
+      {Wiesbaden}%
+      {Heidelberg}%
+    }
+    \list{institution}{1}{%
+      {{Springer Fachmedien Wiesbaden}}%
+    }
+    \verb{file}
+    \verb Bernstein 2018 - Elektrotechnik Elektronik f{\"u}r Maschinenbauer:Att
+    \verb achments/Bernstein 2018 - Elektrotechnik Elektronik f{\"u}r Maschinen
+    \verb bauer.pdf:application/pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{DieterStotz.2019}{book}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Dieter Stotz}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Die}19}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{edition}{3}
+    \field{isbn}{978-3-662-58872-7}
+    \field{title}{Computergest{\"u}tzte Audio- und Videotechnik:
+  Multimediatechnik in der Anwendung}
+    \verb{url}
+    \verb \url{https://link.springer.com/book/10.1007/978-3-662-58873-4}
+    \endverb
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Gehrke.2022}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GW}{%
+         family={Gehrke},
+         familyi={G\bibinitperiod},
+         given={Winfried},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Winzker},
+         familyi={W\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+    \strng{namehash}{GWWM1}
+    \strng{fullhash}{GWWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{GW22}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{edition}{8. Auflage}
+    \field{isbn}{9783662639535}
+    \field{title}{Digitaltechnik: Grundlagen, VHDL, FPGAs, Mikrocontroller}
+    \verb{url}
+    \verb \url{http://www.springer.com/}
+    \endverb
+    \list{location}{2}{%
+      {Berlin}%
+      {Heidelberg}%
+    }
+    \list{institution}{1}{%
+      {{Springer-Verlag GmbH}}%
+    }
+    \verb{file}
+    \verb 978-3-662-63954-2:Attachments/978-3-662-63954-2.pdf:application/pdf
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{Hagl.2021}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HR}{%
+         family={Hagl},
+         familyi={H\bibinitperiod},
+         given={Rainer},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hanser}%
+    }
+    \strng{namehash}{HR1}
+    \strng{fullhash}{HR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hag21}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb \url{10.3139/9783446468214}
+    \endverb
+    \field{edition}{3., {\"u}berarbeitete und erweiterte Auflage}
+    \field{isbn}{978-3-446-46572-5}
+    \field{title}{Elektrische Antriebstechnik}
+    \list{location}{1}{%
+      {M{\"u}nchen}%
+    }
+    \field{year}{2021}
+  \endentry
+
+  \entry{Jkongmotor.}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=J}{%
+         family={Jkongmotor},
+         familyi={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{J1}
+    \strng{fullhash}{J1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Jko}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Nema17-Datasheet}
+    \verb{url}
+    \verb \url{https://ecksteinimg.de/Datasheet/Schrittmotor/JK42HS34-0844A/JK4
+    \verb 2HS34-0844YA-01.pdf}
+    \endverb
+    \verb{file}
+    \verb Nema17-Datasheet:Attachments/Nema17-Datasheet.pdf:application/pdf
+    \endverb
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Meroth.2018}{book}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Meroth},
+         familyi={M\bibinitperiod},
+         given={Ansgar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sora},
+         familyi={S\bibinitperiod},
+         given={Petre},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+  \keyw{Arduino;Atmel;Automobiltechnik;Automotive;AVR-Familie;CAN;digital;Digitaltechnik;Electronics;Elektronik;Elektrotechnik;Embedded
+  Systems;Engineering;Entwicklung;Funk;LIN;Mikrocontroller;Netzwerke;Progammierung
+  C;Senstortechnik;Systems engineering;TEC008000;TJFM}
+    \strng{namehash}{MASP1}
+    \strng{fullhash}{MASP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{MS18}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    A. Meroth ist bekannt als Herausgeber eines Buches {\"u}ber
+  Infotainmentsysteme im Kraftfahrzeug. Jetzt behandelt er eine viel
+  allgemeinere Aufgabe aus dem IoT, die Steuerung und {\"U}berwachung von
+  Vorg{\"a}ngen durch Embedded Systems und geht dabei insbesondere auf
+  Sensorennetzwerke mit ihren vielen Bausteinen aus der Mikrocontrollerwelt
+  ein. Die Autoren st{\"u}tzen sich auf Fallbeispiele, deren Programmierung in
+  C erfolgt. - J. Wiegelmann hat diese Programmierung sehr ausf{\"u}hrlich
+  beschrieben, st{\"u}tzt sich aber in seinem Buch nur auf ein gr{\"o}e︢res
+  Fallbeispiel. - So liegt der besondere Wert des vorliegenden Buches darin,
+  dass viele leicht verallgemeinerungsf{\"a}hige Beispiele insbesondere aus den
+  Bereichen Druck, Temperatur, Helligkeit und Beschleunigung und zus{\"a}tzlich
+  als Hilfsmittel auch programmierbare Bausteine (Flash, Uhr, Radio,
+  Portexpander) vorgestellt werden. Angesprochen werden Studierende h{\"o}herer
+  Semester und Entwicklungsingenieure mit Vorkenntnissen - m{\"o}glichst auch
+  in C. - Die kurze Einf{\"u}hrung in C zu Beginn hilft nicht wesentlich
+  weiter%
+    }
+    \field{isbn}{3658183853}
+    \field{series}{Lehrbuch}
+    \field{title}{Sensornetzwerke in Theorie und Praxis: Embedded
+  Systems-Projekte erfolgreich realisieren}
+    \list{location}{2}{%
+      {Wiesbaden}%
+      {Heidelberg}%
+    }
+    \list{institution}{1}{%
+      {{Springer Fachmedien Wiesbaden}}%
+    }
+    \verb{file}
+    \verb 978-3-658-18386-8(Kommunikationsprotokolle):Attachments/978-3-658-183
+    \verb 86-8(Kommunikationsprotokolle).pdf:application/pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Meanwell.2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Meanwell},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Mea19}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{RD-50-20190729.cdr}
+    \verb{url}
+    \verb \url{https://cdn-reichelt.de/documents/datenblatt/D500/RD-50_DS-EN.PD
+    \verb F}
+    \endverb
+    \verb{file}
+    \verb RD-50{\_}DS-Datasheet:Attachments/RD-50{\_}DS-Datasheet.PDF:applicati
+    \verb on/pdf
+    \endverb
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Mentor.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Mentor},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M2}
+    \strng{fullhash}{M2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Men24}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{SIGNALLEUCHTENSMD-LED-Datenblatt}
+    \verb{url}
+    \verb \url{https://www.mentor.de.com/bauelemente/product/2660-8301}
+    \endverb
+    \verb{file}
+    \verb SIGNALLEUCHTENSMD-LED-Datenblatt:Attachments/SIGNALLEUCHTENSMD-LED-Da
+    \verb tenblatt.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{NrdSem3.2023}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Nordic Semiconductor}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \keyw{NRF52 Series;Peripherals;QSPI}
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Nor}23}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{nRF5340 Product Specification: QSPI --- Quad serial
+  peripheral interface}
+    \verb{url}
+    \verb \url{https://infocenter.nordicsemi.com}
+    \endverb
+    \verb{file}
+    \verb quad{\_}serial{\_}peripheral{\_}interface-techDoc:Attachments/quad{\_
+    \verb }serial{\_}peripheral{\_}interface-techDoc.pdf:application/pdf
+    \endverb
+    \field{year}{2023}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{NrdSem2.2024}{article}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Nordic Semiconductor}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \keyw{AAR;AES;CCM;ECB}
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Nor}24}
+    \field{extraalpha}{1}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{nRF52840 Product Specification Memory}
+    \verb{file}
+    \verb nrf52840{\_}product{\_}specification{\_}memory-techDoc:Attachments/nr
+    \verb f52840{\_}product{\_}specification{\_}memory-techDoc.pdf:application/
+    \verb pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{NrdSem.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Nordic Semiconductor}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Nor}24}
+    \field{extraalpha}{2}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{nRF9161 Product Specification: Cryptocell-ARM TrustZone
+  CryptoCell 310}
+    \verb{file}
+    \verb cryptocell{\_}310-technicalDocument:Attachments/cryptocell{\_}310-tec
+    \verb hnicalDocument.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{PetrFilipi.2022}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=P}{%
+         family={{Petr Filipi}},
+         familyi={P\bibinitperiod},
+      }}%
+      {{hash=A}{%
+         family={{Arduino Tech Support Team}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{PA22}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Difference{\_}between{\_}A33BLESense{\_}and{\_}SenseLite: A
+  Difference between A N 33 BLE Sense vs. Sense Lite}
+    \verb{url}
+    \verb \url{https://forum.arduino.cc/t/a-difference-between-a-n-33-ble-sense
+    \verb -vs-sense-lite/1030305}
+    \endverb
+    \verb{file}
+    \verb Difference{\_}between{\_}A33BLESense{\_}and{\_}SenseLite:Attachments/
+    \verb Difference{\_}between{\_}A33BLESense{\_}and{\_}SenseLite.pdf:applicat
+    \verb ion/pdf
+    \endverb
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{STM1.2015}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={STMICROELECTRONICS},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \keyw{025715;Datasheet;LSM9DS1;Product Development;Specification;Technical
+  Literature}
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{STM15}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    -%
+    }
+    \field{title}{Datasheet - LSM9DS1- iNEMO inertial module: 3D accelerometer,
+  3D gyroscope, 3D magnetometer}
+    \verb{file}
+    \verb LSM9DS1-datasheet:Attachments/LSM9DS1-datasheet.pdf:application/pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{STM2.2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={STMICROELECTRONICS},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \keyw{027083;Datasheet;LPS22HB;Product Development;Specification;Technical
+  Literature}
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{STM17}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    -%
+    }
+    \field{title}{Datasheet - LPS22HB-MEMS nano pressure sensor: 260-1260 hPa
+  absolute digital output barometer}
+    \verb{file}
+    \verb LPS22HB-datasheet:Attachments/LPS22HB-datasheet.pdf:application/pdf
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{STM3.2021}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={STMICROELECTRONICS},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{STM21}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The MP34DT05-A is an ultra-compact, low-power, omnidirectional, digital
+  MEMS microphone built with a capacitive sensing element and an IC interface.%
+    }
+    \field{title}{Datasheet - MP34DT05-A - MEMS audio sensor omnidirectional
+  digital microphone}
+    \verb{file}
+    \verb MP34DT05-A-datasheet:Attachments/MP34DT05-A-datasheet.pdf:application
+    \verb /pdf
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{Schroder.2013}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SD}{%
+         family={Schr{\"o}der},
+         familyi={S\bibinitperiod},
+         given={Dierk},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Vieweg}}%
+    }
+    \strng{namehash}{SD1}
+    \strng{fullhash}{SD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sch13}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb \url{10.1007/978-3-642-30471-2}
+    \endverb
+    \field{edition}{5., erw. Aufl.}
+    \field{isbn}{978-3-642-30470-5}
+    \field{series}{Springer-Lehrbuch}
+    \field{title}{Grundlagen: Mit durchgerechneten {\"U}bungs- und
+  Pr{\"u}fungsaufgaben}
+    \field{volume}{1}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \verb{file}
+    \verb Schr{\"o}der 2013 - Grundlagen:Attachments/Schr{\"o}der 2013 - Grundl
+    \verb agen.pdf:application/pdf
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{SimacElec.2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Simac Electronics GmbH}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S2}
+    \strng{fullhash}{S2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Sim}19}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{COM-KY040RE-Datenblatt: Drehencoder mit Tasterfunktion}
+    \verb{url}
+    \verb \url{www.joy-it.net}
+    \endverb
+    \verb{file}
+    \verb COM-KY040RE-Datenblatt:Attachments/COM-KY040RE-Datenblatt.pdf:applica
+    \verb tion/pdf
+    \endverb
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{Wagner.2013}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WF}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={Fabian},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Logos Verlag Berlin}}%
+    }
+    \keyw{Platinen Architektur;System-in-Package;System-on-Chip}
+    \strng{namehash}{WF1}
+    \strng{fullhash}{WF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wag13}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Intro -- 1 Einleitung -- 1.1 System-on-Chip Entwurf -- 1.2
+  System-in-Package Entwurf -- 1.3 Motivation und Ziel dieser Arbeit -- 2
+  Optimierung mit evolution{\"a}ren Algorithmen -- 2.1 Multikriterielle
+  Optimierung und Selektoren -- 2.1.1 Strength Pareto Evolutionary Algorithm 2
+  (SPEA-2) -- 2.1.2 Non-dominated Sorting Genetic Algorithm-II (NSGA-II) -- 3
+  Systempartitionierung -- 3.1 Manuelle Partitionierung -- 3.2 Automatische
+  Partitionierung -- 3.2.1 Ansatz zur Automatisierung -- 3.2.2 Erstellen der
+  Daten -- 3.2.3 Einlesen der Problemstellung -- 3.2.4 Der Genotyp -- 3.2.5 Der
+  Ph{\"a}notyp -- 3.2.6 Evaluieren der L{\"o}sung -- 3.3 Implementierung
+  f{\"u}r Opt4J Framework -- 3.4 Optimierungsergebnisse -- 3.4.1
+  Performancemessung -- 4 Realisierte Hardware -- 4.1 Referenzsystem
+  3-Kanal-SoC -- 4.2 3-Kanal-EKG-System -- 4.2.1 Aufteilung -- 4.2.2 Analoges
+  Frontend, 1 Kanal -- 4.2.3 Dezimator Chip -- 4.2.4 Kommerzielle Chips --
+  4.2.5 Aufbau des Systems -- 4.2.6 Messergebnisse -- 4.3 4-Kanal-EKG-System
+  als USB-Stick -- 4.3.1 Analoges Frontend, 2 Kan{\"a}le -- 4.3.2 Aufbau des
+  Systems -- 4.3.3 Messergebnisse -- 4.4 Vergleich mit automatisierter
+  Partitionierung -- 5 Zusammenfassung und Ausblick -- 5.1 Zusammenfassung --
+  5.2 Ausblick -- 5.2.1 Bedienbarkeit -- 5.2.2 Berechnung -- 5.2.3
+  Automatisierung des Entwurfsablaufs -- 5.2.4 Kostenmodell -- 5.2.5
+  Optimierung f{\"u}r 3DIC.%
+    }
+    \field{isbn}{9783832596460}
+    \field{series}{Wissenschaftliche Beitr{\"a}ge Zur Medizinelektronik Ser}
+    \field{title}{Automatisierte Partitionierung Von Mixed-Signal Schaltungen
+  F{\"u}r Die Realisierung Von Systems-In-Package}
+    \verb{url}
+    \verb \url{https://ebookcentral.proquest.com/lib/kxp/detail.action?docID=52
+    \verb 23980}
+    \endverb
+    \field{volume}{v.3}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2013}
+  \endentry
+\enddatalist
 \endinput

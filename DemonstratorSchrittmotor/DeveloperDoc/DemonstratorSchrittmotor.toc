@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {2.3}Beschreibung der Schnittstellen}{6}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}I2C}{6}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}USB:}{7}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Bluetooth\textregistered 5}{8}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Bluetooth\textregistered 5}{7}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Weitere Kommunikationsschnittstellen}{8}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Digitale Ein- und Ausgangspins}{9}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}Analoge Eingangspins}{9}{subsection.2.3.6}%
