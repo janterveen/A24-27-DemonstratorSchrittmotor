@@ -1,5 +1,4 @@
-<b><h3> Automatisierungstechnik Projekt aus dem Jahr 2024 </h3></b>
-<div align="center">
+<div>
   <p>
       <img width="20%" src="/arduino-icon.svg">
   </p>
