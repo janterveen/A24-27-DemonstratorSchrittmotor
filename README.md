@@ -18,8 +18,8 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 
 # Verzeichnisstruktur: 
 ## Autor, Projektplan und README
-- [Author-Excel](author)
-- [Projektplan-Excel](Projektplan)
+- [Author-Excel](/author)
+- [Projektplan-Excel](Projektplan.xlsx)
 - [README](README)
 
 ## Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
