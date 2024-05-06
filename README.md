@@ -27,15 +27,15 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 - [Inhalte](DemonstratorSchrittmotor/AssemblyDisassembly/Chapters)
 - [Gestaltung](DemonstratorSchrittmotor/AssemblyDisassembly/General)
 - [Bilder](DemonstratorSchrittmotor/AssemblyDisassembly/Images)
-- [TEX-Datei](DemonstratorSchrittmotor/AssemblyDisassembly/MontageDemontageAnleitung)
+- [TEX-Datei](DemonstratorSchrittmotor/AssemblyDisassembly/MontageDemontageAnleitung.tex)
 
 ## verwendeter Code
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Code
+- [Code](DemonstratorSchrittmotor/Code)
 
 ## verwendete Datenblätter und Literatur in PDF
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Datenblätter
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Literatur
+- [Dokumente](DemonstratorSchrittmotor\Documents)
+- [Datenblaetter](DemonstratorSchrittmotor\Documents\Datenblätter)
+- [Literatur](DemonstratorSchrittmotor\Documents\Literatur)
 
 ## Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual
