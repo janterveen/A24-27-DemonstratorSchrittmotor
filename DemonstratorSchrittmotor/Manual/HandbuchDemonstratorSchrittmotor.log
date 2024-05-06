@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  6 MAY 2024 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  6 MAY 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,11 +1311,11 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface.
 
-<Images/Konstruktion1.png, id=93, 2141.75156pt x 533.74406pt>
+<Images/Konstruktion1.png, id=93, 1754.05313pt x 338.01282pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
 Package pdftex.def Info: Images/Konstruktion1.png  used on input line 20.
-(pdftex.def)             Requested size: 432.48192pt x 107.77309pt.
+(pdftex.def)             Requested size: 432.48192pt x 83.33736pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1333,25 +1333,25 @@ been already used, duplicate ignored
 l.14 \chapter
              {Elemente auf der Frontblende} [2]
 chapter 2.
-<Images/Konstruktion2.png, id=105, 1620.80531pt x 663.22781pt>
+<Images/Konstruktion2.png, id=105, 815.045pt x 562.1pt>
 File: Images/Konstruktion2.png Graphic file (type png)
 <use Images/Konstruktion2.png>
 Package pdftex.def Info: Images/Konstruktion2.png  used on input line 17.
-(pdftex.def)             Requested size: 432.48192pt x 176.96893pt.
+(pdftex.def)             Requested size: 432.48192pt x 298.26323pt.
 ) (./Chapters/de/BEDBack.tex [3
 
 
- <./Images/Konstruktion2.PNG>] [4
+ <./Images/Konstruktion2.png>] [4
 
 
 ]
 chapter 3.
-<Images/Konstruktion3.png, id=119, 1428.08531pt x 588.69937pt>
+<Images/Konstruktion3.png, id=119, 1598.97375pt x 1178.4025pt>
 File: Images/Konstruktion3.png Graphic file (type png)
 <use Images/Konstruktion3.png>
 Package pdftex.def Info: Images/Konstruktion3.png  used on input line 17.
-(pdftex.def)             Requested size: 432.48192pt x 178.28197pt.
-) (./Chapters/de/BEDKab.tex [5 <./Images/Konstruktion3.PNG>] [6
+(pdftex.def)             Requested size: 432.48192pt x 318.71236pt.
+) (./Chapters/de/BEDKab.tex [5 <./Images/Konstruktion3.png>] [6
 
 
 ]
@@ -1463,7 +1463,7 @@ l2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb>
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2069411 bytes
+Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2039953 bytes
 ).
 PDF statistics:
  397 PDF objects out of 1000 (max. 8388607)
