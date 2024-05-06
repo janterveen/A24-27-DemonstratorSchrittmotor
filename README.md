@@ -18,9 +18,9 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 
 # Verzeichnisstruktur: 
 ## Autor, Projektplan und README
-- [Author-Excel](/author)
+- [Author-Excel](author.xlsx)
 - [Projektplan-Excel](Projektplan.xlsx)
-- [README](README)
+- [README](README.md)
 
 ## Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly
