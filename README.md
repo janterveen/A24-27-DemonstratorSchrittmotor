@@ -24,10 +24,10 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 
 ## Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
 - [Demontage- und Montageanleitung](DemonstratorSchrittmotor/AssemblyDisassembly)
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\Chapters
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\General
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\Images
-	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly{MontageDemontageAnleitung}
+- [Inhalte](DemonstratorSchrittmotor/AssemblyDisassembly/Chapters)
+- [Gestaltung](DemonstratorSchrittmotor/AssemblyDisassembly/General)
+- [Bilder](DemonstratorSchrittmotor/AssemblyDisassembly/Images)
+- [TEX-Datei](DemonstratorSchrittmotor/AssemblyDisassembly/MontageDemontageAnleitung)
 
 ## verwendeter Code
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Code
