@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  6 MAY 2024 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  6 MAY 2024 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,11 +1333,11 @@ been already used, duplicate ignored
 l.14 \chapter
              {Elemente auf der Frontblende} [2]
 chapter 2.
-<Images/Konstruktion2.png, id=105, 615.0478pt x 481.04718pt>
+<Images/Konstruktion2.png, id=105, 1620.80531pt x 663.22781pt>
 File: Images/Konstruktion2.png Graphic file (type png)
 <use Images/Konstruktion2.png>
 Package pdftex.def Info: Images/Konstruktion2.png  used on input line 17.
-(pdftex.def)             Requested size: 432.48192pt x 338.26483pt.
+(pdftex.def)             Requested size: 432.48192pt x 176.96893pt.
 ) (./Chapters/de/BEDBack.tex [3
 
 
@@ -1346,11 +1346,11 @@ Package pdftex.def Info: Images/Konstruktion2.png  used on input line 17.
 
 ]
 chapter 3.
-<Images/Konstruktion3.png, id=119, 610.53094pt x 373.395pt>
+<Images/Konstruktion3.png, id=119, 1428.08531pt x 588.69937pt>
 File: Images/Konstruktion3.png Graphic file (type png)
 <use Images/Konstruktion3.png>
 Package pdftex.def Info: Images/Konstruktion3.png  used on input line 17.
-(pdftex.def)             Requested size: 432.48192pt x 264.51405pt.
+(pdftex.def)             Requested size: 432.48192pt x 178.28197pt.
 ) (./Chapters/de/BEDKab.tex [5 <./Images/Konstruktion3.PNG>] [6
 
 
@@ -1463,7 +1463,7 @@ l2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb>
 e/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/tex
 mf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sftt1095.pfb>
-Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 1976799 bytes
+Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2069411 bytes
 ).
 PDF statistics:
  397 PDF objects out of 1000 (max. 8388607)
