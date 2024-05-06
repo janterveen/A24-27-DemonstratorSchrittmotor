@@ -1,10 +1,9 @@
-Automatisierungstechnik Projekt aus dem Jahr 2024
+<b><h3> Automatisierungstechnik Projekt aus dem Jahr 2024 </h3></b>
+<p> Projektname: Demonstrator für einen Schrittmotor </p>
 
-Projektname: Demonstrator für einen Schrittmotor
+# Betreuer: Prof. Dr. Elmar Wings
 
-Betreuer: Prof. Dr. Elmar Wings
-
-Autoren:
+# Autoren:
 
 1. ter Veen, Jan, 7022071
 2. Stein, Enno, 7021960
@@ -12,47 +11,46 @@ Autoren:
 4. Hanneken, Lars, 7021910
 5. Grönke, Jannik, 7022006
 
-Projektbeschreibung: 
+# Projektbeschreibung: 
 Die Aufgabe besteht darin, mithilfe eines Arduino Nano 33 BLE Sense Lite einen Demonstrator für einen Schrittmotor zu entwickeln. 
 Mittels einer Konstruktion, die einen Schrittmotor beinhaltet, welcher einen Riemen antreibt, soll ein Schlitten auf einer Linearführung verfahren werden. 
 Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der Schrittmotor wird über den Arduino angesteuert und in die gewünschte Richtung und Position bewegt. 
 
-Verzeichnisstruktur: 
-#Autor, Projektplan und README
+# Verzeichnisstruktur: 
+## Autor, Projektplan und README
 	SchrittmotorArduino-main{author.xlsx}
 	SchrittmotorArduino-main{Projektplan.xlsx}
 	SchrittmotorArduino-main{README.md}
 
-#Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
+## Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\Chapters
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\General
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly\Images
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\AssemblyDissambly{MontageDemontageAnleitung}
 
-#verwendeter Code
+## verwendeter Code
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Code
 
-#verwendete Datenblätter und Literatur in PDF
+## verwendete Datenblätter und Literatur in PDF
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Datenblätter
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Documents\Literatur
 
-#Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
+## Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Chapters
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\General
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual\Images
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Manual{HandbuchDemonstratorSchrittmotor.tex}
 
-#Das Poster zum Projekt (sämtliche Inhalte und die verwendeten Bilder)
+## Das Poster zum Projekt (sämtliche Inhalte und die verwendeten Bilder)
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster\images
 	SchrittmotorArduino-main\DemonstratorSchrittmotor\Poster{tikzposter.tex}
 
 
-
-Detailierte Beschreibung der Dateien:
+# Detailierte Beschreibung der Dateien:
 
 SchrittmotorArduino-main\author:
 Excel-Datei in der persönliche Daten über die einzelnen Gruppenmitglieder wiederzufinden sind
