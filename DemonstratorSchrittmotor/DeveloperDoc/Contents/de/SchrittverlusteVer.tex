@@ -26,4 +26,67 @@ Der nächste Schritt ist die praktische überprüfung durch Tests. Es soll im Be
 
 \section{Betriebsart}
 
-In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, falls der Schrittmotor bei den praktischen Tests versagt. 
+In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, falls der Schrittmotor bei den praktischen Tests versagt.
+
+\subsection{Start-Stopp-Betrieb}
+
+Der Motor ist mit der Last fest verbunden und wird mit konstanter Drezahl betrieben. Innerhalb des ersten Schritts muss der Motor auf die vorgegebene Frequenz beschleunigen. 
+
+
+%Bild per Tikz 
+\begin{figure}[!ht]
+\centering
+\resizebox{1\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\small]
+\draw [line width=0.5pt, ->, >=Stealth] (3.25,5.5) -- (3.25,12)node[pos=1,left, fill=white]{Frequenz};
+\draw [->, >=Stealth] (3.25,5.5) -- (14.25,5.5)node[pos=1,below, fill=white]{Zeit};
+\draw [ color={rgb,255:red,0; green,199; blue,252}, short] (6.5,5.5) -- (6.5,7.5);
+\draw [ color={rgb,255:red,0; green,199; blue,252}, short] (6.5,7.5) -- (11.25,7.5);
+\draw [ color={rgb,255:red,0; green,199; blue,252}, short] (11.25,7.5) -- (11.25,5.5);
+\draw [dashed] (6.5,7.5) -- (3.25,7.5);
+\node [font=\large] at (1.75,7.75) {f};
+\node [font=\small] at (2.5,7.5) {Start/Stopp};
+\end{circuitikz}
+}%
+
+\label{fig:Start-Stopp Frequenz}
+\end{figure}
+{\textbf{Fehlerbild: Motor läuft nicht an} 
+\begin{center}
+	\fontsize{8}{10}\selectfont
+	\begin{tabularx}{\textwidth}{|p{0.4cm}|p{0.4cm}|X|X|p{1cm}|X|}
+		\hline 
+		\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
+  		Last zu Hoch & Falscher Motor, größeren Motor wählen \\
+		\hline
+  		Frequenz zu hoch & Reduzieren \\
+		\hline
+		Pendelt der Motor von Links nach Rechts, könnte eine Phase unterbrochen oder nicht angeschlossen sein & Reparieren \\
+		\hline
+		Phasenstrom passt nicht & Phasenstrom erhöhen, zumindest für die ersten Schritte \\
+		\hline
+\end{tabularx}
+
+
+\subsection{Beschleunigung und Rampenprofil (Trapezförmig)}
+
+Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate auf bis aus die Maximalfrequenz beschleunigen. 
+{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus ....)% noch eine verlinkung machen ! 
+
+{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht}
+\begin{center}
+	\fontsize{8}{10}\selectfont
+	\begin{tabularx}{\textwidth}{|p{0.4cm}|p{0.4cm}|X|X|p{1cm}|X|}
+		\hline 
+		\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
+  		Motor bleibt bei der Resonanzfrequenz hängen & Beschleunigung erhöhen, um die Reosnansfrequenz schneller zu durchlaufen. Start-Stopp frequenz über dem Resonanzpunkt wählen. Halbschritt- oder Mikroschrittbetrieb verwenden. Mechanische Dämpfung vorsehen. \\
+		\hline
+  		Falsche Einstellung von Versorgungsspannung oder Strom zu gering & Spannung oder Strom erhöhen. Motor mit geringer Impendanz testen. Stromregelung verwenden. \\
+		\hline
+		Maximaldrehzal zu hoch & Maximaldrehzahl reduzieren. Beschleunigungsrampe abflachen \\
+		\hline
+		Schlechte Vorgabe der Beschleunigungsrampe durch Elektronik & Anderen Controller ausprobieren \\
+		\hline
+\end{tabularx}
+
