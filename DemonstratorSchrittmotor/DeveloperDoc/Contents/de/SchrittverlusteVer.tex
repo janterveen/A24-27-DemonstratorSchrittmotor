@@ -1,0 +1,29 @@
+%%%%%%%%%%%%
+%
+% $Autor: Theilmann $
+% $Datum: 2024-13-05 11:03:00Z $
+% $Pfad: SchrittverlusteVer.tex $
+% $Version: 1 $
+% !TeX spellcheck = en_GB/de_DE
+% !TeX encoding = utf8
+% !TeX root = manual 
+% !TeX TXS-program:bibliography = txs:///biber
+
+\chapter{Schrittverluste Verhindern}
+Um mögliche Fehlerquellen im Bezug zu Schrittverlusten auszugrenzen und zu verhindern, wird in diesem Kapitel beschrieben wie die Ursachen für Schrittverluste oder Stillstand methodisch zu ermitteln sind. 
+
+\section{Auswahl des Schrittmotors}
+Zunächst sollte ein Motor für die Anwendung gefunden werden, dabei sollten grundlegende Theoretische Regeln befolgt werden:
+\begin{itemize}
+	\item {\textbf{Motorauswahl druch Höchstwerte für Drehmoment und Drehzahl (Worst-Case-Szenario)}}
+	\item {\textbf{Verwendung eines Sicherheitsaufschlag von 30 \% auf die Drehmoment-Drehzahl-Kennlinie(Kippmoment)}}
+	\item {\textbf{Sicherstellen, dass externe Ergeinisse die Anwendung nicht blockieren können}}
+\end{itemize}
+
+Sind die geforderten Drehmomente bei den jeweiligen Drehzahlen den Motorspezifikation entsprechend, sind keine Probleme zu erwarten. Ist der Motor zu schwach gewählt und die Andwendung fordert höhere Werte, bleibt der Motor stehen. 
+Der nächste Schritt ist die praktische überprüfung durch Tests. Es soll im Betrieb überprüft werden, ob Schrittverluse auftreten. Schrittmotoren verlieren Konstruktionsbedingt nicht nur einen einzigen Schritt, bei geringen Drehzahlen verliert der Motor ein Vielfaches von vier Schritten.
+
+
+\section{Betriebsart}
+
+In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, falls der Schrittmotor bei den praktischen Tests versagt. 
