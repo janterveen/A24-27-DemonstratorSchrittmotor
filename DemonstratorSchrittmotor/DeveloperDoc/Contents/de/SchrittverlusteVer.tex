@@ -10,18 +10,18 @@
 % !TeX TXS-program:bibliography = txs:///biber
 
 \chapter{Schrittverluste Verhindern}
-Um mögliche Fehlerquellen im Bezug zu Schrittverlusten auszugrenzen und zu verhindern, wird in diesem Kapitel beschrieben wie die Ursachen für Schrittverluste oder Stillstand methodisch zu ermitteln sind. 
+Um mögliche Fehlerquellen im Bezug zu Schrittverlusten auszugrenzen und zu verhindern, wird in diesem Kapitel beschrieben, wie die Ursachen für Schrittverluste oder Stillstand methodisch zu ermitteln sind. \cite{FaulhaberDriveSystems.2020}
 
 \section{Auswahl des Schrittmotors}
-Zunächst sollte ein Motor für die Anwendung gefunden werden, dabei sollten grundlegende Theoretische Regeln befolgt werden:
+Zunächst sollte ein Motor für die Anwendung gefunden werden, dabei sollten grundlegende theoretische Regeln befolgt werden:
 \begin{itemize}
 	\item {\textbf{Motorauswahl druch Höchstwerte für Drehmoment und Drehzahl (Worst-Case-Szenario)}}
 	\item {\textbf{Verwendung eines Sicherheitsaufschlag von 30 \% auf die Drehmoment-Drehzahl-Kennlinie(Kippmoment)}}
-	\item {\textbf{Sicherstellen, dass externe Ergeinisse die Anwendung nicht blockieren können}}
+	\item {\textbf{Sicherstellen, dass externe Ereignisse die Anwendung nicht blockieren können}}
 \end{itemize}
 
 Sind die geforderten Drehmomente bei den jeweiligen Drehzahlen den Motorspezifikation entsprechend, sind keine Probleme zu erwarten. Ist der Motor zu schwach gewählt und die Andwendung fordert höhere Werte, bleibt der Motor stehen. 
-Der nächste Schritt ist die praktische überprüfung durch Tests. Es soll im Betrieb überprüft werden, ob Schrittverluse auftreten. Schrittmotoren verlieren Konstruktionsbedingt nicht nur einen einzigen Schritt, bei geringen Drehzahlen verliert der Motor ein Vielfaches von vier Schritten.
+Der nächste Schritt ist die praktische überprüfung durch Tests. Es soll im Betrieb überprüft werden, ob Schrittverluse auftreten. Schrittmotoren verlieren Konstruktionsbedingt nicht nur einen einzigen Schritt. Bei geringen Drehzahlen verliert der Motor ein Vielfaches von vier Schritten.\cite{FaulhaberDriveSystems.2020}
 
 
 \section{Betriebsart}
@@ -30,63 +30,143 @@ In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, fa
 
 \subsection{Start-Stopp-Betrieb}
 
-Der Motor ist mit der Last fest verbunden und wird mit konstanter Drezahl betrieben. Innerhalb des ersten Schritts muss der Motor auf die vorgegebene Frequenz beschleunigen. 
+Der Motor ist mit der Last fest verbunden und wird mit konstanter Drezahl betrieben. Innerhalb des ersten Schritts muss der Motor auf die vorgegebene Frequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
 
-
-%Bild per Tikz 
 \begin{figure}[!ht]
-\centering
-\resizebox{1\textwidth}{!}{%
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\small]
-\draw [line width=0.5pt, ->, >=Stealth] (3.25,5.5) -- (3.25,12)node[pos=1,left, fill=white]{Frequenz};
-\draw [->, >=Stealth] (3.25,5.5) -- (14.25,5.5)node[pos=1,below, fill=white]{Zeit};
-\draw [ color={rgb,255:red,0; green,199; blue,252}, short] (6.5,5.5) -- (6.5,7.5);
-\draw [ color={rgb,255:red,0; green,199; blue,252}, short] (6.5,7.5) -- (11.25,7.5);
-\draw [ color={rgb,255:red,0; green,199; blue,252}, short] (11.25,7.5) -- (11.25,5.5);
-\draw [dashed] (6.5,7.5) -- (3.25,7.5);
-\node [font=\large] at (1.75,7.75) {f};
-\node [font=\small] at (2.5,7.5) {Start/Stopp};
-\end{circuitikz}
-}%
-
-\label{fig:Start-Stopp Frequenz}
+	\centering
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (11.25,22);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (36.25,12) -- (36.25,8.25);
+			\node [font=\LARGE] at (38.75,7.5) {Zeit};
+			\node [font=\huge] at (8.75,12.25) {f};
+			\node [font=\LARGE] at (9.75,22) {Frequenz};
+			\node [font=\normalsize] at (10,12) {Start/Stopp};
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (17.5,8.25);
+			\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (38.75,8.25);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (36.25,12);
+			\draw [line width=1pt, dashed] (11.25,12) -- (17.5,12);
+		\end{circuitikz}
+	}%
+	
+\caption{Start-Stopp Frequenz} \label{Start-Stopp Frequenz} 
 \end{figure}
+
 {\textbf{Fehlerbild: Motor läuft nicht an} 
 \begin{center}
 	\fontsize{8}{10}\selectfont
-	\begin{tabularx}{\textwidth}{|p{0.4cm}|p{0.4cm}|X|X|p{1cm}|X|}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
 		\hline 
 		\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
-  		Last zu Hoch & Falscher Motor, größeren Motor wählen \\
-		\hline
-  		Frequenz zu hoch & Reduzieren \\
-		\hline
-		Pendelt der Motor von Links nach Rechts, könnte eine Phase unterbrochen oder nicht angeschlossen sein & Reparieren \\
-		\hline
-		Phasenstrom passt nicht & Phasenstrom erhöhen, zumindest für die ersten Schritte \\
-		\hline
-\end{tabularx}
+	Last zu Hoch & Falscher Motor, größeren Motor wählen \\ \hline
+		Frequenz zu hoch & Reduzieren\\ \hline
+		Pendelt der Motor von Links nach Rechts & Es könnte eine Phase unterbrochen oder nicht angeschlossen sein, Reparieren \\ \hline
+		Phasenstrom passt nicht & Phasenstrom erhöhen, zumindest für die ersten Schritte \\ \hline
+
+	\end{tabularx}
+		\captionof{table}{Ursachen und Lösungen: Motor läuft nicht an} \label{MOTLNA}
+\end{center}
 
 
 \subsection{Beschleunigung und Rampenprofil (Trapezförmig)}
 
-Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate auf bis aus die Maximalfrequenz beschleunigen. 
-{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus ....)% noch eine verlinkung machen ! 
+Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate auf bis aus die Maximalfrequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
+
+\begin{figure}[!ht]
+	\centering
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (11.25,22);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (22.5,19.5);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (22.5,19.5) -- (27.5,19.5);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (27.5,19.5) -- (36.25,12);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (36.25,12) -- (36.25,8.25);
+			\draw [line width=1pt, dashed] (11.25,19.5) -- (22.5,19.5);
+			\draw [line width=1pt, dashed] (27.5,19.5) -- (38.75,19.5);
+			\draw [line width=1pt, dashed] (22.5,19.5) -- (22.5,8.25);
+			\draw [line width=1pt, dashed] (27.5,19.5) -- (27.5,8.25);
+			\draw [line width=1pt, dashed] (11.25,12) -- (38.75,12);
+			\node [font=\LARGE] at (38.75,7.5) {Zeit};
+			\node [font=\LARGE] at (19.25,7.75) {t};
+			\node [font=\huge] at (32.5,7.75) {t};
+			\node [font=\huge] at (8.75,12.25) {f};
+			\node [font=\huge] at (9.75,19.75) {f};
+			\node [font=\LARGE] at (9.75,22) {Frequenz};
+			\node [font=\normalsize] at (19.75,7.5) {acc};
+			\node [font=\normalsize] at (33,7.5) {dec};
+			\node [font=\normalsize] at (10,12) {Start/Stopp};
+			\node [font=\normalsize] at (10.25,19.5) {max};
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (17.5,8.25);
+			\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (38.75,8.25);
+		\end{circuitikz}
+	}%
+	\caption{Trapezförmiges Geschwindigkeitsprofil} \label{Trapezförmiges Geschwindigkeitsprofil}
+\end{figure}
+{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})% noch eine verlinkung machen ! 
 
 {\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht}
 \begin{center}
 	\fontsize{8}{10}\selectfont
-	\begin{tabularx}{\textwidth}{|p{0.4cm}|p{0.4cm}|X|X|p{1cm}|X|}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
 		\hline 
 		\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
-  		Motor bleibt bei der Resonanzfrequenz hängen & Beschleunigung erhöhen, um die Reosnansfrequenz schneller zu durchlaufen. Start-Stopp frequenz über dem Resonanzpunkt wählen. Halbschritt- oder Mikroschrittbetrieb verwenden. Mechanische Dämpfung vorsehen. \\
-		\hline
-  		Falsche Einstellung von Versorgungsspannung oder Strom zu gering & Spannung oder Strom erhöhen. Motor mit geringer Impendanz testen. Stromregelung verwenden. \\
-		\hline
-		Maximaldrehzal zu hoch & Maximaldrehzahl reduzieren. Beschleunigungsrampe abflachen \\
-		\hline
-		Schlechte Vorgabe der Beschleunigungsrampe durch Elektronik & Anderen Controller ausprobieren \\
-		\hline
-\end{tabularx}
 
+  		Motor bleibt bei der Resonanzfrequenz hängen & 
+  		\begin{itemize} 
+  		\item {Beschleunigung erhöhen, um die Reosnansfrequenz schneller zu durchlaufen} \item {Start-Stopp Frequenz über dem Resonanzpunkt wählen} \item {Halbschritt- oder Mikroschrittbetrieb verwenden} \item {Mechanische Dämpfung vorsehen} 
+  		\end{itemize}	 \\	\hline
+  		Falsche Einstellung von Versorgungsspannung oder Strom zu gering & 
+  		\begin{itemize}
+  		\item {Spannung oder Strom erhöhen} \item {Motor mit geringerer Impedanz testen} \item {Stromregelung verwenden}
+  		\end{itemize}\\	\hline
+		Maximaldrehzal zu hoch & 
+		\begin{itemize}
+		\item {Maximaldrehzahl reduzieren} \item {Beschleunigungsrampe abflachen}
+		\end{itemize}\\ \hline
+		Schlechte Vorgabe der Beschleunigungsrampe durch Elektronik & 
+		\begin{itemize}
+		\item {Anderen Controller ausprobieren }
+		\end{itemize}\\ \hline
+\end{tabularx}
+	\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht}	
+\end{center}
+
+{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist.}
+\begin{center}
+	\fontsize{8}{10}\selectfont
+	\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+		\hline 
+		\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
+		
+		Motor wird an Leistungsgrenze betrieben und bleibt stehen aufgrund zu hoher Beschleunigung & 
+		\begin{itemize} 
+			\item {Ruckeln verringern durch geringere Beschleunigungsrate oder durch unterschiedliche Beschleunigungsrampen, erst steil dann flacher} \item {Drehmoment erhöhen} \item {Motor im Mikroschrittbetrieb betreiben} \item {Mechanische Dämpfung vorsehen} 
+		\end{itemize}	 \\	\hline
+	\end{tabularx}
+			\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist.}
+\end{center}
+
+
+
+\section{Externe Ereignisse}
+\subsection{Lastrückkopplung}
+\textit{"Manchmal wird der vom Motor angetriebene Mechanismus/Last während der Bewegung „aufgezogen“ und gibt diese Energie wieder an den Motor zurück, wenn die Ströme ausgeschaltet werden. Der Mechanismus könnte z.B. ein Untersetzungsgetriebe sein."}\cite{FaulhaberDriveSystems.2020} 
+Wird diese Energie an den Motor zurück geleitet, kann es passieren, dass der Motor sich um einen Winkel verdreht, der mehr als einem Schritt entspricht. Dabei kann es passieren, dass der Motor nicht ausreichend Drehmoment entwickelt und nicht oder erst nach 4 Vollschritten anläuft. \cite{FaulhaberDriveSystems.2020}
+
+\textbf{Lösungen}
+\begin{itemize}
+	\item Die Kommutierung so programmieren, dass Wert und Polarität vor dem Abschalten gespeichert und beim Wiedereinschalten verwenden werden kann. 
+	\item Nicht vollständig den Strom abschalten, sondern bei Motorstillstand einen reduzierten \textit{Stand-By} Strom aufrechterhalten
+\end{itemize}
+
+\subsection{Erhöhung der Nutzlast mit der Zeit}
+\textit{"Manchmal läuft der Motor für eine lange Zeit störungsfrei und viel später treten die ersten Schrittverluste auf. In diesem Fall ist es sehr wahrscheinlich, dass die Last, die der Motor „sieht“, sich geändert hat. Das kann auf Verschleiß der Motorlager oder ein externes Ereignis zurückzuführen sein."}\cite{FaulhaberDriveSystems.2020}
+
+\textbf{Lösungen}
+\begin{itemize}
+	\item Prüfen ob ein externes Ereignis durch Veränderung des Mechanismus vorliegt.
+	\item Prüfen ob Lagerverschleiß vorhanden ist. Verwendung von Kugellager erhöhen die Lebensdauer des Motors.
+	\item Verwendung von Schmiermittel um Reibung zu verhindern.
+\end{itemize}
