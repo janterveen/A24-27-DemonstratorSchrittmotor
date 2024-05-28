@@ -17,6 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10040 items from 5000.
 Database file #1: DemonstratorSchrittmotor-blx.bib
 Database file #2: ../Documents/literature.bib
 Database file #3: ../Documents/MyLiterature.bib
@@ -25,12 +26,13 @@ Warning--I didn't find a database entry for "Arm"
 Warning--I didn't find a database entry for "Arduino2023"
 Warning--I didn't find a database entry for "NrdSem3.2024"
 Warning--I didn't find a database entry for "Arduino.2024d"
+Warning--I didn't find a database entry for "FaulhaberDriveSystems.2020"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 30 entries,
             6399 wiz_defined-function locations,
-            1434 strings with 19682 characters,
+            1436 strings with 19734 characters,
 and the built_in function-call counts, 180444 in all, are:
 = -- 10164
 > -- 8185
@@ -69,4 +71,4 @@ warning$ -- 0
 while$ -- 1916
 width$ -- 0
 write$ -- 893
-(There were 5 warnings)
+(There were 6 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  6 MAY 2024 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  16 MAY 2024 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1693,15 +1693,15 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46601 strings out of 476024
- 1046484 string characters out of 5794016
- 1907923 words of memory out of 5000000
- 66125 multiletter control sequences out of 15000+600000
- 558456 words of font info for 233 fonts, out of 8000000 for 9000
+ 46621 strings out of 476024
+ 1046936 string characters out of 5794016
+ 1907964 words of memory out of 5000000
+ 66140 multiletter control sequences out of 15000+600000
+ 559360 words of font info for 236 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,10n,106p,10627b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/tex
-live/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
@@ -1712,17 +1712,19 @@ ve/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2022/te
 xmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/f
 onts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1
 /public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
--super/sfsl1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfs
-l2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/cm-super/sftt1095.pfb>
-Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2040318 bytes
+-super/sfrm2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfr
+m2488.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl2074.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-
+super/sftt1095.pfb>
+Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2062184 bytes
 ).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
+ 403 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  72 named destinations out of 1000 (max. 500000)
- 47782 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 49830 words of extra memory for PDF output out of 51595 (max. 10000000)
 
