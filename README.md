@@ -9,7 +9,7 @@
 
 # Betreuer: Prof. Dr. Elmar Wings
 
-# Autoren:
+# Autoren (Name, Vorname, Matrikelnummer):
 
 1. ter Veen, Jan, 7022071
 2. Stein, Enno, 7021960
