@@ -9,11 +9,37 @@ Die Aufgabe besteht darin, mithilfe eines Arduino Nano 33 BLE Sense Lite einen D
 
 \section{Herausforderungen}
 
-Das Projekt lässt sich in 3 verschiedene Teilprojekte unterteilen, die zum Abschluss der Aufgabe führen. Zuerst ist da die Programmierung und die Arbeit mit der Arduino IDE. Außerdem die Konstruktion des Demonstrators und zuletzt die hierfür benötigte Auswahl der Hardaware-Teile. Ebenfalls wichtig ist der Umgang mit den elektronischen Bauteilen, dass diese nicht durch den elektrischen Strom beschädigt werden und das der Demonstrator für den Transport geeignet ist. 
+Das Projekt lässt sich in 3 verschiedene Teilprojekte unterteilen, die zum Abschluss der Aufgabe führen. Zuerst ist da die Programmierung und die Arbeit mit der Arduino IDE. Außerdem die Konstruktion des Demonstrators und zuletzt die hierfür benötigte Auswahl der Hardware-Teile. Ebenfalls wichtig ist der Umgang mit den elektronischen Bauteilen, dass diese nicht durch den elektrischen Strom beschädigt werden und das der Demonstrator für den Transport geeignet ist. 
 
-\section{Lösungsansätze}
+\section{Lösungsansatz}
+Durch die Ausarbeitung der Herausforderungen, können Lösungsansätze entwickelt werden. Vorab wurde eine erste Konzeptskizze angefertigt, aus der Ideen entstanden. Im ersten Konzept sollte der Schrittmotor eine Plattform über einen Riementrieb axial verfahren, erkennbar in Abbildung \ref{ErsteKonzeptskizze}. Dabei sollte der Verfahrweg der Plattform über einen Abstandssensor mit einem vorher definierten Abstand zu einem Objekt, geregelt werden. Wird das Objekt näher oder weiter entfernt vom Abstandssensor bewegt, verfährt die Plattform mit einem definierten Abstand mit. Alle vorhandenen Bauteile sollten an einem Alu-Profil befestigt werden.
 
-Durch die Ausarbeitung der Herausforderungen, können Lösungsansätze hierfür entwickelt werden. Indem vorab eine Skizze für die Konstruktion angefertigt wird, kann darauf basierend die Suche nach Teilen durchgeführt werden. Um den Demonstrator mit all seinen Teilen und seiner unhandlichen Größe trotzdem transportfähig zu konstruieren, werden die elektronischen Bauteile mit auf dem Alu-Profil montiert. Außerdem spielt es für die Programmierung eine entscheidende Rolle, wie die verschiedenen Stufen angefahren werden sollen. Hierfür wurde sich von vornherein überlegt, wie die Stufen auszuwählen sind und in welche Positionen und in welchen Geschwindigkeiten verfahren wird.
+\begin{figure}[htb]
+	\begin{center}
+		\includegraphics[width=\textwidth]{Images/Konzeptskizze1.png}
+		\caption{Erste Konzeptskizze (Eigenaufnahme)} \label{ErsteKonzeptskizze}
+\end{center}
+\end{figure}
+
+Aufgrund der hohen Komplexität wurde die Plattform inklusive des Abstandssensors, aus dem zweiten Konzept, erkennbar in Abbildung \ref{ZweiteKonzeptskizze}, entfernt. Stattdessen wird auf dem Schlitten der Linearführung ein Zeiger und auf dem Alu-Profil ein Lineal integriert. Mittels verschiedener Stufen soll der Schrittmotor unterschiedliche Bewegungsprofile demonstrieren. Vor allem sollte die Positioniergenauigkeit mit dem Zeiger dargestellt werden. Des Weiteren wurde ein Netzteil integriert, der sowohl den Motor als auch den Arduino mit Spannung versorgt. Außerdem ist ein Schalter zum Ein- und Ausschalten des Demonstrators, ein Stufenschalter zum Auswählen der Stufen sowie ein Taster zum Starten des Demonstrierablaufes eingebaut.  
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{Images/Konzeptskizze2.png}
+		\caption{Zweite Konzeptskizze (Eigenaufnahme)} \label{ZweiteKonzeptskizze}
+	\end{center}
+\end{figure}
+
+Das zweite Konzept fand gefallen und wurde weiter durchdacht, sodass mit dem Handbuch angefangen werden konnte (siehe Handbuch Demonstrator für einen Schrittmotor). In diesem Handbuch sollte vor allem aus Kundenperspektive die einzelnen Funktionen und die Bedienung geklärt werden. Parallel konnte ein CAD-Modell konstruiert werden, erkennbar in Abbildung \Ref{CADMOD}. Gegenüber dem zweiten Konzept wurde die Hardware aus Transportiergründen mit auf dem Aluprofil verlegt und erhielt zum Schutz ein Gehäuse. Des Weiteren konnte eine Materialliste erstellt werden. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{Images/Konstruktion1.png}
+		\caption{CAD-Modell (Eigenaufnahme)} \label{CADMOD}
+	\end{center}
+\end{figure} 
+
+%Durch die Ausarbeitung der Herausforderungen, können Lösungsansätze hierfür entwickelt werden. Indem vorab eine Skizze für die Konstruktion angefertigt wird, kann darauf basierend die Suche nach Teilen durchgeführt werden. Um den Demonstrator mit all seinen Teilen und seiner unhandlichen Größe trotzdem transportfähig zu konstruieren, werden die elektronischen Bauteile mit auf dem Alu-Profil montiert. Außerdem spielt es für die %Programmierung eine entscheidende Rolle, wie die verschiedenen Stufen angefahren werden sollen. Hierfür wurde sich von vornherein überlegt, wie die Stufen auszuwählen sind und in welche Positionen und in welchen Geschwindigkeiten verfahren wird.
 
 
 
