@@ -17,58 +17,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10040 items from 5000.
+Reallocated field_info (elt_size=4) to 10180 items from 5000.
 Database file #1: DemonstratorSchrittmotor-blx.bib
-Database file #2: ../Documents/literature.bib
-Database file #3: ../Documents/MyLiterature.bib
+Database file #2: ../Documents/MyLiterature.bib
 Warning--I didn't find a database entry for "eTech.2021"
-Warning--I didn't find a database entry for "Arm"
 Warning--I didn't find a database entry for "Arduino2023"
 Warning--I didn't find a database entry for "NrdSem3.2024"
 Warning--I didn't find a database entry for "Arduino.2024d"
-Warning--I didn't find a database entry for "FaulhaberDriveSystems.2020"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 30 entries,
+You've used 33 entries,
             6399 wiz_defined-function locations,
-            1436 strings with 19734 characters,
-and the built_in function-call counts, 180444 in all, are:
-= -- 10164
-> -- 8185
-< -- 1597
-+ -- 7425
-- -- 5595
-* -- 10502
-:= -- 18405
+            1446 strings with 20294 characters,
+and the built_in function-call counts, 200872 in all, are:
+= -- 11199
+> -- 9478
+< -- 1757
++ -- 8583
+- -- 6603
+* -- 11618
+:= -- 20743
 add.period$ -- 0
-call.type$ -- 30
-change.case$ -- 29
-chr.to.int$ -- 335
-cite$ -- 58
-duplicate$ -- 17825
-empty$ -- 15784
-format.name$ -- 1652
-if$ -- 34966
+call.type$ -- 33
+change.case$ -- 32
+chr.to.int$ -- 389
+cite$ -- 64
+duplicate$ -- 19599
+empty$ -- 17472
+format.name$ -- 1822
+if$ -- 38583
 int.to.chr$ -- 0
-int.to.str$ -- 117
+int.to.str$ -- 130
 missing$ -- 0
-newline$ -- 922
-num.names$ -- 1873
-pop$ -- 10277
+newline$ -- 1001
+num.names$ -- 2049
+pop$ -- 11333
 preamble$ -- 1
-purify$ -- 854
+purify$ -- 922
 quote$ -- 0
-skip$ -- 7275
+skip$ -- 7995
 stack$ -- 0
-substring$ -- 16636
-swap$ -- 4933
-text.length$ -- 1132
-text.prefix$ -- 54
+substring$ -- 18540
+swap$ -- 5416
+text.length$ -- 1259
+text.prefix$ -- 60
 top$ -- 1
-type$ -- 1008
+type$ -- 1110
 warning$ -- 0
-while$ -- 1916
+while$ -- 2111
 width$ -- 0
-write$ -- 893
-(There were 6 warnings)
+write$ -- 969
+(There were 4 warnings)

@@ -265,6 +265,28 @@
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
+  \entry{Arm.2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Arm},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A4}
+    \strng{fullhash}{A4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Arm20}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Arm-Cortex-M4-Processor-Datasheet}
+    \verb{file}
+    \verb Arm-Cortex-M4-Processor-Datasheet:Attachments/Arm-Cortex-M4-Processor
+    \verb -Datasheet.pdf:application/pdf
+    \endverb
+    \field{year}{2020}
+  \endentry
+
   \entry{AT.2015}{misc}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -272,8 +294,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A4}
-    \strng{fullhash}{A4}
+    \strng{namehash}{A5}
+    \strng{fullhash}{A5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Ava}15}
@@ -438,6 +460,39 @@
       {Berlin, Heidelberg}%
     }
     \field{year}{2019}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{FaulhaberDriveSystems.2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Faulhaber Drive Systems}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=D}{%
+         family={{DR. FRITZ FAULHABER GMBH {\&} CO. KG}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Fau}20}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{FAULHABER Tutorial: Schrittverluste verhindern bei
+  Schrittmotoren}
+    \verb{url}
+    \verb \url{https://www.faulhaber.com/de/know-how/tutorials/schrittmotoren-t
+    \verb utorial-schrittverluste-verhindern-bei-schrittmotoren/}
+    \endverb
+    \list{location}{1}{%
+      {Sch{\"o}naich · Deutschland}%
+    }
+    \field{year}{2020}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
@@ -686,6 +741,31 @@
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
+  \entry{NrdSem4.2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Nordic Semiconductor}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \keyw{ArmCortex M4;Bluetooth 5;NFT}
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Nor}24}
+    \field{extraalpha}{1}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{nRF52840 Product Specification 2}
+    \verb{file}
+    \verb nrf52840{\_}product{\_}specification-techDoc:Attachments/nrf52840{\_}
+    \verb product{\_}specification-techDoc.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
   \entry{NrdSem2.2024}{article}{}
     \name{author}{1}{}{%
       {{hash=N}{%
@@ -699,7 +779,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Nor}24}
-    \field{extraalpha}{1}
+    \field{extraalpha}{2}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{title}{nRF52840 Product Specification Memory}
@@ -724,7 +804,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Nor}24}
-    \field{extraalpha}{2}
+    \field{extraalpha}{3}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{title}{nRF9161 Product Specification: Cryptocell-ARM TrustZone

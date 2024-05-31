@@ -85,7 +85,6 @@
       <file>DemonstratorSchrittmotor-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>../Documents/literature.bib</file>
       <file>../Documents/MyLiterature.bib</file>
     </requires>
     <requires type="static">

@@ -10,8 +10,7 @@
 \section{Aufbau des Arduinos}
 \cite{Ard.2024}
 \\
-Der Arduino Nano 33 Bluetooth Low Energie (BLE) Sense Lite ist ein Mikrocontroller basierend auf dem Nordic nRF52840-SoC (System-on-a-Chip). Trotz seiner kompakten Bauweise mit einer Größe von 45 x 18 mm verfügt es über mehrere verschiedene integrierte Sensoren, Aktoren und konnektive Schnittstellen (siehe \autoref{Arduino Nano 33 BLE Sense}). Zudem hat der Arduino-Prozessor einen 1 MB Flash-Speicher und 256 KB RAM. Bei dem Prozessor handelt es sich um einen Arm\textregistered Cortex-M4F Prozessorkern, welcher mit einer Taktrate von 64 MHz arbeitet und für Mikrocontroller Anwendungen optimiert ist. Dieser bietet eine gute Leistung bei geringen Stromverbrauch und ist auch für Echtzeitverarbeitungsaufgaben geeignet. Außerdem besitzt der Prozessor eine Floating Point Unit (FPU), wodurch sich Datenverarbeitungsoperationen effizient verarbeiten lassen.\cite{Arm}
-Mithilfe einer integrierten Steckverbindung (engl. \glqq header \grqq) kann der Mikrocontroller direkt auf ein Board gesteckt werden. 
+Der Arduino Nano 33 Bluetooth Low Energie (BLE) Sense Lite ist ein Mikrocontroller basierend auf dem Nordic nRF52840-SoC (System-on-a-Chip). Trotz seiner kompakten Bauweise mit einer Größe von 45 x 18 mm verfügt es über mehrere verschiedene integrierte Sensoren, Aktoren und konnektive Schnittstellen (siehe \autoref{Arduino Nano 33 BLE Sense}). Zudem hat der Arduino-Prozessor einen 1 MB Flash-Speicher und 256 KB RAM. Bei dem Prozessor handelt es sich um einen Arm\textregistered Cortex-M4F Prozessorkern, welcher mit einer Taktrate von 64 MHz arbeitet und für Mikrocontroller Anwendungen optimiert ist. Dieser bietet eine gute Leistung bei geringen Stromverbrauch und ist auch für Echtzeitverarbeitungsaufgaben geeignet. Außerdem besitzt der Prozessor eine Floating Point Unit (FPU), wodurch sich Datenverarbeitungsoperationen effizient verarbeiten lassen.Mithilfe einer integrierten Steckverbindung (engl. \glqq header \grqq) kann der Mikrocontroller direkt auf ein Board gesteckt werden. \cite{Arm.2020}
 
 \section{Integrierte Sensorik}
 Der Arduino Nano 33 BLE-Sense Lite verfügt über eine Vielzahl von integrierten Sensoren und Aktoren mit denen verschiedene Umwelteigenschaften detektiert werden können. Dazu gehören die in den folgenden Abschnitten beschriebenen Sensoren und Aktoren.
@@ -52,7 +51,7 @@ Der Inter-Intergrated-Circuit (I2C) -Bus ermöglicht die Vernetzung von Mikrocon
 Das Board kann über einen Micro-Universal-Serial-Bus (Micro-USB) mit einem Computer verbunden werden, um es zu programmieren oder Daten zu übertragen. Die Datenübertragungsrate beträgt dabei 12 Mbit/s. Außerdem kann der Arduino über diesen USB-Port Strom beziehen.
 
 \subsection{Bluetooth\textregistered 5}
-Die Bluetooth-Verbindung kann als drahtloses Kommunikationsweg eingesetzt werden. Dieses Bluetooth-Protokoll hat eine Übertragungsrate von 2 Megabit pro Sekunde (Mbps) und eine Sendeleistung von +8 Dezibel Milliwatt (dBm). Die Empfindlichkeit beträgt dabei -95 dBm. Des weiteren verbraucht diese Verbindung im Sendebetrieb 4,8 mA und 4,6 mA im Empfangsbetrieb. Das Bluetooth Modul ist kompatibel mit mehreren Protokollen unter anderem mit dem \textit{Thread-Protokoll} und dem \textit{Zigbee-Protokoll}.\cite{Ard.2024}\cite{NrdSem3.2024}
+Die Bluetooth-Verbindung kann als drahtloses Kommunikationsweg eingesetzt werden. Dieses Bluetooth-Protokoll hat eine Übertragungsrate von 2 Megabit pro Sekunde (Mbps) und eine Sendeleistung von +8 Dezibel Milliwatt (dBm). Die Empfindlichkeit beträgt dabei -95 dBm. Des weiteren verbraucht diese Verbindung im Sendebetrieb 4,8 mA und 4,6 mA im Empfangsbetrieb. Das Bluetooth Modul ist kompatibel mit mehreren Protokollen unter anderem mit dem \textit{Thread-Protokoll} und dem \textit{Zigbee-Protokoll}.\cite{Ard.2024} \cite{NrdSem4.2024}
 
 \subsection{Weitere Kommunikationsschnittstellen}
 \cite{Ard.2024}\cite{NrdSem3.2024}
@@ -90,10 +89,6 @@ Im Arduino selbst sind 3 LED´s verbaut, die auch alle programmiert werden könn
 	\item Programmierbare RGB-LED
 	\\ \cite{Ard.2024}
 \end{itemize}
-
-\section{Schaltplan}
-fehlt noch...
-%%%Bin noch unschlüssig, ob der Schaltplan hier oder später auftauchen soll.
 
 \section{Hinweis Arduino 33 BLE Sense Lite \label{Hinweis Arduino 33 BLE Sense Lite}}
 Der Arduino Nano 33 BLE Sense \underline{Lite} ist eine komprimierte Variante vom ursprünglichen Arduino Nano 33 BLE Sense, welcher zusätzlich noch über einen Temperatur- und Feuchtigkeitssensor verfügt. Der Lite hat stattdessen einen Drucksensor integriert, über welchem auch die Temperatur gemessen werden kann, jedoch nicht die Feuchtigkeit.\cite{PetrFilipi.2022}
