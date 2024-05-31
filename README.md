@@ -61,6 +61,8 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
   - Unter diesem Pfad befinden sich die Datenblätter, die für die Dokumentation benötigt wurden
 - [Literatur](DemonstratorSchrittmotor/Documents/Literatur)
   - Hier befindet sich die verwendete Literatur
+- [Bibliothek](DemonstratorSchrittmotor/Documents/MyLiterature.bib)
+  - Citavi Bibliothek mit allen genutzten Quelleinträgen
 
 
 ## Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
