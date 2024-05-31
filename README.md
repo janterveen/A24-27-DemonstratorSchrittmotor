@@ -80,3 +80,8 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 - [Bilder](DemonstratorSchrittmotor/Poster/images)
   - Ablage der Bilder, die im Poster benutzt werden
 - [Poster-PDF](DemonstratorSchrittmotor/Poster/tikzposter.pdf)
+
+## Weitere Dokumente
+- [Konstruktionsdateien](DemonstratorSchrittmotor/Documents/Konstruktion)
+- [Mindmap](DemonstratorSchrittmotor/Documents/Mindmap)
+- [Schaltplan](DemonstratorSchrittmotor/Documents/SchaltplanFritzing)
