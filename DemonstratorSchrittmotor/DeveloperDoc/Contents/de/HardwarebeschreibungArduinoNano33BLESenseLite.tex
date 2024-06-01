@@ -2,10 +2,24 @@
 
 \chapter{Hardwarebeschreibung des Arduino}
 \begin{figure}[htb]
-	\begin{center}
-		\includegraphics[width=\textwidth]{General/ArduinoBoard.png}
-		\caption{Arduino Nano 33 BLE Sense}\cite{eTech.2021} \label{Arduino Nano 33 BLE Sense}
-	\end{center}
+		\input{tikz/ArduinoNano33BLESense}
+		\caption{Arduino Nano 33 BLE Sense} \label{ArduinoNano33BLESense1}
+		\begin{tabularx}{\textwidth}{|p{1.5cm}|X|}
+			\hline
+			\textbf{Pos.Nr.} & \textbf{Modul/Sensor} \\
+			\hline
+			P1 & Mikrophone \\
+			\hline
+			P2 & 9-Achs-IMU \\
+			\hline
+			P3 & Näherungs-,Umgebungslicht-, Farb- und Gestensensor \\
+			\hline
+			P4 & Drucksensor \\
+			\hline
+			P5 & Bluetooth-Modul \\
+			\hline
+		\end{tabularx}
+		\captionof{table}{Arduino Nano 33 BLE Sense \cite{Ard.2024}} \label{ArduinoNano33BLESense2}
 \end{figure}
 \section{Aufbau des Arduinos}
 \cite{Ard.2024}
@@ -37,11 +51,10 @@ Das MPM3610-Modul ist ein integriert Gleichspannungs- zu Gleichspannungs-Wandler
 
 \section{Beschreibung der Schnittstellen}
 Der Arduino Nano 33 BLE-Sense Lite bietet eine Vielzahl von Schnittstellen, die das Board mit anderen Komponenten und Geräten einfach verbinden lassen. In diesem Abschnitt sind einige Details zu den wichtigsten Schnittstellen des Boards erläutert.
-\begin{figure}[htb]
-	\includegraphics[width=14cm]{General/ArduinoPinBoard.png}
-	\caption{Arduino Nano Pinboard} \label{Arduino Nano Pinbout}\begin{center}
-		\cite{Arduino2023} %%% Bild später noch ändern und mit Tikz machen
-	\end{center}
+\begin{figure}
+	\input{tikz/ArduinoPinout}
+	\caption{Arduino Nano Pinbelegung \cite{Ard.2024}}
+	\label{fig:arduinopinout}
 \end{figure}
 
 \subsection{I2C}

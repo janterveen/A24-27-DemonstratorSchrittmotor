@@ -15,12 +15,12 @@
 \contentsline {subsection}{\numberline {2.2.1}9-Achs-IMU für die Bewegungserkennung (LSM9DS1)}{6}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Näherungs-,Umgebungslicht-, Farb- und Gestensensor (APDS9960)}{6}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Barometrischer Drucksensor (LPS22HB)}{7}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Digitales Mikrophon (MP34DT05)}{7}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Digitales Mikrophon (MP34DT05)}{8}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}DC-DC-Wandler (MPM3610)}{8}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Beschreibung der Schnittstellen}{8}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}I2C}{8}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}USB:}{9}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Bluetooth\textregistered 5}{9}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Bluetooth\textregistered 5}{10}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Weitere Kommunikationsschnittstellen}{10}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Digitale Ein- und Ausgangspins}{11}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}Analoge Eingangspins}{11}{subsection.2.3.6}%
