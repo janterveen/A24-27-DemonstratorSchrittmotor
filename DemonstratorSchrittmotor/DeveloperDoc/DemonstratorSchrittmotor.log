@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  1 JUN 2024 03:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  6 JUN 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3033,158 +3033,155 @@ Package pdftex.def Info: Images/Schaltplan1.png  used on input line 4.
 ] (./Contents/de/Materialliste.tex
 chapter 5.
 
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 58--58
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 31--31
 []|\T1/lmr/bx/n/8 (-20) Pos.| 
  []
 
 
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 58--58
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 31--31
 []|\T1/lmr/bx/n/8 (-20) Stk.| 
  []
 
 
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 58--58
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 31--31
 []|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) - USB-A-Micro Ver-
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 31--31
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) CR-10 Ne-ma 17
+Underfull \hbox (badness 4479) in paragraph at lines 31--31
+[]|\T1/lmr/m/n/8 (+20) Arduino Lern-
  []
 
+File: Images/Material/Arduino.png Graphic file (type png)
+<use Images/Material/Arduino.png>
+Package pdftex.def Info: Images/Material/Arduino.png  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 36.60689pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) Ver-bin-dungs-ka-
+ []
+
+File: Images/Material/RBS12536.png Graphic file (type png)
+<use Images/Material/RBS12536.png>
+Package pdftex.def Info: Images/Material/RBS12536.png  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 56.90556pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 1616) in paragraph at lines 31--31
+[]|\T1/lmr/m/n/8 (+20) 1 m Alu-pro-fil
+ []
+
+File: Images/Material/aluprofil.jpg Graphic file (type jpg)
+<use Images/Material/aluprofil.jpg>
+Package pdftex.def Info: Images/Material/aluprofil.jpg  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 34.33081pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Schaltnetzteil, ge-
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\T1/lmr/m/n/8 (+20) Schaltnetzteil,
+ []
+
+File: Images/Material/RD50.png Graphic file (type png)
+<use Images/Material/RD50.png>
+Package pdftex.def Info: Images/Material/RD50.png  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 42.67725pt.
+
+Overfull \hbox (9.58127pt too wide) in paragraph at lines 31--31
+[]|\T1/lmr/m/n/8 (-20) Spannungswandler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Spannungswandler
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) Mo-dul 5-12
+ []
+
+File: Images/Material/ams1117.jpg Graphic file (type jpg)
+<use Images/Material/ams1117.jpg>
+Package pdftex.def Info: Images/Material/ams1117.jpg  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 23.1281pt.
+
+Overfull \hbox (0.90616pt too wide) in paragraph at lines 31--31
+[]|[]\T1/lmr/m/n/8 (-20) www.amazon.de[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) schei-be 20
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) Zäh-ne 5 mm
+ []
+
+File: Images/Material/RBS10277.jpg Graphic file (type jpg)
+<use Images/Material/RBS10277.jpg>
+Package pdftex.def Info: Images/Material/RBS10277.jpg  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-schei-be
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) schei-be 20
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) Zäh-ne 5 mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) Boh-rung mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/lmr/m/n/8 (+20) Du-al Ku-gel-la-
+ []
+
+File: Images/Material/RBS12569.jpg Graphic file (type jpg)
+<use Images/Material/RBS12569.jpg>
+Package pdftex.def Info: Images/Material/RBS12569.jpg  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
+File: Images/Material/PLA.jpg Graphic file (type jpg)
+<use Images/Material/PLA.jpg>
+Package pdftex.def Info: Images/Material/PLA.jpg  used on input line 31.
+(pdftex.def)             Requested size: 56.9055pt x 57.99pt.
 
-Underfull \hbox (badness 5847) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-schei-be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Linearführung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) 40 Pin Du-pont /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Artillery Si-de-win-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Entwicklerboards -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Drucktaster But-ton
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/8 (+20) Entwicklerboards -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/lmr/m/n/8 (+20) Schritt-mo-tor-steue-
+Overfull \hbox (0.90616pt too wide) in paragraph at lines 31--31
+[]|[]\T1/lmr/m/n/8 (-20) www.amazon.de[]| 
  []
 
 
@@ -3194,7 +3191,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \vbox (53.49551pt too high) has occurred while \output is active []
+Overfull \vbox (87.33517pt too high) has occurred while \output is active []
 
 
 
@@ -3205,53 +3202,362 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[20]
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 72--72
+[20 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
+Material/aluprofil.jpg> <./Images/Material/RD50.png> <./Images/Material/ams1117
+.jpg> <./Images/Material/RBS10277.jpg> <./Images/Material/RBS12569.jpg> <./Imag
+es/Material/PLA.jpg>]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 59--59
 []|\T1/lmr/bx/n/8 (-20) Pos.| 
  []
 
 
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 72--72
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 59--59
 []|\T1/lmr/bx/n/8 (-20) Stk.| 
  []
 
 
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 72--72
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 59--59
 []|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 72--72
-[]|\T1/lmr/m/n/8 (+20) Signallleuchte, SMD-
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 59--59
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T1/lmr/m/n/8 (+20) 0.96ÖLED Dis-play
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 (+20) Linearführung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 7030) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) MGN12H 450
+ []
+
+File: Images/Material/RBS12916.jpg Graphic file (type jpg)
+<use Images/Material/RBS12916.jpg>
+Package pdftex.def Info: Images/Material/RBS12916.jpg  used on input line 59.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+File: Images/Material/RBS10161.jpg Graphic file (type jpg)
+<use Images/Material/RBS10161.jpg>
+Package pdftex.def Info: Images/Material/RBS10161.jpg  used on input line 59.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T1/lmr/m/n/8 (+20) Einpressmuttern
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 (+20) M3 Ham-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) mer-mut-ter
+ []
+
+File: Images/Material/RBS11229.jpg Graphic file (type jpg)
+<use Images/Material/RBS11229.jpg>
+Package pdftex.def Info: Images/Material/RBS11229.jpg  used on input line 59.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 59--59
+[]|$\OML/lmm/m/it/8 M\OT1/lmr/m/n/8 (+20) 3 \OMS/lmsy/m/n/8 ^^B \OT1/lmr/m/n/8 
+(+20) 20 \OML/lmm/m/it/8 mm$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) Sechs-kant-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) schrau-be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) DIN912 Edel-
+ []
+
+File: Images/Material/DIN912M3x20.jpg Graphic file (type jpg)
+<use Images/Material/DIN912M3x20.jpg>
+Package pdftex.def Info: Images/Material/DIN912M3x20.jpg  used on input line 59
+.
+(pdftex.def)             Requested size: 56.9055pt x 36.00699pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 (+20) BMI Li-ne-al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) 963050030
+ []
+
+File: Images/Material/Linieal.png Graphic file (type png)
+<use Images/Material/Linieal.png>
+Package pdftex.def Info: Images/Material/Linieal.png  used on input line 59.
+(pdftex.def)             Requested size: 56.9055pt x 6.1753pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) Buchse-Buchse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 (+20) Netzkabel,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) Schutz-kon-takt-
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) m, schw, C13
+ []
+
+File: Images/Material/NKSK200SWGEW.png Graphic file (type png)
+<use Images/Material/NKSK200SWGEW.png>
+Package pdftex.def Info: Images/Material/NKSK200SWGEW.png  used on input line 5
+9.
+(pdftex.def)             Requested size: 56.9055pt x 37.28691pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 (+20) Artillery Si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) de-win-der X2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) Wipp-schal-ter
+ []
+
+File: Images/Material/RBS15072.jpg Graphic file (type jpg)
+<use Images/Material/RBS15072.jpg>
+Package pdftex.def Info: Images/Material/RBS15072.jpg  used on input line 59.
+(pdftex.def)             Requested size: 56.9055pt x 48.74596pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Overfull \hbox (5.00168pt too wide) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 (-20) Entwicklerboards
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/lmr/m/n/8 (+20) - Drehwinkel-
+ []
+
+File: Images/Material/DEBOENCODER.png Graphic file (type png)
+<use Images/Material/DEBOENCODER.png>
+Package pdftex.def Info: Images/Material/DEBOENCODER.png  used on input line 59
+.
+(pdftex.def)             Requested size: 56.9055pt x 59.62927pt.
+
+Overfull \vbox (41.56104pt too high) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 82.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[21 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
+/Material/RBS11229.jpg> <./Images/Material/DIN912M3x20.jpg> <./Images/Material/
+Linieal.png> <./Images/Material/NKSK200SWGEW.png> <./Images/Material/RBS15072.j
+pg> <./Images/Material/DEBOENCODER.png>]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 82--82
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 82--82
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 82--82
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 82--82
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (+20) Kontermutter
+ []
+
+File: Images/Material/ENCMUTTER.png Graphic file (type png)
+<use Images/Material/ENCMUTTER.png>
+Package pdftex.def Info: Images/Material/ENCMUTTER.png  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 30.26788pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (+20) Drucktaster
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) Grün 12 mm;
+ []
+
+File: Images/Material/Taster.jpg Graphic file (type jpg)
+<use Images/Material/Taster.jpg>
+Package pdftex.def Info: Images/Material/Taster.jpg  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) Mi-nia-tur End-
+ []
+
+File: Images/Material/RBS10856.jpg Graphic file (type jpg)
+<use Images/Material/RBS10856.jpg>
+Package pdftex.def Info: Images/Material/RBS10856.jpg  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Overfull \hbox (5.00168pt too wide) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (-20) Entwicklerboards
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) - Schritt-mo-tor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) steue-rung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (+20) DEBO DRV
+ []
+
+File: Images/Material/A4988.png Graphic file (type png)
+<use Images/Material/A4988.png>
+Package pdftex.def Info: Images/Material/A4988.png  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 52.20439pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (+20) Signallleuchte,
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) SMD-LED, ø3
+ []
+
+File: Images/Material/LED.png Graphic file (type png)
+<use Images/Material/LED.png>
+Package pdftex.def Info: Images/Material/LED.png  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 45.9979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (+20) 0.96ÖLED
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) Dis-play
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) I2C/IIC/TWI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\T1/lmr/m/n/8 (+20) 128x64 Pi-xel
+ []
+
+File: Images/Material/oled96.jpg Graphic file (type jpg)
+<use Images/Material/oled96.jpg>
+Package pdftex.def Info: Images/Material/oled96.jpg  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 64.33788pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Overfull \hbox (2.27658pt too wide) in paragraph at lines 82--82
+[]|\T1/lmr/m/n/8 (-20) Einpressmuttern
+ []
+
+File: Images/Material/RBS15553.jpg Graphic file (type jpg)
+<use Images/Material/RBS15553.jpg>
+Package pdftex.def Info: Images/Material/RBS15553.jpg  used on input line 82.
+(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|[]\T1/lmr/m/n/8 (+20) www.roboter-
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 74.
+(caption)                particular \caption on input line 84.
 See the caption package documentation for explanation.
 
-)
-Package cleveref Info: loaded `ngerman' language definitions on input line 85.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3261,16 +3567,16 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[21] [22
-
-
-] (./Contents/de/SoftwarebeschreibungIDE.tex
+[22 <./Images/Material/ENCMUTTER.png> <./Images/Material/Taster.jpg> <./Images/
+Material/RBS10856.jpg> <./Images/Material/A4988.png> <./Images/Material/LED.png
+> <./Images/Material/oled96.jpg> <./Images/Material/RBS15553.jpg>])
+(./Contents/de/SoftwarebeschreibungIDE.tex
 chapter 6.
 Package biblatex Info: Reference segment=15 on input line 6.
 Package biblatex Info: Setting label 'refsegment:015' on input line 6.
 Package biblatex Info: Reference segment=16 on input line 12.
 Package biblatex Info: Setting label 'refsegment:016' on input line 12.
-<General/HauptoberflaecheIDE.png, id=594, 455.45157pt x 283.81032pt>
+<General/HauptoberflaecheIDE.png, id=624, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
@@ -3279,15 +3585,17 @@ Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
 [23
 
 
+
+
 ]
 Package biblatex Info: Reference segment=17 on input line 24.
 Package biblatex Info: Setting label 'refsegment:017' on input line 24.
-<General/Boardsmanager.png, id=602, 269.50688pt x 260.47313pt>
+<General/Boardsmanager.png, id=632, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 31.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-<General/Librarymanager.png, id=605, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=635, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 43.
@@ -3657,13 +3965,13 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 ### simple group (level 1) entered at line 56 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 90949 strings out of 476024
- 2334645 string characters out of 5794016
- 3504375 words of memory out of 5000000
- 109725 multiletter control sequences out of 15000+600000
- 626188 words of font info for 319 fonts, out of 8000000 for 9000
+ 91109 strings out of 476024
+ 2339414 string characters out of 5794016
+ 3497376 words of memory out of 5000000
+ 109863 multiletter control sequences out of 15000+600000
+ 626104 words of font info for 318 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
- 110i,11n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/te
 xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist
 /fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/l
@@ -3681,10 +3989,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (62 pages, 2666662 bytes).
+Output written on DemonstratorSchrittmotor.pdf (62 pages, 7063296 bytes).
 PDF statistics:
- 1185 PDF objects out of 1200 (max. 8388607)
- 983 compressed objects within 10 object streams
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 981 compressed objects within 10 object streams
  187 named destinations out of 1000 (max. 500000)
- 54973 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 55088 words of extra memory for PDF output out of 61914 (max. 10000000)
 
