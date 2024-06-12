@@ -12,26 +12,24 @@
 %%%%%%%%%%%%
 
 \chapter{Konstruktion}
-In diesem Kapitel wird auf die Konstruktion des kompletten Demonstrator Schrittmotors eingegangen. Zunächst werden die Rahmenbedingungen erläutert und nachfolgend wird jeweils allein auf das Gehäuse und an die Anbauteile des Aluprofils eingegangen. Im Anschluss wird auf die Komplette Baugruppe eingegangen. 
+In diesem Kapitel wird die Konstruktion des Demonstrator-Schrittmotors beschrieben. Zunächst werden die Rahmenbedingungen erläutert, anschließend werden das Gehäuse und die Anbauteile des Aluprofils besprochen. Abschließend wird die gesamte Baugruppe betrachtet.
 
 \section{Rahmenbedingungen}
-Das Gehäuse sowie sämtliche Anbauteile soll mittels additiver Fertigung aus Polylactic Acid (PLA) hergestellt werden. Im und am Gehäuse werden sämtliche Komponenten zum Bedienen und Steuern des Demonstrators untergebracht. Außerdem soll durch die Konstruktion eine komfortable Handhabung ermöglicht werden. Anforderung an die Konstruktion sind der feste Sitz der Komponenten, wie beispielsweise des Tiny Machine Learning Shield mit dem aufgesetzen Arduino. 
+Das Gehäuse sowie sämtliche Anbauteile sollen mittels additiver Fertigung aus Polylactic Acid (PLA) hergestellt werden. Im und am Gehäuse werden sämtliche Komponenten zur Bedienung und Steuerung des Demonstrators untergebracht. Die Konstruktion soll eine komfortable Handhabung ermöglichen und sicherstellen, dass die Komponenten, wie beispielsweise das Tiny Machine Learning Shield mit dem aufgesteckten Arduino, fest sitzen.
 
 \section{Arbeiten mit SolidWorks 2023}
 Zur Herstellung des Gehäuses muss ein 3D-Modell mittels Computer Aided Design (CAD) erstellt werden. Hierfür wurde die Software SolidWorks 2023 vom französischen Software-Entwicklungsunternehmen Dassault Systèmes (DS) verwendet. " SOLIDWORKS ist eine professionelle und leistungsstarke CAD-Software, die vor allem 
 im Maschinenbau viel genutzt wird." \cite{Weber.2024} Für die Additve Fertigung muss das CAD-Modell als STL-Datei gespeichert werden. 
 
 \section{Gehäusekonstruktion}
-Zu Beginn wurden die Abmaße der einzelnen Komponenten ermittelt, um die Dimensionen des Gehäuses festzustellen. Das Gehäuse besteht aus sechs Einzelteilen, erkennbar in Abbildung \ref{GehK} die miteinander mit Innensechskantschrauben DIN 912 M3 gefügt werden.
-
-\begin{figure}[H]
+Zu Beginn wurden die Abmessungen der einzelnen Komponenten ermittelt, um die Dimensionen des Gehäuses festzulegen. Das Gehäuse besteht aus sechs Einzelteilen, die in Abbildung \ref{GehK} dargestellt sind und mit Innensechskantschrauben DIN 912 M3 verbunden werden.
 	\begin{center}
 		\includegraphics[width=\textwidth]{Images/Konstruktion/GehaeuseK.png}
 		\caption{Baugruppe Gehäuse (Eigenaufnahme)} \label{GehK}
 	\end{center}
 \end{figure}
 
-Die Plattform der Baugruppe ist die Bodenplatte mit einer Länge L von 180 mm und einer Breite B von 180 mm und einer Dicke von 7 mm, erkennbar in Abbildung \ref{BodenK}. An Der Bodenplatte werden die anderen Gehäuseteile gefügt und das Schaltnetzteil, Tiny Maschine Learning Schield, Aluprofil, Schrittmotorsteuerung und der Halter für den Spannungswandler befestigt. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 1 bis 6 sind der Tabelle \ref{BohrungenGK} zu entnehmen.
+Die Basis der Baugruppe ist die Bodenplatte mit einer Länge von 180 \ mm, einer Breite von 180 \ mm und einer Dicke von 7 mm, wie in Abbildung \ref{BodenK} dargestellt. An der Bodenplatte werden die anderen Gehäuseteile befestigt, ebenso wie das Schaltnetzteil, das Tiny Machine Learning Shield, das Aluprofil, die Schrittmotorsteuerung und der Halter für den Spannungswandler. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 1 bis 6 sind in Tabelle \ref{BohrungenGK} aufgeführt.
 
 \begin{figure}[H]
 	\begin{center}
@@ -40,7 +38,7 @@ Die Plattform der Baugruppe ist die Bodenplatte mit einer Länge L von 180 mm un
 	\end{center}
 \end{figure}
 
-An der Bodenplatte wird die Vorderplatte gefügt. Die Vorderplatte hat eine Breite B von 170 \ mm und eine Höhe H von 65 \ mm, erkennbar in Abbildung \ref{VorneK}. Das OLED-Display wird von innen eingesetzt und verschraubt mit DIN 912 M3$\times$6 Schrauben (s. Markierung a $25 \times 15 \ mm$  in Abb.\ref{VorneK}). Die LED wird von innen eingesetzt und mittels Presspassung fixiert (s. Markierung b \O $ \ 8 \ mm$ in Abb.\ref{VorneK}). Der Drehwinkel-Encoder wird von innen durchgeführt und mittels einer P4-Mutter befestigt (s. Markierung c \O $ \ 7 \ mm$  in Abb.\ref{VorneK}). Der Drucktaster wird von außen durchgeführt und mittels Kontermutter befestigt (s. Markierung a \O $ \ 13,5 \ mm$  in Abb.\ref{VorneK}). Die Bohrungen 7 bis 9 sind der Tabelle \ref{BohrungenGK} zu entnehmen.  
+An der Bodenplatte wird die Vorderplatte befestigt. Sie hat eine Breite von 170 \ mm und eine Höhe von 65 \ mm, wie in Abbildung \ref{VorneK} dargestellt. Das OLED-Display wird von innen eingesetzt und mit DIN 912 M3$\times$6 Schrauben verschraubt (siehe Markierung a $25 \times 15 \ mm$  in Abb.\ref{VorneK}). Die LED wird von innen eingesetzt und mittels Presspassung fixiert (siehe Markierung b \O $ \ 8 \ mm$ in Abb.\ref{VorneK}). Der Drehwinkel-Encoder wird von innen durchgeführt und mittels einer P4-Mutter befestigt (siehe Markierung c \O $ \ 7 \ mm$  in Abb.\ref{VorneK}). Der Drucktaster wird von außen durchgeführt und mittels Kontermutter befestigt (s. Markierung a \O $ \ 13,5 \ mm$  in Abb.\ref{VorneK}). Die Bohrungen 7 bis 9 sind der Tabelle \ref{BohrungenGK} aufgeführt.  
 
 
 \begin{figure}[H]
@@ -50,7 +48,7 @@ An der Bodenplatte wird die Vorderplatte gefügt. Die Vorderplatte hat eine Brei
 	\end{center}
 \end{figure}
 
-An der Vorderenplatte und Hinterplatte wird die Seitenplatte Links gefügt. Die Seitenplatte Links hat eine Länge von 177,32 \ mm, eine Höhe von 65 \ mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{SeiteLK}. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 10 und 11 sind der Tabelle \ref{BohrungenGK} zu entnehmen. 
+Die Seitenplatte Links wird an der Vorder- und Hinterplatte befestigt. Die Seitenplatte Links hat eine Länge von 177,32 \ mm, eine Höhe von 65 \ mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{SeiteLK}. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 10 und 11 sind der Tabelle \ref{BohrungenGK} aufgeführt. 
 
 
 \begin{figure}[H]
@@ -60,7 +58,7 @@ An der Vorderenplatte und Hinterplatte wird die Seitenplatte Links gefügt. Die 
 	\end{center}
 \end{figure}
 
-Die Hinterplatte wird an der Bodenplatte gefügt. Die Hinterplatte hat eine Breite B von 170 \ mm und eine Höhe H von 65 \ mm, erkennbar in Abbildung \ref{HinterK}. Der Kaltgeräteanschluss mit Wippschalter von Artillery wird von außen der Hinterplatte montiert, (s. Markierung e $30,5 \times 47 \ mm$  in Abb.\ref{HinterK}). Die Bohrungen 12 bis 15 sind der Tabelle \ref{BohrungenGK} zu entnehmen.
+Die Hinterplatte wird an der Bodenplatte gefügt. Die Hinterplatte hat eine Breite B von 170 \ mm und eine Höhe H von 65 \ mm, erkennbar in Abbildung \ref{HinterK}. Der Kaltgeräteanschluss mit Wippschalter von Artillery wird von außen der Hinterplatte montiert, (siehe Markierung e $30,5 \times 47 \ mm$  in Abb.\ref{HinterK}). Die Bohrungen 12 bis 15 sind der Tabelle \ref{BohrungenGK} aufgeführt.
 
 \begin{figure}[H]
 	\begin{center}
@@ -69,7 +67,7 @@ Die Hinterplatte wird an der Bodenplatte gefügt. Die Hinterplatte hat eine Brei
 	\end{center}
 \end{figure}
 
-An der Vorderenplatte und Hinterplatte wird die Seitenplatte Rechts gefügt. Die Seitenplatte Rechts hat eine Länge von 177,32 \ mm, eine Höhe von 65 \ mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{SeiteLK}. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Für die Durchführung der Leitungen vom Schrittmotor und des Microschalters wurde eine Aussparung konstruiert (s. Markierung f \O $ \ 13 \ mm$  in Abb.\ref{SeiteRK}). Die Bohrungen 16 und 17 sind der Tabelle \ref{BohrungenGK} zu entnehmen. 
+Die Seitenplatte Rechts wird an der Vorder- und Hinterplatte befestigt. Die Seitenplatte Rechts hat eine Länge von 177,32 \ mm, eine Höhe von 65 \ mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{SeiteLK}. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Für die Durchführung der Leitungen vom Schrittmotor und des Microschalters wurde eine Aussparung konstruiert (siehe Markierung f \O $ \ 13 \ mm$  in Abb.\ref{SeiteRK}). Die Bohrungen 16 und 17 sind der Tabelle \ref{BohrungenGK} aufgeführt. 
 
 
 \begin{figure}[H]
@@ -79,7 +77,7 @@ An der Vorderenplatte und Hinterplatte wird die Seitenplatte Rechts gefügt. Die
 	\end{center}
 \end{figure}
 
-Die Deckelplatte wird an der Vorder- und Hinterplatte gefügt. Die Deckelplatte hat ein Länge L von 180 mm und einer Breite B von 180 \ mm und einer Dicke von 7 \ mm, erkennbar in Abbildung \ref{DeckelK}. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 18 sind der Tabelle \ref{BohrungenGK} zu entnehmen.
+Die Deckelplatte wird an der Vorder- und Hinterplatte befestigt. Die Deckelplatte hat ein Länge L von 180 mm und einer Breite B von 180 \ mm und einer Dicke von 7 \ mm, erkennbar in Abbildung \ref{DeckelK}. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 18 sind der Tabelle \ref{BohrungenGK} aufgeführt.
 
 \begin{figure}[H]
 	\begin{center}
@@ -120,8 +118,8 @@ Die Deckelplatte wird an der Vorder- und Hinterplatte gefügt. Die Deckelplatte 
 
 \section{Anbauteile}
 
-Nachfolgend werden die Anbauteile in der Konstruktion erläutert. 
-In der Abbildung \ref{FlankeMotorK} zu erkennen, ist die Halterung für den Motor. Die Halterung hat ein Breite B von 50 \ mm und eine Höhe H von 70 mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{FlankeMotorK}. Außerdem hat die Halterung eine Aussparung für den Motor (s. Markierung g Motor\O $ \ 22,5 \ mm$, Welle \O $ \ 6 \ mm$  in Abb.\ref{SeiteRK}). Die Halterung wird an dem Aluprofil montiert. Die Bohrungen 20 und 21 sind der Tabelle \ref{BohrungenAK} zu entnehmen. 
+Nachfolgend werden die Anbauteile in der Konstruktion beschrieben. 
+In der Abbildung \ref{FlankeMotorK} zu erkennen, ist die Halterung für den Motor. Die Halterung hat ein Breite B von 50 \ mm und eine Höhe H von 70 mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{FlankeMotorK}. Sie enthält eine Aussparung für den Motor (siehe Markierung g Motor\O $ \ 22,5 \ mm$, Welle \O $ \ 6 \ mm$  in Abb.\ref{SeiteRK}). Die Halterung wird an dem Aluprofil montiert. Die Bohrungen 20 und 21 sind der Tabelle \ref{BohrungenAK} aufgeführt. 
  
 \begin{figure}[H]
 	\begin{center}
@@ -130,7 +128,7 @@ In der Abbildung \ref{FlankeMotorK} zu erkennen, ist die Halterung für den Moto
 	\end{center}
 \end{figure}
  
-Die Flanke für die Welle hat eine Breite B von 50 \ mm und eine Höhe H von \ 70 mm und eine Dicke von 5 \ mm , erkennbar in Abbildung \ref{FlankeK}. Außerdem hat die Halterung eine Aussparung für die Welle (s. Markierung h \O $ \ 5 \ mm$ in Abb.\ref{FlankeK}). Die Halterung wird an dem Aluprofil montiert. Die Bohrungen 22 sind der Tabelle \ref{BohrungenAK} zu entnehmen.  
+Die Halterung für die Welle hat eine Breite B von 50 \ mm und eine Höhe H von \ 70 mm und eine Dicke von 5 \ mm , erkennbar in Abbildung \ref{FlankeK}. Die Halterung besitzt eine Aussparung für die Welle (siehe Markierung h \O $ \ 5 \ mm$ in Abb.\ref{FlankeK}). Die Halterung wird an dem Aluprofil montiert. Die Bohrungen 22 sind der Tabelle \ref{BohrungenAK} aufgeführt.  
  
 \begin{figure}[H]
 	\begin{center}
@@ -139,7 +137,7 @@ Die Flanke für die Welle hat eine Breite B von 50 \ mm und eine Höhe H von \ 7
 	\end{center}
 \end{figure} 
  
-Der Griff zum Transportieren hat eine Breite B von 170 \ mm und eine Höhe H von 60 \ mm bei einer Dicke von 20 \ mm, die innere Spannweite beträgt Li 100 \ mm mit einer Höhe Hi von  50 \ mm , erkennbar in Abbildung \ref{GriffK}. Die Bohrungen 23 sind der Tabelle \ref{BohrungenAK} zu entnehmen.  
+Der Griff zum Transportieren hat eine Breite B von 170 \ mm und eine Höhe H von 60 \ mm bei einer Dicke von 20 \ mm, die innere Spannweite beträgt Li 100 \ mm mit einer Höhe Hi von  50 \ mm , erkennbar in Abbildung \ref{GriffK}. Die Bohrungen 23 sind der Tabelle \ref{BohrungenAK} aufgeführt.  
 
 \begin{figure}[H]
 	\begin{center}
@@ -148,7 +146,7 @@ Der Griff zum Transportieren hat eine Breite B von 170 \ mm und eine Höhe H von
 	\end{center}
 \end{figure}  
 
-Der Drehknopf wird mittels Presspassung und DIN912 M3 Schraube auf dem Drehwinkel-Encoder befestigt. Der Drehknopf hat einen Durchmesser D von 32 \ mm bei einer Länge von 20 \ mm und ist an zeigt eine Zahnförmige Kontur, erkennbar in Abbildung \ref{DrehKnopfK}. Die Bohrungen 24 sind der Tabelle \ref{BohrungenAK} zu entnehmen.
+Der Drehknopf wird mittels einer DIN912 M3 Schraube auf dem Drehwinkel-Encoder befestigt. Der Drehknopf hat einen Durchmesser D von 32 \ mm und einer Länge von 20 \ mm. Der Drehknopf zeigt eine zahnförmige Kontur, erkennbar in Abbildung \ref{DrehKnopfK}. Die Bohrungen 24 sind der Tabelle \ref{BohrungenAK} aufgeführt.
 
 \begin{figure}[H]
 	\begin{center}
@@ -157,7 +155,7 @@ Der Drehknopf wird mittels Presspassung und DIN912 M3 Schraube auf dem Drehwinke
 	\end{center}
 \end{figure}  
 
-Der Anzeiger hat einer Breite B von 40 \ mm bei einer Länge L von 50 \ mm, erkennbar in Abbildung \ref{AnzeigerK}. Der Pfeil (s. Markierung i in Abb.\ref{AnzeigerK}) auf dem Anzeiger hat eine Tiefe von 35 \ mm. Die Bohrungen 25 und 26 sind der Tabelle \ref{BohrungenAK} zu entnehmen.
+Der Anzeiger hat eine Breite B von 40 \ mm und eine Länge L von 50 \ mm, erkennbar in Abbildung \ref{AnzeigerK}. Der Pfeil (siehe Markierung i in Abb.\ref{AnzeigerK}) auf dem Anzeiger hat eine Tiefe von 35 \ mm. Die Bohrungen 25 und 26 sind der Tabelle \ref{BohrungenAK} aufgeführt.
 
 \begin{figure}[H]
 	\begin{center}
@@ -186,7 +184,7 @@ Der Anzeiger hat einer Breite B von 40 \ mm bei einer Länge L von 50 \ mm, erke
 
 
 \section{3D-Druck mit PLA}
-Die Einzelteile ds Gehäuses sowie die Anbauteile wurde mit dem Anycubic Kobra 2 Neo gefertigt, wahrnehmbar in \ref{AKK2N}. Als Fertigungsmaterial wurde PLA gewählt. Das additve Verfahren eignet sich als kostengüstiges und schnelles Verfahren für den Prototypen-Bau. Für den Druck aller Einzelteile wurde c.a 1kg Filament verbraucht, dabei liegt der Preis für einen kg bei ungefähr 20 €. Der Längste Druck dauerte ca. 2,5h. 
+Die Einzelteile ds Gehäuses sowie die Anbauteile wurde mit dem Anycubic Kobra 2 Neo gefertigt, wahrnehmbar in \ref{AKK2N}. Als Fertigungsmaterial wurde PLA gewählt. Das additve Verfahren eignet sich als kostengüstiges und schnelles Verfahren für den Prototypen-Bau. Für den Druck aller Einzelteile wurde c.a 0,5kg Filament verbraucht. Der Preis für einen kg liegt bei ungefähr 20 €. Der Längste Druck dauerte ca. 2,5h. 
 
  \begin{figure}[H]
  	\begin{center}
