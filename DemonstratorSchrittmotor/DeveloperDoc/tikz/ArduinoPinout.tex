@@ -8,7 +8,7 @@
 %%%%%%
 	\begin{tikzpicture}[scale=2]
 		% Arduino Dummy
-		\draw[fill=green!30] (0,0) rectangle (6,3);
+		\draw[fill=blue!20] (0,0) rectangle (6,3);
 		
 		% Pin Beschriftung oben
 		\foreach \x in {0.375,1.125,...,5.625}
@@ -59,7 +59,8 @@
 		
 		% Dummys zur Orientierung
 	
-		\draw[fill=gray!30] (6,0.5) rectangle (4,2.5) node[pos=0.5, align=center] {Bluetooth-Modul};
+		\draw[fill=gray!30] (4,0.5) rectangle (5.5,2.5) node[pos=0.5, align=center] {Bluetooth-\\Modul};
+		\draw[fill=green!30] (5.5,0.5) rectangle (6,2.5) node[pos=0.5, align=center] {};
 		\draw[fill=gray!30] (-0.5,0.7) rectangle (1,2.3) node[pos=0.5, align=center] {USB};
 		\draw[fill=white] (0.1,2.9) circle (0.075) node[right=1mm]{};
 		\draw[fill=white] (0.1,0.1) circle (0.075) node[right=1mm]{};
@@ -67,7 +68,8 @@
 		\draw[fill=white] (5.9,2.9) circle (0.075) node[right=1mm]{};
 		
 		% LED´s
-		\draw[fill=green] (0.25,2.5) circle (0.1) node[right=3mm] {Power LED};
-		\draw[fill=orange] (0.25,0.5) circle (0.1) node[right=3mm] {RGB LED};
+		\draw[fill=green] (0.25,2.5) circle (0.1) node[right=3mm] {Power-LED};
+		\draw[fill=orange] (0.25,0.5) circle (0.1) node[right=3mm] {RGB-LED};
+		\draw[fill=blue!40] (3.5,2) circle (0.1) node[above=4mm] {RGB-LED};
 		
 	\end{tikzpicture}

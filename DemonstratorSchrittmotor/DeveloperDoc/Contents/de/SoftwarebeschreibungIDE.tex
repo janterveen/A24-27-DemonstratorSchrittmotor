@@ -7,7 +7,7 @@
 Um Mikrocontroller von Arduino, wie den verwendeten Arduino Nano 33 BLE Sense Lite, programmieren zu können, wird die Software namens Arduino IDE in der Version 2.3.2 verwendet. 
 Alternativ dazu könnten auch andere Entwicklungsumgebungen, wie Qt verwendet werden, die eine Programmierung in der Programmiersprache C++ ermöglicht.
 Vorteil der Arduino IDE sind vor allem ihre Funktionen, die das Einbinden der Software auf dem Mikrocontroller vereinfachen.
-Der Bezug der Software Arduino IDE erfolgt über die offizielle Webseite von Arduino, welche unter \url{www.arduino.cc/software} erreichbar ist. Auf dieser Plattform stehen diverse Versionen, für unterschiedliche Betriebssysteme, wie Windows, Linux und Mac OS X, sowie in verschiedenen Dateiformaten, zur Auswahl bereit \cite{Arduino.2024}. Um die Anwendung zu installieren, muss die heruntergeladene Datei ausgeführt und den Installationsanweisungen gefolgt werden. Danach ist die korrekte Konfiguration des verwendeten Entwicklungsboards sowie die Installation entsprechender Bibliotheken erforderlich.
+Der Bezug der Software Arduino IDE erfolgt über die offizielle Webseite von Arduino, welche unter \url{www.arduino.cc/software} erreichbar ist. Auf dieser Plattform stehen diverse Versionen, für unterschiedliche Betriebssysteme, wie Windows, Linux und Mac OS X, sowie in verschiedenen Dateiformaten, zur Auswahl bereit \cite{ArdIDE.2024}. Um die Anwendung zu installieren, muss die heruntergeladene Datei ausgeführt und den Installationsanweisungen gefolgt werden. Danach ist die korrekte Konfiguration des verwendeten Entwicklungsboards sowie die Installation entsprechender Bibliotheken erforderlich.
 
 \section{Beschreibung der Entwicklungsumgebung}
 Nach dem Start der installierten Anwendung öffnet sich die Hauptoberfläche.
@@ -32,12 +32,12 @@ Dafür muss zunächst das passende Board installiert werden.
 		\caption{Installation des Boards} \label{Installation des Boards}
 	\end{center}
 \end{figure}
-Im \textit{Boards Manager} kann in diesem Fall die Datei Arduino Mbed OS Nano in der aktuellen Version 4.1.1 heruntergeladen und installiert werden. Danach kann unter \textit{Select Board} das Board Arduino BLE Sense 33 ausgewählt werden \cite{Arduino.2024b}.
+Im \textit{Boards Manager} kann in diesem Fall die Datei Arduino Mbed OS Nano in der aktuellen Version 4.1.1 heruntergeladen und installiert werden. Danach kann unter \textit{Select Board} das Board Arduino BLE Sense 33 ausgewählt werden \cite{ArdIDE.2024b}.
 Alternativ kann das Board über ein USB-Kabel angeschlossen werden. Unter\textit{ Select Board} wird bereits das korrekte Board und der entsprechende COM, also in diesem Fall der USB-Port, angeboten. Werden diese ausgewählt, sind die Installationsanweisungen zu befolgen, um das Board zu installieren.
 
 \subsection{Bibliotheken einbinden}
 Von Arduino gibt es bereits sehr viele offiziell unterstützte Bibliotheken. Will man diese in einem Sketch nutzen, muss man diese zunächst installieren.
-Dafür kann über den \textit{Library Manager} die nötige Bibliothek heruntergeladen und installiert werden. Die Suchfunktion hilft dabei, die korrekte Bibliothek zu finden \cite{Arduino.2024c}.
+Dafür kann über den \textit{Library Manager} die nötige Bibliothek heruntergeladen und installiert werden. Die Suchfunktion hilft dabei, die korrekte Bibliothek zu finden \cite{ArdIDE.2024c}.
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{General/Librarymanager}
@@ -54,11 +54,11 @@ Wird ein neuer Sketch geöffnet, sind bereits die Funktionen \textit{void setup(
 Im \textit{header} werden vor allem alle nötigen Bibliotheken hinterlegt und initialisiert. Gleichzeitig können hier aber auch Adressen von Peripheriegeräten hinterlegt und erste wichtige Variablen definiert werden.
 
 \subsection{setup()}
-Die \textit{void setup()}-Funktion wird bei jedem Neustart oder Reset einmal ausgeführt \cite{Arduino.2024d}.
+Die \textit{void setup()}-Funktion wird bei jedem Neustart oder Reset einmal ausgeführt \cite{ArdIDE.2024d}.
 Hier wird zum Beispiel die serielle Kommunikation gestartet, aber auch verwendete Pins initialisiert und zugewiesen.
 
 \subsection{loop()}
-In der \textit{void loop()}-Funktion findet der größte Teil des Programms statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird und somit zunächst erst die \textit{void setup()}-Funktion wieder gestartet wird \cite{Arduino.2024e}.
+In der \textit{void loop()}-Funktion findet der größte Teil des Programms statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird und somit zunächst erst die \textit{void setup()}-Funktion wieder gestartet wird \cite{ArdIDE.2024e}.
 
 \section{Erster Programmtest}
 Um die Funktion eines Systems zu testen, wird oft zunächst ein sehr simples Programm oder eine sehr grundlegende Funktion getestet.
