@@ -30,6 +30,7 @@
          familyi={A\bibinithyphendelim D\bibinitperiod},
       }}%
     }
+    \keyw{Bildschirm;Datasheet;Datenblatt;I2C;OLED}
     \strng{namehash}{AD1}
     \strng{fullhash}{AD1}
     \field{labelnamesource}{author}
@@ -37,6 +38,11 @@
     \field{labelalpha}{AD24}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{abstract}{%
+    Datenblatt zum OLED~Display. Das Datenblatt enth{\"a}lt alle wichtigen
+  Daten zur integration des Displays und noch Informationen dar{\"u}ber
+  hinaus.%
+    }
     \field{title}{1,3 Zoll OLED Display Datenblatt}
     \verb{url}
     \verb \url{https://www.az-delivery.de/products/1-3zoll-i2c-oled-display}
@@ -46,7 +52,7 @@
     \verb _}GmbH{\_}rev:Attachments/1{\_}3{\_}Zoll{\_}Display{\_}Datenblatt{\_}
     \verb AZ-Delivery{\_}Vertriebs{\_}GmbH{\_}rev.pdf:application/pdf
     \endverb
-    \field{year}{24}
+    \field{year}{2024}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
@@ -162,6 +168,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{Arduino;Dokumentation;IDE}
     \strng{namehash}{A3}
     \strng{fullhash}{A3}
     \field{labelnamesource}{author}
@@ -198,6 +205,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{Arduino;Dokumentation;IDE}
     \strng{namehash}{A3}
     \strng{fullhash}{A3}
     \field{labelnamesource}{author}
@@ -232,6 +240,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{Arduino;Dokumentation;IDE}
     \strng{namehash}{A3}
     \strng{fullhash}{A3}
     \field{labelnamesource}{author}
@@ -271,6 +280,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{Arduino;Dokumentation;IDE}
     \strng{namehash}{A3}
     \strng{fullhash}{A3}
     \field{labelnamesource}{author}
@@ -304,6 +314,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{Arduino;Dokumentation;IDE}
     \strng{namehash}{A3}
     \strng{fullhash}{A3}
     \field{labelnamesource}{author}
@@ -331,6 +342,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{ArmCortex M4;Cortex-M4;Datasheet;Datenblatt;Prozessor}
     \strng{namehash}{A4}
     \strng{fullhash}{A4}
     \field{labelnamesource}{author}
@@ -338,6 +350,9 @@
     \field{labelalpha}{Arm20}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{abstract}{%
+    Datenblatt f{\"u}r den Arm Cortex-M4 Prozessor.%
+    }
     \field{title}{Arm-Cortex-M4-Processor-Datasheet}
     \verb{file}
     \verb Arm-Cortex-M4-Processor-Datasheet:Attachments/Arm-Cortex-M4-Processor
@@ -353,6 +368,7 @@
          familyi={A\bibinitperiod},
       }}%
     }
+  \keyw{APDS-9960;Datasheet;Datenblatt;Farbsensor;Lichtsensor;N{\"a}herungssensor;Sensorik}
     \strng{namehash}{A5}
     \strng{fullhash}{A5}
     \field{labelnamesource}{author}
@@ -360,6 +376,10 @@
     \field{labelalpha}{{Ava}15}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{abstract}{%
+    Datenblatt zum N{\"a}herungs-, Umgebungslicht-, Farb- und Gestensensor.
+  Weiterf{\"u}hrende Informationen zum Sensor.%
+    }
     \field{title}{Datasheet - APDS-9960 - Digital Proximity, Ambient Light, RGB
   and Gesture Sensor}
     \verb{file}
@@ -381,6 +401,7 @@
     \list{publisher}{1}{%
       {{Springer Vieweg}}%
     }
+  \keyw{Elektromotor;Mikroschrittverfahren;Positioniergenauigkeit;PWM;Schrittmotor}
     \strng{namehash}{BG1}
     \strng{fullhash}{BG1}
     \field{labelnamesource}{author}
@@ -388,6 +409,21 @@
     \field{labelalpha}{Bab23}
     \field{sortinit}{B}
     \field{sortinithash}{B}
+    \field{abstract}{%
+    Das Lehrbuch vermittelt die Grundlagen von der Energiegewinnung {\"u}ber
+  die Energiewandlung bis zur Drehfeldmaschine und deren Anwendung in heutigen
+  und vor allem zuk{\"u}nftigen Antriebssystemen. Zun{\"a}chst werden aktuelle
+  und zuk{\"u}nftige Energiequellen f{\"u}r Fahrzeugantriebe vorgestellt und
+  miteinander verglichen. Darauf aufbauend werden elektrochemische
+  Energiespeicher und -wandler wie die Wasserstoff-Brennstoffzelle behandelt.
+  Es werden Gleichstrom-, Asynchron-, Synchron- und Linearmotor sowie
+  Reluktanz-, Transversalfluss- und Digital-Motoren erkl{\"a}rt. Im letzten
+  Kapitel werden Antriebssysteme am Beispiel einer E-Lok und der
+  Magnetschwebebahn bzw. dem supraleitenden MAGLEV vorgestellt. Ein eigenes
+  Kapitel ist dem KineticEnergyRestoring System KERS gewidmet, welches in der
+  Formel 1 bereits erfolgreich zum Einsatz kommt. Mit E-Maschinen in
+  Flugsystemen wird ein St{\"u}ck weit in die Zukunft geblickt.%
+    }
     \verb{doi}
     \verb \url{10.1007/978-3-658-40586-1}
     \endverb
@@ -422,7 +458,7 @@
     \list{publisher}{1}{%
       {{Springer Fachmedien Wiesbaden}}%
     }
-    \keyw{Drehgeber;Encoder}
+  \keyw{Absolutdrehgeber;Automatisierungstechnik;Drehgeber;Encoder;Inkrementaldrehgeber;Regelungstechnik}
     \strng{namehash}{BS1}
     \strng{fullhash}{BS1}
     \field{labelnamesource}{author}
@@ -430,6 +466,16 @@
     \field{labelalpha}{Bas16}
     \field{sortinit}{B}
     \field{sortinithash}{B}
+    \field{abstract}{%
+    Das Buch gibt einen Einblick in die Theorie, die Sensorik, den Aufbau und
+  die Anwendungen von Drehgebern. Encoder sind wichtige Komponenten in der
+  Steuerungs- und Automatisierungstechnik, Motor-Feedback-Systeme in der
+  modernen Antriebstechnik. Sie wandeln den Winkel zweier relativ zueinander
+  drehbaren Objekte in ein elektrisches Signal um. Dies setzt man ein, um die
+  Winkellage und die Drehzahl einer sich drehenden Achse zu erfassen. Das
+  Wissen dar{\"u}ber hat eine gro{\ss}e Bedeutung in der industriellen
+  Automation und bei Servoantrieben.%
+    }
     \verb{doi}
     \verb \url{10.1007/978-3-658-12844-9}
     \endverb
@@ -461,6 +507,7 @@
     \list{publisher}{1}{%
       {{Springer Vieweg}}%
     }
+  \keyw{Drehfeld;Elektromotor;Magnetfeld;Mikroschrittverfahren;Rotor;Schrittmotor;Stator}
     \strng{namehash}{BH1}
     \strng{fullhash}{BH1}
     \field{labelnamesource}{author}
@@ -468,6 +515,17 @@
     \field{labelalpha}{Ber18}
     \field{sortinit}{B}
     \field{sortinithash}{B}
+    \field{abstract}{%
+    Dieses Lehrbuch behandelt anschaulich in Form von Beispielen oder Versuchen
+  Gesetzm{\"a}{\ss}igkeiten beim Gleich- und Wechselstromkreis und erkl{\"a}rt
+  die wichtigsten passiven Bauelemente. Es werden die wichtigsten elementaren
+  Schaltungen zur elektrischen Messtechnik vorgestellt und die dazu
+  ben{\"o}tigten analogen und digitalen Messger{\"a}te. Grundlegende
+  Bauelemente aus dem Bereich der Leistungshalbleiter werden mit ihren
+  Anwendungen erkl{\"a}rt. Der Aufbau von Gleich-, Wechsel- und
+  Drehstrommotoren mit Beispielen aus der Antriebstechnik wird verst{\"a}ndlich
+  dargestellt.%
+    }
     \verb{doi}
     \verb \url{10.1007/978-3-658-20838-7}
     \endverb
@@ -512,12 +570,13 @@
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
-    Jan ter Veen 2023: Das Buch {\textquotedbl}Mikrocontroller Grundlagen der
-  Hard- und Software{\textquotedbl} von Herbert Bernstein ist ein umfassendes
-  Werk, das sich mit den Grundlagen der Mikrocontroller ATtiny2313, ATtiny26
-  und ATmega32 besch{\"a}ftigt. Es bietet eine detaillierte Einf{\"u}hrung in
-  die Welt der Mikrocontroller und vermittelt sowohl theoretisches Wissen als
-  auch praktische Anwendungen.%
+    Das Buch {\textquotedbl}Mikrocontroller Grundlagen der Hard- und
+  Software{\textquotedbl} von Herbert Bernstein ist ein umfassendes Werk, das
+  sich mit den Grundlagen der Mikrocontroller ATtiny2313, ATtiny26 und ATmega32
+  besch{\"a}ftigt. Es bietet eine detaillierte Einf{\"u}hrung in die Welt der
+  Mikrocontroller und vermittelt sowohl theoretisches Wissen als auch
+  praktische Anwendungen. So wird auch die Ansteuerung von Schrittmotoren
+  mithilfe eines Mikrocontrollers behandelt.%
     }
     \field{edition}{2., aktualisierte und erweiterte Auflage}
     \field{isbn}{978-3-658-30067-8}
@@ -544,6 +603,7 @@
     \list{publisher}{1}{%
       {{Springer Vieweg}}%
     }
+    \keyw{Dioden;Display;OLED}
     \strng{namehash}{D1}
     \strng{fullhash}{D1}
     \field{labelnamesource}{author}
@@ -551,6 +611,19 @@
     \field{labelalpha}{{Die}19}
     \field{sortinit}{D}
     \field{sortinithash}{D}
+    \field{abstract}{%
+    Dieses Buch bietet eine leicht verst{\"a}ndliche Einf{\"u}hrung f{\"u}r
+  moderne Audio- und Videotechnik im Verbund mit Computersystemen. Der Leser
+  mit technischem Grundverst{\"a}ndnis wird mit dem klar strukturierten Stoff
+  einen leichten Einstieg in komplexe Zusammenh{\"a}nge finden. Die vielen
+  technischen Tipps helfen jedoch auch erfahrenen Profis weiter. Aus dem
+  Inhalt: Tontechnik-Grundlagen, Abtastung und Digitalisierung, r{\"a}umliches
+  H{\"o}ren, Methoden der Datenkompression, MIDI-Standard und -Signale,
+  digitale Audiomesstechnik, Videotechnik-Grundlagen, hochaufl{\"o}sende
+  Videotechnik und 3D-Technik, moderne Wiedergabesysteme (VR-Brille,
+  OLED-Bildschirme), reales Raumsehen (Stand der Technik), Chromakeying,
+  Schnittsysteme, Animationen, Dateienformate.%
+    }
     \field{edition}{3}
     \field{isbn}{978-3-662-58872-7}
     \field{title}{Computergest{\"u}tzte Audio- und Videotechnik:
@@ -581,6 +654,7 @@
          familyi={D\bibinitperiod},
       }}%
     }
+  \keyw{Faulhaber;Fehlerbehebung;Fehlerbilder;L{\"o}sung;Schrittmotor;Ursache}
     \strng{namehash}{F1}
     \strng{fullhash}{F1}
     \field{labelnamesource}{author}
@@ -588,6 +662,13 @@
     \field{labelalpha}{{Fau}20}
     \field{sortinit}{F}
     \field{sortinithash}{F}
+    \field{abstract}{%
+    Dieses Tutorial von Faulhaber gibt viele methodische Hinweise und
+  M{\"o}glichkeiten, um Schrittverluste bei Schrittmotoren zu verhindern. Das
+  Tutorial geht dabei strukturiert vor und f{\"u}hrt durch die vier Punkte:
+  Auswahl des Schrittmotors, Betriebsart, externe Kommutierungsfehler und
+  externe Ereignisse.%
+    }
     \field{title}{FAULHABER Tutorial: Schrittverluste verhindern bei
   Schrittmotoren}
     \verb{url}
@@ -619,6 +700,7 @@
     \list{publisher}{1}{%
       {{Springer Vieweg}}%
     }
+    \keyw{ArmCortex;DMA;I2C;IC;Mikrocontroller}
     \strng{namehash}{GWWM1}
     \strng{fullhash}{GWWM1}
     \field{labelnamesource}{author}
@@ -626,11 +708,17 @@
     \field{labelalpha}{GW22}
     \field{sortinit}{G}
     \field{sortinithash}{G}
+    \field{abstract}{%
+    Moderne Digitaltechnik, umfassend und kompakt: Dieses Lehr- und
+  {\"U}bungsbuch spannt den Bogen von den Grundlagen der Digitaltechnik
+  {\"u}ber den Entwurf mit VHDL und Komponenten digitaler Systeme bis zu
+  modernen Mikrocontrollern der STM32-Serie.%
+    }
     \field{edition}{8. Auflage}
     \field{isbn}{9783662639535}
     \field{title}{Digitaltechnik: Grundlagen, VHDL, FPGAs, Mikrocontroller}
     \verb{url}
-    \verb \url{http://www.springer.com/}
+    \verb \url{https://link.springer.com/book/10.1007/978-3-662-63954-2}
     \endverb
     \list{location}{2}{%
       {Berlin}%
@@ -657,8 +745,8 @@
     \list{publisher}{1}{%
       {Hanser}%
     }
-    \keyw{Wanderfeld Linearmotor Prim{\"a}rteil Sekund{\"a}rteil Langstator
-  Kurzstator}
+  \keyw{bipolar;Halbschritt;Hybridschrittmotor;Magnetfeld;Mikroschrittverfahren;Positioniergenauigkeit;Reluktanzschrittmotor,
+  Vollschritt;Rotor;Schrittmotor;Stator;unipolar}
     \strng{namehash}{HR1}
     \strng{fullhash}{HR1}
     \field{labelnamesource}{author}
@@ -706,6 +794,7 @@
          familyi={J\bibinitperiod},
       }}%
     }
+    \keyw{Datasheet;Datenblatt;Force;Schrittmotor;Specification;Step Angle}
     \strng{namehash}{J1}
     \strng{fullhash}{J1}
     \field{labelnamesource}{author}
@@ -713,6 +802,9 @@
     \field{labelalpha}{Jko}
     \field{sortinit}{J}
     \field{sortinithash}{J}
+    \field{abstract}{%
+    Datenblatt zum Schrittmotor.%
+    }
     \field{title}{Nema17-Datasheet}
     \verb{url}
     \verb \url{https://ecksteinimg.de/Datasheet/Schrittmotor/JK42HS34-0844A/JK4
@@ -775,7 +867,7 @@
     \field{year}{2012}
   \endentry
 
-  \entry{Meroth.2018}{book}{}
+  \entry{Meroth.2021}{book}{}
     \name{author}{2}{}{%
       {{hash=MA}{%
          family={Meroth},
@@ -791,52 +883,42 @@
       }}%
     }
     \list{publisher}{1}{%
-      {{Springer Vieweg}}%
+      {{Springer Fachmedien Wiesbaden}}%
     }
-  \keyw{Arduino;Atmel;Automobiltechnik;Automotive;AVR-Familie;CAN;digital;Digitaltechnik;Electronics;Elektronik;Elektrotechnik;Embedded
-  Systems;Engineering;Entwicklung;Funk;LIN;Mikrocontroller;Netzwerke;Progammierung
-  C;Senstortechnik;Systems engineering;TEC008000;TJFM}
+    \keyw{Arduino;Elektrotechnik;Embedded Systems;I2C;Mikrocontroller}
     \strng{namehash}{MASP1}
     \strng{fullhash}{MASP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{MS18}
+    \field{labelalpha}{MS21}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{abstract}{%
-    A. Meroth ist bekannt als Herausgeber eines Buches {\"u}ber
-  Infotainmentsysteme im Kraftfahrzeug. Jetzt behandelt er eine viel
-  allgemeinere Aufgabe aus dem IoT, die Steuerung und {\"U}berwachung von
-  Vorg{\"a}ngen durch Embedded Systems und geht dabei insbesondere auf
-  Sensorennetzwerke mit ihren vielen Bausteinen aus der Mikrocontrollerwelt
-  ein. Die Autoren st{\"u}tzen sich auf Fallbeispiele, deren Programmierung in
-  C erfolgt. - J. Wiegelmann hat diese Programmierung sehr ausf{\"u}hrlich
-  beschrieben, st{\"u}tzt sich aber in seinem Buch nur auf ein gr{\"o}e︢res
-  Fallbeispiel. - So liegt der besondere Wert des vorliegenden Buches darin,
-  dass viele leicht verallgemeinerungsf{\"a}hige Beispiele insbesondere aus den
-  Bereichen Druck, Temperatur, Helligkeit und Beschleunigung und zus{\"a}tzlich
-  als Hilfsmittel auch programmierbare Bausteine (Flash, Uhr, Radio,
-  Portexpander) vorgestellt werden. Angesprochen werden Studierende h{\"o}herer
-  Semester und Entwicklungsingenieure mit Vorkenntnissen - m{\"o}glichst auch
-  in C. - Die kurze Einf{\"u}hrung in C zu Beginn hilft nicht wesentlich
-  weiter%
+    Das Buch bildet eine wichtige Grundlage f{\"u}r das Verst{\"a}ndnis des
+  Internet of Things, indem es einen Einblick in g{\"a}ngige
+  Vernetzungsprotokolle aus der Mikrocontrollerwelt bietet und wichtige
+  Sensoren und andere Bausteine, sowie deren Einsatz und Programmierung
+  vorstellt. Alle gezeigten Konzepte werden durch praktische Schaltungs- und
+  Programmierbeispiele aus den langj{\"a}hrigen Erfahrungen der Autoren
+  illustriert. Daneben stehen den Lesern offene Bibliotheken f{\"u}r die
+  Ansteuerung der im Buch pr{\"a}sentierten Bauteile auf der Verlagshomepage
+  zum Herunterladen bereit. Die zweite Auflage beinhaltet einige neue
+  Bausteine, insbesondere im Bereich der Netzwerke, eine ausf{\"u}hrlichere
+  Beschreibung der Funktionsprinzipien einiger Sensoren sowie weitere Tipps und
+  Tricks zum Programmieren.%
     }
-    \field{isbn}{3658183853}
-    \field{series}{Lehrbuch}
-    \field{title}{Sensornetzwerke in Theorie und Praxis: Embedded
-  Systems-Projekte erfolgreich realisieren}
-    \list{location}{2}{%
-      {Wiesbaden}%
-      {Heidelberg}%
-    }
-    \list{institution}{1}{%
-      {{Springer Fachmedien Wiesbaden}}%
-    }
-    \verb{file}
-    \verb 978-3-658-18386-8(Kommunikationsprotokolle):Attachments/978-3-658-183
-    \verb 86-8(Kommunikationsprotokolle).pdf:application/pdf
+    \verb{doi}
+    \verb \url{10.1007/978-3-658-31709-6}
     \endverb
-    \field{year}{2018}
+    \field{isbn}{978-3-658-31708-9}
+    \field{title}{Sensornetzwerke in Theorie und Praxis}
+    \verb{url}
+    \verb \url{https://link.springer.com/book/10.1007/978-3-658-31709-6}
+    \endverb
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \field{year}{2021}
   \endentry
 
   \entry{Meanwell.2019}{misc}{}
@@ -846,6 +928,7 @@
          familyi={M\bibinitperiod},
       }}%
     }
+    \keyw{12 V;24 V;5 V;RD-50 A;Schaltnetzteil;technische Zeichnung}
     \strng{namehash}{M1}
     \strng{fullhash}{M1}
     \field{labelnamesource}{author}
@@ -853,6 +936,9 @@
     \field{labelalpha}{Mea19}
     \field{sortinit}{M}
     \field{sortinithash}{M}
+    \field{abstract}{%
+    Datenblatt zum Schaltnetzteil RD-50 A.%
+    }
     \field{title}{RD-50-20190729.cdr}
     \verb{url}
     \verb \url{https://cdn-reichelt.de/documents/datenblatt/D500/RD-50_DS-EN.PD
@@ -873,6 +959,7 @@
          familyi={M\bibinitperiod},
       }}%
     }
+    \keyw{LED;Mentor;Signalleuchte;SMD-LED}
     \strng{namehash}{M2}
     \strng{fullhash}{M2}
     \field{labelnamesource}{author}
@@ -880,6 +967,9 @@
     \field{labelalpha}{Men24}
     \field{sortinit}{M}
     \field{sortinithash}{M}
+    \field{abstract}{%
+    Datenblatt f{\"u}r die Signalleuchte von Mentor.%
+    }
     \field{title}{SIGNALLEUCHTENSMD-LED-Datenblatt}
     \verb{url}
     \verb \url{https://www.mentor.de.com/bauelemente/product/2660-8301}
@@ -1007,6 +1097,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{Arduino;Arduino Nano 33 BLE Sense;Arduino Nano 33 BLE Sense
+  Lite;Forum;HTS221;Learning Kit}
     \strng{namehash}{PA1}
     \strng{fullhash}{PA1}
     \field{labelnamesource}{author}
@@ -1014,6 +1106,10 @@
     \field{labelalpha}{PA22}
     \field{sortinit}{P}
     \field{sortinithash}{P}
+    \field{abstract}{%
+    Forumbeitrag der Best{\"a}tigt, dass der Arduino 33 BLE Sense Lite keinen
+  HTS221 Temperatur- und Feuchtigkeits-Sensor hat.%
+    }
     \field{title}{Difference{\_}between{\_}A33BLESense{\_}and{\_}SenseLite: A
   Difference between A N 33 BLE Sense vs. Sense Lite}
     \verb{url}
@@ -1029,6 +1125,59 @@
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
+  \entry{Schroder.2021}{book}{}
+    \name{author}{2}{}{%
+      {{hash=SD}{%
+         family={Schr{\"o}der},
+         familyi={S\bibinitperiod},
+         given={Dierk},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kennel},
+         familyi={K\bibinitperiod},
+         given={Ralph},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Berlin Heidelberg}}%
+    }
+  \keyw{Antriebstechnik;Automatisierungstechnik;Betriebsarten;bipolar;Elektrische
+  Antriebe;elektrische Energietechnik;elektrische
+  Maschinen;Elektrotechnik;Hybridschrittmotor;Permanentmagneterregter
+  Schrittmotor;Regelungstechnik;Reluktanzschrittmotor;Rotor;Schrittmotor;Selbsthaltemoment;Stator;unipolar}
+    \strng{namehash}{SDKR1}
+    \strng{fullhash}{SDKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{SK21}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Dieses Werk bietet einen Einstieg in das Gebiet der elektrischen
+  Antriebstechnik. Ausgehend von den mechanischen und elektromagnetischen
+  Grundlagen, werden die Antriebskonzepte sowohl mit Gleichstrommaschinen als
+  auch mit Asynchron- und Synchronmaschinen erl{\"a}utert. Systemgleichungen,
+  Signalflusspl{\"a}ne und Regelungsvarianten werden vorgestellt und
+  diskutiert. Das Lehrbuch stellt abschlie{\ss}end {\"U}bungs- und
+  Pr{\"u}fungsaufgaben mit L{\"o}sungen zur Verf{\"u}gung.%
+    }
+    \verb{doi}
+    \verb \url{10.1007/978-3-662-63101-0}
+    \endverb
+    \field{isbn}{978-3-662-63100-3}
+    \field{title}{Elektrische Antriebe -- Grundlagen}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \verb{file}
+    \verb DierkSchr{\"o}der2021:Attachments/DierkSchr{\"o}der2021.pdf:applicati
+    \verb on/pdf
+    \endverb
+    \field{year}{2021}
+  \endentry
+
   \entry{STM1.2015}{misc}{}
     \name{author}{1}{}{%
       {{hash=S}{%
@@ -1036,8 +1185,14 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \keyw{025715;Datasheet;LSM9DS1;Product Development;Specification;Technical
-  Literature}
+    \name{editor}{1}{}{%
+      {{hash=S}{%
+         family={STMICROELECTRONICS},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+  \keyw{Beschleunigungsmesser;Datasheet;Datenblatt;Gyroskop;I2C;IMU;LSM9DS1;Magnetometer;Product
+  Development;Specification;SPI;System-in-Package;Technical Literature}
     \strng{namehash}{S1}
     \strng{fullhash}{S1}
     \field{labelnamesource}{author}
@@ -1046,10 +1201,14 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
-    -%
+    Datenblatt zum LSM9DS1 (9-Achs-IMU). Sehr umfangreiches Datenblatt. Die
+  wichtigsten Informationen sind auf der ersten Seite kurz zusammengefasst.%
     }
     \field{title}{Datasheet - LSM9DS1- iNEMO inertial module: 3D accelerometer,
   3D gyroscope, 3D magnetometer}
+    \verb{url}
+    \verb \url{https://www.st.com/en/mems-and-sensors/lsm9ds1.html}
+    \endverb
     \verb{file}
     \verb LSM9DS1-datasheet:Attachments/LSM9DS1-datasheet.pdf:application/pdf
     \endverb
@@ -1063,8 +1222,15 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \keyw{027083;Datasheet;LPS22HB;Product Development;Specification;Technical
-  Literature}
+    \name{editor}{1}{}{%
+      {{hash=S}{%
+         family={STMICROELECTRONICS},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \keyw{027083;Barometrischer
+  Drucksensor;Datasheet;Datenblatt;I2C;LPS22HB;Product
+  Development;Specification;Technical Literature}
     \strng{namehash}{S1}
     \strng{fullhash}{S1}
     \field{labelnamesource}{author}
@@ -1073,10 +1239,15 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
-    -%
+    Datenblatt zum LPS22HB Barometrischen Drucksensor. Sehr umfangreiches
+  Datenblatt. Die wichtigsten Informationen sind auf der ersten Seite kurz
+  zusammengefasst.%
     }
     \field{title}{Datasheet - LPS22HB-MEMS nano pressure sensor: 260-1260 hPa
   absolute digital output barometer}
+    \verb{url}
+    \verb \url{https://www.st.com/en/mems-and-sensors/lps22hb.html}
+    \endverb
     \verb{file}
     \verb LPS22HB-datasheet:Attachments/LPS22HB-datasheet.pdf:application/pdf
     \endverb
@@ -1090,6 +1261,13 @@
          familyi={S\bibinitperiod},
       }}%
     }
+    \name{editor}{1}{}{%
+      {{hash=S}{%
+         family={STMICROELECTRONICS},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Datasheet;Datenblatt;I2C;Mikrofon;MP34DT05-A}
     \strng{namehash}{S1}
     \strng{fullhash}{S1}
     \field{labelnamesource}{author}
@@ -1098,8 +1276,9 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
-    The MP34DT05-A is an ultra-compact, low-power, omnidirectional, digital
-  MEMS microphone built with a capacitive sensing element and an IC interface.%
+    Datenblatt zum MP34DT05-A Digitalen Mikrophone. Das MP34DT05-A ist ein
+  ultrakompaktes, stromsparendes, omnidirektionales, digitales MEMS-Mikrofon
+  mit einem kapazitiven Sensorelement und einer IC-Schnittstelle.%
     }
     \field{title}{Datasheet - MP34DT05-A - MEMS audio sensor omnidirectional
   digital microphone}
@@ -1110,57 +1289,6 @@
     \field{year}{2021}
   \endentry
 
-  \entry{Schroder.2013}{book}{}
-    \name{author}{1}{}{%
-      {{hash=SD}{%
-         family={Schr{\"o}der},
-         familyi={S\bibinitperiod},
-         given={Dierk},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer Vieweg}}%
-    }
-    \keyw{Antriebstechnik Automatisierungstechnik Elektrische Antriebe
-  Elektrotechnik Regelungstechnik elektrische Energietechnik elektrische
-  Maschinen}
-    \strng{namehash}{SD1}
-    \strng{fullhash}{SD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sch13}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    {\textquotedbl}Elektrische Antriebe - Grundlagen{\textquotedbl} ist eine
-  aktuelle und bew{\"a}hrte Einf{\"u}hrung in die Grundlagen der
-  Antriebstechnik. Behandelt werden u.a. Antriebsanordnungen mit
-  Gleichstrommaschinen sowie Drehfeldmaschinen mit Asynchron- und
-  Synchronmaschinen. Sie werden anhand der Systemgleichungen, der
-  Signalflusspl{\"a}ne sowie der Stellglied- und Regelungsvarianten diskutiert.
-  Am Ende des Buches finden sich zahlreiche {\"U}bungsaufgaben mit
-  L{\"o}sungen.%
-    }
-    \verb{doi}
-    \verb \url{10.1007/978-3-642-30471-2}
-    \endverb
-    \field{edition}{5., erw. Aufl.}
-    \field{isbn}{978-3-642-30470-5}
-    \field{series}{Springer-Lehrbuch}
-    \field{title}{Grundlagen: Mit durchgerechneten {\"U}bungs- und
-  Pr{\"u}fungsaufgaben}
-    \field{volume}{1}
-    \list{location}{1}{%
-      {Berlin, Heidelberg}%
-    }
-    \verb{file}
-    \verb Schr{\"o}der 2013 - Grundlagen:Attachments/Schr{\"o}der 2013 - Grundl
-    \verb agen.pdf:application/pdf
-    \endverb
-    \field{year}{2013}
-  \endentry
-
   \entry{SimacElec.2019}{misc}{}
     \name{author}{1}{}{%
       {{hash=S}{%
@@ -1168,6 +1296,7 @@
          familyi={S\bibinitperiod},
       }}%
     }
+    \keyw{3.3 V;5 V;Abmessungen;Datenblatt;Drehencoder;Tasterfunktion}
     \strng{namehash}{S2}
     \strng{fullhash}{S2}
     \field{labelnamesource}{author}
@@ -1175,6 +1304,10 @@
     \field{labelalpha}{{Sim}19}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{abstract}{%
+    Datenblatt zum Drehencoder. Betriebsspannung, Abmessungen und Pinbelegung
+  sind angegeben.%
+    }
     \field{title}{COM-KY040RE-Datenblatt: Drehencoder mit Tasterfunktion}
     \verb{url}
     \verb \url{www.joy-it.net}

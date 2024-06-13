@@ -20,49 +20,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 10180 items from 5000.
 Database file #1: DemonstratorSchrittmotor-blx.bib
 Database file #2: ../Documents/Myliterature.bib
-Warning--I didn't find a database entry for "Meroth.2021"
+Warning--I didn't find a database entry for "Meroth.2018"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 36 entries,
             6399 wiz_defined-function locations,
-            1469 strings with 24149 characters,
-and the built_in function-call counts, 197639 in all, are:
-= -- 12495
-> -- 5013
-< -- 1837
-+ -- 4434
-- -- 2179
-* -- 12788
-:= -- 17522
+            1501 strings with 29405 characters,
+and the built_in function-call counts, 203372 in all, are:
+= -- 12996
+> -- 5037
+< -- 1830
++ -- 4627
+- -- 2206
+* -- 13426
+:= -- 18302
 add.period$ -- 0
 call.type$ -- 36
 change.case$ -- 35
 chr.to.int$ -- 152
 cite$ -- 70
-duplicate$ -- 21087
-empty$ -- 18837
-format.name$ -- 2018
-if$ -- 41987
+duplicate$ -- 21683
+empty$ -- 19313
+format.name$ -- 2058
+if$ -- 42971
 int.to.chr$ -- 0
-int.to.str$ -- 147
+int.to.str$ -- 149
 missing$ -- 0
-newline$ -- 1143
-num.names$ -- 2322
-pop$ -- 12331
+newline$ -- 1228
+num.names$ -- 2310
+pop$ -- 12361
 preamble$ -- 1
-purify$ -- 1082
+purify$ -- 1070
 quote$ -- 0
-skip$ -- 8632
+skip$ -- 8574
 stack$ -- 0
-substring$ -- 19909
-swap$ -- 5805
-text.length$ -- 1248
-text.prefix$ -- 65
+substring$ -- 21017
+swap$ -- 5952
+text.length$ -- 1259
+text.prefix$ -- 64
 top$ -- 1
 type$ -- 1212
 warning$ -- 0
-while$ -- 2143
+while$ -- 2239
 width$ -- 0
-write$ -- 1108
+write$ -- 1193
 (There was 1 warning)
