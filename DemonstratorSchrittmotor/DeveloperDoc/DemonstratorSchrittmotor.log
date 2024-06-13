@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  12 JUN 2024 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  12 JUN 2024 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2456,7 +2456,7 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'AMS':
+(biblatex)                with 'AMS.2024':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
@@ -2466,22 +2466,27 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Arduino.2024':
+(biblatex)                with 'ArdIDE.2024':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Arduino.2024c':
+(biblatex)                with 'ArdIDE.2024c':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Arduino.2024b':
+(biblatex)                with 'ArdIDE.2024b':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Arduino.2024e':
+(biblatex)                with 'ArdIDE.2024e':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'ArdIDE.2024d':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
@@ -2857,9 +2862,6 @@ Package biblatex Info: Reference segment=5 on input line 29.
 Package biblatex Info: Setting label 'refsegment:05' on input line 29.
 
 
-LaTeX Warning: Citation 'Lienig.2012' on page 6 undefined on input line 32.
-
-
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2902,16 +2904,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [8]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-66.
- (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Package cleveref Info: loaded `ngerman' language definitions on input line 68.
+Package cleveref Info: loaded `ngerman' language definitions on input line 66.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2922,8 +2915,15 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [9]
-
-LaTeX Warning: Citation 'NrdSem3.2024' on page 10 undefined on input line 70.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+66.
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2973,12 +2973,9 @@ Package biblatex Info: Setting label 'refsegment:010' on input line 18.
 ]
 Package biblatex Info: Reference segment=11 on input line 21.
 Package biblatex Info: Setting label 'refsegment:011' on input line 21.
-
-
-LaTeX Warning: Citation 'AMS.2024' on page 14 undefined on input line 40.
-
 Package biblatex Info: Reference segment=12 on input line 42.
 Package biblatex Info: Setting label 'refsegment:012' on input line 42.
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3013,7 +3010,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [16] (./Contents/de/Schaltplan.tex
 chapter 4.
-<Images/Schaltplan1.png, id=457, 1261.7685pt x 993.0555pt>
+<Images/Schaltplan1.png, id=463, 1261.7685pt x 993.0555pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 4.
@@ -3570,12 +3567,9 @@ Material/RBS10856.jpg> <./Images/Material/A4988.png> <./Images/Material/LED.png
 chapter 6.
 Package biblatex Info: Reference segment=15 on input line 6.
 Package biblatex Info: Setting label 'refsegment:015' on input line 6.
-
-LaTeX Warning: Citation 'ArdIDE.2024' on page 23 undefined on input line 10.
-
 Package biblatex Info: Reference segment=16 on input line 12.
 Package biblatex Info: Setting label 'refsegment:016' on input line 12.
-<General/HauptoberflaecheIDE.png, id=620, 455.45157pt x 283.81032pt>
+<General/HauptoberflaecheIDE.png, id=627, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
@@ -3589,19 +3583,12 @@ Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
 ]
 Package biblatex Info: Reference segment=17 on input line 24.
 Package biblatex Info: Setting label 'refsegment:017' on input line 24.
-<General/Boardsmanager.png, id=627, 269.50688pt x 260.47313pt>
+<General/Boardsmanager.png, id=635, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 31.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-
-
-LaTeX Warning: Citation 'ArdIDE.2024b' on page 24 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'ArdIDE.2024c' on page 24 undefined on input line 40.
-
-<General/Librarymanager.png, id=628, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=638, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 43.
@@ -3644,12 +3631,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [26 <./General/Librarymanager.png>]
-
-LaTeX Warning: Citation 'ArdIDE.2024d' on page 27 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'ArdIDE.2024e' on page 27 undefined on input line 61.
-
 Package biblatex Info: Reference segment=19 on input line 63.
 Package biblatex Info: Setting label 'refsegment:019' on input line 63.
 )
@@ -3844,6 +3825,15 @@ Overfull \hbox (3.20758pt too wide) in paragraph at lines 109--109
  []
 
 
+Overfull \hbox (3.20758pt too wide) in paragraph at lines 109--109
+\T1/fvm/l/it/12 / / www . arduino . cc / reference / en / language / structure 
+/
+ []
+
+[45
+
+
+]
 Overfull \hbox (2.65036pt too wide) in paragraph at lines 109--109
 \T1/lmr/m/n/12 (-20) Sprin^^?ger Fach^^?me^^?di^^?en Wies^^?ba^^?den, 2016. \T1
 /lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-658-12843-2.
@@ -3856,10 +3846,13 @@ Overfull \hbox (14.5428pt too wide) in paragraph at lines 109--109
 2 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 \url{https :
  []
 
-[45
+
+Overfull \hbox (35.8264pt too wide) in paragraph at lines 109--109
+\T1/lmr/m/n/12 (-20) ba^^?den und Hei^^?del^^?berg: Sprin^^?ger View^^?eg, 2020
+. \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-658-30067-8. 
+ []
 
 
-]
 Overfull \hbox (3.95943pt too wide) in paragraph at lines 109--109
 []\T1/lmr/m/n/12 (-20) W. Gehr^^?ke und M. Winz^^?ker. \T1/lmr/m/it/12 (-20) Di
 -gi-tal-tech-nik: Grund-la-gen, VHDL,
@@ -3885,12 +3878,14 @@ Overfull \hbox (9.40234pt too wide) in paragraph at lines 109--109
  []
 
 
-Overfull \hbox (6.36627pt too wide) in paragraph at lines 109--109
-[]\T1/lmr/m/n/12 (-20) Meanwell. ``RD-50-20190729.cdr''. In: (2019). \T1/lmr/m/
-sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 \url{https :
- []
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
+[46]
 Overfull \hbox (3.43654pt too wide) in paragraph at lines 109--109
 []\T1/lmr/m/n/12 (-20) Mentor. \T1/lmr/m/it/12 (-20) SIGNALLEUCHTENSMD-LED-Date
 nblatt\T1/lmr/m/n/12 (-20) . 2024. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20
@@ -3904,14 +3899,6 @@ duct /
  []
 
 
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[46]
 Overfull \hbox (14.9821pt too wide) in paragraph at lines 109--109
 []\T1/lmr/m/n/12 (-20) Nordic Se^^?mi^^?con^^?duc^^?tor. \T1/lmr/m/it/12 (-20) 
 nRF9161 Pro-duct Spe-ci-fi-ca-ti-on: Cryptocell-
@@ -3923,7 +3910,7 @@ Overfull \hbox (6.75783pt too wide) in paragraph at lines 109--109
 MP34DT05-A - MEMS
  []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 110.
+Package cleveref Info: loaded `ngerman' language definitions on input line 108.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3933,10 +3920,16 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[47] [48
+[47]
 
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-]
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[48]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
  (./DemonstratorSchrittmotor.ind)
@@ -3951,17 +3944,9 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 34.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DemonstratorSchrittmotor.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                DemonstratorSchrittmotor
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 \openout1 = `DemonstratorSchrittmotor.run.xml'.
 
@@ -3974,11 +3959,11 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 ### simple group (level 1) entered at line 56 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 91102 strings out of 476024
- 2339315 string characters out of 5794016
- 3497403 words of memory out of 5000000
- 109862 multiletter control sequences out of 15000+600000
- 625827 words of font info for 315 fonts, out of 8000000 for 9000
+ 91114 strings out of 476024
+ 2340332 string characters out of 5794016
+ 3497467 words of memory out of 5000000
+ 109874 multiletter control sequences out of 15000+600000
+ 625699 words of font info for 314 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/te
@@ -3998,10 +3983,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (62 pages, 7063321 bytes).
+Output written on DemonstratorSchrittmotor.pdf (62 pages, 7063677 bytes).
 PDF statistics:
- 1210 PDF objects out of 1440 (max. 8388607)
- 976 compressed objects within 10 object streams
- 187 named destinations out of 1000 (max. 500000)
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 989 compressed objects within 10 object streams
+ 189 named destinations out of 1000 (max. 500000)
  55088 words of extra memory for PDF output out of 61914 (max. 10000000)
 

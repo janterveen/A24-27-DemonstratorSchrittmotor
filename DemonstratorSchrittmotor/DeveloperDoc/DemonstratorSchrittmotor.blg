@@ -19,50 +19,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: DemonstratorSchrittmotor-blx.bib
 Database file #2: ../Documents/MyLiterature.bib
-Warning--I didn't find a database entry for "NrdSem3.2024"
-Warning--I didn't find a database entry for "Arduino.2024d"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 33 entries,
+You've used 35 entries,
             6399 wiz_defined-function locations,
-            1442 strings with 20252 characters,
-and the built_in function-call counts, 200872 in all, are:
-= -- 11199
-> -- 9478
-< -- 1757
-+ -- 8583
-- -- 6603
-* -- 11618
-:= -- 20743
+            1458 strings with 23175 characters,
+and the built_in function-call counts, 191705 in all, are:
+= -- 12074
+> -- 4891
+< -- 1768
++ -- 4304
+- -- 2149
+* -- 12446
+:= -- 17058
 add.period$ -- 0
-call.type$ -- 33
-change.case$ -- 32
-chr.to.int$ -- 389
-cite$ -- 64
-duplicate$ -- 19599
-empty$ -- 17472
-format.name$ -- 1822
-if$ -- 38583
+call.type$ -- 35
+change.case$ -- 34
+chr.to.int$ -- 152
+cite$ -- 68
+duplicate$ -- 20415
+empty$ -- 18294
+format.name$ -- 1965
+if$ -- 40678
 int.to.chr$ -- 0
-int.to.str$ -- 130
+int.to.str$ -- 143
 missing$ -- 0
-newline$ -- 1001
-num.names$ -- 2049
-pop$ -- 11333
+newline$ -- 1106
+num.names$ -- 2233
+pop$ -- 11972
 preamble$ -- 1
-purify$ -- 922
+purify$ -- 1028
 quote$ -- 0
-skip$ -- 7995
+skip$ -- 8331
 stack$ -- 0
-substring$ -- 18540
-swap$ -- 5416
-text.length$ -- 1259
-text.prefix$ -- 60
+substring$ -- 19330
+swap$ -- 5616
+text.length$ -- 1218
+text.prefix$ -- 63
 top$ -- 1
-type$ -- 1110
+type$ -- 1178
 warning$ -- 0
-while$ -- 2111
+while$ -- 2082
 width$ -- 0
-write$ -- 969
-(There were 2 warnings)
+write$ -- 1072
