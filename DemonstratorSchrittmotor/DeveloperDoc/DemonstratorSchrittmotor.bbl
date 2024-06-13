@@ -1186,5 +1186,52 @@
     \field{year}{2019}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
+
+  \entry{Weber.2024}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WI}{%
+         family={Weber},
+         familyi={W\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{Springer Fachmedien Wiesbaden}}%
+    }
+    \keyw{Computer Aided Design (CAD);Digitalisierung;End-User
+  Computing;Fehlerbehebung;Office Programierung;SolidWorks;VBA;Visual basic for
+  applications}
+    \strng{namehash}{WI1}
+    \strng{fullhash}{WI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Web24}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    VBA bietet das Potenzial, effektive Digitalisierungsl{\"o}sungen mit
+  geringem Aufwand zu realisieren. {\grqq}VBA f{\"u}r Office-Automatisierung
+  und Digitalisierung{\textquotedbl} zeigt mit vielen Codebeispielen die
+  Automatisierung von Excel, Word, Outlook, PowerPoint, SAP ERP und SOLIDWORKS
+  und das Zusammenwirken dieser Systeme. Auch Webservices und Rest APIs werden
+  mit VBA angesprochen und erschlie{\ss}en interessante M{\"o}glichkeiten bis
+  hin zu KI. Das Buch erl{\"a}utert wichtige Konzepte und gibt viele Tipps, um
+  VBA-Anwendungen mit einfachen Mitteln unternehmenstauglich und
+  administrierbar zu gestalten.%
+    }
+    \verb{doi}
+    \verb \url{10.1007/978-3-658-42717-7}
+    \endverb
+    \field{isbn}{978-3-658-42716-0}
+    \field{title}{VBA f{\"u}r Office-Automatisierung und Digitalisierung}
+    \list{location}{1}{%
+      {Wiesbaden}%
+    }
+    \verb{file}
+    \verb IreneWeber2024:Attachments/IreneWeber2024.pdf:application/pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
 \enddatalist
 \endinput
