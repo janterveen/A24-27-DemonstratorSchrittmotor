@@ -1,10 +1,10 @@
 \acswitchoff 
 \babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{i}{chapter*.1}%
-\contentsline {chapter}{Abbildungsverzeichnis}{iii}{chapter*.2}%
-\contentsline {chapter}{Tabellenverzeichnis}{v}{chapter*.3}%
-\contentsline {chapter}{ Liste des Listings}{vii}{chapter*.4}%
-\contentsline {chapter}{Acronyms}{ix}{chapter*.4}%
+\contentsline {chapter}{Abbildungsverzeichnis}{v}{chapter*.2}%
+\contentsline {chapter}{Tabellenverzeichnis}{vii}{chapter*.3}%
+\contentsline {chapter}{ Liste des Listings}{ix}{chapter*.4}%
+\contentsline {chapter}{Acronyms}{xi}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Projektbeschreibung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Aufgabenstellung}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Herausforderungen}{1}{section.1.2}%
@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.2.1}9-Achs-IMU für die Bewegungserkennung (LSM9DS1)}{6}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Näherungs-,Umgebungslicht-, Farb- und Gestensensor (APDS9960)}{6}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Barometrischer Drucksensor (LPS22HB)}{7}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Digitales Mikrophon (MP34DT05)}{8}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Digitales Mikrophon (MP34DT05)}{7}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}DC-DC-Wandler (MPM3610)}{8}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Beschreibung der Schnittstellen}{8}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}I2C}{8}{subsection.2.3.1}%
@@ -61,17 +61,17 @@
 \contentsline {section}{\numberline {9.1}Rahmenbedingungen}{37}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Arbeiten mit SolidWorks 2023}{37}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Gehäusekonstruktion}{37}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Anbauteile}{45}{section.9.4}%
-\contentsline {section}{\numberline {9.5}3D-Druck mit PLA}{50}{section.9.5}%
-\contentsline {chapter}{\numberline {10}Schrittverluste verhindern}{53}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Auswahl des Schrittmotors}{53}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Betriebsart}{53}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Start-Stopp-Betrieb}{53}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Beschleunigung und Rampenprofil (Trapezförmig)}{54}{subsection.10.2.2}%
-\contentsline {section}{\numberline {10.3}Externe Ereignisse}{56}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Lastrückkopplung}{56}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Erhöhung der Nutzlast mit der Zeit}{56}{subsection.10.3.2}%
-\contentsline {chapter}{\numberline {11}Testdurchläufe}{57}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Offene Punkte}{59}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Literatur}{61}{chapter.13}%
-\contentsline {chapter}{ Literaturverzeichnis}{63}{chapter.13}%
+\contentsline {section}{\numberline {9.4}Anbauteile}{41}{section.9.4}%
+\contentsline {section}{\numberline {9.5}3D-Druck mit PLA}{44}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Schrittverluste verhindern}{51}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Auswahl des Schrittmotors}{51}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Betriebsart}{51}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Start-Stopp-Betrieb}{51}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Beschleunigung und Rampenprofil (Trapezförmig)}{52}{subsection.10.2.2}%
+\contentsline {section}{\numberline {10.3}Externe Ereignisse}{54}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Lastrückkopplung}{54}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Erhöhung der Nutzlast mit der Zeit}{54}{subsection.10.3.2}%
+\contentsline {chapter}{\numberline {11}Testdurchläufe}{55}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Offene Punkte}{57}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Literatur}{59}{chapter.13}%
+\contentsline {chapter}{ Literaturverzeichnis}{61}{chapter.13}%

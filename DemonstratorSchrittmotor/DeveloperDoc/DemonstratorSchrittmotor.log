@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  14 JUN 2024 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  14 JUN 2024 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2131,18 +2131,6 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count659
 \@quotereset=\count660
 (./DemonstratorSchrittmotor.aux)
-Runaway argument?
-{5C3337365C3337375C303030535C303030635C303030685C303030725C303030695C\ETC.
-! File ended while scanning use of \BKM@entry.
-<inserted text> 
-                \par 
-l.27 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 \openout1 = `DemonstratorSchrittmotor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -2164,6 +2152,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 Package tocbasic Info: usage of `tocbibind' detected on input line 27.
+
 
 Package tocbasic Warning: `tocbibind' redefinition of `\tableofcontents'
 (tocbasic)                detected.
@@ -2517,6 +2506,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Jkongmotor.2024':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Meanwell.2019':
 (biblatex)                - Invalid format of field 'urldate'.
 
@@ -2676,30 +2670,49 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[2]) (./DemonstratorSchrittmotor.toc)
+[2]) (./DemonstratorSchrittmotor.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+3.
+
+(c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [1
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[2])
 \tf@toc=\write8
 \openout8 = `DemonstratorSchrittmotor.toc'.
 
- [1
+Package cleveref Info: loaded `ngerman' language definitions on input line 36.
 
 
-] [2
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[3] [4
 
 
-] (./DemonstratorSchrittmotor.lof)
+] (./DemonstratorSchrittmotor.lof
+Package cleveref Info: loaded `ngerman' language definitions on input line 2.
+)
 \tf@lof=\write9
 \openout9 = `DemonstratorSchrittmotor.lof'.
-
-
-[3
-
-
-] [4
-
-
-] (./DemonstratorSchrittmotor.lot)
-\tf@lot=\write10
-\openout10 = `DemonstratorSchrittmotor.lot'.
 
  [5
 
@@ -2708,9 +2721,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 
 ]
-(./DemonstratorSchrittmotor.locode)
-\tf@locode=\write11
-\openout11 = `DemonstratorSchrittmotor.locode'.
+(./DemonstratorSchrittmotor.lot
+Package cleveref Info: loaded `ngerman' language definitions on input line 2.
+)
+\tf@lot=\write10
+\openout10 = `DemonstratorSchrittmotor.lot'.
 
  [7
 
@@ -2718,10 +2733,23 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 ] [8
 
 
-] [9
+] (./DemonstratorSchrittmotor.locode
+Package cleveref Info: loaded `ngerman' language definitions on input line 1.
+)
+\tf@locode=\write11
+\openout11 = `DemonstratorSchrittmotor.locode'.
+
+
+[9
 
 
 ] [10
+
+
+] [11
+
+
+] [12
 
 
 ] (./Contents/de/Symbols.tex)
@@ -2749,7 +2777,7 @@ Package biblatex Info: Reference segment=2 on input line 10.
 Package biblatex Info: Setting label 'refsegment:02' on input line 10.
 Package biblatex Info: Reference segment=3 on input line 14.
 Package biblatex Info: Setting label 'refsegment:03' on input line 14.
-<Images/Konzeptskizze1.png, id=108, 837.1275pt x 617.30624pt>
+<Images/Konzeptskizze1.png, id=339, 837.1275pt x 617.30624pt>
 File: Images/Konzeptskizze1.png Graphic file (type png)
 <use Images/Konzeptskizze1.png>
 Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 19.
@@ -2768,7 +2796,7 @@ l.25
 
 
 ]
-<Images/Konzeptskizze2.png, id=121, 837.1275pt x 661.97313pt>
+<Images/Konzeptskizze2.png, id=346, 837.1275pt x 661.97313pt>
 File: Images/Konzeptskizze2.png Graphic file (type png)
 <use Images/Konzeptskizze2.png>
 Package pdftex.def Info: Images/Konzeptskizze2.png  used on input line 28.
@@ -2792,7 +2820,7 @@ been already used, duplicate ignored
                    \relax 
 l.32 
       [2 <./Images/Konzeptskizze1.png>]
-<Images/Konstruktion1.png, id=129, 1754.05313pt x 338.01282pt>
+<Images/Konstruktion1.png, id=354, 1754.05313pt x 338.01282pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
 Package pdftex.def Info: Images/Konstruktion1.png  used on input line 37.
@@ -2815,27 +2843,23 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (./Contents/de/HardwarebeschreibungArduino.tex
 chapter 2.
 (./tikz/ArduinoNano33BLESense.tex)
-Overfull \hbox (0.91452pt too wide) in paragraph at lines 21--21
+Overfull \hbox (0.91452pt too wide) in paragraph at lines 30--30
 []|\T1/lmr/bx/n/12 (-20) Pos.Nr.| 
  []
 
 
 Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 22.
+(caption)                 on input line 31.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=4 on input line 24.
-Package biblatex Info: Setting label 'refsegment:04' on input line 24.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-7.
-(c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5
+Package biblatex Info: Reference segment=4 on input line 34.
+Package biblatex Info: Setting label 'refsegment:04' on input line 34.
+[5
 
 
 ]
-Package biblatex Info: Reference segment=5 on input line 29.
-Package biblatex Info: Setting label 'refsegment:05' on input line 29.
+Package biblatex Info: Reference segment=5 on input line 37.
+Package biblatex Info: Setting label 'refsegment:05' on input line 37.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2846,9 +2870,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 48.
+Package cleveref Info: loaded `ngerman' language definitions on input line 56.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2859,15 +2881,15 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [7]
-Package biblatex Info: Reference segment=6 on input line 52.
-Package biblatex Info: Setting label 'refsegment:06' on input line 52.
+Package biblatex Info: Reference segment=6 on input line 60.
+Package biblatex Info: Setting label 'refsegment:06' on input line 60.
  (./tikz/ArduinoPinout.tex)
-Overfull \hbox (5.38652pt too wide) in paragraph at lines 75--56
+Overfull \hbox (5.38652pt too wide) in paragraph at lines 75--65
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--56
+Underfull \hbox (badness 10000) in paragraph at lines 75--65
 
  []
 
@@ -2880,7 +2902,19 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [8]
-Package cleveref Info: loaded `ngerman' language definitions on input line 66.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+75.
+ (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 77.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2891,16 +2925,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [9]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-66.
- (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2910,7 +2934,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [10]
-Package cleveref Info: loaded `ngerman' language definitions on input line 101.
+Package cleveref Info: loaded `ngerman' language definitions on input line 110.
 
 
 
@@ -2922,10 +2946,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [11]
-Package biblatex Info: Reference segment=7 on input line 106.
-Package biblatex Info: Setting label 'refsegment:07' on input line 106.
-Package biblatex Info: Reference segment=8 on input line 108.
-Package biblatex Info: Setting label 'refsegment:08' on input line 108.
+Package biblatex Info: Reference segment=7 on input line 115.
+Package biblatex Info: Setting label 'refsegment:07' on input line 115.
+Package biblatex Info: Reference segment=8 on input line 117.
+Package biblatex Info: Setting label 'refsegment:08' on input line 117.
 )
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2939,12 +2963,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 chapter 3.
 Package biblatex Info: Reference segment=9 on input line 6.
 Package biblatex Info: Setting label 'refsegment:09' on input line 6.
-
-LaTeX Warning: Reference `MLLS' on page 13 undefined on input line 7.
-
-
-LaTeX Warning: Reference `MLLS' on page 13 undefined on input line 7.
-
 Package biblatex Info: Reference segment=10 on input line 18.
 Package biblatex Info: Setting label 'refsegment:010' on input line 18.
 [13
@@ -2992,7 +3010,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [16] (./Contents/de/Schaltplan.tex
 chapter 4.
-<Images/Schaltplan1.png, id=311, 1261.7685pt x 993.0555pt>
+<Images/Schaltplan1.png, id=506, 1261.7685pt x 993.0555pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 17.
@@ -3815,7 +3833,7 @@ Package biblatex Info: Reference segment=15 on input line 6.
 Package biblatex Info: Setting label 'refsegment:015' on input line 6.
 Package biblatex Info: Reference segment=16 on input line 12.
 Package biblatex Info: Setting label 'refsegment:016' on input line 12.
-<General/HauptoberflaecheIDE.png, id=548, 455.45157pt x 283.81032pt>
+<General/HauptoberflaecheIDE.png, id=741, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
@@ -3829,12 +3847,12 @@ Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
 ]
 Package biblatex Info: Reference segment=17 on input line 24.
 Package biblatex Info: Setting label 'refsegment:017' on input line 24.
-<General/Boardsmanager.png, id=560, 269.50688pt x 260.47313pt>
+<General/Boardsmanager.png, id=748, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 31.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-<General/Librarymanager.png, id=563, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=751, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 43.
@@ -3923,11 +3941,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [32]
 Package biblatex Info: Reference segment=21 on input line 30.
 Package biblatex Info: Setting label 'refsegment:021' on input line 30.
-
-
-LaTeX Warning: Citation 'Jkongmotor.2024' on page 33 undefined on input line 31
-.
-
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3962,42 +3975,48 @@ chapter 8.
 
 ] (./Contents/de/Konstruktion.tex
 chapter 9.
-Package biblatex Info: Reference segment=22 on input line 17.
-Package biblatex Info: Setting label 'refsegment:022' on input line 17.
-Package biblatex Info: Reference segment=23 on input line 20.
-Package biblatex Info: Setting label 'refsegment:023' on input line 20.
-Package biblatex Info: Reference segment=24 on input line 24.
-Package biblatex Info: Setting label 'refsegment:024' on input line 24.
-
-LaTeX Warning: Reference `GehK' on page 37 undefined on input line 25.
-
-<Images/Konstruktion/GehaeuseK.png, id=673, 784.43062pt x 526.21594pt>
+Package biblatex Info: Reference segment=22 on input line 15.
+Package biblatex Info: Setting label 'refsegment:022' on input line 15.
+Package biblatex Info: Reference segment=23 on input line 18.
+Package biblatex Info: Setting label 'refsegment:023' on input line 18.
+Package biblatex Info: Reference segment=24 on input line 22.
+Package biblatex Info: Setting label 'refsegment:024' on input line 22.
+<Images/Konstruktion/GehaeuseK.png, id=848, 784.43062pt x 526.21594pt>
 File: Images/Konstruktion/GehaeuseK.png Graphic file (type png)
 <use Images/Konstruktion/GehaeuseK.png>
 Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line 
-28.
+26.
 (pdftex.def)             Requested size: 369.88583pt x 248.13249pt.
-
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
- [37
+[37
 
 
 ]
-
-LaTeX Warning: Reference `BodenK' on page 38 undefined on input line 33.
-
-
-LaTeX Warning: Reference `BohrungenGK' on page 38 undefined on input line 33.
-
-<Images/Konstruktion/BodenK.png, id=686, 1282.7925pt x 734.745pt>
+<Images/Konstruktion/BodenK.png, id=857, 1282.7925pt x 734.745pt>
 File: Images/Konstruktion/BodenK.png Graphic file (type png)
 <use Images/Konstruktion/BodenK.png>
-Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 37.
+Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 35.
 
 (pdftex.def)             Requested size: 369.88583pt x 211.85977pt.
+<Images/Konstruktion/VorneK.png, id=864, 899.61093pt x 758.835pt>
+File: Images/Konstruktion/VorneK.png Graphic file (type png)
+<use Images/Konstruktion/VorneK.png>
+Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 45.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(pdftex.def)             Requested size: 369.88583pt x 312.00436pt.
+<Images/Konstruktion/SeiteLK.png, id=867, 721.19438pt x 670.00313pt>
+File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
+<use Images/Konstruktion/SeiteLK.png>
+Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 55
+.
+(pdftex.def)             Requested size: 369.88583pt x 343.6293pt.
+<Images/Konstruktion/HinterK.png, id=871, 875.52094pt x 744.53156pt>
+File: Images/Konstruktion/HinterK.png Graphic file (type png)
+<use Images/Konstruktion/HinterK.png>
+Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 64
+.
+(pdftex.def)             Requested size: 369.88583pt x 314.54153pt.
+
+Underfull \vbox (badness 3907) has occurred while \output is active []
 
 
 
@@ -4009,34 +4028,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [38 <./Images/Konstruktion/GehaeuseK.PNG>]
-
-LaTeX Warning: Reference `VorneK' on page 39 undefined on input line 42.
-
-
-LaTeX Warning: Reference `VorneK' on page 39 undefined on input line 42.
-
-
-LaTeX Warning: Reference `VorneK' on page 39 undefined on input line 42.
-
-
-LaTeX Warning: Reference `VorneK' on page 39 undefined on input line 42.
-
-
-LaTeX Warning: Reference `VorneK' on page 39 undefined on input line 42.
-
-
-LaTeX Warning: Reference `BohrungenGK' on page 39 undefined on input line 42.
-
-<Images/Konstruktion/VorneK.png, id=694, 899.61093pt x 758.835pt>
-File: Images/Konstruktion/VorneK.png Graphic file (type png)
-<use Images/Konstruktion/VorneK.png>
-Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 47.
-
-(pdftex.def)             Requested size: 369.88583pt x 312.00436pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 51.
+Package cleveref Info: loaded `ngerman' language definitions on input line 68.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4046,23 +4038,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[39 <./Images/Konstruktion/BodenK.PNG>]
-
-LaTeX Warning: Reference `SeiteLK' on page 40 undefined on input line 52.
-
-
-LaTeX Warning: Reference `BohrungenGK' on page 40 undefined on input line 52.
-
-<Images/Konstruktion/SeiteLK.png, id=702, 721.19438pt x 670.00313pt>
-File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
-<use Images/Konstruktion/SeiteLK.png>
-Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 57
-.
-(pdftex.def)             Requested size: 369.88583pt x 343.6293pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[39 <./Images/Konstruktion/BodenK.PNG> <./Images/Konstruktion/VorneK.PNG>]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4071,156 +4047,107 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[40 <./Images/Konstruktion/VorneK.PNG>]
-
-LaTeX Warning: Reference `HinterK' on page 41 undefined on input line 62.
-
-
-LaTeX Warning: Reference `HinterK' on page 41 undefined on input line 62.
-
-
-LaTeX Warning: Reference `BohrungenGK' on page 41 undefined on input line 62.
-
-<Images/Konstruktion/HinterK.png, id=710, 875.52094pt x 744.53156pt>
-File: Images/Konstruktion/HinterK.png Graphic file (type png)
-<use Images/Konstruktion/HinterK.png>
-Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 66
-.
-(pdftex.def)             Requested size: 369.88583pt x 314.54153pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 70.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[41 <./Images/Konstruktion/SeiteLK.PNG>]
-
-LaTeX Warning: Reference `SeiteLK' on page 42 undefined on input line 71.
-
-
-LaTeX Warning: Reference `SeiteRK' on page 42 undefined on input line 71.
-
-
-LaTeX Warning: Reference `BohrungenGK' on page 42 undefined on input line 71.
-
-<Images/Konstruktion/SeiteRK.png, id=718, 758.08218pt x 726.46407pt>
+[40 <./Images/Konstruktion/SeiteLK.PNG>]
+<Images/Konstruktion/SeiteRK.png, id=894, 758.08218pt x 726.46407pt>
 File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteRK.png>
-Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 76
+Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 74
 .
 (pdftex.def)             Requested size: 369.88583pt x 354.46295pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[42 <./Images/Konstruktion/HinterK.PNG>]
-
-LaTeX Warning: Reference `DeckelK' on page 43 undefined on input line 81.
-
-
-LaTeX Warning: Reference `BohrungenGK' on page 43 undefined on input line 81.
-
-<Images/Konstruktion/DeckelK.png, id=726, 1315.16344pt x 778.40813pt>
+<Images/Konstruktion/DeckelK.png, id=897, 1315.16344pt x 778.40813pt>
 File: Images/Konstruktion/DeckelK.png Graphic file (type png)
 <use Images/Konstruktion/DeckelK.png>
-Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 85
+Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 83
 .
 (pdftex.def)             Requested size: 369.88583pt x 218.91487pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 89.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[43 <./Images/Konstruktion/SeiteRK.PNG>]
-Overfull \hbox (2.74211pt too wide) in paragraph at lines 115--115
+Overfull \hbox (2.74211pt too wide) in paragraph at lines 113--113
 []|\T1/lmr/bx/n/8 (-20) Nr.| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
 Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 116.
+(caption)                 on input line 114.
 See the caption package documentation for explanation.
 
+Package biblatex Info: Reference segment=25 on input line 118.
+Package biblatex Info: Setting label 'refsegment:025' on input line 118.
+Package cleveref Info: loaded `ngerman' language definitions on input line 122.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[41 <./Images/Konstruktion/HinterK.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[42 <./Images/Konstruktion/SeiteRK.PNG> <./Images/Konstruktion/DeckelK.PNG>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 122.
 
 
 
@@ -4231,199 +4158,86 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[44 <./Images/Konstruktion/DeckelK.PNG>]
-Package biblatex Info: Reference segment=25 on input line 120.
-Package biblatex Info: Setting label 'refsegment:025' on input line 120.
-
-
-LaTeX Warning: Reference `FlankeMotorK' on page 45 undefined on input line 123.
-
-
-
-LaTeX Warning: Reference `FlankeMotorK' on page 45 undefined on input line 123.
-
-
-
-LaTeX Warning: Reference `SeiteRK' on page 45 undefined on input line 123.
-
-
-LaTeX Warning: Reference `BohrungenAK' on page 45 undefined on input line 123.
-
-<Images/Konstruktion/FlankeMotorK.png, id=742, 542.025pt x 641.39626pt>
+[43]
+<Images/Konstruktion/FlankeMotorK.png, id=921, 542.025pt x 641.39626pt>
 File: Images/Konstruktion/FlankeMotorK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeMotorK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeMotorK.png  used on input li
-ne 127.
+ne 125.
 (pdftex.def)             Requested size: 369.88583pt x 437.70958pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 131.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[45]
-
-LaTeX Warning: Reference `FlankeK' on page 46 undefined on input line 132.
-
-
-LaTeX Warning: Reference `FlankeK' on page 46 undefined on input line 132.
-
-
-LaTeX Warning: Reference `BohrungenAK' on page 46 undefined on input line 132.
-
-<Images/Konstruktion/FlankeK.png, id=750, 522.45187pt x 660.96938pt>
+<Images/Konstruktion/FlankeK.png, id=925, 522.45187pt x 660.96938pt>
 File: Images/Konstruktion/FlankeK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeK.png  used on input line 13
-6.
+4.
 (pdftex.def)             Requested size: 369.88583pt x 467.96025pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[46 <./Images/Konstruktion/FlankeMotorK.PNG>]
-
-LaTeX Warning: Reference `GriffK' on page 47 undefined on input line 141.
-
-
-LaTeX Warning: Reference `BohrungenAK' on page 47 undefined on input line 141.
-
-<Images/Konstruktion/GriffK.png, id=758, 963.6pt x 668.4975pt>
+<Images/Konstruktion/GriffK.png, id=928, 963.6pt x 668.4975pt>
 File: Images/Konstruktion/GriffK.png Graphic file (type png)
 <use Images/Konstruktion/GriffK.png>
-Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 145
+Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 143
 .
 (pdftex.def)             Requested size: 369.88583pt x 256.60219pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 149.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[47 <./Images/Konstruktion/FlankeK.PNG>]
-
-LaTeX Warning: Reference `DrehKnopfK' on page 48 undefined on input line 150.
-
-
-LaTeX Warning: Reference `BohrungenAK' on page 48 undefined on input line 150.
-
-<Images/Konstruktion/DrehKnopfK.png, id=766, 706.89093pt x 463.7325pt>
+<Images/Konstruktion/DrehKnopfK.png, id=931, 706.89093pt x 463.7325pt>
 File: Images/Konstruktion/DrehKnopfK.png Graphic file (type png)
 <use Images/Konstruktion/DrehKnopfK.png>
 Package pdftex.def Info: Images/Konstruktion/DrehKnopfK.png  used on input line
- 154.
+ 152.
 (pdftex.def)             Requested size: 369.88583pt x 242.64946pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[48 <./Images/Konstruktion/GriffK.PNG>]
-
-LaTeX Warning: Reference `AnzeigerK' on page 49 undefined on input line 159.
-
-
-LaTeX Warning: Reference `AnzeigerK' on page 49 undefined on input line 159.
-
-
-LaTeX Warning: Reference `BohrungenAK' on page 49 undefined on input line 159.
-
-<Images/Konstruktion/AnzeigerK.png, id=774, 872.50969pt x 662.475pt>
+<Images/Konstruktion/AnzeigerK.png, id=935, 872.50969pt x 662.475pt>
 File: Images/Konstruktion/AnzeigerK.png Graphic file (type png)
 <use Images/Konstruktion/AnzeigerK.png>
 Package pdftex.def Info: Images/Konstruktion/AnzeigerK.png  used on input line 
-163.
+161.
 (pdftex.def)             Requested size: 369.88583pt x 280.84561pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 167.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[49 <./Images/Konstruktion/DrehKnopfK.PNG>]
-Overfull \hbox (2.74211pt too wide) in paragraph at lines 181--181
+Overfull \hbox (2.74211pt too wide) in paragraph at lines 179--179
 []|\T1/lmr/bx/n/8 (-20) Nr.| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\T1/lmr/m/n/8 (+20) DIN912
  []
 
 
 Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 182.
+(caption)                 on input line 180.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=26 on input line 187.
-Package biblatex Info: Setting label 'refsegment:026' on input line 187.
+Package biblatex Info: Reference segment=26 on input line 185.
+Package biblatex Info: Setting label 'refsegment:026' on input line 185.
+<Images/Konstruktion/AKK2N.jpg, id=937, 604.1772pt x 511.6716pt>
+File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
+<use Images/Konstruktion/AKK2N.jpg>
+Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 190.
 
-LaTeX Warning: Reference `AKK2N' on page 50 undefined on input line 188.
-
+(pdftex.def)             Requested size: 369.88583pt x 313.25911pt.
+)
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4432,14 +4246,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[50 <./Images/Konstruktion/AnzeigerK.PNG>]
-<Images/Konstruktion/AKK2N.jpg, id=792, 604.1772pt x 511.6716pt>
-File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
-<use Images/Konstruktion/AKK2N.jpg>
-Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 192.
-
-(pdftex.def)             Requested size: 369.88583pt x 313.25911pt.
-)
+[44]
 Package cleveref Info: loaded `ngerman' language definitions on input line 95.
 
 
@@ -4450,7 +4257,47 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[51 <./Images/Konstruktion/AKK2N.jpg>] [52
+[45 <./Images/Konstruktion/FlankeMotorK.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[46 <./Images/Konstruktion/FlankeK.PNG>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 95.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[47 <./Images/Konstruktion/GriffK.PNG> <./Images/Konstruktion/DrehKnopfK.PNG>]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[48 <./Images/Konstruktion/AnzeigerK.PNG>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 95.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[49 <./Images/Konstruktion/AKK2N.jpg>] [50
 
 
 ]
@@ -4465,16 +4312,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 68.
 See the caption package documentation for explanation.
 
-[53
+[51
 
 
 ]
-
-LaTeX Warning: Reference `MOTLNA' on page 54 undefined on input line 107.
-
-
-LaTeX Warning: Reference `MOTLNA' on page 54 undefined on input line 107.
-
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4483,7 +4324,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[54]
+[52]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 139.
@@ -4511,7 +4352,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[55])
+[53])
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4520,30 +4361,30 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[56] (./Contents/de/Testdurchläufe.tex
+[54] (./Contents/de/Testdurchläufe.tex
 chapter 11.
+) [55
+
+
+
+
+] [56
+
+
+] (./Contents/de/OffenePunkte.tex
+chapter 12.
 ) [57
-
-
 
 
 ] [58
 
 
-] (./Contents/de/OffenePunkte.tex
-chapter 12.
+] (./Contents/de/Literatur.tex
+chapter 13.
 ) [59
 
 
 ] [60
-
-
-] (./Contents/de/Literatur.tex
-chapter 13.
-) [61
-
-
-] [62
 
 
 ]
@@ -4586,7 +4427,7 @@ Overfull \hbox (3.20758pt too wide) in paragraph at lines 110--110
 /
  []
 
-[63
+[61
 
 
 ]
@@ -4628,6 +4469,19 @@ Overfull \hbox (13.64789pt too wide) in paragraph at lines 110--110
  []
 
 
+Overfull \hbox (35.65504pt too wide) in paragraph at lines 110--110
+[]\T1/lmr/m/n/12 (-20) Jkongmotor. \T1/lmr/m/it/12 (-20) Nema17-Datasheet\T1/lm
+r/m/n/12 (-20) . \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/i
+t/12 \url{https : / / ecksteinimg .
+ []
+
+
+Overfull \hbox (9.40234pt too wide) in paragraph at lines 110--110
+\T1/fvm/l/it/12 de / Datasheet / Schrittmotor / JK42HS34 -[] 0844A / JK42HS34 -
+[]
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4635,7 +4489,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[64]
+[62]
 Overfull \hbox (3.43654pt too wide) in paragraph at lines 110--110
 []\T1/lmr/m/n/12 (-20) Mentor. \T1/lmr/m/it/12 (-20) SIGNALLEUCHTENSMD-LED-Date
 nblatt\T1/lmr/m/n/12 (-20) . 2024. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20
@@ -4654,12 +4508,6 @@ Overfull \hbox (14.9821pt too wide) in paragraph at lines 110--110
 nRF9161 Pro-duct Spe-ci-fi-ca-ti-on: Cryptocell-
  []
 
-
-Overfull \hbox (6.75783pt too wide) in paragraph at lines 110--110
-[]\T1/lmr/m/n/12 (-20) STMICROELECTRONICS. \T1/lmr/m/it/12 (-20) Da-tas-heet - 
-MP34DT05-A - MEMS
- []
-
 Package cleveref Info: loaded `ngerman' language definitions on input line 109.
 
 
@@ -4670,7 +4518,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[65]
+[63]
+Overfull \hbox (6.75783pt too wide) in paragraph at lines 110--110
+[]\T1/lmr/m/n/12 (-20) STMICROELECTRONICS. \T1/lmr/m/it/12 (-20) Da-tas-heet - 
+MP34DT05-A - MEMS
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4679,7 +4532,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[66]
+[64]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
  (./DemonstratorSchrittmotor.ind)
@@ -4688,7 +4541,7 @@ Package acro Warning: Empty acronym list. If you have used acronyms then
 (acro)                re-compile to get the list filled. Otherwise remove
 (acro)                \printacronyms
 
-[67] (./DemonstratorSchrittmotor.aux
+(./DemonstratorSchrittmotor.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 34.
 )
 
@@ -4697,20 +4550,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
 Package rerunfilecheck Info: File `DemonstratorSchrittmotor.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                DemonstratorSchrittmotor
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 \openout1 = `DemonstratorSchrittmotor.run.xml'.
 
@@ -4723,13 +4565,13 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 ### simple group (level 1) entered at line 56 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 91420 strings out of 476024
- 2348369 string characters out of 5794016
- 3492888 words of memory out of 5000000
- 110084 multiletter control sequences out of 15000+600000
- 627053 words of font info for 329 fonts, out of 8000000 for 9000
+ 91432 strings out of 476024
+ 2348850 string characters out of 5794016
+ 3498456 words of memory out of 5000000
+ 110099 multiletter control sequences out of 15000+600000
+ 626949 words of font info for 327 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
- 110i,13n,136p,10619b,2834s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/te
 xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist
 /fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/l
@@ -4747,10 +4589,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (79 pages, 13397547 bytes).
+Output written on DemonstratorSchrittmotor.pdf (78 pages, 13405017 bytes).
 PDF statistics:
- 1353 PDF objects out of 1440 (max. 8388607)
- 1032 compressed objects within 11 object streams
- 226 named destinations out of 1000 (max. 500000)
+ 1513 PDF objects out of 1728 (max. 8388607)
+ 1192 compressed objects within 12 object streams
+ 227 named destinations out of 1000 (max. 500000)
  55261 words of extra memory for PDF output out of 61914 (max. 10000000)
 

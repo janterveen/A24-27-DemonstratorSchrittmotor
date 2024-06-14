@@ -20,49 +20,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 10040 items from 5000.
 Database file #1: DemonstratorSchrittmotor-blx.bib
 Database file #2: ../Documents/Myliterature.bib
-Warning--I didn't find a database entry for "Jkongmotor."
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 35 entries,
+You've used 36 entries,
             6399 wiz_defined-function locations,
-            1495 strings with 29272 characters,
-and the built_in function-call counts, 194480 in all, are:
-= -- 12743
-> -- 3966
-< -- 1765
-+ -- 3646
-- -- 1268
-* -- 13120
-:= -- 16973
+            1501 strings with 29552 characters,
+and the built_in function-call counts, 198625 in all, are:
+= -- 12956
+> -- 4057
+< -- 1802
++ -- 3699
+- -- 1300
+* -- 13410
+:= -- 17305
 add.period$ -- 0
-call.type$ -- 35
-change.case$ -- 34
-chr.to.int$ -- 101
-cite$ -- 68
-duplicate$ -- 21040
-empty$ -- 18780
-format.name$ -- 2008
-if$ -- 41870
+call.type$ -- 36
+change.case$ -- 35
+chr.to.int$ -- 104
+cite$ -- 70
+duplicate$ -- 21524
+empty$ -- 19223
+format.name$ -- 2058
+if$ -- 42761
 int.to.chr$ -- 0
-int.to.str$ -- 147
+int.to.str$ -- 149
 missing$ -- 0
-newline$ -- 1206
-num.names$ -- 2265
-pop$ -- 11993
+newline$ -- 1235
+num.names$ -- 2310
+pop$ -- 12337
 preamble$ -- 1
-purify$ -- 1058
+purify$ -- 1070
 quote$ -- 0
-skip$ -- 8331
+skip$ -- 8512
 stack$ -- 0
-substring$ -- 20521
-swap$ -- 5772
-text.length$ -- 1201
-text.prefix$ -- 62
+substring$ -- 20847
+swap$ -- 5911
+text.length$ -- 1235
+text.prefix$ -- 64
 top$ -- 1
-type$ -- 1178
+type$ -- 1212
 warning$ -- 0
-while$ -- 2155
+while$ -- 2201
 width$ -- 0
-write$ -- 1172
-(There was 1 warning)
+write$ -- 1200
