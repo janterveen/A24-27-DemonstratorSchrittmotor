@@ -41,54 +41,51 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>DemonstratorSchrittmotor.aux</file>
-      <file>DemonstratorSchrittmotor-blx.bib</file>
+      <file>DemontageAnleitung.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>DemonstratorSchrittmotor.bbl</file>
+      <file>DemontageAnleitung.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>alphabetic.bbx</file>
+      <file>numeric.bbx</file>
+      <file>numeric-comp.bbx</file>
+      <file>ieee.bbx</file>
+      <file>ieee-alphabetic.bbx</file>
       <file>alphabetic.cbx</file>
+      <file>ieee-alphabetic.cbx</file>
       <file>biblatex.cfg</file>
       <file>german.lbx</file>
       <file>ngerman.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>bibtex</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex8</binary>
-      <option>--wolfgang</option>
-      <option>--min_crossrefs 2</option>
-      <infile>DemonstratorSchrittmotor</infile>
+      <binary>biber</binary>
+      <infile>DemontageAnleitung</infile>
     </cmdline>
     <input>
-      <file>DemonstratorSchrittmotor.aux</file>
+      <file>DemontageAnleitung.bcf</file>
     </input>
     <output>
-      <file>DemonstratorSchrittmotor.bbl</file>
+      <file>DemontageAnleitung.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>DemonstratorSchrittmotor.bbl</file>
+      <file>DemontageAnleitung.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>DemonstratorSchrittmotor.aux</file>
-      <file>DemonstratorSchrittmotor-blx.bib</file>
+      <file>DemontageAnleitung.bcf</file>
     </requires>
     <requires type="editable">
-      <file>../Documents/Myliterature.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
+      <file>../Documents/literature.bib</file>
+      <file>../Documents/MyLiterature.bib</file>
     </requires>
   </external>
 </requests>

@@ -678,6 +678,10 @@
     \list{location}{1}{%
       {Sch{\"o}naich · Deutschland}%
     }
+    \verb{file}
+    \verb FaulhaberDriveSystemTutorial:Attachments/FaulhaberDriveSystemTutorial
+    \verb .pdf:application/pdf
+    \endverb
     \field{year}{2020}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
@@ -787,35 +791,6 @@
     \field{year}{2021}
   \endentry
 
-  \entry{Jkongmotor.}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=J}{%
-         family={Jkongmotor},
-         familyi={J\bibinitperiod},
-      }}%
-    }
-    \keyw{Datasheet;Datenblatt;Force;Schrittmotor;Specification;Step Angle}
-    \strng{namehash}{J1}
-    \strng{fullhash}{J1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Jko}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{abstract}{%
-    Datenblatt zum Schrittmotor.%
-    }
-    \field{title}{Nema17-Datasheet}
-    \verb{url}
-    \verb \url{https://ecksteinimg.de/Datasheet/Schrittmotor/JK42HS34-0844A/JK4
-    \verb 2HS34-0844YA-01.pdf}
-    \endverb
-    \verb{file}
-    \verb Nema17-Datasheet:Attachments/Nema17-Datasheet.pdf:application/pdf
-    \endverb
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
   \entry{Lienig.2012}{book}{}
     \name{editor}{2}{}{%
       {{hash=LJ}{%
@@ -855,7 +830,7 @@
     \verb{doi}
     \verb \url{10.1007/978-3-642-30572-6}
     \endverb
-    \field{isbn}{3642305717}
+    \field{isbn}{978-3-642-30572-6}
     \field{title}{Entwurf integrierter 3D-Systeme der Elektronik}
     \list{location}{2}{%
       {Berlin}%
@@ -918,6 +893,9 @@
     \list{location}{1}{%
       {Wiesbaden}%
     }
+    \verb{file}
+    \verb AnsgarMeroth2021:Attachments/AnsgarMeroth2021.pdf:application/pdf
+    \endverb
     \field{year}{2021}
   \endentry
 
@@ -1035,7 +1013,7 @@
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
-  \entry{NrdSem2.2024}{article}{}
+  \entry{NrdSem2.2024}{misc}{}
     \name{author}{1}{}{%
       {{hash=N}{%
          family={{Nordic Semiconductor}},
