@@ -29,6 +29,7 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 - [Projektplan-Excel](Projektplan.xlsx)
   - Excel-Datei die während des Projekts zur Projektplanung diente
 - [README](README.md)
+- [Evaluation](EvaluationHW.xlsx)
 
 ## Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
 - [Demontage- und Montageanleitung](DemonstratorSchrittmotor/AssemblyDisassembly)
