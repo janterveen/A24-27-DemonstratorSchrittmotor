@@ -1,6 +1,0 @@
-\acswitchoff 
-\babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{ Abbildungsverzeichnis}{iii}{chapter*.1}%
-\contentsline {chapter}{ Tabellenverzeichnis}{v}{chapter*.2}%
-\contentsline {chapter}{ Abkürzungen}{vii}{chapter*.4}%
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
