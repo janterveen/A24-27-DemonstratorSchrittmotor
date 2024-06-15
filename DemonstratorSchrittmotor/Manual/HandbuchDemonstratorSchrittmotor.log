@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  16 MAY 2024 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  15 JUN 2024 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1593,20 +1593,23 @@ File: Images/Konstruktion2.png Graphic file (type png)
 <use Images/Konstruktion2.png>
 Package pdftex.def Info: Images/Konstruktion2.png  used on input line 17.
 (pdftex.def)             Requested size: 432.48192pt x 298.26323pt.
-) (./Chapters/de/BEDBack.tex [3
+(./Tikz/Frontblende.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
 
 
- <./Images/Konstruktion2.png>] [4
-
-
-]
+ <./Images/Konstruktion2.png>]) (./Chapters/de/BEDBack.tex [4]
 chapter 3.
 <Images/Konstruktion3.png, id=122, 1598.97375pt x 1178.4025pt>
 File: Images/Konstruktion3.png Graphic file (type png)
 <use Images/Konstruktion3.png>
 Package pdftex.def Info: Images/Konstruktion3.png  used on input line 17.
 (pdftex.def)             Requested size: 432.48192pt x 318.71236pt.
-) (./Chapters/de/BEDKab.tex [5 <./Images/Konstruktion3.png>] [6
+) (./Chapters/de/BEDKab.tex [5
+
+
+ <./Images/Konstruktion3.png>] [6
 
 
 ]
@@ -1693,11 +1696,11 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46621 strings out of 476024
- 1046936 string characters out of 5794016
- 1907964 words of memory out of 5000000
- 66140 multiletter control sequences out of 15000+600000
- 559360 words of font info for 236 fonts, out of 8000000 for 9000
+ 46658 strings out of 476024
+ 1047686 string characters out of 5794016
+ 1907963 words of memory out of 5000000
+ 66168 multiletter control sequences out of 15000+600000
+ 560272 words of font info for 239 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,10n,106p,10627b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -1708,23 +1711,22 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist
 sfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb
 ><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
--super/sfrm2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfr
-m2488.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl2074.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-
-super/sftt1095.pfb>
-Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2062184 bytes
+ve/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1
+/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
+-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfs
+l1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl2074.pfb>
+<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texliv
+e/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2022/tex
+mf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/cm-super/sftt1095.pfb>
+Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 2058124 bytes
 ).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
+ 398 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
  72 named destinations out of 1000 (max. 500000)
- 49830 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 51878 words of extra memory for PDF output out of 61914 (max. 10000000)
 
