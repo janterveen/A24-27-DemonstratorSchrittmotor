@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  14 JUN 2024 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  15 JUN 2024 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2585,10 +2585,10 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 <General/LogoHSEmdenLeer.jpg, id=31, 1275.0837pt x 427.1157pt>
 File: General/LogoHSEmdenLeer.jpg Graphic file (type jpg)
 <use General/LogoHSEmdenLeer.jpg>
-Package pdftex.def Info: General/LogoHSEmdenLeer.jpg  used on input line 13.
+Package pdftex.def Info: General/LogoHSEmdenLeer.jpg  used on input line 15.
 (pdftex.def)             Requested size: 199.16928pt x 66.71059pt.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-1.
+3.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -2602,36 +2602,36 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./General/LogoH
 SEmdenLeer.jpg>]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-9.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+1.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-9.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+1.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-49.
+51.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-49.
+51.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 49.
+(Font)              <10.95> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 49.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+(Font)              <6> on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2640,7 +2640,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -2649,14 +2649,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 49
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 51
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 54.
+(Font)              scaled to size 9.85492pt on input line 56.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2771,23 +2771,23 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface.
 
-Package biblatex Info: Reference segment=1 on input line 6.
-Package biblatex Info: Setting label 'refsegment:01' on input line 6.
-Package biblatex Info: Reference segment=2 on input line 10.
-Package biblatex Info: Setting label 'refsegment:02' on input line 10.
-Package biblatex Info: Reference segment=3 on input line 14.
-Package biblatex Info: Setting label 'refsegment:03' on input line 14.
-<Images/Konzeptskizze1.png, id=339, 837.1275pt x 617.30624pt>
+Package biblatex Info: Reference segment=1 on input line 15.
+Package biblatex Info: Setting label 'refsegment:01' on input line 15.
+Package biblatex Info: Reference segment=2 on input line 19.
+Package biblatex Info: Setting label 'refsegment:02' on input line 19.
+Package biblatex Info: Reference segment=3 on input line 23.
+Package biblatex Info: Setting label 'refsegment:03' on input line 23.
+<Images/Konzeptskizze1.png, id=341, 837.1275pt x 617.30624pt>
 File: Images/Konzeptskizze1.png Graphic file (type png)
 <use Images/Konzeptskizze1.png>
-Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 19.
+Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 28.
 (pdftex.def)             Requested size: 369.88583pt x 272.75533pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 
+l.34 
       [1
 
 
@@ -2796,10 +2796,10 @@ l.25
 
 
 ]
-<Images/Konzeptskizze2.png, id=346, 837.1275pt x 661.97313pt>
+<Images/Konzeptskizze2.png, id=348, 837.1275pt x 661.97313pt>
 File: Images/Konzeptskizze2.png Graphic file (type png)
 <use Images/Konzeptskizze2.png>
-Package pdftex.def Info: Images/Konzeptskizze2.png  used on input line 28.
+Package pdftex.def Info: Images/Konzeptskizze2.png  used on input line 37.
 (pdftex.def)             Requested size: 369.88583pt x 292.49129pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2818,12 +2818,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 
+l.41 
       [2 <./Images/Konzeptskizze1.png>]
-<Images/Konstruktion1.png, id=354, 1754.05313pt x 338.01282pt>
+<Images/Konstruktion1.png, id=356, 1754.05313pt x 338.01282pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
-Package pdftex.def Info: Images/Konstruktion1.png  used on input line 37.
+Package pdftex.def Info: Images/Konstruktion1.png  used on input line 46.
 (pdftex.def)             Requested size: 369.88583pt x 71.27876pt.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 71.
@@ -2961,20 +2961,20 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [12] (./Contents/de/WeitereHardware.tex
 chapter 3.
-Package biblatex Info: Reference segment=9 on input line 6.
-Package biblatex Info: Setting label 'refsegment:09' on input line 6.
-Package biblatex Info: Reference segment=10 on input line 18.
-Package biblatex Info: Setting label 'refsegment:010' on input line 18.
+Package biblatex Info: Reference segment=9 on input line 15.
+Package biblatex Info: Setting label 'refsegment:09' on input line 15.
+Package biblatex Info: Reference segment=10 on input line 27.
+Package biblatex Info: Setting label 'refsegment:010' on input line 27.
 [13
 
 
 
 
 ]
-Package biblatex Info: Reference segment=11 on input line 21.
-Package biblatex Info: Setting label 'refsegment:011' on input line 21.
-Package biblatex Info: Reference segment=12 on input line 42.
-Package biblatex Info: Setting label 'refsegment:012' on input line 42.
+Package biblatex Info: Reference segment=11 on input line 30.
+Package biblatex Info: Setting label 'refsegment:011' on input line 30.
+Package biblatex Info: Reference segment=12 on input line 51.
+Package biblatex Info: Setting label 'refsegment:012' on input line 51.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2985,11 +2985,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [14]
-Package biblatex Info: Reference segment=13 on input line 46.
-Package biblatex Info: Setting label 'refsegment:013' on input line 46.
-Package biblatex Info: Reference segment=14 on input line 53.
-Package biblatex Info: Setting label 'refsegment:014' on input line 53.
-Package cleveref Info: loaded `ngerman' language definitions on input line 56.
+Package biblatex Info: Reference segment=13 on input line 55.
+Package biblatex Info: Setting label 'refsegment:013' on input line 55.
+Package biblatex Info: Reference segment=14 on input line 62.
+Package biblatex Info: Setting label 'refsegment:014' on input line 62.
+Package cleveref Info: loaded `ngerman' language definitions on input line 65.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3008,854 +3008,35 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[16] (./Contents/de/Schaltplan.tex
+[16] (./Contents/de/SoftwarebeschreibungIDE.tex
 chapter 4.
-<Images/Schaltplan1.png, id=506, 1261.7685pt x 993.0555pt>
-File: Images/Schaltplan1.png Graphic file (type png)
-<use Images/Schaltplan1.png>
-Package pdftex.def Info: Images/Schaltplan1.png  used on input line 17.
-(pdftex.def)             Requested size: 369.88583pt x 291.11534pt.
-) [17
-
-
-
-
- <./Images/Schaltplan1.png>] [18
-
-
-] (./Contents/de/Materialliste.tex
-chapter 5.
-
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 44--44
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
-
-
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 44--44
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
-
-
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 44--44
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
-
-
-Overfull \hbox (0.95421pt too wide) in paragraph at lines 44--44
-[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
- []
-
-
-Underfull \hbox (badness 4479) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/8 (+20) Arduino Lern-
- []
-
-File: Images/Material/Arduino.png Graphic file (type png)
-<use Images/Material/Arduino.png>
-Package pdftex.def Info: Images/Material/Arduino.png  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 36.60689pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) Ver-bin-dungs-ka-
- []
-
-File: Images/Material/RBS12536.png Graphic file (type png)
-<use Images/Material/RBS12536.png>
-Package pdftex.def Info: Images/Material/RBS12536.png  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 56.90556pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/8 (+20) 1 m Alu-pro-fil
- []
-
-File: Images/Material/aluprofil.jpg Graphic file (type jpg)
-<use Images/Material/aluprofil.jpg>
-Package pdftex.def Info: Images/Material/aluprofil.jpg  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 34.33081pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/8 (+20) Schaltnetzteil,
- []
-
-File: Images/Material/RD50.png Graphic file (type png)
-<use Images/Material/RD50.png>
-Package pdftex.def Info: Images/Material/RD50.png  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 42.67725pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/8 (+20) Mini Span-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) nungs-reg-ler
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) dul AMS1117
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) 3,3 VV
- []
-
-File: Images/Material/ams1117.jpg Graphic file (type jpg)
-<use Images/Material/ams1117.jpg>
-Package pdftex.def Info: Images/Material/ams1117.jpg  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 23.1281pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) schei-be 20
- []
-
-
-Underfull \hbox (badness 4792) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) Zäh-ne 5 mm
- []
-
-File: Images/Material/RBS10277.jpg Graphic file (type jpg)
-<use Images/Material/RBS10277.jpg>
-Package pdftex.def Info: Images/Material/RBS10277.jpg  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) schei-be 20
- []
-
-
-Underfull \hbox (badness 4792) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) Zäh-ne 5 mm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) Boh-rung mit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) Du-al Ku-gel-la-
- []
-
-File: Images/Material/RBS12569.jpg Graphic file (type jpg)
-<use Images/Material/RBS12569.jpg>
-Package pdftex.def Info: Images/Material/RBS12569.jpg  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/8 (+20) Speed PLA
- []
-
-File: Images/Material/RBS16371.jpg Graphic file (type jpg)
-<use Images/Material/RBS16371.jpg>
-Package pdftex.def Info: Images/Material/RBS16371.jpg  used on input line 44.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19
-
-
-]
-Overfull \vbox (106.244pt too high) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[20 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
-Material/aluprofil.jpg> <./Images/Material/RD50.png> <./Images/Material/ams1117
-.jpg> <./Images/Material/RBS10277.jpg> <./Images/Material/RBS12569.jpg> <./Imag
-es/Material/RBS16371.jpg>]
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
-
-
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
-
-
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
-
-
-Overfull \hbox (0.95421pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (+20) Linearführung
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) MGN12H 450
- []
-
-File: Images/Material/RBS12916.jpg Graphic file (type jpg)
-<use Images/Material/RBS12916.jpg>
-Package pdftex.def Info: Images/Material/RBS12916.jpg  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-File: Images/Material/RBS10161.jpg Graphic file (type jpg)
-<use Images/Material/RBS10161.jpg>
-Package pdftex.def Info: Images/Material/RBS10161.jpg  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (+20) M3 Ham-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) mer-mut-ter
- []
-
-File: Images/Material/RBS11229.jpg Graphic file (type jpg)
-<use Images/Material/RBS11229.jpg>
-Package pdftex.def Info: Images/Material/RBS11229.jpg  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Overfull \hbox (9.06496pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (-20) Zylinderschrauben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) nen-sechs-kant
- []
-
-File: Images/Material/M3.png Graphic file (type png)
-<use Images/Material/M3.png>
-Package pdftex.def Info: Images/Material/M3.png  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
-
-Overfull \hbox (9.06496pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (-20) Zylinderschrauben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) nen-sechs-kant
- []
-
-File: Images/Material/M3.png Graphic file (type png)
-<use Images/Material/M3.png>
-Package pdftex.def Info: Images/Material/M3.png  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
-
-Overfull \hbox (9.06496pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (-20) Zylinderschrauben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) nen-sechs-kant
- []
-
-File: Images/Material/M3.png Graphic file (type png)
-<use Images/Material/M3.png>
-Package pdftex.def Info: Images/Material/M3.png  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
-
-Overfull \hbox (9.06496pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (-20) Zylinderschrauben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) nen-sechs-kant
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) stahl A2 100
- []
-
-File: Images/Material/M3.png Graphic file (type png)
-<use Images/Material/M3.png>
-Package pdftex.def Info: Images/Material/M3.png  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
-
-Overfull \hbox (7.42448pt too wide) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (-20) Sechskantmuttern
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) M3 DIN 934
- []
-
-File: Images/Material/M3Mutter.png Graphic file (type png)
-<use Images/Material/M3Mutter.png>
-Package pdftex.def Info: Images/Material/M3Mutter.png  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 33.30298pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/lmr/m/n/8 (+20) Senkschrauben
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) M2.5 5 mm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) Kreuz-schlitz
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) Phil-lips DIN
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 75--75
-\T1/lmr/m/n/8 (+20) 965 Stahl ver-
- []
-
-File: Images/Material/M2.png Graphic file (type png)
-<use Images/Material/M2.png>
-Package pdftex.def Info: Images/Material/M2.png  used on input line 75.
-(pdftex.def)             Requested size: 56.9055pt x 34.36995pt.
-
-Overfull \vbox (92.239pt too high) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 102.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[21 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
-/Material/RBS11229.jpg> <./Images/Material/M3.PNG> <./Images/Material/M3Mutter.
-PNG> <./Images/Material/M2.PNG>]
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
-
-
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
-
-
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
-
-
-Overfull \hbox (0.95421pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (+20) BMI Li-ne-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) 963050030
- []
-
-File: Images/Material/Linieal.png Graphic file (type png)
-<use Images/Material/Linieal.png>
-Package pdftex.def Info: Images/Material/Linieal.png  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 6.1753pt.
-File: Images/Material/RBS10023.jpg Graphic file (type jpg)
-<use Images/Material/RBS10023.jpg>
-Package pdftex.def Info: Images/Material/RBS10023.jpg  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 56.88351pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) Buchse-Buchse
- []
-
-File: Images/Material/RBS10136.jpg Graphic file (type jpg)
-<use Images/Material/RBS10136.jpg>
-Package pdftex.def Info: Images/Material/RBS10136.jpg  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 3229) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) Ka-bel Buchse-
- []
-
-File: Images/Material/RBS10038.jpg Graphic file (type jpg)
-<use Images/Material/RBS10038.jpg>
-Package pdftex.def Info: Images/Material/RBS10038.jpg  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) ve Universal-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) Kabel, 4-Pin,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (+20) GRV CA-
- []
-
-File: Images/Material/CABLE4PIN20.png Graphic file (type png)
-<use Images/Material/CABLE4PIN20.png>
-Package pdftex.def Info: Images/Material/CABLE4PIN20.png  used on input line 10
-2.
-(pdftex.def)             Requested size: 56.9055pt x 38.30511pt.
-
-Overfull \hbox (8.09279pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (-20) Schrittmotorkabel
- []
-
-File: Images/Material/RBS10966.jpg Graphic file (type jpg)
-<use Images/Material/RBS10966.jpg>
-Package pdftex.def Info: Images/Material/RBS10966.jpg  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (+20) Ring-
- []
-
-File: Images/Material/VTRKB4.png Graphic file (type png)
-<use Images/Material/VTRKB4.png>
-Package pdftex.def Info: Images/Material/VTRKB4.png  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 44.73534pt.
-
-Overfull \hbox (6.3964pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (-20) Flachsteckerhülse,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) Brei-te: 4,7
- []
-
-File: Images/Material/VTFSHB475.png Graphic file (type png)
-<use Images/Material/VTFSHB475.png>
-Package pdftex.def Info: Images/Material/VTFSHB475.png  used on input line 102.
-
-(pdftex.def)             Requested size: 56.9055pt x 45.62683pt.
-
-Overfull \hbox (2.88417pt too wide) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (-20) Anschlussleitung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (+20) H07RN F325
- []
-
-File: Images/Material/H07RNF31.png Graphic file (type png)
-<use Images/Material/H07RNF31.png>
-Package pdftex.def Info: Images/Material/H07RNF31.png  used on input line 102.
-(pdftex.def)             Requested size: 56.9055pt x 21.58865pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-[]|\T1/lmr/m/n/8 (+20) Netzkabel,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) Schutz-kon-takt-
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 102--102
-\T1/lmr/m/n/8 (+20) m, schw, C13
- []
-
-File: Images/Material/NKSK200SWGEW.png Graphic file (type png)
-<use Images/Material/NKSK200SWGEW.png>
-Package pdftex.def Info: Images/Material/NKSK200SWGEW.png  used on input line 1
-02.
-(pdftex.def)             Requested size: 56.9055pt x 37.28691pt.
-
-Overfull \vbox (60.31528pt too high) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[22 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
-Material/RBS10136.jpg> <./Images/Material/RBS10038.jpg> <./Images/Material/CABL
-E4PIN20.png> <./Images/Material/RBS10966.jpg> <./Images/Material/VTRKB4.png> <.
-/Images/Material/VTFSHB475.png> <./Images/Material/H07RNF31.png> <./Images/Mate
-rial/NKSK200SWGEW.png>]
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 128--128
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
-
-
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 128--128
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
-
-
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 128--128
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
-
-
-Overfull \hbox (0.95421pt too wide) in paragraph at lines 128--128
-[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
- []
-
-File: Images/Material/4650057.png Graphic file (type png)
-<use Images/Material/4650057.png>
-Package pdftex.def Info: Images/Material/4650057.png  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 43.41075pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (+20) Artillery Si-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) de-win-der X2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) Wipp-schal-ter
- []
-
-File: Images/Material/RBS15072.jpg Graphic file (type jpg)
-<use Images/Material/RBS15072.jpg>
-Package pdftex.def Info: Images/Material/RBS15072.jpg  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 48.74596pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Overfull \hbox (5.00168pt too wide) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (-20) Entwicklerboards
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) - Drehwinkel-
- []
-
-File: Images/Material/DEBOENCODER.png Graphic file (type png)
-<use Images/Material/DEBOENCODER.png>
-Package pdftex.def Info: Images/Material/DEBOENCODER.png  used on input line 12
-8.
-(pdftex.def)             Requested size: 56.9055pt x 59.62927pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (+20) Kontermutter
- []
-
-File: Images/Material/ENCMUTTER.png Graphic file (type png)
-<use Images/Material/ENCMUTTER.png>
-Package pdftex.def Info: Images/Material/ENCMUTTER.png  used on input line 128.
-
-(pdftex.def)             Requested size: 56.9055pt x 30.26788pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (+20) Drucktaster
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) Grün 12 mm;
- []
-
-File: Images/Material/Taster.jpg Graphic file (type jpg)
-<use Images/Material/Taster.jpg>
-Package pdftex.def Info: Images/Material/Taster.jpg  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) Mi-nia-tur End-
- []
-
-File: Images/Material/RBS10856.jpg Graphic file (type jpg)
-<use Images/Material/RBS10856.jpg>
-Package pdftex.def Info: Images/Material/RBS10856.jpg  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Overfull \hbox (5.00168pt too wide) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (-20) Entwicklerboards
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) - Schritt-mo-tor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) steue-rung,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (+20) DEBO DRV
- []
-
-File: Images/Material/A4988.png Graphic file (type png)
-<use Images/Material/A4988.png>
-Package pdftex.def Info: Images/Material/A4988.png  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 52.20439pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (+20) Signallleuchte,
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) SMD-LED, ø3
- []
-
-File: Images/Material/LED.png Graphic file (type png)
-<use Images/Material/LED.png>
-Package pdftex.def Info: Images/Material/LED.png  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 45.9979pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T1/lmr/m/n/8 (+20) 0.96ÖLED
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) Dis-play
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) I2C/IIC/TWI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T1/lmr/m/n/8 (+20) 128x64 Pi-xel
- []
-
-File: Images/Material/oled96.jpg Graphic file (type jpg)
-<use Images/Material/oled96.jpg>
-Package pdftex.def Info: Images/Material/oled96.jpg  used on input line 128.
-(pdftex.def)             Requested size: 56.9055pt x 64.33788pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Overfull \vbox (93.18411pt too high) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 138.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[23 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
-Material/DEBOENCODER.png> <./Images/Material/ENCMUTTER.png> <./Images/Material/
-Taster.jpg> <./Images/Material/RBS10856.jpg> <./Images/Material/A4988.png> <./I
-mages/Material/LED.png> <./Images/Material/oled96.jpg>]
-Overfull \hbox (6.15483pt too wide) in paragraph at lines 138--138
-[]|\T1/lmr/bx/n/8 (-20) Pos.| 
- []
-
-
-Overfull \hbox (5.42618pt too wide) in paragraph at lines 138--138
-[]|\T1/lmr/bx/n/8 (-20) Stk.| 
- []
-
-
-Overfull \hbox (4.26985pt too wide) in paragraph at lines 138--138
-[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
- []
-
-
-Overfull \hbox (0.95421pt too wide) in paragraph at lines 138--138
-[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
- []
-
-
-Overfull \hbox (2.27658pt too wide) in paragraph at lines 138--138
-[]|\T1/lmr/m/n/8 (-20) Einpressmuttern
- []
-
-File: Images/Material/RBS15553.jpg Graphic file (type jpg)
-<use Images/Material/RBS15553.jpg>
-Package pdftex.def Info: Images/Material/RBS15553.jpg  used on input line 138.
-(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|\T1/lmr/m/n/8 (+20) Sunlu PLA
- []
-
-File: Images/Material/RBS16624.jpg Graphic file (type jpg)
-<use Images/Material/RBS16624.jpg>
-Package pdftex.def Info: Images/Material/RBS16624.jpg  used on input line 138.
-(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 139.
-See the caption package documentation for explanation.
-
-)
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[24 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
-(./Contents/de/SoftwarebeschreibungIDE.tex
-chapter 6.
-Package biblatex Info: Reference segment=15 on input line 6.
-Package biblatex Info: Setting label 'refsegment:015' on input line 6.
-Package biblatex Info: Reference segment=16 on input line 12.
-Package biblatex Info: Setting label 'refsegment:016' on input line 12.
-<General/HauptoberflaecheIDE.png, id=741, 455.45157pt x 283.81032pt>
+Package biblatex Info: Reference segment=15 on input line 14.
+Package biblatex Info: Setting label 'refsegment:015' on input line 14.
+Package biblatex Info: Reference segment=16 on input line 20.
+Package biblatex Info: Setting label 'refsegment:016' on input line 20.
+<General/HauptoberflaecheIDE.png, id=510, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
-Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 16
+Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 24
 .
 (pdftex.def)             Requested size: 369.88583pt x 230.4957pt.
-[25
+[17
 
 
 
 
 ]
-Package biblatex Info: Reference segment=17 on input line 24.
-Package biblatex Info: Setting label 'refsegment:017' on input line 24.
-<General/Boardsmanager.png, id=748, 269.50688pt x 260.47313pt>
+Package biblatex Info: Reference segment=17 on input line 32.
+Package biblatex Info: Setting label 'refsegment:017' on input line 32.
+<General/Boardsmanager.png, id=518, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
-Package pdftex.def Info: General/Boardsmanager.png  used on input line 31.
+Package pdftex.def Info: General/Boardsmanager.png  used on input line 39.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-<General/Librarymanager.png, id=751, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=521, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
-Package pdftex.def Info: General/Librarymanager.png  used on input line 43.
+Package pdftex.def Info: General/Librarymanager.png  used on input line 51.
 (pdftex.def)             Requested size: 369.88583pt x 554.31483pt.
 
 Underfull \vbox (badness 7851) has occurred while \output is active []
@@ -3869,13 +3050,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[26 <./General/HauptoberflaecheIDE.png>]
-Package biblatex Info: Reference segment=18 on input line 50.
-Package biblatex Info: Setting label 'refsegment:018' on input line 50.
+[18 <./General/HauptoberflaecheIDE.png>]
+Package biblatex Info: Reference segment=18 on input line 58.
+Package biblatex Info: Setting label 'refsegment:018' on input line 58.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 53.
+Package cleveref Info: loaded `ngerman' language definitions on input line 61.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3885,7 +3066,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[27 <./General/Boardsmanager.png>]
+[19 <./General/Boardsmanager.png>]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3894,11 +3075,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[28 <./General/Librarymanager.png>]
-Package biblatex Info: Reference segment=19 on input line 63.
-Package biblatex Info: Setting label 'refsegment:019' on input line 63.
+[20 <./General/Librarymanager.png>]
+Package biblatex Info: Reference segment=19 on input line 71.
+Package biblatex Info: Setting label 'refsegment:019' on input line 71.
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 85.
+Package cleveref Info: loaded `ngerman' language definitions on input line 79.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3908,7 +3089,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[29]
+[21]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3917,14 +3098,14 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[30] (./Contents/de/Schrittmotorbeschreibung.tex
-chapter 7.
-Package biblatex Info: Reference segment=20 on input line 16.
-Package biblatex Info: Setting label 'refsegment:020' on input line 16.
+[22] (./Contents/de/Schrittmotorbeschreibung.tex
+chapter 5.
+Package biblatex Info: Reference segment=20 on input line 15.
+Package biblatex Info: Setting label 'refsegment:020' on input line 15.
 
-LaTeX Warning: Reference `HaPrSchritt' on page 31 undefined on input line 19.
+LaTeX Warning: Reference `HaPrSchritt' on page 23 undefined on input line 18.
 
-[31
+[23
 
 
 
@@ -3938,13 +3119,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[32]
-Package biblatex Info: Reference segment=21 on input line 30.
-Package biblatex Info: Setting label 'refsegment:021' on input line 30.
+[24]
+Package biblatex Info: Reference segment=21 on input line 29.
+Package biblatex Info: Setting label 'refsegment:021' on input line 29.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
+Package cleveref Info: loaded `ngerman' language definitions on input line 82.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3954,7 +3135,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[33]
+[25]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3963,60 +3144,45 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[34] (./Contents/de/SchrittmotorProgrammbeschreibung.tex
-chapter 8.
-) [35
+[26] (./Contents/de/SchrittmotorProgrammbeschreibung.tex
+chapter 6.
+) [27
 
 
 
 
-] [36
+] [28
 
 
 ] (./Contents/de/Konstruktion.tex
-chapter 9.
+chapter 7.
 Package biblatex Info: Reference segment=22 on input line 15.
 Package biblatex Info: Setting label 'refsegment:022' on input line 15.
 Package biblatex Info: Reference segment=23 on input line 18.
 Package biblatex Info: Setting label 'refsegment:023' on input line 18.
 Package biblatex Info: Reference segment=24 on input line 22.
 Package biblatex Info: Setting label 'refsegment:024' on input line 22.
-<Images/Konstruktion/GehaeuseK.png, id=848, 784.43062pt x 526.21594pt>
+<Images/Konstruktion/GehaeuseK.png, id=617, 784.43062pt x 526.21594pt>
 File: Images/Konstruktion/GehaeuseK.png Graphic file (type png)
 <use Images/Konstruktion/GehaeuseK.png>
 Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line 
 26.
 (pdftex.def)             Requested size: 369.88583pt x 248.13249pt.
-[37
+
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+ [29
 
 
 ]
-<Images/Konstruktion/BodenK.png, id=857, 1282.7925pt x 734.745pt>
+<Images/Konstruktion/BodenK.png, id=627, 1282.7925pt x 734.745pt>
 File: Images/Konstruktion/BodenK.png Graphic file (type png)
 <use Images/Konstruktion/BodenK.png>
 Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 35.
 
 (pdftex.def)             Requested size: 369.88583pt x 211.85977pt.
-<Images/Konstruktion/VorneK.png, id=864, 899.61093pt x 758.835pt>
-File: Images/Konstruktion/VorneK.png Graphic file (type png)
-<use Images/Konstruktion/VorneK.png>
-Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 45.
 
-(pdftex.def)             Requested size: 369.88583pt x 312.00436pt.
-<Images/Konstruktion/SeiteLK.png, id=867, 721.19438pt x 670.00313pt>
-File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
-<use Images/Konstruktion/SeiteLK.png>
-Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 55
-.
-(pdftex.def)             Requested size: 369.88583pt x 343.6293pt.
-<Images/Konstruktion/HinterK.png, id=871, 875.52094pt x 744.53156pt>
-File: Images/Konstruktion/HinterK.png Graphic file (type png)
-<use Images/Konstruktion/HinterK.png>
-Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 64
-.
-(pdftex.def)             Requested size: 369.88583pt x 314.54153pt.
-
-Underfull \vbox (badness 3907) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -4027,7 +3193,55 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[38 <./Images/Konstruktion/GehaeuseK.PNG>]
+[30 <./Images/Konstruktion/GehaeuseK.PNG>]
+<Images/Konstruktion/VorneK.png, id=640, 899.61093pt x 758.835pt>
+File: Images/Konstruktion/VorneK.png Graphic file (type png)
+<use Images/Konstruktion/VorneK.png>
+Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 45.
+
+(pdftex.def)             Requested size: 369.88583pt x 312.00436pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 49.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[31 <./Images/Konstruktion/BodenK.PNG>]
+<Images/Konstruktion/SeiteLK.png, id=649, 721.19438pt x 670.00313pt>
+File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
+<use Images/Konstruktion/SeiteLK.png>
+Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 55
+.
+(pdftex.def)             Requested size: 369.88583pt x 343.6293pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[32 <./Images/Konstruktion/VorneK.PNG>]
+<Images/Konstruktion/HinterK.png, id=659, 875.52094pt x 744.53156pt>
+File: Images/Konstruktion/HinterK.png Graphic file (type png)
+<use Images/Konstruktion/HinterK.png>
+Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 64
+.
+(pdftex.def)             Requested size: 369.88583pt x 314.54153pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package cleveref Info: loaded `ngerman' language definitions on input line 68.
 
 
@@ -4038,7 +3252,17 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[39 <./Images/Konstruktion/BodenK.PNG> <./Images/Konstruktion/VorneK.PNG>]
+[33 <./Images/Konstruktion/SeiteLK.PNG>]
+<Images/Konstruktion/SeiteRK.png, id=669, 758.08218pt x 726.46407pt>
+File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
+<use Images/Konstruktion/SeiteRK.png>
+Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 74
+.
+(pdftex.def)             Requested size: 369.88583pt x 354.46295pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4047,20 +3271,27 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[40 <./Images/Konstruktion/SeiteLK.PNG>]
-<Images/Konstruktion/SeiteRK.png, id=894, 758.08218pt x 726.46407pt>
-File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
-<use Images/Konstruktion/SeiteRK.png>
-Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 74
-.
-(pdftex.def)             Requested size: 369.88583pt x 354.46295pt.
-<Images/Konstruktion/DeckelK.png, id=897, 1315.16344pt x 778.40813pt>
+[34 <./Images/Konstruktion/HinterK.PNG>]
+<Images/Konstruktion/DeckelK.png, id=678, 1315.16344pt x 778.40813pt>
 File: Images/Konstruktion/DeckelK.png Graphic file (type png)
 <use Images/Konstruktion/DeckelK.png>
 Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 83
 .
 (pdftex.def)             Requested size: 369.88583pt x 218.91487pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 87.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[35 <./Images/Konstruktion/SeiteRK.PNG>]
 Overfull \hbox (2.74211pt too wide) in paragraph at lines 113--113
 []|\T1/lmr/bx/n/8 (-20) Nr.| 
  []
@@ -4125,71 +3356,122 @@ Package caption Warning: The type was already set to `figure'
 (caption)                 on input line 114.
 See the caption package documentation for explanation.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[36 <./Images/Konstruktion/DeckelK.PNG>]
 Package biblatex Info: Reference segment=25 on input line 118.
 Package biblatex Info: Setting label 'refsegment:025' on input line 118.
-Package cleveref Info: loaded `ngerman' language definitions on input line 122.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[41 <./Images/Konstruktion/HinterK.PNG>]
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[42 <./Images/Konstruktion/SeiteRK.PNG> <./Images/Konstruktion/DeckelK.PNG>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 122.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[43]
-<Images/Konstruktion/FlankeMotorK.png, id=921, 542.025pt x 641.39626pt>
+<Images/Konstruktion/FlankeMotorK.png, id=696, 542.025pt x 641.39626pt>
 File: Images/Konstruktion/FlankeMotorK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeMotorK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeMotorK.png  used on input li
 ne 125.
 (pdftex.def)             Requested size: 369.88583pt x 437.70958pt.
-<Images/Konstruktion/FlankeK.png, id=925, 522.45187pt x 660.96938pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 129.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[37]
+<Images/Konstruktion/FlankeK.png, id=708, 522.45187pt x 660.96938pt>
 File: Images/Konstruktion/FlankeK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeK.png  used on input line 13
 4.
 (pdftex.def)             Requested size: 369.88583pt x 467.96025pt.
-<Images/Konstruktion/GriffK.png, id=928, 963.6pt x 668.4975pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[38 <./Images/Konstruktion/FlankeMotorK.PNG>]
+<Images/Konstruktion/GriffK.png, id=717, 963.6pt x 668.4975pt>
 File: Images/Konstruktion/GriffK.png Graphic file (type png)
 <use Images/Konstruktion/GriffK.png>
 Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 143
 .
 (pdftex.def)             Requested size: 369.88583pt x 256.60219pt.
-<Images/Konstruktion/DrehKnopfK.png, id=931, 706.89093pt x 463.7325pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 147.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[39 <./Images/Konstruktion/FlankeK.PNG>]
+<Images/Konstruktion/DrehKnopfK.png, id=726, 706.89093pt x 463.7325pt>
 File: Images/Konstruktion/DrehKnopfK.png Graphic file (type png)
 <use Images/Konstruktion/DrehKnopfK.png>
 Package pdftex.def Info: Images/Konstruktion/DrehKnopfK.png  used on input line
  152.
 (pdftex.def)             Requested size: 369.88583pt x 242.64946pt.
-<Images/Konstruktion/AnzeigerK.png, id=935, 872.50969pt x 662.475pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[40 <./Images/Konstruktion/GriffK.PNG>]
+<Images/Konstruktion/AnzeigerK.png, id=736, 872.50969pt x 662.475pt>
 File: Images/Konstruktion/AnzeigerK.png Graphic file (type png)
 <use Images/Konstruktion/AnzeigerK.png>
 Package pdftex.def Info: Images/Konstruktion/AnzeigerK.png  used on input line 
 161.
 (pdftex.def)             Requested size: 369.88583pt x 280.84561pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 165.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[41 <./Images/Konstruktion/DrehKnopfK.PNG>]
 Overfull \hbox (2.74211pt too wide) in paragraph at lines 179--179
 []|\T1/lmr/bx/n/8 (-20) Nr.| 
  []
@@ -4231,23 +3513,23 @@ See the caption package documentation for explanation.
 
 Package biblatex Info: Reference segment=26 on input line 185.
 Package biblatex Info: Setting label 'refsegment:026' on input line 185.
-<Images/Konstruktion/AKK2N.jpg, id=937, 604.1772pt x 511.6716pt>
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[42 <./Images/Konstruktion/AnzeigerK.PNG>]
+<Images/Konstruktion/AKK2N.jpg, id=751, 604.1772pt x 511.6716pt>
 File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
 <use Images/Konstruktion/AKK2N.jpg>
 Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 190.
 
 (pdftex.def)             Requested size: 369.88583pt x 313.25911pt.
 )
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[44]
-Package cleveref Info: loaded `ngerman' language definitions on input line 95.
+Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4257,62 +3539,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[45 <./Images/Konstruktion/FlankeMotorK.PNG>]
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[46 <./Images/Konstruktion/FlankeK.PNG>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 95.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[47 <./Images/Konstruktion/GriffK.PNG> <./Images/Konstruktion/DrehKnopfK.PNG>]
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[48 <./Images/Konstruktion/AnzeigerK.PNG>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 95.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[49 <./Images/Konstruktion/AKK2N.jpg>] [50
+[43 <./Images/Konstruktion/AKK2N.jpg>] [44
 
 
 ]
 (./Contents/de/SchrittverlusteVer.tex
-chapter 10.
-Package biblatex Info: Reference segment=27 on input line 16.
-Package biblatex Info: Setting label 'refsegment:027' on input line 16.
-Package biblatex Info: Reference segment=28 on input line 27.
-Package biblatex Info: Setting label 'refsegment:028' on input line 27.
+chapter 8.
+Package biblatex Info: Reference segment=27 on input line 14.
+Package biblatex Info: Setting label 'refsegment:027' on input line 14.
+Package biblatex Info: Reference segment=28 on input line 25.
+Package biblatex Info: Setting label 'refsegment:028' on input line 25.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 68.
+(caption)                particular \caption on input line 66.
 See the caption package documentation for explanation.
 
-[51
+[45
 
 
 ]
@@ -4324,25 +3566,25 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[52]
+[46]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 139.
+(caption)                particular \caption on input line 137.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 156--156
+Underfull \hbox (badness 1400) in paragraph at lines 154--154
 []\T1/lmr/m/n/8 (+20) Ruckeln ver-rin-gern durch ge-rin-ge-re
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 157.
+(caption)                particular \caption on input line 155.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=29 on input line 162.
-Package biblatex Info: Setting label 'refsegment:029' on input line 162.
-Package cleveref Info: loaded `ngerman' language definitions on input line 166.
+Package biblatex Info: Reference segment=29 on input line 160.
+Package biblatex Info: Setting label 'refsegment:029' on input line 160.
+Package cleveref Info: loaded `ngerman' language definitions on input line 164.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4352,7 +3594,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[53])
+[47])
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4361,30 +3603,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[54] (./Contents/de/TestdurchlÃ¤ufe.tex
-chapter 11.
-) [55
+[48] (./Contents/de/TestdurchlÃ¤ufe.tex
+chapter 9.
+) [49
 
 
 
 
-] [56
+] [50
 
 
 ] (./Contents/de/OffenePunkte.tex
-chapter 12.
-) [57
+chapter 10.
+) [51
 
 
-] [58
-
-
-] (./Contents/de/Literatur.tex
-chapter 13.
-) [59
-
-
-] [60
+] [52
 
 
 ]
@@ -4392,91 +3626,91 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (0.63771pt too wide) in paragraph at lines 110--110
+Overfull \hbox (0.63771pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) htt^^?ps://www.arduino.cc/en/software, 2024. \T1/lmr/m/sc/
 12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 \url{https :
  []
 
 
-Overfull \hbox (49.04247pt too wide) in paragraph at lines 110--110
+Overfull \hbox (49.04247pt too wide) in paragraph at lines 101--101
 \T1/fvm/l/it/12 1c27moy * _ga * MTQ0NDAyMjU0Ni4xNzEyMjI4NjMx * _ga _ NEXN8H46L5
  *
  []
 
 
-Overfull \hbox (39.61414pt too wide) in paragraph at lines 110--110
+Overfull \hbox (39.61414pt too wide) in paragraph at lines 101--101
 \T1/fvm/l/it/12 MTcxMjkzNTM5NS4xMi4xLjE3MTI5MzYxNTguMC4wLjE4MTYyNDUyNw .
  []
 
 
-Overfull \hbox (975.83826pt too wide) in paragraph at lines 110--110
+Overfull \hbox (975.83826pt too wide) in paragraph at lines 101--101
 \T1/fvm/l/it/12 . * _fplc * R3haa2kwYmJ5b0owSXBZQmNtNDElMkYySTNJZEZjVDdueVdoViU
 yQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1STFaZDl6c0txNGtBV1lETklqUzdGUF
 dKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHduVnhKWEd6dyUzRCUzRA .
  []
 
 
-Overfull \hbox (3.20758pt too wide) in paragraph at lines 110--110
+Overfull \hbox (3.20758pt too wide) in paragraph at lines 101--101
 \T1/fvm/l/it/12 / / www . arduino . cc / reference / en / language / structure 
 /
  []
 
 
-Overfull \hbox (3.20758pt too wide) in paragraph at lines 110--110
+Overfull \hbox (3.20758pt too wide) in paragraph at lines 101--101
 \T1/fvm/l/it/12 / / www . arduino . cc / reference / en / language / structure 
 /
  []
 
-[61
+[53
 
 
 ]
-Overfull \hbox (2.65036pt too wide) in paragraph at lines 110--110
+Overfull \hbox (2.65036pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) Sprin^^?ger Fach^^?me^^?di^^?en Wies^^?ba^^?den, 2016. \T1
 /lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-658-12843-2.
  []
 
 
-Overfull \hbox (14.5428pt too wide) in paragraph at lines 110--110
+Overfull \hbox (14.5428pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/sc/12 (-20) doi\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 \url{10 . 10
 07 / 978 -[] 3 -[] 658 -[] 12844 -[] 9}$[]\T1/lmr/m/n/12 (-20) . \T1/lmr/m/sc/1
 2 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 \url{https :
  []
 
 
-Overfull \hbox (35.8264pt too wide) in paragraph at lines 110--110
+Overfull \hbox (35.8264pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) ba^^?den und Hei^^?del^^?berg: Sprin^^?ger View^^?eg, 2020
 . \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-658-30067-8. 
  []
 
 
-Overfull \hbox (3.95943pt too wide) in paragraph at lines 110--110
+Overfull \hbox (3.95943pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) W. Gehr^^?ke und M. Winz^^?ker. \T1/lmr/m/it/12 (-20) Di
 -gi-tal-tech-nik: Grund-la-gen, VHDL,
  []
 
 
-Overfull \hbox (5.74847pt too wide) in paragraph at lines 110--110
+Overfull \hbox (5.74847pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) Sprin^^?ger View^^?eg, 2022. \T1/lmr/m/sc/12 (-20) isbn\T1
 /lmr/m/n/12 (-20) : 9783662639535. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20
 ) : []$\T1/fvm/l/it/12 \url{https :
  []
 
 
-Overfull \hbox (13.64789pt too wide) in paragraph at lines 110--110
+Overfull \hbox (13.64789pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) wei^^?ter^^?te Auf^^?la^^?ge. Mün^^?chen: Han^^?ser, 2021.
  \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-446-46572-5.
  []
 
 
-Overfull \hbox (35.65504pt too wide) in paragraph at lines 110--110
+Overfull \hbox (35.65504pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) Jkongmotor. \T1/lmr/m/it/12 (-20) Nema17-Datasheet\T1/lm
 r/m/n/12 (-20) . \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/i
 t/12 \url{https : / / ecksteinimg .
  []
 
 
-Overfull \hbox (9.40234pt too wide) in paragraph at lines 110--110
+Overfull \hbox (9.40234pt too wide) in paragraph at lines 101--101
 \T1/fvm/l/it/12 de / Datasheet / Schrittmotor / JK42HS34 -[] 0844A / JK42HS34 -
 []
  []
@@ -4489,26 +3723,26 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[62]
-Overfull \hbox (3.43654pt too wide) in paragraph at lines 110--110
+[54]
+Overfull \hbox (3.43654pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) Mentor. \T1/lmr/m/it/12 (-20) SIGNALLEUCHTENSMD-LED-Date
 nblatt\T1/lmr/m/n/12 (-20) . 2024. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20
 ) :
  []
 
 
-Overfull \hbox (16.2107pt too wide) in paragraph at lines 110--110
+Overfull \hbox (16.2107pt too wide) in paragraph at lines 101--101
 []$\T1/fvm/l/it/12 \url{https : / / www . mentor . de . com / bauelemente / pro
 duct /
  []
 
 
-Overfull \hbox (14.9821pt too wide) in paragraph at lines 110--110
+Overfull \hbox (14.9821pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) Nordic Se^^?mi^^?con^^?duc^^?tor. \T1/lmr/m/it/12 (-20) 
 nRF9161 Pro-duct Spe-ci-fi-ca-ti-on: Cryptocell-
  []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 109.
+Package cleveref Info: loaded `ngerman' language definitions on input line 100.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4518,8 +3752,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[63]
-Overfull \hbox (6.75783pt too wide) in paragraph at lines 110--110
+[55]
+Overfull \hbox (6.75783pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) STMICROELECTRONICS. \T1/lmr/m/it/12 (-20) Da-tas-heet - 
 MP34DT05-A - MEMS
  []
@@ -4532,10 +3766,1885 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[64]
+[56] (../Appendix/Schaltplan.tex [57
+
+
+
+
+] [58
+
+
+]
+chapter 11.
+<Images/Schaltplan1.png, id=929, 1261.7685pt x 993.0555pt>
+File: Images/Schaltplan1.png Graphic file (type png)
+<use Images/Schaltplan1.png>
+Package pdftex.def Info: Images/Schaltplan1.png  used on input line 14.
+(pdftex.def)             Requested size: 369.88583pt x 291.11534pt.
+) (../Appendix/Materialliste.tex [59 <./Images/Schaltplan1.png>] [60
+
+
+]
+chapter 12.
+
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 42--42
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 42--42
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 42--42
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 42--42
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/8 (+20) Arduino Lern-
+ []
+
+File: Images/Material/Arduino.png Graphic file (type png)
+<use Images/Material/Arduino.png>
+Package pdftex.def Info: Images/Material/Arduino.png  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 36.60689pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) Ver-bin-dungs-ka-
+ []
+
+File: Images/Material/RBS12536.png Graphic file (type png)
+<use Images/Material/RBS12536.png>
+Package pdftex.def Info: Images/Material/RBS12536.png  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 56.90556pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/8 (+20) 1 m Alu-pro-fil
+ []
+
+File: Images/Material/aluprofil.jpg Graphic file (type jpg)
+<use Images/Material/aluprofil.jpg>
+Package pdftex.def Info: Images/Material/aluprofil.jpg  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 34.33081pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/8 (+20) Schaltnetzteil,
+ []
+
+File: Images/Material/RD50.png Graphic file (type png)
+<use Images/Material/RD50.png>
+Package pdftex.def Info: Images/Material/RD50.png  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 42.67725pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/8 (+20) Mini Span-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) nungs-reg-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) dul AMS1117
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) 3,3 VV
+ []
+
+File: Images/Material/ams1117.jpg Graphic file (type jpg)
+<use Images/Material/ams1117.jpg>
+Package pdftex.def Info: Images/Material/ams1117.jpg  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 23.1281pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) schei-be 20
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) Zäh-ne 5 mm
+ []
+
+File: Images/Material/RBS10277.jpg Graphic file (type jpg)
+<use Images/Material/RBS10277.jpg>
+Package pdftex.def Info: Images/Material/RBS10277.jpg  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/8 (+20) GT2 Rie-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) schei-be 20
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) Zäh-ne 5 mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) Boh-rung mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) Du-al Ku-gel-la-
+ []
+
+File: Images/Material/RBS12569.jpg Graphic file (type jpg)
+<use Images/Material/RBS12569.jpg>
+Package pdftex.def Info: Images/Material/RBS12569.jpg  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 (+20) Speed PLA
+ []
+
+File: Images/Material/RBS16371.jpg Graphic file (type jpg)
+<use Images/Material/RBS16371.jpg>
+Package pdftex.def Info: Images/Material/RBS16371.jpg  used on input line 42.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+Overfull \vbox (106.244pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[62 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
+Material/aluprofil.jpg> <./Images/Material/RD50.png> <./Images/Material/ams1117
+.jpg> <./Images/Material/RBS10277.jpg> <./Images/Material/RBS12569.jpg> <./Imag
+es/Material/RBS16371.jpg>]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 73--73
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 73--73
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 73--73
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 73--73
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Linearführung
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) MGN12H 450
+ []
+
+File: Images/Material/RBS12916.jpg Graphic file (type jpg)
+<use Images/Material/RBS12916.jpg>
+Package pdftex.def Info: Images/Material/RBS12916.jpg  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+File: Images/Material/RBS10161.jpg Graphic file (type jpg)
+<use Images/Material/RBS10161.jpg>
+Package pdftex.def Info: Images/Material/RBS10161.jpg  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) M3 Ham-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) mer-mut-ter
+ []
+
+File: Images/Material/RBS11229.jpg Graphic file (type jpg)
+<use Images/Material/RBS11229.jpg>
+Package pdftex.def Info: Images/Material/RBS11229.jpg  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Zylinder-
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) kant DIN 912
+ []
+
+File: Images/Material/M3.png Graphic file (type png)
+<use Images/Material/M3.png>
+Package pdftex.def Info: Images/Material/M3.png  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Zylinder-
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) kant DIN 912
+ []
+
+File: Images/Material/M3.png Graphic file (type png)
+<use Images/Material/M3.png>
+Package pdftex.def Info: Images/Material/M3.png  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Zylinder-
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) schrauben M3
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) 10 mm In-nen-
+ []
+
+File: Images/Material/M3.png Graphic file (type png)
+<use Images/Material/M3.png>
+Package pdftex.def Info: Images/Material/M3.png  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Zylinder-
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) schrauben M3
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) 14 mm In-nen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) 912 Edel-stahl
+ []
+
+File: Images/Material/M3.png Graphic file (type png)
+<use Images/Material/M3.png>
+Package pdftex.def Info: Images/Material/M3.png  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 37.26852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Sechskant-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) muttern M3
+ []
+
+File: Images/Material/M3Mutter.png Graphic file (type png)
+<use Images/Material/M3Mutter.png>
+Package pdftex.def Info: Images/Material/M3Mutter.png  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 33.30298pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\T1/lmr/m/n/8 (+20) Senkschrauben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) M2.5 5 mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) Kreuz-schlitz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) Phil-lips DIN
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 73--73
+\T1/lmr/m/n/8 (+20) 965 Stahl ver-
+ []
+
+File: Images/Material/M2.png Graphic file (type png)
+<use Images/Material/M2.png>
+Package pdftex.def Info: Images/Material/M2.png  used on input line 73.
+(pdftex.def)             Requested size: 56.9055pt x 34.36995pt.
+
+Overfull \vbox (102.239pt too high) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 100.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[63 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
+/Material/RBS11229.jpg> <./Images/Material/M3.PNG> <./Images/Material/M3Mutter.
+PNG> <./Images/Material/M2.PNG>]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 100--100
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 100--100
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 100--100
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 100--100
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) BMI Li-ne-al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) 963050030
+ []
+
+File: Images/Material/Linieal.png Graphic file (type png)
+<use Images/Material/Linieal.png>
+Package pdftex.def Info: Images/Material/Linieal.png  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 6.1753pt.
+File: Images/Material/RBS10023.jpg Graphic file (type jpg)
+<use Images/Material/RBS10023.jpg>
+Package pdftex.def Info: Images/Material/RBS10023.jpg  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 56.88351pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) Buchse-Buchse
+ []
+
+File: Images/Material/RBS10136.jpg Graphic file (type jpg)
+<use Images/Material/RBS10136.jpg>
+Package pdftex.def Info: Images/Material/RBS10136.jpg  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) Ka-bel Buchse-
+ []
+
+File: Images/Material/RBS10038.jpg Graphic file (type jpg)
+<use Images/Material/RBS10038.jpg>
+Package pdftex.def Info: Images/Material/RBS10038.jpg  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) ve Universal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) Kabel, 4-Pin,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) GRV CA-
+ []
+
+File: Images/Material/CABLE4PIN20.png Graphic file (type png)
+<use Images/Material/CABLE4PIN20.png>
+Package pdftex.def Info: Images/Material/CABLE4PIN20.png  used on input line 10
+0.
+(pdftex.def)             Requested size: 56.9055pt x 38.30511pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) Schrittmotor-
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) 6 Pin HX2.54
+ []
+
+File: Images/Material/RBS10966.jpg Graphic file (type jpg)
+<use Images/Material/RBS10966.jpg>
+Package pdftex.def Info: Images/Material/RBS10966.jpg  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) Ring-
+ []
+
+File: Images/Material/VTRKB4.png Graphic file (type png)
+<use Images/Material/VTRKB4.png>
+Package pdftex.def Info: Images/Material/VTRKB4.png  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 44.73534pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) Flachstecker-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) hülse, Brei-te:
+ []
+
+File: Images/Material/VTFSHB475.png Graphic file (type png)
+<use Images/Material/VTFSHB475.png>
+Package pdftex.def Info: Images/Material/VTFSHB475.png  used on input line 100.
+
+(pdftex.def)             Requested size: 56.9055pt x 45.62683pt.
+
+Overfull \hbox (2.88417pt too wide) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (-20) Anschlussleitung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) H07RN F325
+ []
+
+File: Images/Material/H07RNF31.png Graphic file (type png)
+<use Images/Material/H07RNF31.png>
+Package pdftex.def Info: Images/Material/H07RNF31.png  used on input line 100.
+(pdftex.def)             Requested size: 56.9055pt x 21.58865pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\T1/lmr/m/n/8 (+20) Netzkabel,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) Schutz-kon-takt-
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 100--100
+\T1/lmr/m/n/8 (+20) m, schw, C13
+ []
+
+File: Images/Material/NKSK200SWGEW.png Graphic file (type png)
+<use Images/Material/NKSK200SWGEW.png>
+Package pdftex.def Info: Images/Material/NKSK200SWGEW.png  used on input line 1
+00.
+(pdftex.def)             Requested size: 56.9055pt x 37.28691pt.
+
+Overfull \vbox (70.31528pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[64 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
+Material/RBS10136.jpg> <./Images/Material/RBS10038.jpg> <./Images/Material/CABL
+E4PIN20.png> <./Images/Material/RBS10966.jpg> <./Images/Material/VTRKB4.png> <.
+/Images/Material/VTFSHB475.png> <./Images/Material/H07RNF31.png> <./Images/Mate
+rial/NKSK200SWGEW.png>]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 126--126
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 126--126
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 126--126
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 126--126
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
+ []
+
+File: Images/Material/4650057.png Graphic file (type png)
+<use Images/Material/4650057.png>
+Package pdftex.def Info: Images/Material/4650057.png  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 43.41075pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (+20) Artillery Si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) de-win-der X2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) Wipp-schal-ter
+ []
+
+File: Images/Material/RBS15072.jpg Graphic file (type jpg)
+<use Images/Material/RBS15072.jpg>
+Package pdftex.def Info: Images/Material/RBS15072.jpg  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 48.74596pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Overfull \hbox (1.71574pt too wide) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (-20) Entwicklerboard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) Drehwinkel-
+ []
+
+File: Images/Material/DEBOENCODER.png Graphic file (type png)
+<use Images/Material/DEBOENCODER.png>
+Package pdftex.def Info: Images/Material/DEBOENCODER.png  used on input line 12
+6.
+(pdftex.def)             Requested size: 56.9055pt x 59.62927pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (+20) Kontermutter
+ []
+
+File: Images/Material/ENCMUTTER.png Graphic file (type png)
+<use Images/Material/ENCMUTTER.png>
+Package pdftex.def Info: Images/Material/ENCMUTTER.png  used on input line 126.
+
+(pdftex.def)             Requested size: 56.9055pt x 30.26788pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (+20) Drucktaster
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) Grün 12 mm;
+ []
+
+File: Images/Material/Taster.jpg Graphic file (type jpg)
+<use Images/Material/Taster.jpg>
+Package pdftex.def Info: Images/Material/Taster.jpg  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) Mi-nia-tur End-
+ []
+
+File: Images/Material/RBS10856.jpg Graphic file (type jpg)
+<use Images/Material/RBS10856.jpg>
+Package pdftex.def Info: Images/Material/RBS10856.jpg  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Overfull \hbox (1.71574pt too wide) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (-20) Entwicklerboard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) Schritt-mo-tor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) steue-rung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (+20) DEBO DRV
+ []
+
+File: Images/Material/A4988.png Graphic file (type png)
+<use Images/Material/A4988.png>
+Package pdftex.def Info: Images/Material/A4988.png  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 52.20439pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (+20) Signallleuchte,
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) SMD-LED, ø3
+ []
+
+File: Images/Material/LED.png Graphic file (type png)
+<use Images/Material/LED.png>
+Package pdftex.def Info: Images/Material/LED.png  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 45.9979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T1/lmr/m/n/8 (+20) 0,96 Zoll
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) I2C/IIC/TWI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T1/lmr/m/n/8 (+20) 128x64 Pi-xel
+ []
+
+File: Images/Material/oled96.jpg Graphic file (type jpg)
+<use Images/Material/oled96.jpg>
+Package pdftex.def Info: Images/Material/oled96.jpg  used on input line 126.
+(pdftex.def)             Requested size: 56.9055pt x 64.33788pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Overfull \vbox (93.18411pt too high) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 136.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[65 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
+Material/DEBOENCODER.png> <./Images/Material/ENCMUTTER.png> <./Images/Material/
+Taster.jpg> <./Images/Material/RBS10856.jpg> <./Images/Material/A4988.png> <./I
+mages/Material/LED.png> <./Images/Material/oled96.jpg>]
+Overfull \hbox (6.15483pt too wide) in paragraph at lines 136--136
+[]|\T1/lmr/bx/n/8 (-20) Pos.| 
+ []
+
+
+Overfull \hbox (5.42618pt too wide) in paragraph at lines 136--136
+[]|\T1/lmr/bx/n/8 (-20) Stk.| 
+ []
+
+
+Overfull \hbox (4.26985pt too wide) in paragraph at lines 136--136
+[]|\T1/lmr/bx/n/8 (-20) Preis[\TS1/lmr/bx/n/8 (-20) ¿\T1/lmr/bx/n/8 (-20) ]| 
+ []
+
+
+Overfull \hbox (0.95421pt too wide) in paragraph at lines 136--136
+[]|\T1/lmr/bx/n/8 (-20) Bestelladresse| 
+ []
+
+
+Overfull \hbox (2.27658pt too wide) in paragraph at lines 136--136
+[]|\T1/lmr/m/n/8 (-20) Einpressmuttern
+ []
+
+File: Images/Material/RBS15553.jpg Graphic file (type jpg)
+<use Images/Material/RBS15553.jpg>
+Package pdftex.def Info: Images/Material/RBS15553.jpg  used on input line 136.
+(pdftex.def)             Requested size: 56.9055pt x 56.9052pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\T1/lmr/m/n/8 (+20) Sunlu PLA
+ []
+
+File: Images/Material/RBS16624.jpg Graphic file (type jpg)
+<use Images/Material/RBS16624.jpg>
+Package pdftex.def Info: Images/Material/RBS16624.jpg  used on input line 136.
+(pdftex.def)             Requested size: 56.9055pt x 56.89883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|[]\T1/lmr/m/n/8 (+20) www.roboter-
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 137.
+See the caption package documentation for explanation.
+
+) (../Appendix/Literaturverzeichnis/Literaturverzeichnis.tex
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[66 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
+chapter 13.
+Package biblatex Info: Reference segment=30 on input line 12.
+Package biblatex Info: Setting label 'refsegment:030' on input line 12.
+<../Appendix/Literaturverzeichnis/img/AMS.jpg, id=1160, 529.22719pt x 685.05937
+pt>
+File: ../Appendix/Literaturverzeichnis/img/AMS.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/AMS.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/AMS.jpg  used on 
+input line 14.
+(pdftex.def)             Requested size: 184.94292pt x 239.39806pt.
+
+Overfull \hbox (97.24275pt too wide) in paragraph at lines 18--20
+\T1/lmr/m/n/12 (-20) http://www.advanced-monolithic.com/pdf/ds1117.pdf,
+ []
+
+Package biblatex Info: Reference segment=31 on input line 28.
+Package biblatex Info: Setting label 'refsegment:031' on input line 28.
+<../Appendix/Literaturverzeichnis/img/Allegro.jpg, id=1161, 529.22719pt x 685.0
+5937pt>
+File: ../Appendix/Literaturverzeichnis/img/Allegro.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Allegro.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Allegro.jpg  used
+ on input line 30.
+(pdftex.def)             Requested size: 184.94292pt x 239.39806pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+[]\T1/lmr/m/n/12 (+20) Internetdokumentation.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+\T1/lmr/m/n/12 (+20) A4988-Datasheet. On^^?li^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+\T1/lmr/m/n/12 (+20) ne ver^^?füg^^?bar un^^?ter htt^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+\T1/lmr/m/n/12 (+20) ps://www.allegromicro.com,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+\T1/lmr/m/n/12 (+20) zu^^?letzt ak^^?tua^^?li^^?siert am 2022,
+ []
+
+[67
+
+
+ <../Appendix/Literaturverzeichnis/img/AMS.jpg>]
+Package biblatex Info: Reference segment=32 on input line 44.
+Package biblatex Info: Setting label 'refsegment:032' on input line 44.
+<../Appendix/Literaturverzeichnis/img/Arduino.jpg, id=1171, 597.79858pt x 846.0
+3032pt>
+File: ../Appendix/Literaturverzeichnis/img/Arduino.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Arduino.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Arduino.jpg  used
+ on input line 46.
+(pdftex.def)             Requested size: 184.94292pt x 261.7374pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+[]\T1/lmr/m/n/12 (+20) Internetdokumentation.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+\T1/lmr/m/n/12 (+20) ABX00031-Datasheet zu^^?letzt
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[68 <../Appendix/Literaturverzeichnis/img/Allegro.jpg>]
+Package biblatex Info: Reference segment=33 on input line 60.
+Package biblatex Info: Setting label 'refsegment:033' on input line 60.
+<../Appendix/Literaturverzeichnis/img/IDE.jpg, id=1181, 238.64156pt x 76.78688p
+t>
+File: ../Appendix/Literaturverzeichnis/img/IDE.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/IDE.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/IDE.jpg  used on 
+input line 61.
+(pdftex.def)             Requested size: 184.94292pt x 59.50803pt.
+
+Overfull \hbox (104.80081pt too wide) in paragraph at lines 63--65
+[]\T1/lmr/bx/n/12 (-20) Downloads. Ar-dui-no IDE 2.3.2: \T1/lmr/m/n/12 (-20) Hg
+. v. Ar^^?dui^^?no. htt^^?ps://www.arduino.cc/en/software.
+ []
+
+
+Overfull \hbox (122.68758pt too wide) in paragraph at lines 65--67
+\T1/lmr/m/n/12 (-20) ne ver^^?füg^^?bar un^^?ter htt^^?ps://docs.arduino.cc/sof
+tware/ide-v2/tutorials/ide-v2-board-manager.,
+ []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 67.
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[69 <../Appendix/Literaturverzeichnis/img/Arduino.jpg> <../Appendix/Literaturve
+rzeichnis/img/IDE.jpg>]
+Overfull \hbox (34.007pt too wide) in paragraph at lines 67--69
+\T1/lmr/m/n/12 (-20) ps://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-inst
+alling-a-library/,
+ []
+
+
+Overfull \hbox (274.42574pt too wide) in paragraph at lines 69--70
+[]\T1/lmr/bx/n/12 (-20) loop: \T1/lmr/m/n/12 (-20) Hg. v. Ar^^?dui^^?no. On^^?l
+i^^?ne ver^^?füg^^?bar un^^?ter htt^^?ps://docs.arduino.cc/software/ide-v2/tuto
+rials/ide-v2-installing-a-library/,
+ []
+
+
+Overfull \hbox (257.47278pt too wide) in paragraph at lines 70--71
+[]\T1/lmr/bx/n/12 (-20) setup: \T1/lmr/m/n/12 (-20) Hg. v. Ar^^?dui^^?no. On^^?
+li^^?ne ver^^?füg^^?bar un^^?ter htt^^?ps://www.arduino.cc/reference/en/languag
+e/structure/sketch/setup/,
+ []
+
+Package biblatex Info: Reference segment=34 on input line 79.
+Package biblatex Info: Setting label 'refsegment:034' on input line 79.
+<../Appendix/Literaturverzeichnis/img/Arm.jpg, id=1192, 514.92375pt x 728.7225p
+t>
+File: ../Appendix/Literaturverzeichnis/img/Arm.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Arm.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Arm.jpg  used on 
+input line 81.
+(pdftex.def)             Requested size: 184.94292pt x 261.72833pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Ar^^?m-^^?Cor^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+\T1/lmr/m/n/12 (+20) tex-M4-Processor-Datasheet.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[70]
+Package biblatex Info: Reference segment=35 on input line 94.
+Package biblatex Info: Setting label 'refsegment:035' on input line 94.
+<../Appendix/Literaturverzeichnis/img/Avago.jpg, id=1201, 529.22719pt x 685.059
+37pt>
+File: ../Appendix/Literaturverzeichnis/img/Avago.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Avago.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Avago.jpg  used o
+n input line 96.
+(pdftex.def)             Requested size: 184.94292pt x 239.39806pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Da^^?tas^^?heet -
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 100--101
+\T1/lmr/m/n/12 (+20) APDS-9960 - Di^^?gi^^?tal Pro^^?xi^^?mi^^?ty,
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 100--101
+\T1/lmr/m/n/12 (+20) Sen^^?sor. Zu^^?letzt ak^^?tua^^?li^^?siert am
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 105--106
+\T1/lmr/m/n/12 (+20) APDS-9960; Da^^?tas^^?heet; Da^^?ten^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\T1/lmr/m/n/12 (+20) Detailliertes Da^^?ten^^?blatt zum
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 110.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[71 <../Appendix/Literaturverzeichnis/img/ARM.jpg>]
+Package biblatex Info: Reference segment=36 on input line 110.
+Package biblatex Info: Setting label 'refsegment:036' on input line 110.
+<../Appendix/Literaturverzeichnis/img/AZ.jpg, id=1212, 597.01305pt x 844.45924p
+t>
+File: ../Appendix/Literaturverzeichnis/img/AZ.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/AZ.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/AZ.jpg  used on i
+nput line 112.
+(pdftex.def)             Requested size: 184.94292pt x 261.59926pt.
+
+Overfull \hbox (113.96277pt too wide) in paragraph at lines 116--118
+\T1/lmr/m/n/12 (-20) ps://www.az-delivery.de/products/1-3zoll-i2c-oled-display,
+
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 119--120
+\T1/lmr/m/n/12 (+20) Datenblatt zum OLED Dis^^?play.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[72 <../Appendix/Literaturverzeichnis/img/Avago.jpg>]
+Package biblatex Info: Reference segment=37 on input line 126.
+Package biblatex Info: Setting label 'refsegment:037' on input line 126.
+<../Appendix/Literaturverzeichnis/img/Babiel.jpg, id=1222, 477.61043pt x 682.63
+728pt>
+File: ../Appendix/Literaturverzeichnis/img/Babiel.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Babiel.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Babiel.jpg  used 
+on input line 130.
+(pdftex.def)             Requested size: 184.94292pt x 264.34213pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 137.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[73 <../Appendix/Literaturverzeichnis/img/AZ.jpg>]
+Overfull \hbox (6.72478pt too wide) in paragraph at lines 138--139
+\T1/lmr/m/n/12 (-20) Elektromotor; Mi^^?kro^^?schritt^^?ver^^?fah^^?ren; Po^^?s
+i^^?tio^^?nier^^?ge^^?nau^^?ig^^?keit; PWM; Schritt^^?
+ []
+
+Package biblatex Info: Reference segment=38 on input line 144.
+Package biblatex Info: Setting label 'refsegment:038' on input line 144.
+<../Appendix/Literaturverzeichnis/img/Basler.jpg, id=1233, 421.0513pt x 597.013
+05pt>
+File: ../Appendix/Literaturverzeichnis/img/Basler.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Basler.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Basler.jpg  used 
+on input line 149.
+(pdftex.def)             Requested size: 184.94292pt x 262.23106pt.
+
+Overfull \hbox (209.37929pt too wide) in paragraph at lines 145--156
+\T1/lmr/m/n/12 (-20) Sprin^^?ger Fach^^?me^^?di^^?en Wies^^?ba^^?den. On^^?li^^
+?ne ver^^?füg^^?bar un^^?ter htt^^?ps://link.springer.com/book/10.1007/978-3-65
+8-12844-9 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[74 <../Appendix/Literaturverzeichnis/img/Babiel.jpg>]
+Package biblatex Info: Reference segment=39 on input line 163.
+Package biblatex Info: Setting label 'refsegment:039' on input line 163.
+<../Appendix/Literaturverzeichnis/img/Bernstein.jpg, id=1244, 263.48438pt x 376
+.40625pt>
+File: ../Appendix/Literaturverzeichnis/img/Bernstein.jpg Graphic file (type jpg
+)
+<use ../Appendix/Literaturverzeichnis/img/Bernstein.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Bernstein.jpg  us
+ed on input line 166.
+(pdftex.def)             Requested size: 184.94292pt x 264.21773pt.
+
+Underfull \hbox (badness 2799) in paragraph at lines 171--172
+\T1/lmr/m/n/12 (+20) Dieses Lehr^^?buch be^^?han^^?delt an^^?
+ []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 173.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[75 <../Appendix/Literaturverzeichnis/img/Basler.jpg>]
+Package biblatex Info: Reference segment=40 on input line 180.
+Package biblatex Info: Setting label 'refsegment:040' on input line 180.
+<../Appendix/Literaturverzeichnis/img/Bernstein2.jpg, id=1256, 404.55489pt x 61
+7.43718pt>
+File: ../Appendix/Literaturverzeichnis/img/Bernstein2.jpg Graphic file (type jp
+g)
+<use ../Appendix/Literaturverzeichnis/img/Bernstein2.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Bernstein2.jpg  u
+sed on input line 184.
+(pdftex.def)             Requested size: 184.94292pt x 282.26276pt.
+
+Underfull \hbox (badness 1342) in paragraph at lines 189--190
+\T1/lmr/m/n/12 (+20) la^^?gen der Mi^^?kro^^?con^^?trol^^?ler AT^^?ti^^?
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[76 <../Appendix/Literaturverzeichnis/img/Bernstein.jpg>]
+Package biblatex Info: Reference segment=41 on input line 198.
+Package biblatex Info: Setting label 'refsegment:041' on input line 198.
+<../Appendix/Literaturverzeichnis/img/Stotz.jpg, id=1267, 265.74281pt x 376.406
+25pt>
+File: ../Appendix/Literaturverzeichnis/img/Stotz.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Stotz.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Stotz.jpg  used o
+n input line 201.
+(pdftex.def)             Requested size: 184.94292pt x 261.9663pt.
+
+Overfull \hbox (83.25098pt too wide) in paragraph at lines 199--208
+\T1/lmr/m/n/12 (-20) View^^?eg. On^^?li^^?ne ver^^?füg^^?bar un^^?ter htt^^?ps:
+//link.springer.com/book/10.1007/978-3-662-58873-4 
+ []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 208.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[77 <../Appendix/Literaturverzeichnis/img/Bernstein2.jpg>]
+Package biblatex Info: Reference segment=42 on input line 215.
+Package biblatex Info: Setting label 'refsegment:042' on input line 215.
+<../Appendix/Literaturverzeichnis/img/Faulhaber.jpg, id=1279, 597.01305pt x 844
+.45924pt>
+File: ../Appendix/Literaturverzeichnis/img/Faulhaber.jpg Graphic file (type jpg
+)
+<use ../Appendix/Literaturverzeichnis/img/Faulhaber.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Faulhaber.jpg  us
+ed on input line 217.
+(pdftex.def)             Requested size: 184.94292pt x 261.59926pt.
+
+Underfull \hbox (badness 6284) in paragraph at lines 221--224
+\T1/lmr/m/n/12 (+20) Sys^^?tems (2020): FAUL^^?HA^^?BER
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 221--224
+\T1/lmr/m/n/12 (+20) bei Schritt^^?mo^^?to^^?ren. Hg. v. DR.
+ []
+
+
+Overfull \hbox (426.67163pt too wide) in paragraph at lines 221--224
+\T1/lmr/m/n/12 (-20) ps://www.faulhaber.com/de/know-how/tutorials/schrittmotore
+n-tutorial-schrittverluste-verhindern-bei-schrittmotoren/,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[78 <../Appendix/Literaturverzeichnis/img/Stotz.jpg>]
+Package biblatex Info: Reference segment=43 on input line 232.
+Package biblatex Info: Setting label 'refsegment:043' on input line 232.
+<../Appendix/Literaturverzeichnis/img/Gehrke.jpg, id=1289, 477.61043pt x 682.63
+728pt>
+File: ../Appendix/Literaturverzeichnis/img/Gehrke.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Gehrke.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Gehrke.jpg  used 
+on input line 234.
+(pdftex.def)             Requested size: 184.94292pt x 264.34213pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+[]\T1/lmr/m/n/12 (+20) Buch (Mo^^?no^^?gra^^?phie). Di^^?gi^^?tal^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+\T1/lmr/m/n/12 (+20) tech^^?nik. Grund^^?la^^?gen, VHDL,
+ []
+
+
+Overfull \hbox (104.99574pt too wide) in paragraph at lines 238--240
+\T1/lmr/m/n/12 (-20) ps://link.springer.com/book/10.1007/978-3-662-63954-2. 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 243.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[79 <../Appendix/Literaturverzeichnis/img/Faulhaber.jpg>]
+Package biblatex Info: Reference segment=44 on input line 250.
+Package biblatex Info: Setting label 'refsegment:044' on input line 250.
+<../Appendix/Literaturverzeichnis/img/Hagl.jpg, id=1299, 429.85594pt x 599.2387
+5pt>
+File: ../Appendix/Literaturverzeichnis/img/Hagl.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Hagl.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Hagl.jpg  used on
+ input line 254.
+(pdftex.def)             Requested size: 184.94292pt x 257.82307pt.
+
+Underfull \hbox (badness 1320) in paragraph at lines 259--260
+\T1/lmr/m/n/12 (+20) wie Gleich^^?strom-, Schrit^^?t-, Syn^^?
+ []
+
+
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[80 <../Appendix/Literaturverzeichnis/img/Gehrke.jpg>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 268.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[81 <../Appendix/Literaturverzeichnis/img/Hagl.jpg>]
+Package biblatex Info: Reference segment=45 on input line 268.
+Package biblatex Info: Setting label 'refsegment:045' on input line 268.
+<../Appendix/Literaturverzeichnis/img/Jkong.jpg, id=1319, 597.01305pt x 844.459
+24pt>
+File: ../Appendix/Literaturverzeichnis/img/Jkong.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Jkong.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Jkong.jpg  used o
+n input line 272.
+(pdftex.def)             Requested size: 184.94292pt x 261.59926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Ne^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\T1/lmr/m/n/12 (+20) ma17-Datasheet. On^^?li^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+\T1/lmr/m/n/12 (+20) ne ver^^?füg^^?bar un^^?ter htt^^?
+ []
+
+
+Overfull \hbox (280.11456pt too wide) in paragraph at lines 276--277
+\T1/lmr/m/n/12 (-20) ps://ecksteinimg.de/Datasheet/Schrittmotor/JK42HS34-0844A/
+JK42HS34-0844YA-01.pdf,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+\T1/lmr/m/n/12 (+20) Datasheet; Da^^?ten^^?blatt; For^^?ce;
+ []
+
+Package biblatex Info: Reference segment=46 on input line 285.
+Package biblatex Info: Setting label 'refsegment:046' on input line 285.
+<../Appendix/Literaturverzeichnis/img/Lienig.jpg, id=1320, 477.61043pt x 682.63
+728pt>
+File: ../Appendix/Literaturverzeichnis/img/Lienig.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Lienig.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Lienig.jpg  used 
+on input line 287.
+(pdftex.def)             Requested size: 184.94292pt x 264.34213pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[82 <../Appendix/Literaturverzeichnis/img/Jkong.jpg>]
+Overfull \hbox (29.92366pt too wide) in paragraph at lines 299--300
+\T1/lmr/m/n/12 (-20) Dieses Buch wur^^?de zu^^?sätz^^?lich her^^?an^^?ge^^?zo^^
+?gen, um die IC- und I2C-Kommunikation
+ []
+
+Package biblatex Info: Reference segment=47 on input line 303.
+Package biblatex Info: Setting label 'refsegment:047' on input line 303.
+<../Appendix/Literaturverzeichnis/img/Meanwell.jpg, id=1331, 457.71pt x 647.418
+75pt>
+File: ../Appendix/Literaturverzeichnis/img/Meanwell.jpg Graphic file (type jpg)
+
+<use ../Appendix/Literaturverzeichnis/img/Meanwell.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Meanwell.jpg  use
+d on input line 305.
+(pdftex.def)             Requested size: 184.94292pt x 261.59067pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+[]\T1/lmr/m/n/12 (+20) Internetdokument.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+\T1/lmr/m/n/12 (+20) RD-50-20190729.cdr. On^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+\T1/lmr/m/n/12 (+20) li^^?ne ver^^?füg^^?bar un^^?ter htt^^?
+ []
+
+
+Overfull \hbox (177.24472pt too wide) in paragraph at lines 309--311
+\T1/lmr/m/n/12 (-20) ps://cdn-reichelt.de/documents/datenblatt/D500/RD-50-DS-EN
+.PDF,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+\T1/lmr/m/n/12 (+20) Datenblatt zum Schalt^^?netz^^?teil
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 316.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[83 <../Appendix/Literaturverzeichnis/img/Lienig.jpg>]
+Package biblatex Info: Reference segment=48 on input line 319.
+Package biblatex Info: Setting label 'refsegment:048' on input line 319.
+<../Appendix/Literaturverzeichnis/img/Mentor.jpg, id=1343, 514.92375pt x 728.72
+25pt>
+File: ../Appendix/Literaturverzeichnis/img/Mentor.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Mentor.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Mentor.jpg  used 
+on input line 321.
+(pdftex.def)             Requested size: 184.94292pt x 261.72833pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
+[]\T1/lmr/m/n/12 (+20) Internetdokument. SI^^?GNAL^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
+\T1/lmr/m/n/12 (+20) LEUCH^^?TENSM^^?D-LE^^?D-^^?Da^^?ten^^?
+ []
+
+
+Overfull \hbox (120.5909pt too wide) in paragraph at lines 325--327
+\T1/lmr/m/n/12 (-20) ps://www.mentor.de.com/bauelemente/product/2660-8301,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[84 <../Appendix/Literaturverzeichnis/img/Meanwell.jpg>]
+Package biblatex Info: Reference segment=49 on input line 335.
+Package biblatex Info: Setting label 'refsegment:049' on input line 335.
+<../Appendix/Literaturverzeichnis/img/Meroth.jpg, id=1353, 477.61043pt x 682.63
+728pt>
+File: ../Appendix/Literaturverzeichnis/img/Meroth.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Meroth.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Meroth.jpg  used 
+on input line 340.
+(pdftex.def)             Requested size: 184.94292pt x 264.34213pt.
+
+Underfull \hbox (badness 2197) in paragraph at lines 345--346
+\T1/lmr/m/n/12 (+20) Das Buch bil^^?det ei^^?ne wich^^?ti^^?ge
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 347.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[85 <../Appendix/Literaturverzeichnis/img/Mentor.jpg>]
+Overfull \hbox (83.82559pt too wide) in paragraph at lines 350--351
+\T1/lmr/m/n/12 (-20) Das Buch ent^^?hielt ei^^?ne sehr gut ver^^?ständ^^?li^^?c
+he Er^^?klä^^?rung zum I2C-Kommunikationsprotokoll. 
+ []
+
+Package biblatex Info: Reference segment=50 on input line 354.
+Package biblatex Info: Setting label 'refsegment:050' on input line 354.
+<../Appendix/Literaturverzeichnis/img/Nordic.jpg, id=1365, 613.50946pt x 794.18
+446pt>
+File: ../Appendix/Literaturverzeichnis/img/Nordic.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Nordic.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Nordic.jpg  used 
+on input line 357.
+(pdftex.def)             Requested size: 184.94292pt x 239.4084pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+\T1/lmr/m/n/12 (+20) Online ver^^?füg^^?bar un^^?ter htt^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+\T1/lmr/m/n/12 (+20) ps://infocenter.nordicsemi.com,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[86 <../Appendix/Literaturverzeichnis/img/Meroth.jpg>]
+Package biblatex Info: Reference segment=51 on input line 376.
+Package biblatex Info: Setting label 'refsegment:051' on input line 376.
+<../Appendix/Literaturverzeichnis/img/Filipi.jpg, id=1375, 597.79858pt x 844.45
+924pt>
+File: ../Appendix/Literaturverzeichnis/img/Filipi.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Filipi.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Filipi.jpg  used 
+on input line 378.
+(pdftex.def)             Requested size: 184.94292pt x 261.25136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Dif^^?fe^^?rence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+\T1/lmr/m/n/12 (+20) se^^?Li^^?te. A Dif^^?fe^^?rence bet^^?ween
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 382--383
+\T1/lmr/m/n/12 (+20) A N 33 BLE Sen^^?se vs. Sen^^?se
+ []
+
+
+Overfull \hbox (245.33536pt too wide) in paragraph at lines 382--383
+\T1/lmr/m/n/12 (-20) ps://forum.arduino.cc/t/a-difference-between-a-n-33-ble-se
+nse-vs-sense-lite/1030305,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 386.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[87 <../Appendix/Literaturverzeichnis/img/Nordic.jpg>]
+Package biblatex Info: Reference segment=52 on input line 391.
+Package biblatex Info: Setting label 'refsegment:052' on input line 391.
+<../Appendix/Literaturverzeichnis/img/Schroeder.jpg, id=1385, 477.61043pt x 682
+.63728pt>
+File: ../Appendix/Literaturverzeichnis/img/Schroeder.jpg Graphic file (type jpg
+)
+<use ../Appendix/Literaturverzeichnis/img/Schroeder.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Schroeder.jpg  us
+ed on input line 393.
+(pdftex.def)             Requested size: 184.94292pt x 264.34213pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[88 <../Appendix/Literaturverzeichnis/img/Filipi.jpg>]
+Package biblatex Info: Reference segment=53 on input line 408.
+Package biblatex Info: Setting label 'refsegment:053' on input line 408.
+<../Appendix/Literaturverzeichnis/img/Simac.jpg, id=1395, 168.5205pt x 238.1625
+pt>
+File: ../Appendix/Literaturverzeichnis/img/Simac.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Simac.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Simac.jpg  used o
+n input line 410.
+(pdftex.def)             Requested size: 184.94292pt x 261.37631pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+[]\T1/lmr/m/n/12 (+20) Internetdokument.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+\T1/lmr/m/n/12 (+20) COM-KY040RE-Datenblatt.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+\T1/lmr/m/n/12 (+20) Dre^^?hen^^?co^^?der mit Tas^^?ter^^?funk^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+\T1/lmr/m/n/12 (+20) ti^^?on. On^^?li^^?ne ver^^?füg^^?bar un^^?ter
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 414--416
+\T1/lmr/m/n/12 (+20) am 2019, zu^^?letzt ge^^?prüft am
+ []
+
+
+Underfull \vbox (badness 2111) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 421.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[89 <../Appendix/Literaturverzeichnis/img/Schroeder.jpg>]
+Package biblatex Info: Reference segment=54 on input line 424.
+Package biblatex Info: Setting label 'refsegment:054' on input line 424.
+<../Appendix/Literaturverzeichnis/img/STM.jpg, id=1407, 514.92375pt x 728.7225p
+t>
+File: ../Appendix/Literaturverzeichnis/img/STM.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/STM.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/STM.jpg  used on 
+input line 426.
+(pdftex.def)             Requested size: 184.94292pt x 261.72833pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Da^^?tas^^?heet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+\T1/lmr/m/n/12 (+20) - LSM9DS1- iNE^^?MO in^^?er^^?ti^^?al
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 430--431
+\T1/lmr/m/n/12 (+20) mo^^?du^^?le: 3D ac^^?ce^^?le^^?ro^^?me^^?ter, 3D
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+\T1/lmr/m/n/12 (+20) gy^^?ros^^?co^^?pe, 3D ma^^?gne^^?to^^?me^^?ter.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+\T1/lmr/m/n/12 (+20) Hg. v. STMI^^?CRO^^?ELEC^^?TRO^^?
+ []
+
+
+Overfull \hbox (96.09076pt too wide) in paragraph at lines 430--431
+\T1/lmr/m/n/12 (-20) ps://www.st.com/en/mems-and-sensors/lsm9ds1.html,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+\T1/lmr/m/n/12 (+20) Datenblatt zum LSM9DS1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+\T1/lmr/m/n/12 (+20) (9-Achs-I^^?MU). Sehr um^^?fang^^?
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[90 <../Appendix/Literaturverzeichnis/img/Simac.jpg>]
+Package biblatex Info: Reference segment=55 on input line 439.
+Package biblatex Info: Setting label 'refsegment:055' on input line 439.
+<../Appendix/Literaturverzeichnis/img/STM2.jpg, id=1417, 597.01305pt x 844.4592
+4pt>
+File: ../Appendix/Literaturverzeichnis/img/STM2.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/STM2.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/STM2.jpg  used on
+ input line 441.
+(pdftex.def)             Requested size: 184.94292pt x 261.59926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Da^^?tas^^?heet -
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 445--447
+\T1/lmr/m/n/12 (+20) LPS22HB-MEMS na^^?no pres^^?su^^?re
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 445--447
+\T1/lmr/m/n/12 (+20) sen^^?sor: 260-1260 hPa ab^^?so^^?lu^^?te
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 445--447
+\T1/lmr/m/n/12 (+20) di^^?gi^^?tal out^^?put ba^^?ro^^?me^^?ter. Hg.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+\T1/lmr/m/n/12 (+20) v. STMI^^?CRO^^?ELEC^^?TRO^^?NICS.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+\T1/lmr/m/n/12 (+20) On^^?li^^?ne ver^^?füg^^?bar un^^?ter htt^^?
+ []
+
+
+Overfull \hbox (94.42108pt too wide) in paragraph at lines 445--447
+\T1/lmr/m/n/12 (-20) ps://www.st.com/en/mems-and-sensors/lps22hb.html,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 450.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[91 <../Appendix/Literaturverzeichnis/img/STM.jpg>]
+Overfull \hbox (8.53384pt too wide) in paragraph at lines 451--452
+\T1/lmr/m/n/12 (-20) 027083; Ba^^?ro^^?me^^?tri^^?scher Druck^^?sen^^?sor; Da^^
+?tas^^?heet; Da^^?ten^^?blatt; I2C; LPS22HB;
+ []
+
+Package biblatex Info: Reference segment=56 on input line 455.
+Package biblatex Info: Setting label 'refsegment:056' on input line 455.
+<../Appendix/Literaturverzeichnis/img/STM3.jpg, id=1427, 597.01305pt x 844.4592
+4pt>
+File: ../Appendix/Literaturverzeichnis/img/STM3.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/STM3.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/STM3.jpg  used on
+ input line 457.
+(pdftex.def)             Requested size: 184.94292pt x 261.59926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[]\T1/lmr/m/n/12 (+20) Internetdokument. Da^^?tas^^?heet -
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 461--462
+\T1/lmr/m/n/12 (+20) MP34DT05-A - MEMS au^^?dio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+\T1/lmr/m/n/12 (+20) sen^^?sor om^^?ni^^?di^^?rec^^?tio^^?nal di^^?gi^^?tal
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 461--462
+\T1/lmr/m/n/12 (+20) mi^^?cro^^?pho^^?ne. Hg. v. STMI^^?CRO^^?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+\T1/lmr/m/n/12 (+20) Datenblatt zum MP34DT05-A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+\T1/lmr/m/n/12 (+20) Di^^?gi^^?ta^^?len Mi^^?kro^^?pho^^?ne. Das
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 463--464
+\T1/lmr/m/n/12 (+20) na^^?les, di^^?gi^^?ta^^?les MEMS-^^?Mi^^?kro^^?fon
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[92 <../Appendix/Literaturverzeichnis/img/STM2.jpg>]
+Package biblatex Info: Reference segment=57 on input line 470.
+Package biblatex Info: Setting label 'refsegment:057' on input line 470.
+<../Appendix/Literaturverzeichnis/img/Weber.jpg, id=1437, 124.21407pt x 178.416
+56pt>
+File: ../Appendix/Literaturverzeichnis/img/Weber.jpg Graphic file (type jpg)
+<use ../Appendix/Literaturverzeichnis/img/Weber.jpg>
+Package pdftex.def Info: ../Appendix/Literaturverzeichnis/img/Weber.jpg  used o
+n input line 475.
+(pdftex.def)             Requested size: 184.94292pt x 265.66673pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 482.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[93 <../Appendix/Literaturverzeichnis/img/STM3.jpg>])
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[94 <../Appendix/Literaturverzeichnis/img/Weber.jpg>]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
- (./DemonstratorSchrittmotor.ind)
+
+(./DemonstratorSchrittmotor.ind)
 
 Package acro Warning: Empty acronym list. If you have used acronyms then
 (acro)                re-compile to get the list filled. Otherwise remove
@@ -4559,22 +5668,22 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
  )
 (\end occurred inside a group at level 4)
 
-### simple group (level 4) entered at line 142 ({)
-### simple group (level 3) entered at line 109 ({)
-### simple group (level 2) entered at line 107 ({)
-### simple group (level 1) entered at line 56 ({)
+### simple group (level 4) entered at line 140 ({)
+### simple group (level 3) entered at line 107 ({)
+### simple group (level 2) entered at line 105 ({)
+### simple group (level 1) entered at line 54 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 91432 strings out of 476024
- 2348850 string characters out of 5794016
- 3498456 words of memory out of 5000000
- 110099 multiletter control sequences out of 15000+600000
- 626949 words of font info for 327 fonts, out of 8000000 for 9000
+ 91875 strings out of 476024
+ 2361185 string characters out of 5794016
+ 3506006 words of memory out of 5000000
+ 110356 multiletter control sequences out of 15000+600000
+ 627143 words of font info for 329 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/te
-xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-dist
-/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/l
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c
+:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-
+dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/l
 m/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/te
 xlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/f
 onts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
@@ -4589,10 +5698,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (78 pages, 13405017 bytes).
+Output written on DemonstratorSchrittmotor.pdf (108 pages, 15727400 bytes).
 PDF statistics:
- 1513 PDF objects out of 1728 (max. 8388607)
- 1192 compressed objects within 12 object streams
- 227 named destinations out of 1000 (max. 500000)
- 55261 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1856 PDF objects out of 2073 (max. 8388607)
+ 1474 compressed objects within 15 object streams
+ 380 named destinations out of 1000 (max. 500000)
+ 55409 words of extra memory for PDF output out of 61914 (max. 10000000)
 

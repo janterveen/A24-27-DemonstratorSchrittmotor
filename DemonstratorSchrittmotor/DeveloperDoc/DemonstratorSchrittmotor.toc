@@ -37,41 +37,42 @@
 \contentsline {section}{\numberline {3.4}Linearführung}{15}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Drehwinkel-Encoder}{15}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Schrittmotorsteuerung}{15}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Schaltplan}{17}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Materialliste}{19}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Beschreibung der Software IDE}{25}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Installation der Arduino IDE}{25}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Beschreibung der Entwicklungsumgebung}{25}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Erste Schritte in der Entwicklungsumgebung}{26}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Auswahl des Mikrocontrollers}{26}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Bibliotheken einbinden}{27}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Programmierung}{29}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}header}{29}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}setup()}{29}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}loop()}{29}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}Erster Programmtest}{29}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Schrittmotor}{31}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Beschreibung eines Schrittmotors}{31}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Aufbau und Funktionsweise eines Schrittmotors}{31}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Schrittmotor Bauformen}{32}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Betriebsarten unipolar und bipolar}{33}{subsection.7.1.3}%
-\contentsline {section}{\numberline {7.2}Beschreibung des verwendeten Schrittmotors}{34}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Beschreibung des Programms auf dem Arduino}{35}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Konstruktion}{37}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Rahmenbedingungen}{37}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Arbeiten mit SolidWorks 2023}{37}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Gehäusekonstruktion}{37}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Anbauteile}{41}{section.9.4}%
-\contentsline {section}{\numberline {9.5}3D-Druck mit PLA}{44}{section.9.5}%
-\contentsline {chapter}{\numberline {10}Schrittverluste verhindern}{51}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Auswahl des Schrittmotors}{51}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Betriebsart}{51}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Start-Stopp-Betrieb}{51}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Beschleunigung und Rampenprofil (Trapezförmig)}{52}{subsection.10.2.2}%
-\contentsline {section}{\numberline {10.3}Externe Ereignisse}{54}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Lastrückkopplung}{54}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Erhöhung der Nutzlast mit der Zeit}{54}{subsection.10.3.2}%
-\contentsline {chapter}{\numberline {11}Testdurchläufe}{55}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Offene Punkte}{57}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Literatur}{59}{chapter.13}%
-\contentsline {chapter}{ Literaturverzeichnis}{61}{chapter.13}%
+\contentsline {chapter}{\numberline {4}Beschreibung der Software IDE}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Installation der Arduino IDE}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Beschreibung der Entwicklungsumgebung}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Erste Schritte in der Entwicklungsumgebung}{18}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Auswahl des Mikrocontrollers}{18}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Bibliotheken einbinden}{19}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Programmierung}{21}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}header}{21}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}setup()}{21}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}loop()}{21}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Erster Programmtest}{21}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Schrittmotor}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Beschreibung eines Schrittmotors}{23}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Aufbau und Funktionsweise eines Schrittmotors}{23}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Schrittmotor Bauformen}{24}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Betriebsarten unipolar und bipolar}{25}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Beschreibung des verwendeten Schrittmotors}{26}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Beschreibung des Programms auf dem Arduino}{27}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Konstruktion}{29}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Rahmenbedingungen}{29}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Arbeiten mit SolidWorks 2023}{29}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Gehäusekonstruktion}{29}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Anbauteile}{37}{section.7.4}%
+\contentsline {section}{\numberline {7.5}3D-Druck mit PLA}{42}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Schrittverluste verhindern}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Auswahl des Schrittmotors}{45}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Betriebsart}{45}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Start-Stopp-Betrieb}{45}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Beschleunigung und Rampenprofil (Trapezförmig)}{46}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Externe Ereignisse}{48}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Lastrückkopplung}{48}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Erhöhung der Nutzlast mit der Zeit}{48}{subsection.8.3.2}%
+\contentsline {chapter}{\numberline {9}Testdurchläufe}{49}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Offene Punkte}{51}{chapter.10}%
+\contentsline {chapter}{ Literaturverzeichnis}{53}{chapter.10}%
+\contentsline {chapter}{Anhang}{57}{chapter*.31}%
+\contentsline {chapter}{\numberline {11}Schaltplan}{59}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Materialliste}{61}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Detailliertes Literaturverzeichnis}{67}{chapter.13}%
