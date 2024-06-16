@@ -1,0 +1,109 @@
+
+
+
+\documentclass[12pt,a4paper]{scrbook}
+\include{General/Packages}
+\include{General/commands}
+\include{General/tikzdefs}
+\usepackage{circuitikz}
+\begin{document}
+
+
+	
+	\chapter{Schnelleinstieg für Demonstrator für den Schrittmotor}
+	
+	\section{Lieferumfang}
+	
+	\begin{itemize}
+		\item Demonstrator Schrittmotor
+		\item Netzkabel
+	\end{itemize}
+	
+	\section{Gerät aufstellen:}
+	\begin{itemize}
+		\item Stellen Sie den Demonstrator auf eine ebene, feste Oberfläche.
+		\item Vermeiden Sie direkte Sonneneinstrahlung sowie Wärme- oder Feuchtigkeitsquellen.
+		\item Keine Gegenstände auf den Demonstrator stellen.
+		\item Halten Sie den Arbeitsbereich des Demonstrators frei von Gegenständen.
+	\end{itemize}
+	
+	\section{Inbetriebnahme}
+	
+	\begin{enumerate}
+		\item \textbf{Riemen einstellen:}
+		\begin{itemize}
+			\item Spannung überprüfen indem Sie den Schlitten manuell bewegen.
+			\item Es Sollten keine Schwierigkeiten oder ungewöhnliche Geräusche auftreten.
+			\item Bei Problemen Schrauben der Halterung für die Welle lösen, Riemen spannen und Schrauben wieder festziehen.
+		\end{itemize}
+		\item \textbf{Stromversorgung:}
+		\begin{itemize}
+			\item Netzkabel anschließen: Kupplung in Netzbuchse, Stecker in Steckdose.
+		\end{itemize}
+		\item \textbf{Einschalten:}
+		\begin{itemize}
+			\item Gerät über Power-Schalter einschalten.
+			\item Display zeigt Bitte warten und wechselt zu Bewegungsstufe 1.
+			\item Status-LED leuchtet grün, wenn das System bereit ist.
+		\end{itemize}
+		\item \textbf{Bewegungsstufe auswählen:}
+		\begin{itemize}
+			\item Drehschalter drehen, um Bewegungsstufe auszuwählen.
+			\item Auswahl durch nicht weiteres verdrehen des Drehschalters.
+		\end{itemize}
+		\item \textbf{Starten:}
+		\begin{itemize}
+			\item Start-/Stopp-Taster betätigen, um den Ablauf zu starten.
+			\item Status-LED wechselt zu gelb (Referenzfahrt) und dann zu blau (Demonstrationsablauf).
+		\end{itemize}
+		\item \textbf{Stoppen:}
+		\begin{itemize}
+			\item Ablauf stoppt automatisch oder durch erneutes Drücken des Start-/Stopp-Tasters.
+			\item Status-LED wechselt zu grün und ist bereit für den nächsten Ablauf.
+		\end{itemize}
+	\end{enumerate}
+	
+		\section{Bewegungsablauf}
+	
+\fontsize{8}{10}\selectfont
+\begin{tabularx}{\textwidth}{|p{3cm}|X|X|X|p{1cm}|X|}
+	\hline 
+	\textbf{Drehschalterstellung}  & \textbf{Bewegungsstufe} & \textbf{Max Geschwindigkeit [m/s]} &  \textbf{Max Beschleunigung [m/s$^{2}$]} \\ \hline
+	1 & Von 0\ cm auf 35\ cm & 5 & 2,3   \\
+	\hline
+	2 & Von 0\ cm auf 30\ cm & 5 & 2,3 \\
+	\hline
+	3 & Von 0\ cm auf 25\ cm & 5 & 2,3 \\
+	\hline
+	4 & Von 0\ cm auf 20\ cm & 5 & 2,3 \\
+	\hline
+	5 & Von 0\ cm auf 15\ cm & 5 & 2,3 \\
+	\hline
+	6 & Pendelt Von 0\ cm auf 35\ cm & 1 & 2 \\
+	\hline
+	7 &Pendelt Von 0\ cm auf 35\ cm & 2 & 3 \\
+	\hline
+	8 & Pendelt Von 0\ cm auf 35\ cm & 3 & 4 \\
+	\hline
+	9 & Pendelt Von 0\ cm auf 35\ cm & 4 & 5 \\
+	\hline
+	10 & Pendelt Von 0\ cm auf 35\ cm & 5 & 6 \\
+	\hline
+	
+	
+\end{tabularx}
+	
+	
+
+
+	
+
+
+
+	
+
+	
+
+
+	
+\end{document}
