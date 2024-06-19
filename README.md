@@ -31,15 +31,23 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 - [README](README.md)
 - [Evaluation](EvaluationHW.xlsx)
 
-## Montage- und Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
-- [Demontage- und Montageanleitung](DemonstratorSchrittmotor/AssemblyDisassembly)
-- [Inhalte](DemonstratorSchrittmotor/AssemblyDisassembly/Chapters)
-  - Ort an dem sich die Tex-Dateien für die einzelnen Kapiteln der Montage- und Demontageanleitung befinden
-- [Gestaltung](DemonstratorSchrittmotor/AssemblyDisassembly/General)
-  - In diesem Ordner sind Dateien, zur Gestaltung der Montage- und Demontageanleitung
-- [Bilder](DemonstratorSchrittmotor/AssemblyDisassembly/Images)
-  - Ablage der Bilder, die in der Montage- und Demontageanleitung benutzt werden
-- [PDF](DemonstratorSchrittmotor/AssemblyDisassembly/MontageDemontageAnleitung.pdf)
+## Anhang
+- [Konstruktion](DemonstratorSchrittmotor/Appendix/Konstruktion)
+  - Sämtliche Zur Konstruktion benötigten Dateien, wie CAD-Dateien, G-Code und STL-Dateien
+- [Material-Rückgabeliste](DemonstratorSchrittmotor/Appendix/MaterialRuekgabeListe)
+  - Auflistung der nicht verwendeten Teilen
+- [Mindmap](DemonstratorSchrittmotor/Appendix/Mindmap)
+- [Schaltplan](DemonstratorSchrittmotor/Appendix/SchaltplanFritzing)
+
+## Montageanleitung (sämtliche Inhalte und die verwendeten Bilder)
+- [Montageanleitung](DemonstratorSchrittmotor/Assembly)
+- [Inhalte](DemonstratorSchrittmotor/Assembly/Chapters)
+  - Ort an dem sich die Tex-Dateien für die einzelnen Kapiteln der Montageanleitung befinden
+- [Gestaltung](DemonstratorSchrittmotor/Assembly/General)
+  - In diesem Ordner sind Dateien, zur Gestaltung der Montageanleitung
+- [Bilder](DemonstratorSchrittmotor/Assembly/Images)
+  - Ablage der Bilder, die in der Montageanleitung benutzt werden
+- [PDF](DemonstratorSchrittmotor/Assembly/MontageAnleitung.pdf)
 
 ## verwendeter Code
 - [Code](DemonstratorSchrittmotor/Code)
@@ -55,16 +63,28 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 - [Tikz](DemonstratorSchrittmotor/DeveloperDoc/tikz)
   - Tex-Dateien zur Ersetllung von Tikz-Diagrammen oder Zeichnungen
 - [Service- und Entwicklerdocumentation-PDF](DemonstratorSchrittmotor/DeveloperDoc/DemonstratorSchrittmotor.pdf)
+
+## Demontageanleitung (sämtliche Inhalte und die verwendeten Bilder)
+- [Demontageanleitung](DemonstratorSchrittmotor/Disassembly)
+- [Inhalte](DemonstratorSchrittmotor/Disassembly/Chapters)
+  - Ort an dem sich die Tex-Dateien für die einzelnen Kapiteln der Demontageanleitung befinden
+- [Gestaltung](DemonstratorSchrittmotor/Disassembly/General)
+  - In diesem Ordner sind Dateien, zur Gestaltung der Demontageanleitung
+- [Bilder](DemonstratorSchrittmotor/Disassembly/Images)
+  - Ablage der Bilder, die in der Demontageanleitung benutzt werden
+- [PDF](DemonstratorSchrittmotor/Disassembly/DemontageAnleitung.pdf)
   
-## verwendete Datenblätter und Literatur in PDF
+## verwendete Quellen und bib-file (Datenblätter und Literatur in PDF)
 - [Dokumente](DemonstratorSchrittmotor/Documents)
-- [Datenblaetter](DemonstratorSchrittmotor/Documents/Datenblätter)
+- [Arduino IDE Dokumentation](DemonstratorSchrittmotor/Documents/ArduinoIDEDoku)
+  - Quellen für die Softwaredokumentation von der Arduino Website
+- [Datenblätter](DemonstratorSchrittmotor/Documents/Datenblätter)
   - Unter diesem Pfad befinden sich die Datenblätter, die für die Dokumentation benötigt wurden
 - [Literatur](DemonstratorSchrittmotor/Documents/Literatur)
   - Hier befindet sich die verwendete Literatur
+- [Bildquellen der Materialliste](DemonstratorSchrittmotor/Documents/MateriallisteQuellen)
 - [Bibliothek](DemonstratorSchrittmotor/Documents/MyLiterature.bib)
   - Citavi Bibliothek mit allen genutzten Quelleinträgen
-
 
 ## Das Handbuch für den Demonstrator (sämtliche Inhalte und die verwendeten Bilder)
 - [Handbuch](DemonstratorSchrittmotor/Manual)
@@ -82,7 +102,12 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
   - Ablage der Bilder, die im Poster benutzt werden
 - [Poster-PDF](DemonstratorSchrittmotor/Poster/tikzposter.pdf)
 
-## Weitere Dokumente
-- [Konstruktionsdateien](DemonstratorSchrittmotor/Documents/Konstruktion)
-- [Mindmap](DemonstratorSchrittmotor/Documents/Mindmap)
-- [Schaltplan](DemonstratorSchrittmotor/Documents/SchaltplanFritzing)
+## Literaturverzeichnis als Präsentation
+- [Bilder](DemonstratorSchrittmotor/Presentations/images)
+  - Coverbilder der Quellen
+- [Hintergrundbilder](DemonstratorSchrittmotor/Presentations/img)
+- [Folien](DemonstratorSchrittmotor/Presentations/slides)
+- [Literaturverzeichnis-PDF](DemonstratorSchrittmotor/Presentations/Literaturverzeichnis.pdf)
+
+## Schnelleinstieg
+- [Schnelleinstieg-PDF](DemonstratorSchrittmotor/Presentations/Literaturverzeichnis.pdf)
