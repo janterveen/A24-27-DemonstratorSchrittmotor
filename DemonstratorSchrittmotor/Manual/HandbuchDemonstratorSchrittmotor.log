@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  18 JUN 2024 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  18 JUN 2024 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1693,7 +1693,7 @@ xml'.
 Here is how much of TeX's memory you used:
  46683 strings out of 476024
  1048066 string characters out of 5794016
- 1908050 words of memory out of 5000000
+ 1908062 words of memory out of 5000000
  66189 multiletter control sequences out of 15000+600000
  560272 words of font info for 239 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191

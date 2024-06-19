@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  15 JUN 2024 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  19 JUN 2024 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2451,7 +2451,7 @@ Package biblatex Info: ... file 'DemonstratorSchrittmotor.bbl' found.
 (./DemonstratorSchrittmotor.bbl
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'AZDelivery.24':
+(biblatex)                with 'AZDelivery.2024':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
@@ -2506,7 +2506,7 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Jkongmotor.2024':
+(biblatex)                with 'Gems.2024':
 (biblatex)                - Invalid format of field 'urldate'.
 
 
@@ -2777,7 +2777,7 @@ Package biblatex Info: Reference segment=2 on input line 19.
 Package biblatex Info: Setting label 'refsegment:02' on input line 19.
 Package biblatex Info: Reference segment=3 on input line 23.
 Package biblatex Info: Setting label 'refsegment:03' on input line 23.
-<Images/Konzeptskizze1.png, id=341, 837.1275pt x 617.30624pt>
+<Images/Konzeptskizze1.png, id=368, 837.1275pt x 617.30624pt>
 File: Images/Konzeptskizze1.png Graphic file (type png)
 <use Images/Konzeptskizze1.png>
 Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 28.
@@ -2796,7 +2796,7 @@ l.34
 
 
 ]
-<Images/Konzeptskizze2.png, id=348, 837.1275pt x 661.97313pt>
+<Images/Konzeptskizze2.png, id=375, 837.1275pt x 661.97313pt>
 File: Images/Konzeptskizze2.png Graphic file (type png)
 <use Images/Konzeptskizze2.png>
 Package pdftex.def Info: Images/Konzeptskizze2.png  used on input line 37.
@@ -2820,7 +2820,7 @@ been already used, duplicate ignored
                    \relax 
 l.41 
       [2 <./Images/Konzeptskizze1.png>]
-<Images/Konstruktion1.png, id=356, 1754.05313pt x 338.01282pt>
+<Images/Konstruktion1.png, id=382, 1754.05313pt x 338.01282pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
 Package pdftex.def Info: Images/Konstruktion1.png  used on input line 46.
@@ -3014,7 +3014,7 @@ Package biblatex Info: Reference segment=15 on input line 14.
 Package biblatex Info: Setting label 'refsegment:015' on input line 14.
 Package biblatex Info: Reference segment=16 on input line 20.
 Package biblatex Info: Setting label 'refsegment:016' on input line 20.
-<General/HauptoberflaecheIDE.png, id=510, 455.45157pt x 283.81032pt>
+<General/HauptoberflaecheIDE.png, id=536, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 24
@@ -3028,12 +3028,12 @@ Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 24
 ]
 Package biblatex Info: Reference segment=17 on input line 32.
 Package biblatex Info: Setting label 'refsegment:017' on input line 32.
-<General/Boardsmanager.png, id=518, 269.50688pt x 260.47313pt>
+<General/Boardsmanager.png, id=544, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 39.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-<General/Librarymanager.png, id=521, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=547, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 51.
@@ -3162,7 +3162,7 @@ Package biblatex Info: Reference segment=23 on input line 18.
 Package biblatex Info: Setting label 'refsegment:023' on input line 18.
 Package biblatex Info: Reference segment=24 on input line 22.
 Package biblatex Info: Setting label 'refsegment:024' on input line 22.
-<Images/Konstruktion/GehaeuseK.png, id=617, 784.43062pt x 526.21594pt>
+<Images/Konstruktion/GehaeuseK.png, id=643, 784.43062pt x 526.21594pt>
 File: Images/Konstruktion/GehaeuseK.png Graphic file (type png)
 <use Images/Konstruktion/GehaeuseK.png>
 Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line 
@@ -3175,7 +3175,7 @@ Underfull \vbox (badness 1231) has occurred while \output is active []
 
 
 ]
-<Images/Konstruktion/BodenK.png, id=627, 1282.7925pt x 734.745pt>
+<Images/Konstruktion/BodenK.png, id=653, 1282.7925pt x 734.745pt>
 File: Images/Konstruktion/BodenK.png Graphic file (type png)
 <use Images/Konstruktion/BodenK.png>
 Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 35.
@@ -3194,7 +3194,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [30 <./Images/Konstruktion/GehaeuseK.PNG>]
-<Images/Konstruktion/VorneK.png, id=640, 899.61093pt x 758.835pt>
+<Images/Konstruktion/VorneK.png, id=666, 899.61093pt x 758.835pt>
 File: Images/Konstruktion/VorneK.png Graphic file (type png)
 <use Images/Konstruktion/VorneK.png>
 Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 45.
@@ -3214,7 +3214,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [31 <./Images/Konstruktion/BodenK.PNG>]
-<Images/Konstruktion/SeiteLK.png, id=649, 721.19438pt x 670.00313pt>
+<Images/Konstruktion/SeiteLK.png, id=675, 721.19438pt x 670.00313pt>
 File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteLK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 55
@@ -3233,7 +3233,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [32 <./Images/Konstruktion/VorneK.PNG>]
-<Images/Konstruktion/HinterK.png, id=659, 875.52094pt x 744.53156pt>
+<Images/Konstruktion/HinterK.png, id=685, 875.52094pt x 744.53156pt>
 File: Images/Konstruktion/HinterK.png Graphic file (type png)
 <use Images/Konstruktion/HinterK.png>
 Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 64
@@ -3253,7 +3253,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [33 <./Images/Konstruktion/SeiteLK.PNG>]
-<Images/Konstruktion/SeiteRK.png, id=669, 758.08218pt x 726.46407pt>
+<Images/Konstruktion/SeiteRK.png, id=695, 758.08218pt x 726.46407pt>
 File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteRK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 74
@@ -3272,7 +3272,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [34 <./Images/Konstruktion/HinterK.PNG>]
-<Images/Konstruktion/DeckelK.png, id=678, 1315.16344pt x 778.40813pt>
+<Images/Konstruktion/DeckelK.png, id=704, 1315.16344pt x 778.40813pt>
 File: Images/Konstruktion/DeckelK.png Graphic file (type png)
 <use Images/Konstruktion/DeckelK.png>
 Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 83
@@ -3371,7 +3371,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [36 <./Images/Konstruktion/DeckelK.PNG>]
 Package biblatex Info: Reference segment=25 on input line 118.
 Package biblatex Info: Setting label 'refsegment:025' on input line 118.
-<Images/Konstruktion/FlankeMotorK.png, id=696, 542.025pt x 641.39626pt>
+<Images/Konstruktion/FlankeMotorK.png, id=723, 542.025pt x 641.39626pt>
 File: Images/Konstruktion/FlankeMotorK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeMotorK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeMotorK.png  used on input li
@@ -3392,7 +3392,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [37]
-<Images/Konstruktion/FlankeK.png, id=708, 522.45187pt x 660.96938pt>
+<Images/Konstruktion/FlankeK.png, id=734, 522.45187pt x 660.96938pt>
 File: Images/Konstruktion/FlankeK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeK.png  used on input line 13
@@ -3411,7 +3411,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [38 <./Images/Konstruktion/FlankeMotorK.PNG>]
-<Images/Konstruktion/GriffK.png, id=717, 963.6pt x 668.4975pt>
+<Images/Konstruktion/GriffK.png, id=743, 963.6pt x 668.4975pt>
 File: Images/Konstruktion/GriffK.png Graphic file (type png)
 <use Images/Konstruktion/GriffK.png>
 Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 143
@@ -3432,7 +3432,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [39 <./Images/Konstruktion/FlankeK.PNG>]
-<Images/Konstruktion/DrehKnopfK.png, id=726, 706.89093pt x 463.7325pt>
+<Images/Konstruktion/DrehKnopfK.png, id=752, 706.89093pt x 463.7325pt>
 File: Images/Konstruktion/DrehKnopfK.png Graphic file (type png)
 <use Images/Konstruktion/DrehKnopfK.png>
 Package pdftex.def Info: Images/Konstruktion/DrehKnopfK.png  used on input line
@@ -3451,7 +3451,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [40 <./Images/Konstruktion/GriffK.PNG>]
-<Images/Konstruktion/AnzeigerK.png, id=736, 872.50969pt x 662.475pt>
+<Images/Konstruktion/AnzeigerK.png, id=762, 872.50969pt x 662.475pt>
 File: Images/Konstruktion/AnzeigerK.png Graphic file (type png)
 <use Images/Konstruktion/AnzeigerK.png>
 Package pdftex.def Info: Images/Konstruktion/AnzeigerK.png  used on input line 
@@ -3522,7 +3522,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [42 <./Images/Konstruktion/AnzeigerK.PNG>]
-<Images/Konstruktion/AKK2N.jpg, id=751, 604.1772pt x 511.6716pt>
+<Images/Konstruktion/AKK2N.jpg, id=777, 604.1772pt x 511.6716pt>
 File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
 <use Images/Konstruktion/AKK2N.jpg>
 Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 190.
@@ -3603,25 +3603,66 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[48] (./Contents/de/TestdurchlÃ¤ufe.tex
+[48] (./Contents/de/Testdurch.tex
 chapter 9.
-) [49
+Package biblatex Info: Reference segment=30 on input line 16.
+Package biblatex Info: Setting label 'refsegment:030' on input line 16.
+Package biblatex Info: Reference segment=31 on input line 24.
+Package biblatex Info: Setting label 'refsegment:031' on input line 24.
+Package biblatex Info: Reference segment=32 on input line 29.
+Package biblatex Info: Setting label 'refsegment:032' on input line 29.
+Package biblatex Info: Reference segment=33 on input line 34.
+Package biblatex Info: Setting label 'refsegment:033' on input line 34.
+[49
 
 
-
-
-] [50
-
-
-] (./Contents/de/OffenePunkte.tex
-chapter 10.
-) [51
-
-
-] [52
 
 
 ]
+Package biblatex Info: Reference segment=34 on input line 42.
+Package biblatex Info: Setting label 'refsegment:034' on input line 42.
+Package biblatex Info: Reference segment=35 on input line 50.
+Package biblatex Info: Setting label 'refsegment:035' on input line 50.
+Package biblatex Info: Reference segment=36 on input line 58.
+Package biblatex Info: Setting label 'refsegment:036' on input line 58.
+Package biblatex Info: Reference segment=37 on input line 66.
+Package biblatex Info: Setting label 'refsegment:037' on input line 66.
+Package biblatex Info: Reference segment=38 on input line 74.
+Package biblatex Info: Setting label 'refsegment:038' on input line 74.
+Package biblatex Info: Reference segment=39 on input line 82.
+Package biblatex Info: Setting label 'refsegment:039' on input line 82.
+)
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[50] (./Contents/de/OffenePunkte.tex
+chapter 10.
+Package biblatex Info: Reference segment=40 on input line 16.
+Package biblatex Info: Setting label 'refsegment:040' on input line 16.
+Package biblatex Info: Reference segment=41 on input line 23.
+Package biblatex Info: Setting label 'refsegment:041' on input line 23.
+Package biblatex Info: Reference segment=42 on input line 27.
+Package biblatex Info: Setting label 'refsegment:042' on input line 27.
+) [51
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[52]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3664,6 +3705,8 @@ Overfull \hbox (3.20758pt too wide) in paragraph at lines 101--101
 [53
 
 
+
+
 ]
 Overfull \hbox (2.65036pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) Sprin^^?ger Fach^^?me^^?di^^?en Wies^^?ba^^?den, 2016. \T1
@@ -3700,19 +3743,6 @@ Overfull \hbox (5.74847pt too wide) in paragraph at lines 101--101
 Overfull \hbox (13.64789pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) wei^^?ter^^?te Auf^^?la^^?ge. Mün^^?chen: Han^^?ser, 2021.
  \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-446-46572-5.
- []
-
-
-Overfull \hbox (35.65504pt too wide) in paragraph at lines 101--101
-[]\T1/lmr/m/n/12 (-20) Jkongmotor. \T1/lmr/m/it/12 (-20) Nema17-Datasheet\T1/lm
-r/m/n/12 (-20) . \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/i
-t/12 \url{https : / / ecksteinimg .
- []
-
-
-Overfull \hbox (9.40234pt too wide) in paragraph at lines 101--101
-\T1/fvm/l/it/12 de / Datasheet / Schrittmotor / JK42HS34 -[] 0844A / JK42HS34 -
-[]
  []
 
 
@@ -3776,11 +3806,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ]
 chapter 11.
-<Images/Schaltplan1.png, id=929, 1261.7685pt x 993.0555pt>
+<Images/Schaltplan1.png, id=955, 1261.78067pt x 993.04333pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 14.
-(pdftex.def)             Requested size: 369.88583pt x 291.11534pt.
+(pdftex.def)             Requested size: 369.88583pt x 291.11177pt.
 ) (../Appendix/Materialliste.tex [59 <./Images/Schaltplan1.png>] [60
 
 
@@ -4596,9 +4626,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [66 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
 chapter 13.
-Package biblatex Info: Reference segment=30 on input line 12.
-Package biblatex Info: Setting label 'refsegment:030' on input line 12.
-<../Appendix/Literaturverzeichnis/img/AMS.jpg, id=1160, 529.22719pt x 685.05937
+Package biblatex Info: Reference segment=43 on input line 12.
+Package biblatex Info: Setting label 'refsegment:043' on input line 12.
+<../Appendix/Literaturverzeichnis/img/AMS.jpg, id=1186, 529.22719pt x 685.05937
 pt>
 File: ../Appendix/Literaturverzeichnis/img/AMS.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/AMS.jpg>
@@ -4610,9 +4640,9 @@ Overfull \hbox (97.24275pt too wide) in paragraph at lines 18--20
 \T1/lmr/m/n/12 (-20) http://www.advanced-monolithic.com/pdf/ds1117.pdf,
  []
 
-Package biblatex Info: Reference segment=31 on input line 28.
-Package biblatex Info: Setting label 'refsegment:031' on input line 28.
-<../Appendix/Literaturverzeichnis/img/Allegro.jpg, id=1161, 529.22719pt x 685.0
+Package biblatex Info: Reference segment=44 on input line 28.
+Package biblatex Info: Setting label 'refsegment:044' on input line 28.
+<../Appendix/Literaturverzeichnis/img/Allegro.jpg, id=1187, 529.22719pt x 685.0
 5937pt>
 File: ../Appendix/Literaturverzeichnis/img/Allegro.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Allegro.jpg>
@@ -4648,9 +4678,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
 
  <../Appendix/Literaturverzeichnis/img/AMS.jpg>]
-Package biblatex Info: Reference segment=32 on input line 44.
-Package biblatex Info: Setting label 'refsegment:032' on input line 44.
-<../Appendix/Literaturverzeichnis/img/Arduino.jpg, id=1171, 597.79858pt x 846.0
+Package biblatex Info: Reference segment=45 on input line 44.
+Package biblatex Info: Setting label 'refsegment:045' on input line 44.
+<../Appendix/Literaturverzeichnis/img/Arduino.jpg, id=1197, 597.79858pt x 846.0
 3032pt>
 File: ../Appendix/Literaturverzeichnis/img/Arduino.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Arduino.jpg>
@@ -4680,9 +4710,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [68 <../Appendix/Literaturverzeichnis/img/Allegro.jpg>]
-Package biblatex Info: Reference segment=33 on input line 60.
-Package biblatex Info: Setting label 'refsegment:033' on input line 60.
-<../Appendix/Literaturverzeichnis/img/IDE.jpg, id=1181, 238.64156pt x 76.78688p
+Package biblatex Info: Reference segment=46 on input line 60.
+Package biblatex Info: Setting label 'refsegment:046' on input line 60.
+<../Appendix/Literaturverzeichnis/img/IDE.jpg, id=1207, 238.64156pt x 76.78688p
 t>
 File: ../Appendix/Literaturverzeichnis/img/IDE.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/IDE.jpg>
@@ -4731,9 +4761,9 @@ li^^?ne ver^^?füg^^?bar un^^?ter htt^^?ps://www.arduino.cc/reference/en/languag
 e/structure/sketch/setup/,
  []
 
-Package biblatex Info: Reference segment=34 on input line 79.
-Package biblatex Info: Setting label 'refsegment:034' on input line 79.
-<../Appendix/Literaturverzeichnis/img/Arm.jpg, id=1192, 514.92375pt x 728.7225p
+Package biblatex Info: Reference segment=47 on input line 79.
+Package biblatex Info: Setting label 'refsegment:047' on input line 79.
+<../Appendix/Literaturverzeichnis/img/Arm.jpg, id=1218, 514.92375pt x 728.7225p
 t>
 File: ../Appendix/Literaturverzeichnis/img/Arm.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Arm.jpg>
@@ -4763,9 +4793,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [70]
-Package biblatex Info: Reference segment=35 on input line 94.
-Package biblatex Info: Setting label 'refsegment:035' on input line 94.
-<../Appendix/Literaturverzeichnis/img/Avago.jpg, id=1201, 529.22719pt x 685.059
+Package biblatex Info: Reference segment=48 on input line 94.
+Package biblatex Info: Setting label 'refsegment:048' on input line 94.
+<../Appendix/Literaturverzeichnis/img/Avago.jpg, id=1227, 529.22719pt x 685.059
 37pt>
 File: ../Appendix/Literaturverzeichnis/img/Avago.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Avago.jpg>
@@ -4812,9 +4842,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [71 <../Appendix/Literaturverzeichnis/img/ARM.jpg>]
-Package biblatex Info: Reference segment=36 on input line 110.
-Package biblatex Info: Setting label 'refsegment:036' on input line 110.
-<../Appendix/Literaturverzeichnis/img/AZ.jpg, id=1212, 597.01305pt x 844.45924p
+Package biblatex Info: Reference segment=49 on input line 110.
+Package biblatex Info: Setting label 'refsegment:049' on input line 110.
+<../Appendix/Literaturverzeichnis/img/AZ.jpg, id=1239, 597.01305pt x 844.45924p
 t>
 File: ../Appendix/Literaturverzeichnis/img/AZ.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/AZ.jpg>
@@ -4845,9 +4875,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [72 <../Appendix/Literaturverzeichnis/img/Avago.jpg>]
-Package biblatex Info: Reference segment=37 on input line 126.
-Package biblatex Info: Setting label 'refsegment:037' on input line 126.
-<../Appendix/Literaturverzeichnis/img/Babiel.jpg, id=1222, 477.61043pt x 682.63
+Package biblatex Info: Reference segment=50 on input line 126.
+Package biblatex Info: Setting label 'refsegment:050' on input line 126.
+<../Appendix/Literaturverzeichnis/img/Babiel.jpg, id=1249, 477.61043pt x 682.63
 728pt>
 File: ../Appendix/Literaturverzeichnis/img/Babiel.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Babiel.jpg>
@@ -4874,9 +4904,9 @@ Overfull \hbox (6.72478pt too wide) in paragraph at lines 138--139
 i^^?tio^^?nier^^?ge^^?nau^^?ig^^?keit; PWM; Schritt^^?
  []
 
-Package biblatex Info: Reference segment=38 on input line 144.
-Package biblatex Info: Setting label 'refsegment:038' on input line 144.
-<../Appendix/Literaturverzeichnis/img/Basler.jpg, id=1233, 421.0513pt x 597.013
+Package biblatex Info: Reference segment=51 on input line 144.
+Package biblatex Info: Setting label 'refsegment:051' on input line 144.
+<../Appendix/Literaturverzeichnis/img/Basler.jpg, id=1260, 421.0513pt x 597.013
 05pt>
 File: ../Appendix/Literaturverzeichnis/img/Basler.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Basler.jpg>
@@ -4899,9 +4929,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [74 <../Appendix/Literaturverzeichnis/img/Babiel.jpg>]
-Package biblatex Info: Reference segment=39 on input line 163.
-Package biblatex Info: Setting label 'refsegment:039' on input line 163.
-<../Appendix/Literaturverzeichnis/img/Bernstein.jpg, id=1244, 263.48438pt x 376
+Package biblatex Info: Reference segment=52 on input line 163.
+Package biblatex Info: Setting label 'refsegment:052' on input line 163.
+<../Appendix/Literaturverzeichnis/img/Bernstein.jpg, id=1270, 263.48438pt x 376
 .40625pt>
 File: ../Appendix/Literaturverzeichnis/img/Bernstein.jpg Graphic file (type jpg
 )
@@ -4925,9 +4955,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [75 <../Appendix/Literaturverzeichnis/img/Basler.jpg>]
-Package biblatex Info: Reference segment=40 on input line 180.
-Package biblatex Info: Setting label 'refsegment:040' on input line 180.
-<../Appendix/Literaturverzeichnis/img/Bernstein2.jpg, id=1256, 404.55489pt x 61
+Package biblatex Info: Reference segment=53 on input line 180.
+Package biblatex Info: Setting label 'refsegment:053' on input line 180.
+<../Appendix/Literaturverzeichnis/img/Bernstein2.jpg, id=1282, 404.55489pt x 61
 7.43718pt>
 File: ../Appendix/Literaturverzeichnis/img/Bernstein2.jpg Graphic file (type jp
 g)
@@ -4949,9 +4979,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [76 <../Appendix/Literaturverzeichnis/img/Bernstein.jpg>]
-Package biblatex Info: Reference segment=41 on input line 198.
-Package biblatex Info: Setting label 'refsegment:041' on input line 198.
-<../Appendix/Literaturverzeichnis/img/Stotz.jpg, id=1267, 265.74281pt x 376.406
+Package biblatex Info: Reference segment=54 on input line 198.
+Package biblatex Info: Setting label 'refsegment:054' on input line 198.
+<../Appendix/Literaturverzeichnis/img/Stotz.jpg, id=1293, 265.74281pt x 376.406
 25pt>
 File: ../Appendix/Literaturverzeichnis/img/Stotz.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Stotz.jpg>
@@ -4975,9 +5005,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [77 <../Appendix/Literaturverzeichnis/img/Bernstein2.jpg>]
-Package biblatex Info: Reference segment=42 on input line 215.
-Package biblatex Info: Setting label 'refsegment:042' on input line 215.
-<../Appendix/Literaturverzeichnis/img/Faulhaber.jpg, id=1279, 597.01305pt x 844
+Package biblatex Info: Reference segment=55 on input line 215.
+Package biblatex Info: Setting label 'refsegment:055' on input line 215.
+<../Appendix/Literaturverzeichnis/img/Faulhaber.jpg, id=1305, 597.01305pt x 844
 .45924pt>
 File: ../Appendix/Literaturverzeichnis/img/Faulhaber.jpg Graphic file (type jpg
 )
@@ -5014,9 +5044,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [78 <../Appendix/Literaturverzeichnis/img/Stotz.jpg>]
-Package biblatex Info: Reference segment=43 on input line 232.
-Package biblatex Info: Setting label 'refsegment:043' on input line 232.
-<../Appendix/Literaturverzeichnis/img/Gehrke.jpg, id=1289, 477.61043pt x 682.63
+Package biblatex Info: Reference segment=56 on input line 232.
+Package biblatex Info: Setting label 'refsegment:056' on input line 232.
+<../Appendix/Literaturverzeichnis/img/Gehrke.jpg, id=1315, 477.61043pt x 682.63
 728pt>
 File: ../Appendix/Literaturverzeichnis/img/Gehrke.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Gehrke.jpg>
@@ -5053,9 +5083,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [79 <../Appendix/Literaturverzeichnis/img/Faulhaber.jpg>]
-Package biblatex Info: Reference segment=44 on input line 250.
-Package biblatex Info: Setting label 'refsegment:044' on input line 250.
-<../Appendix/Literaturverzeichnis/img/Hagl.jpg, id=1299, 429.85594pt x 599.2387
+Package biblatex Info: Reference segment=57 on input line 250.
+Package biblatex Info: Setting label 'refsegment:057' on input line 250.
+<../Appendix/Literaturverzeichnis/img/Hagl.jpg, id=1325, 429.85594pt x 599.2387
 5pt>
 File: ../Appendix/Literaturverzeichnis/img/Hagl.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Hagl.jpg>
@@ -5092,9 +5122,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [81 <../Appendix/Literaturverzeichnis/img/Hagl.jpg>]
-Package biblatex Info: Reference segment=45 on input line 268.
-Package biblatex Info: Setting label 'refsegment:045' on input line 268.
-<../Appendix/Literaturverzeichnis/img/Jkong.jpg, id=1319, 597.01305pt x 844.459
+Package biblatex Info: Reference segment=58 on input line 268.
+Package biblatex Info: Setting label 'refsegment:058' on input line 268.
+<../Appendix/Literaturverzeichnis/img/Jkong.jpg, id=1345, 597.01305pt x 844.459
 24pt>
 File: ../Appendix/Literaturverzeichnis/img/Jkong.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Jkong.jpg>
@@ -5127,9 +5157,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--281
 \T1/lmr/m/n/12 (+20) Datasheet; Da^^?ten^^?blatt; For^^?ce;
  []
 
-Package biblatex Info: Reference segment=46 on input line 285.
-Package biblatex Info: Setting label 'refsegment:046' on input line 285.
-<../Appendix/Literaturverzeichnis/img/Lienig.jpg, id=1320, 477.61043pt x 682.63
+Package biblatex Info: Reference segment=59 on input line 285.
+Package biblatex Info: Setting label 'refsegment:059' on input line 285.
+<../Appendix/Literaturverzeichnis/img/Lienig.jpg, id=1346, 477.61043pt x 682.63
 728pt>
 File: ../Appendix/Literaturverzeichnis/img/Lienig.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Lienig.jpg>
@@ -5154,9 +5184,9 @@ Overfull \hbox (29.92366pt too wide) in paragraph at lines 299--300
 ?gen, um die IC- und I2C-Kommunikation
  []
 
-Package biblatex Info: Reference segment=47 on input line 303.
-Package biblatex Info: Setting label 'refsegment:047' on input line 303.
-<../Appendix/Literaturverzeichnis/img/Meanwell.jpg, id=1331, 457.71pt x 647.418
+Package biblatex Info: Reference segment=60 on input line 303.
+Package biblatex Info: Setting label 'refsegment:060' on input line 303.
+<../Appendix/Literaturverzeichnis/img/Meanwell.jpg, id=1357, 457.71pt x 647.418
 75pt>
 File: ../Appendix/Literaturverzeichnis/img/Meanwell.jpg Graphic file (type jpg)
 
@@ -5205,9 +5235,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [83 <../Appendix/Literaturverzeichnis/img/Lienig.jpg>]
-Package biblatex Info: Reference segment=48 on input line 319.
-Package biblatex Info: Setting label 'refsegment:048' on input line 319.
-<../Appendix/Literaturverzeichnis/img/Mentor.jpg, id=1343, 514.92375pt x 728.72
+Package biblatex Info: Reference segment=61 on input line 319.
+Package biblatex Info: Setting label 'refsegment:061' on input line 319.
+<../Appendix/Literaturverzeichnis/img/Mentor.jpg, id=1370, 514.92375pt x 728.72
 25pt>
 File: ../Appendix/Literaturverzeichnis/img/Mentor.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Mentor.jpg>
@@ -5242,9 +5272,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [84 <../Appendix/Literaturverzeichnis/img/Meanwell.jpg>]
-Package biblatex Info: Reference segment=49 on input line 335.
-Package biblatex Info: Setting label 'refsegment:049' on input line 335.
-<../Appendix/Literaturverzeichnis/img/Meroth.jpg, id=1353, 477.61043pt x 682.63
+Package biblatex Info: Reference segment=62 on input line 335.
+Package biblatex Info: Setting label 'refsegment:062' on input line 335.
+<../Appendix/Literaturverzeichnis/img/Meroth.jpg, id=1380, 477.61043pt x 682.63
 728pt>
 File: ../Appendix/Literaturverzeichnis/img/Meroth.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Meroth.jpg>
@@ -5276,9 +5306,9 @@ Overfull \hbox (83.82559pt too wide) in paragraph at lines 350--351
 he Er^^?klä^^?rung zum I2C-Kommunikationsprotokoll. 
  []
 
-Package biblatex Info: Reference segment=50 on input line 354.
-Package biblatex Info: Setting label 'refsegment:050' on input line 354.
-<../Appendix/Literaturverzeichnis/img/Nordic.jpg, id=1365, 613.50946pt x 794.18
+Package biblatex Info: Reference segment=63 on input line 354.
+Package biblatex Info: Setting label 'refsegment:063' on input line 354.
+<../Appendix/Literaturverzeichnis/img/Nordic.jpg, id=1391, 613.50946pt x 794.18
 446pt>
 File: ../Appendix/Literaturverzeichnis/img/Nordic.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Nordic.jpg>
@@ -5308,9 +5338,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [86 <../Appendix/Literaturverzeichnis/img/Meroth.jpg>]
-Package biblatex Info: Reference segment=51 on input line 376.
-Package biblatex Info: Setting label 'refsegment:051' on input line 376.
-<../Appendix/Literaturverzeichnis/img/Filipi.jpg, id=1375, 597.79858pt x 844.45
+Package biblatex Info: Reference segment=64 on input line 376.
+Package biblatex Info: Setting label 'refsegment:064' on input line 376.
+<../Appendix/Literaturverzeichnis/img/Filipi.jpg, id=1401, 597.79858pt x 844.45
 924pt>
 File: ../Appendix/Literaturverzeichnis/img/Filipi.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Filipi.jpg>
@@ -5353,9 +5383,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [87 <../Appendix/Literaturverzeichnis/img/Nordic.jpg>]
-Package biblatex Info: Reference segment=52 on input line 391.
-Package biblatex Info: Setting label 'refsegment:052' on input line 391.
-<../Appendix/Literaturverzeichnis/img/Schroeder.jpg, id=1385, 477.61043pt x 682
+Package biblatex Info: Reference segment=65 on input line 391.
+Package biblatex Info: Setting label 'refsegment:065' on input line 391.
+<../Appendix/Literaturverzeichnis/img/Schroeder.jpg, id=1411, 477.61043pt x 682
 .63728pt>
 File: ../Appendix/Literaturverzeichnis/img/Schroeder.jpg Graphic file (type jpg
 )
@@ -5376,9 +5406,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [88 <../Appendix/Literaturverzeichnis/img/Filipi.jpg>]
-Package biblatex Info: Reference segment=53 on input line 408.
-Package biblatex Info: Setting label 'refsegment:053' on input line 408.
-<../Appendix/Literaturverzeichnis/img/Simac.jpg, id=1395, 168.5205pt x 238.1625
+Package biblatex Info: Reference segment=66 on input line 408.
+Package biblatex Info: Setting label 'refsegment:066' on input line 408.
+<../Appendix/Literaturverzeichnis/img/Simac.jpg, id=1421, 168.5205pt x 238.1625
 pt>
 File: ../Appendix/Literaturverzeichnis/img/Simac.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Simac.jpg>
@@ -5425,9 +5455,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [89 <../Appendix/Literaturverzeichnis/img/Schroeder.jpg>]
-Package biblatex Info: Reference segment=54 on input line 424.
-Package biblatex Info: Setting label 'refsegment:054' on input line 424.
-<../Appendix/Literaturverzeichnis/img/STM.jpg, id=1407, 514.92375pt x 728.7225p
+Package biblatex Info: Reference segment=67 on input line 424.
+Package biblatex Info: Setting label 'refsegment:067' on input line 424.
+<../Appendix/Literaturverzeichnis/img/STM.jpg, id=1433, 514.92375pt x 728.7225p
 t>
 File: ../Appendix/Literaturverzeichnis/img/STM.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/STM.jpg>
@@ -5487,9 +5517,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [90 <../Appendix/Literaturverzeichnis/img/Simac.jpg>]
-Package biblatex Info: Reference segment=55 on input line 439.
-Package biblatex Info: Setting label 'refsegment:055' on input line 439.
-<../Appendix/Literaturverzeichnis/img/STM2.jpg, id=1417, 597.01305pt x 844.4592
+Package biblatex Info: Reference segment=68 on input line 439.
+Package biblatex Info: Setting label 'refsegment:068' on input line 439.
+<../Appendix/Literaturverzeichnis/img/STM2.jpg, id=1443, 597.01305pt x 844.4592
 4pt>
 File: ../Appendix/Literaturverzeichnis/img/STM2.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/STM2.jpg>
@@ -5551,9 +5581,9 @@ Overfull \hbox (8.53384pt too wide) in paragraph at lines 451--452
 ?tas^^?heet; Da^^?ten^^?blatt; I2C; LPS22HB;
  []
 
-Package biblatex Info: Reference segment=56 on input line 455.
-Package biblatex Info: Setting label 'refsegment:056' on input line 455.
-<../Appendix/Literaturverzeichnis/img/STM3.jpg, id=1427, 597.01305pt x 844.4592
+Package biblatex Info: Reference segment=69 on input line 455.
+Package biblatex Info: Setting label 'refsegment:069' on input line 455.
+<../Appendix/Literaturverzeichnis/img/STM3.jpg, id=1453, 597.01305pt x 844.4592
 4pt>
 File: ../Appendix/Literaturverzeichnis/img/STM3.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/STM3.jpg>
@@ -5608,9 +5638,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [92 <../Appendix/Literaturverzeichnis/img/STM2.jpg>]
-Package biblatex Info: Reference segment=57 on input line 470.
-Package biblatex Info: Setting label 'refsegment:057' on input line 470.
-<../Appendix/Literaturverzeichnis/img/Weber.jpg, id=1437, 124.21407pt x 178.416
+Package biblatex Info: Reference segment=70 on input line 470.
+Package biblatex Info: Setting label 'refsegment:070' on input line 470.
+<../Appendix/Literaturverzeichnis/img/Weber.jpg, id=1463, 124.21407pt x 178.416
 56pt>
 File: ../Appendix/Literaturverzeichnis/img/Weber.jpg Graphic file (type jpg)
 <use ../Appendix/Literaturverzeichnis/img/Weber.jpg>
@@ -5674,11 +5704,11 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 ### simple group (level 1) entered at line 54 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 91875 strings out of 476024
- 2361185 string characters out of 5794016
- 3506006 words of memory out of 5000000
- 110356 multiletter control sequences out of 15000+600000
- 627143 words of font info for 329 fonts, out of 8000000 for 9000
+ 91954 strings out of 476024
+ 2362223 string characters out of 5794016
+ 3506071 words of memory out of 5000000
+ 110411 multiletter control sequences out of 15000+600000
+ 628103 words of font info for 335 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c
@@ -5698,10 +5728,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (108 pages, 15727400 bytes).
+Output written on DemonstratorSchrittmotor.pdf (108 pages, 15465068 bytes).
 PDF statistics:
- 1856 PDF objects out of 2073 (max. 8388607)
- 1474 compressed objects within 15 object streams
- 380 named destinations out of 1000 (max. 500000)
- 55409 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1926 PDF objects out of 2073 (max. 8388607)
+ 1542 compressed objects within 16 object streams
+ 393 named destinations out of 1000 (max. 500000)
+ 57561 words of extra memory for PDF output out of 61914 (max. 10000000)
 
