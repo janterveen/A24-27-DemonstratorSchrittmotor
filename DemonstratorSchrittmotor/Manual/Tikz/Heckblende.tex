@@ -7,7 +7,7 @@
 %
 %%%%%%
 	
-	\begin{tikzpicture}
+		\begin{tikzpicture}
 		% Gehäusedeckel
 		\draw[gray, thick, fill=gray!60, rounded corners] (2,6) rectangle (12,7.25);
 		
@@ -51,7 +51,14 @@
 		% Befestigungsschraube 2
 		\draw[black, thick, fill=gray!40] (-0.85,2.35) circle (0.2);
 		\draw[black, thick, fill=white] (-0.85,2.35) circle (0.09);
-
+		
+		% Endschalter
+		\draw[black, thin, fill=gray!90, rounded corners=0.3] (-1.6,1.9) rectangle (-0.95,3.1);
+		\draw[black, thick](-1.6,3) -- (-2,1.8);
+		\draw[black, thin, fill=red, rounded corners=0.1] (-1.6, 2.7) rectangle (-1.7,2.55);
+		\draw [black, thin, fill=red] (-2.1,1.8) circle (0.125);
+		\draw [black, thin, fill=gray!50] (-1.15,2.2) circle (0.08);
+		\draw [black, thin, fill=gray!50] (-1.15,2.8) circle (0.08);
 		%%%
 		
 		% Netzbuchse
@@ -73,9 +80,11 @@
 		% Punkt-Linien für Labels
 		\draw[dotted, thick] (9.7,6.6) -- (9.7,7.75); % Power-Schalter
 		\draw[dotted, thick] (9.7,4) -- (9.7,1.5); % Netzbuchse
+		\draw[dotted, thick] (-1.325,1.8) -- (-1.325,1.5); % Endschalter
 		
 		% Labels
 		\node[] at (9.7,8) {Power-Schalter};
 		\node[] at (9.7,1.2) {Netzbuchse};
+		\node[] at (-1.325,1.2) {Endschalter};
 		
 	\end{tikzpicture}
