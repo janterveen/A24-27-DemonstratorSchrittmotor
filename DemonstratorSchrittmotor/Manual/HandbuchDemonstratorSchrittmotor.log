@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  18 JUN 2024 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  21 JUN 2024 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,7 +143,7 @@ Class scrbook Info: Redefining `\numberline' on input line 7330.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 23.
+e 18.
 
 (./General/Packages.tex (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -926,7 +926,7 @@ r.nlo on input line 70.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 24.
+e 19.
 
 (./General/Commands.tex
 LaTeX Info: Redefining \Atan2 on input line 39.
@@ -934,7 +934,7 @@ LaTeX Info: Redefining \Atan2 on input line 39.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 25.
+e 20.
 
 No file General/tikzdefs.
 (./General/acronyms.tex
@@ -1288,24 +1288,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./HandbuchDemonstratorSchrittmotor.aux)
 \openout1 = `HandbuchDemonstratorSchrittmotor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1329,7 +1329,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (./HandbuchDemonstratorSchrittmotor.out)
 (./HandbuchDemonstratorSchrittmotor.out)
@@ -1343,7 +1343,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 37.
+(scrbook)           before \begin{document} on input line 32.
 
 (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1360,7 +1360,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 37.
+or `german'. on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1422,21 +1422,21 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'HandbuchDemonstratorSchrittmotor.bbl' found.
 
 (./HandbuchDemonstratorSchrittmotor.bbl)
-Package biblatex Info: Reference section=0 on input line 37.
-Package biblatex Info: Reference segment=0 on input line 37.
-LaTeX Info: Redefining \microtypecontext on input line 37.
-Package microtype Info: Applying patch `item' on input line 37.
-Package microtype Info: Applying patch `toc' on input line 37.
-Package microtype Info: Applying patch `eqnum' on input line 37.
-Package microtype Info: Applying patch `footnote' on input line 37.
-Package microtype Info: Applying patch `verbatim' on input line 37.
+Package biblatex Info: Reference section=0 on input line 32.
+Package biblatex Info: Reference segment=0 on input line 32.
+LaTeX Info: Redefining \microtypecontext on input line 32.
+Package microtype Info: Applying patch `item' on input line 32.
+Package microtype Info: Applying patch `toc' on input line 32.
+Package microtype Info: Applying patch `eqnum' on input line 32.
+Package microtype Info: Applying patch `footnote' on input line 32.
+Package microtype Info: Applying patch `verbatim' on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 37.
+LaTeX Info: Redefining \showhyphens on input line 32.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1501,7 +1501,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [2])
-Package tocbasic Info: character protrusion at toc deactivated on input line 45
+Package tocbasic Info: character protrusion at toc deactivated on input line 39
 .
 
 (./HandbuchDemonstratorSchrittmotor.toc)
@@ -1514,42 +1514,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 45
 ] [2
 
 
-]
-Package tocbasic Info: character protrusion at lof deactivated on input line 49
-.
-
-(./HandbuchDemonstratorSchrittmotor.lof)
-\tf@lof=\write9
-\openout9 = `HandbuchDemonstratorSchrittmotor.lof'.
-
- [3
-
-
-] [4
-
-
-]
-Package tocbasic Info: character protrusion at lot deactivated on input line 53
-.
-
-(./HandbuchDemonstratorSchrittmotor.lot)
-\tf@lot=\write10
-\openout10 = `HandbuchDemonstratorSchrittmotor.lot'.
-
- [5
-
-
-] [6
-
-
-] [7
-
-
-] [8
-
-
-]
-(./Chapters/de/Hints.tex
+] (./Chapters/de/Hints.tex
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1566,11 +1531,11 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface.
 
-<Images/Konstruktion1.png, id=100, 1754.05313pt x 338.01282pt>
-File: Images/Konstruktion1.png Graphic file (type png)
-<use Images/Konstruktion1.png>
-Package pdftex.def Info: Images/Konstruktion1.png  used on input line 18.
-(pdftex.def)             Requested size: 432.48192pt x 83.33736pt.
+<Images/DemonstratorDrauf.jpg, id=60, 1376.0208pt x 774.0117pt>
+File: Images/DemonstratorDrauf.jpg Graphic file (type jpg)
+<use Images/DemonstratorDrauf.jpg>
+Package pdftex.def Info: Images/DemonstratorDrauf.jpg  used on input line 18.
+(pdftex.def)             Requested size: 432.48192pt x 243.2717pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1580,7 +1545,9 @@ l.25 \newpage
               [1
 
 
- <./Images/Konstruktion1.PNG>]) (./Chapters/de/BEDFront.tex
+
+
+ <./Images/DemonstratorDrauf.jpg>]) (./Chapters/de/BEDFront.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1598,32 +1565,16 @@ Missing character: There is no ; in font nullfont!
 
 ]
 chapter 3.
-<Images/Konstruktion3.png, id=124, 1598.97375pt x 1178.4025pt>
-File: Images/Konstruktion3.png Graphic file (type png)
-<use Images/Konstruktion3.png>
-Package pdftex.def Info: Images/Konstruktion3.png  used on input line 14.
-(pdftex.def)             Requested size: 432.48192pt x 318.71236pt.
-(./Tikz/Heckblende.tex)) (./Chapters/de/BEDKab.tex [5 <./Images/Konstruktion3.p
-ng>] [6]
+(./Tikz/Heckblende.tex)) (./Chapters/de/BEDKab.tex [5] [6
+
+
+]
 chapter 4.
-<Images/Konstruktion4.png, id=134, 1205.2528pt x 713.66624pt>
-File: Images/Konstruktion4.png Graphic file (type png)
-<use Images/Konstruktion4.png>
-Package pdftex.def Info: Images/Konstruktion4.png  used on input line 14.
-(pdftex.def)             Requested size: 432.48192pt x 256.09203pt.
-) (./Chapters/de/SetUp.tex [7
-
-
- <./Images/Konstruktion4.PNG>] [8
+(./Tikz/MechanischerAufbau.tex)) (./Chapters/de/SetUp.tex [7] [8
 
 
 ]
 chapter 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
-
- []
-
 [9]) (./Chapters/de/Bewegungsablauf.tex [10]
 chapter 6.
 ) (./Chapters/de/Functions.tex [11
@@ -1637,16 +1588,6 @@ chapter 7.
 
 Overfull \hbox (1.10077pt too wide) in paragraph at lines 40--40
 []|\T1/cmr/bx/n/8 (-20) Drehschalterstellung| 
- []
-
-
-Underfull \hbox (badness 3861) in paragraph at lines 40--40
-[]|\T1/cmr/bx/n/8 (+20) Max Ge-schwin-dig-keit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/cmr/bx/n/8 (+20) Max Be-schleu-ni-gung
  []
 
 ) (./Chapters/de/Maintenance.tex [13] [14
@@ -1679,7 +1620,7 @@ chapter 12.
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 79.
+LaTeX Warning: Empty bibliography on input line 73.
 
 (./HandbuchDemonstratorSchrittmotor.aux)
 Package rerunfilecheck Info: File `HandbuchDemonstratorSchrittmotor.out' has no
@@ -1691,37 +1632,36 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46683 strings out of 476024
- 1048066 string characters out of 5794016
- 1908062 words of memory out of 5000000
- 66189 multiletter control sequences out of 15000+600000
- 560272 words of font info for 239 fonts, out of 8000000 for 9000
+ 47180 strings out of 476024
+ 1058846 string characters out of 5794016
+ 1942100 words of memory out of 5000000
+ 66733 multiletter control sequences out of 15000+600000
+ 557696 words of font info for 219 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,10n,106p,10627b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb
-><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texli
-ve/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2022/te
-xmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2022/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1
-/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm
--super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfs
-l1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl2074.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texliv
-e/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/cm-super/sftt1095.pfb>
-Output written on HandbuchDemonstratorSchrittmotor.pdf (34 pages, 1930822 bytes
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
+fbx0800.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texl
+ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2022/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/
+fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/c
+m-super/sfsl1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
+sl2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb
+><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texli
+ve/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2022/te
+xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/f
+onts/type1/public/cm-super/sftt1095.pfb>
+Output written on HandbuchDemonstratorSchrittmotor.pdf (28 pages, 4765381 bytes
 ).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 51873 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 266 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 49791 words of extra memory for PDF output out of 51595 (max. 10000000)
 
