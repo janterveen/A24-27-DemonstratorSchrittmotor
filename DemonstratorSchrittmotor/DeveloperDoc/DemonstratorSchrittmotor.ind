@@ -1,0 +1,94 @@
+\begin{theindex}
+
+  \item  Inertialmesseinheit
+    \subitem  \emph  {siehe} IMU, xi, 6
+
+  \indexspace
+
+  \item AAR, xi, 10
+  \item ADC, xi, 10
+  \item Advanced Encryption Standard
+    \subitem  \emph  {siehe} AES, xi, 10
+  \item AES, xi, 10
+  \item Analog to Digital Converter
+    \subitem  \emph  {siehe} ADC, xi, 10
+  \item Automatic Address Recognition
+    \subitem  \emph  {siehe} AAR, xi, 10
+
+  \indexspace
+
+  \item BLE, xi, 5, 6, 8
+  \item Bluetooth Low Energie
+    \subitem  \emph  {siehe} {BLE}, xi, 5
+
+  \indexspace
+
+  \item CCM, xi, 10
+  \item Counter with CBC-MAC
+    \subitem  \emph  {siehe} {CCM}, xi, 10
+
+  \indexspace
+
+  \item Direkt Memory Access
+    \subitem  \emph  {siehe} DMA, xi, 10
+  \item DMA, xi, 10
+
+  \indexspace
+
+  \item I\textsuperscript  {2}C, xi, 6--8
+  \item IC, xi, 7, 8
+  \item IMU, xi, 6
+  \item Inter Circuit
+    \subitem  \emph  {siehe} IC, xi, 7
+  \item Inter-Integrated Circuit
+    \subitem  \emph  {siehe} I\textsuperscript  {2}C, xi, 6
+
+  \indexspace
+
+  \item LED, xi, 6, 7
+  \item Light Emitting Diode
+    \subitem  \emph  {siehe} {LED}, xi, 6
+
+  \indexspace
+
+  \item Micro Universal Serial Bus
+    \subitem  \emph  {siehe} {Micro USB}, xi, 9
+  \item Micro USB, xi, 9
+
+  \indexspace
+
+  \item Near Field Communication
+    \subitem  \emph  {siehe} {NFC}, xi, 10
+  \item NFC, xi, 10
+
+  \indexspace
+
+  \item OLED, xi, 9
+  \item Organic Light Emitting Diode
+    \subitem  \emph  {siehe} OLED, xi, 9
+
+  \indexspace
+
+  \item PDM, xi, 8
+  \item Pulsdichtenmodulation
+    \subitem  \emph  {siehe} PDM, xi, 8
+
+  \indexspace
+
+  \item SCL, xi, 9
+  \item SDA, xi, 9
+  \item Serial Clock
+    \subitem  \emph  {siehe} SCL, xi, 9
+  \item Serial Data
+    \subitem  \emph  {siehe} SDA, xi, 9
+  \item Serial Peripheral Interface
+    \subitem  \emph  {siehe} SPI, xi, 7
+  \item SMD, xi, 8
+  \item SoC, xi, 5
+  \item SPI, xi, 7, 11
+  \item Surface Mount Device
+    \subitem  \emph  {siehe} SMD, xi, 8
+  \item System on Chip
+    \subitem  \emph  {siehe} SoC, xi, 5
+
+\end{theindex}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  21 JUN 2024 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  21 JUN 2024 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2021,88 +2021,103 @@ File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (c:/texlive/2022/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (./General/acronyms.tex
-\c@g@acro@adc@int=\count581
-\c@g@acro@ap@int=\count582
-\c@g@acro@api@int=\count583
-\c@g@acro@ARM@int=\count584
-\c@g@acro@bs@int=\count585
-\c@g@acro@cci@int=\count586
-\c@g@acro@cli@int=\count587
-\c@g@acro@csi@int=\count588
-\c@g@acro@cg@int=\count589
-\c@g@acro@cifar@int=\count590
-\c@g@acro@cnc@int=\count591
-\c@g@acro@cnn@int=\count592
-\c@g@acro@coco@int=\count593
-\c@g@acro@cpu@int=\count594
-\c@g@acro@csp@int=\count595
-\c@g@acro@cuda@int=\count596
-\c@g@acro@cudnn@int=\count597
-\c@g@acro@dac@int=\count598
-\c@g@acro@dll@int=\count599
-\c@g@acro@dnn@int=\count600
-\c@g@acro@fp32@int=\count601
-\c@g@acro@flops@int=\count602
-\c@g@acro@fp16@int=\count603
-\c@g@acro@fpga@int=\count604
-\c@g@acro@fps@int=\count605
-\c@g@acro@gpio@int=\count606
-\c@g@acro@gpgpu@int=\count607
-\c@g@acro@gpu@int=\count608
-\c@g@acro@hdmi@int=\count609
-\c@g@acro@i2c@int=\count610
-\c@g@acro@i2s@int=\count611
-\c@g@acro@ide@int=\count612
-\c@g@acro@imu@int=\count613
-\c@g@acro@int8@int=\count614
-\c@g@acro@iot@int=\count615
-\c@g@acro@kdd@int=\count616
-\c@g@acro@ki@int=\count617
-\c@g@acro@knn@int=\count618
-\c@g@acro@led@int=\count619
-\c@g@acro@mimd@int=\count620
-\c@g@acro@nn@int=\count621
-\c@g@acro@opencl@int=\count622
-\c@g@acro@pan@int=\count623
-\c@g@acro@ppa@int=\count624
-\c@g@acro@pip@int=\count625
-\c@g@acro@pypi@int=\count626
-\c@g@acro@ram@int=\count627
-\c@g@acro@relu@int=\count628
-\c@g@acro@resnets@int=\count629
-\c@g@acro@rle@int=\count630
-\c@g@acro@rgb@int=\count631
-\c@g@acro@roi@int=\count632
-\c@g@acro@rpc@int=\count633
-\c@g@acro@RTOS@int=\count634
-\c@g@acro@sd@int=\count635
-\c@g@acro@sda@int=\count636
-\c@g@acro@sd-1@int=\count637
-\c@g@acro@sd-3@int=\count638
-\c@g@acro@scl@int=\count639
-\c@g@acro@ssh@int=\count640
-\c@g@acro@spi@int=\count641
-\c@g@acro@sbc@int=\count642
-\c@g@acro@simd@int=\count643
-\c@g@acro@sm@int=\count644
-\c@g@acro@sp@int=\count645
-\c@g@acro@spp@int=\count646
-\c@g@acro@sps@int=\count647
-\c@g@acro@tpu@int=\count648
-\c@g@acro@uart@int=\count649
-\c@g@acro@ui@int=\count650
-\c@g@acro@uma@int=\count651
-\c@g@acro@venv@int=\count652
-\c@g@acro@vpu@int=\count653
-\c@g@acro@vm@int=\count654
-\c@g@acro@vnc@int=\count655
-\c@g@acro@yolo@int=\count656
+\c@g@acro@aar@int=\count581
+\c@g@acro@adc@int=\count582
+\c@g@acro@aes@int=\count583
+\c@g@acro@ap@int=\count584
+\c@g@acro@api@int=\count585
+\c@g@acro@ARM@int=\count586
+\c@g@acro@bs@int=\count587
+\c@g@acro@ble@int=\count588
+\c@g@acro@cci@int=\count589
+\c@g@acro@ccm@int=\count590
+\c@g@acro@cli@int=\count591
+\c@g@acro@csi@int=\count592
+\c@g@acro@cg@int=\count593
+\c@g@acro@cifar@int=\count594
+\c@g@acro@cnc@int=\count595
+\c@g@acro@cnn@int=\count596
+\c@g@acro@coco@int=\count597
+\c@g@acro@cpu@int=\count598
+\c@g@acro@csp@int=\count599
+\c@g@acro@cuda@int=\count600
+\c@g@acro@cudnn@int=\count601
+\c@g@acro@dac@int=\count602
+\c@g@acro@dll@int=\count603
+\c@g@acro@dma@int=\count604
+\c@g@acro@dnn@int=\count605
+\c@g@acro@ecb@int=\count606
+\c@g@acro@emi@int=\count607
+\c@g@acro@fp32@int=\count608
+\c@g@acro@flops@int=\count609
+\c@g@acro@fp16@int=\count610
+\c@g@acro@fpga@int=\count611
+\c@g@acro@fps@int=\count612
+\c@g@acro@fpu@int=\count613
+\c@g@acro@gpio@int=\count614
+\c@g@acro@gpgpu@int=\count615
+\c@g@acro@gpu@int=\count616
+\c@g@acro@hdmi@int=\count617
+\c@g@acro@ic@int=\count618
+\c@g@acro@i2c@int=\count619
+\c@g@acro@i2s@int=\count620
+\c@g@acro@ide@int=\count621
+\c@g@acro@imu@int=\count622
+\c@g@acro@int8@int=\count623
+\c@g@acro@iot@int=\count624
+\c@g@acro@kdd@int=\count625
+\c@g@acro@ki@int=\count626
+\c@g@acro@knn@int=\count627
+\c@g@acro@led@int=\count628
+\c@g@acro@mimd@int=\count629
+\c@g@acro@nn@int=\count630
+\c@g@acro@nfc@int=\count631
+\c@g@acro@opencl@int=\count632
+\c@g@acro@oled@int=\count633
+\c@g@acro@pan@int=\count634
+\c@g@acro@pdm@int=\count635
+\c@g@acro@ppa@int=\count636
+\c@g@acro@pip@int=\count637
+\c@g@acro@pypi@int=\count638
+\c@g@acro@ram@int=\count639
+\c@g@acro@relu@int=\count640
+\c@g@acro@resnets@int=\count641
+\c@g@acro@rle@int=\count642
+\c@g@acro@rgb@int=\count643
+\c@g@acro@roi@int=\count644
+\c@g@acro@rpc@int=\count645
+\c@g@acro@RTOS@int=\count646
+\c@g@acro@sd@int=\count647
+\c@g@acro@sda@int=\count648
+\c@g@acro@sd-1@int=\count649
+\c@g@acro@sd-3@int=\count650
+\c@g@acro@scl@int=\count651
+\c@g@acro@ssh@int=\count652
+\c@g@acro@spi@int=\count653
+\c@g@acro@sbc@int=\count654
+\c@g@acro@simd@int=\count655
+\c@g@acro@sm@int=\count656
+\c@g@acro@smd@int=\count657
+\c@g@acro@sp@int=\count658
+\c@g@acro@spp@int=\count659
+\c@g@acro@sps@int=\count660
+\c@g@acro@soc@int=\count661
+\c@g@acro@tpu@int=\count662
+\c@g@acro@uart@int=\count663
+\c@g@acro@ui@int=\count664
+\c@g@acro@uma@int=\count665
+\c@g@acro@musb@int=\count666
+\c@g@acro@venv@int=\count667
+\c@g@acro@vpu@int=\count668
+\c@g@acro@vm@int=\count669
+\c@g@acro@vnc@int=\count670
+\c@g@acro@yolo@int=\count671
 ) (./General/Hyphenations.tex
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks63
 \MT@tempbox=\box167
-\MT@count=\count657
+\MT@count=\count672
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks64
@@ -2110,7 +2125,7 @@ LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen398
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count658
+\MT@listname@count=\count673
 
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
@@ -2128,8 +2143,8 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count659
-\@quotereset=\count660
+\@quotelevel=\count674
+\@quotereset=\count675
 (./DemonstratorSchrittmotor.aux)
 \openout1 = `DemonstratorSchrittmotor.aux'.
 
@@ -2207,16 +2222,16 @@ Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count661
+\scratchcounter=\count676
 \scratchdimen=\dimen399
 \scratchbox=\box168
-\nofMPsegments=\count662
-\nofMParguments=\count663
+\nofMPsegments=\count677
+\nofMParguments=\count678
 \everyMPshowfont=\toks65
-\MPscratchCnt=\count664
+\MPscratchCnt=\count679
 \MPscratchDim=\dimen400
-\MPnumerator=\count665
-\makeMPintoPDFobject=\count666
+\MPnumerator=\count680
+\makeMPintoPDFobject=\count681
 \everyMPtoPDFconversion=\toks66
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2247,9 +2262,9 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count667
+\BKM@id=\count682
 ))
-\c@lstlisting=\count668
+\c@lstlisting=\count683
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 27
 .
 
@@ -2782,7 +2797,7 @@ Package biblatex Info: Reference segment=2 on input line 19.
 Package biblatex Info: Setting label 'refsegment:02' on input line 19.
 Package biblatex Info: Reference segment=3 on input line 23.
 Package biblatex Info: Setting label 'refsegment:03' on input line 23.
-<Images/Konzeptskizze1.png, id=366, 837.1275pt x 617.30624pt>
+<Images/Konzeptskizze1.png, id=367, 837.1275pt x 617.30624pt>
 File: Images/Konzeptskizze1.png Graphic file (type png)
 <use Images/Konzeptskizze1.png>
 Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 28.
@@ -2801,7 +2816,7 @@ l.34
 
 
 ]
-<Images/Konzeptskizze2.png, id=373, 837.1275pt x 661.97313pt>
+<Images/Konzeptskizze2.png, id=374, 837.1275pt x 661.97313pt>
 File: Images/Konzeptskizze2.png Graphic file (type png)
 <use Images/Konzeptskizze2.png>
 Package pdftex.def Info: Images/Konzeptskizze2.png  used on input line 37.
@@ -2825,7 +2840,7 @@ been already used, duplicate ignored
                    \relax 
 l.41 
       [2 <./Images/Konzeptskizze1.png>]
-<Images/Konstruktion1.png, id=380, 1754.05313pt x 338.01282pt>
+<Images/Konstruktion1.png, id=381, 1754.05313pt x 338.01282pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
 Package pdftex.def Info: Images/Konstruktion1.png  used on input line 46.
@@ -2916,9 +2931,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package cleveref Info: loaded `ngerman' language definitions on input line 77.
 
 
@@ -3019,7 +3031,7 @@ Package biblatex Info: Reference segment=15 on input line 14.
 Package biblatex Info: Setting label 'refsegment:015' on input line 14.
 Package biblatex Info: Reference segment=16 on input line 20.
 Package biblatex Info: Setting label 'refsegment:016' on input line 20.
-<General/HauptoberflaecheIDE.png, id=534, 455.45157pt x 283.81032pt>
+<General/HauptoberflaecheIDE.png, id=538, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 24
@@ -3033,12 +3045,12 @@ Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 24
 ]
 Package biblatex Info: Reference segment=17 on input line 32.
 Package biblatex Info: Setting label 'refsegment:017' on input line 32.
-<General/Boardsmanager.png, id=542, 269.50688pt x 260.47313pt>
+<General/Boardsmanager.png, id=546, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 39.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-<General/Librarymanager.png, id=545, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=549, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 51.
@@ -3167,7 +3179,7 @@ Package biblatex Info: Reference segment=23 on input line 18.
 Package biblatex Info: Setting label 'refsegment:023' on input line 18.
 Package biblatex Info: Reference segment=24 on input line 22.
 Package biblatex Info: Setting label 'refsegment:024' on input line 22.
-<Images/Konstruktion/GehaeuseK.png, id=641, 784.43062pt x 526.21594pt>
+<Images/Konstruktion/GehaeuseK.png, id=645, 784.43062pt x 526.21594pt>
 File: Images/Konstruktion/GehaeuseK.png Graphic file (type png)
 <use Images/Konstruktion/GehaeuseK.png>
 Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line 
@@ -3180,7 +3192,7 @@ Underfull \vbox (badness 1231) has occurred while \output is active []
 
 
 ]
-<Images/Konstruktion/BodenK.png, id=651, 1282.7925pt x 734.745pt>
+<Images/Konstruktion/BodenK.png, id=655, 1282.7925pt x 734.745pt>
 File: Images/Konstruktion/BodenK.png Graphic file (type png)
 <use Images/Konstruktion/BodenK.png>
 Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 35.
@@ -3199,7 +3211,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [30 <./Images/Konstruktion/GehaeuseK.PNG>]
-<Images/Konstruktion/VorneK.png, id=664, 899.61093pt x 758.835pt>
+<Images/Konstruktion/VorneK.png, id=668, 899.61093pt x 758.835pt>
 File: Images/Konstruktion/VorneK.png Graphic file (type png)
 <use Images/Konstruktion/VorneK.png>
 Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 45.
@@ -3219,7 +3231,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [31 <./Images/Konstruktion/BodenK.PNG>]
-<Images/Konstruktion/SeiteLK.png, id=673, 721.19438pt x 670.00313pt>
+<Images/Konstruktion/SeiteLK.png, id=677, 721.19438pt x 670.00313pt>
 File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteLK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 55
@@ -3238,7 +3250,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [32 <./Images/Konstruktion/VorneK.PNG>]
-<Images/Konstruktion/HinterK.png, id=683, 875.52094pt x 744.53156pt>
+<Images/Konstruktion/HinterK.png, id=687, 875.52094pt x 744.53156pt>
 File: Images/Konstruktion/HinterK.png Graphic file (type png)
 <use Images/Konstruktion/HinterK.png>
 Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 64
@@ -3258,7 +3270,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [33 <./Images/Konstruktion/SeiteLK.PNG>]
-<Images/Konstruktion/SeiteRK.png, id=693, 758.08218pt x 726.46407pt>
+<Images/Konstruktion/SeiteRK.png, id=697, 758.08218pt x 726.46407pt>
 File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteRK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 74
@@ -3277,7 +3289,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [34 <./Images/Konstruktion/HinterK.PNG>]
-<Images/Konstruktion/DeckelK.png, id=702, 1315.16344pt x 778.40813pt>
+<Images/Konstruktion/DeckelK.png, id=707, 1315.16344pt x 778.40813pt>
 File: Images/Konstruktion/DeckelK.png Graphic file (type png)
 <use Images/Konstruktion/DeckelK.png>
 Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 83
@@ -3376,7 +3388,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [36 <./Images/Konstruktion/DeckelK.PNG>]
 Package biblatex Info: Reference segment=25 on input line 118.
 Package biblatex Info: Setting label 'refsegment:025' on input line 118.
-<Images/Konstruktion/FlankeMotorK.png, id=721, 542.025pt x 641.39626pt>
+<Images/Konstruktion/FlankeMotorK.png, id=725, 542.025pt x 641.39626pt>
 File: Images/Konstruktion/FlankeMotorK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeMotorK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeMotorK.png  used on input li
@@ -3397,7 +3409,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [37]
-<Images/Konstruktion/FlankeK.png, id=732, 522.45187pt x 660.96938pt>
+<Images/Konstruktion/FlankeK.png, id=735, 522.45187pt x 660.96938pt>
 File: Images/Konstruktion/FlankeK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeK.png  used on input line 13
@@ -3416,7 +3428,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [38 <./Images/Konstruktion/FlankeMotorK.PNG>]
-<Images/Konstruktion/GriffK.png, id=741, 963.6pt x 668.4975pt>
+<Images/Konstruktion/GriffK.png, id=744, 963.6pt x 668.4975pt>
 File: Images/Konstruktion/GriffK.png Graphic file (type png)
 <use Images/Konstruktion/GriffK.png>
 Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 143
@@ -3437,7 +3449,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [39 <./Images/Konstruktion/FlankeK.PNG>]
-<Images/Konstruktion/DrehKnopfK.png, id=750, 706.89093pt x 463.7325pt>
+<Images/Konstruktion/DrehKnopfK.png, id=753, 706.89093pt x 463.7325pt>
 File: Images/Konstruktion/DrehKnopfK.png Graphic file (type png)
 <use Images/Konstruktion/DrehKnopfK.png>
 Package pdftex.def Info: Images/Konstruktion/DrehKnopfK.png  used on input line
@@ -3456,7 +3468,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [40 <./Images/Konstruktion/GriffK.PNG>]
-<Images/Konstruktion/AnzeigerK.png, id=760, 872.50969pt x 662.475pt>
+<Images/Konstruktion/AnzeigerK.png, id=763, 872.50969pt x 662.475pt>
 File: Images/Konstruktion/AnzeigerK.png Graphic file (type png)
 <use Images/Konstruktion/AnzeigerK.png>
 Package pdftex.def Info: Images/Konstruktion/AnzeigerK.png  used on input line 
@@ -3527,7 +3539,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [42 <./Images/Konstruktion/AnzeigerK.PNG>]
-<Images/Konstruktion/AKK2N.jpg, id=775, 604.1772pt x 511.6716pt>
+<Images/Konstruktion/AKK2N.jpg, id=778, 604.1772pt x 511.6716pt>
 File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
 <use Images/Konstruktion/AKK2N.jpg>
 Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 190.
@@ -3805,7 +3817,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ]
 chapter 11.
-<Images/Schaltplan1.png, id=959, 1261.78067pt x 993.04333pt>
+<Images/Schaltplan1.png, id=962, 1261.78067pt x 993.04333pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 14.
@@ -4627,13 +4639,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
 
-(./DemonstratorSchrittmotor.ind)
+(./DemonstratorSchrittmotor.ind [67
 
-Package acro Warning: Empty acronym list. If you have used acronyms then
-(acro)                re-compile to get the list filled. Otherwise remove
-(acro)                \printacronyms
 
-(./DemonstratorSchrittmotor.aux
+
+]) (./DemonstratorSchrittmotor.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 34.
 )
 
@@ -4657,11 +4667,11 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 ### simple group (level 1) entered at line 54 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 91508 strings out of 476024
- 2349688 string characters out of 5794016
- 3504587 words of memory out of 5000000
- 110151 multiletter control sequences out of 15000+600000
- 627878 words of font info for 333 fonts, out of 8000000 for 9000
+ 93018 strings out of 476024
+ 2412203 string characters out of 5794016
+ 3542605 words of memory out of 5000000
+ 111648 multiletter control sequences out of 15000+600000
+ 635673 words of font info for 355 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c
@@ -4681,10 +4691,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (80 pages, 13144463 bytes).
+Output written on DemonstratorSchrittmotor.pdf (81 pages, 13146982 bytes).
 PDF statistics:
- 1601 PDF objects out of 1728 (max. 8388607)
- 1276 compressed objects within 13 object streams
- 242 named destinations out of 1000 (max. 500000)
- 57413 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1612 PDF objects out of 1728 (max. 8388607)
+ 1286 compressed objects within 13 object streams
+ 243 named destinations out of 1000 (max. 500000)
+ 59469 words of extra memory for PDF output out of 61914 (max. 10000000)
 

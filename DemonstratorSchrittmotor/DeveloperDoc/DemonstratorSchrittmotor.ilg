@@ -1,4 +1,6 @@
 This is makeindex, version 2.16 [TeX Live 2022] (kpathsea + Thai support).
-Scanning input file DemonstratorSchrittmotor.idx...done (0 entries accepted, 0 rejected).
-Nothing written in DemonstratorSchrittmotor.ind.
+Scanning input file DemonstratorSchrittmotor.idx....done (90 entries accepted, 0 rejected).
+Sorting entries....done (652 comparisons).
+Generating output file DemonstratorSchrittmotor.ind....done (94 lines written, 0 warnings).
+Output written in DemonstratorSchrittmotor.ind.
 Transcript written in DemonstratorSchrittmotor.ilg.
