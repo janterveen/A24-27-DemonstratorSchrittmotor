@@ -1,15 +1,11 @@
-%%%%%%%%%%%%
-%
+%%%%%%
+% $Beschreibung: Vor der Montage erledigen $
 % $Autor: Theilmann $
 % $Datum: 11.06.2024 $
-% $Pfad: VorMontage.tex $
 % $Version: 1 $
-% !TeX spellcheck = en_GB/de_DE
-% !TeX encoding = utf8
-% !TeX root = MontageDemontageanleitung 
-% !TeX TXS-program:bibliography = txs:///biber
+% $Pfad: SchrittmotorArduino\DemonstratorSchrittmotor\Assembly\VorMontage.tex $
 %
-%%%%%%%%%%%%
+%%%%%%
 \chapter{Vor der Montage}
 In diesem Kapitel werden die Vorarbeiten für die Montage erläutert. Es werden alle Bauteile, elektrischen Komponenten, benötigten Werkzeuge, das Vorbereiten der Leitungen und das Einsetzen der Einpressmuttern beschrieben.
 
@@ -23,7 +19,7 @@ In Abbildung \ref{Bauteile} werden alle Bauteile gezeigt in der Tabelle \ref{Bau
 	\end{center}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[htp]
 	\begin{center}
 		\fontsize{8}{10}\selectfont
 		\begin{tabularx}{\textwidth}{|p{0.4cm}|X|X|X|X|X|} 
@@ -93,7 +89,7 @@ In Abbildung \ref{Bauteile} werden alle elektrischen Komponenten gezeigt in der 
 \end{figure}
 
 \section{Benötigtes Werkzeug}
-In der Abbildung \ref{Benwerk} sind die benötigten Werkzeugen gezeigt und in der Tabelle \ref{WerkTab} erklärt. 
+In der Abbildung \ref{Benwerk} sind die benötigten Werkzeuge gezeigt und in der Tabelle \ref{WerkTab} erklärt. 
 
 \begin{figure}[H]
 	\begin{center}
@@ -121,6 +117,8 @@ In der Abbildung \ref{Benwerk} sind die benötigten Werkzeugen gezeigt und in de
 	\end{center}
 \end{figure}
 
+\section{Fertigung Bauteile}
+Die aus der CAD-Software konstruierten STL-Dateien müssen per Slicer-Software an den jeweiligen 3D-Drucker angepasst werden. Daraufhin können die G-Codes an den 3D-Drucker exportiert und gedruckt werden. Die STL-Dateien finden Sie und dem Pfad: \emph{DemonstratorSchrittmotor \textbackslash Appendix \textbackslash Konstruktion \textbackslash STL}. Sollten Sie den Drucken von AnyCubic Modell Kobra Neo 2 benutzen, finden Sie die fertigen G-Codes unter dem Pfad: \emph{DemonstratorSchrittmotor \textbackslash Appendix \textbackslash Konstruktion \textbackslash GCodesAnyCubicKobra2Neo}
 \section{Einsetzen der Einpressmuttern}
 In den Bauteilen Vorderplatte, Hinterplatte und Anzeiger müssen die Einpressmuttern eingesetzt werden. In die \O 4 \ mm Bohrungen der Bauteile wird mit einem heißen Lötkolben die Einpressmutter eingesetzt bis diese bündig mit dem Bauteil sitzt. Dies ist Abbildung \ref{Einpress} zu sehen.
 
