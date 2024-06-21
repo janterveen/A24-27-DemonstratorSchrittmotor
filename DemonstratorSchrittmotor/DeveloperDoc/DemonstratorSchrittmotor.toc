@@ -88,4 +88,3 @@
 \contentsline {chapter}{Anhang}{57}{chapter*.31}%
 \contentsline {chapter}{\numberline {11}Schaltplan}{59}{chapter.11}%
 \contentsline {chapter}{\numberline {12}Materialliste}{61}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Detailliertes Literaturverzeichnis}{67}{chapter.13}%

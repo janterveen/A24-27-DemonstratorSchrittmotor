@@ -45,7 +45,7 @@
     }
     \field{title}{1,3 Zoll OLED Display Datenblatt}
     \verb{url}
-    \verb \url{https://www.az-delivery.de/products/1-3zoll-i2c-oled-display}
+    \verb https://www.az-delivery.de/products/1-3zoll-i2c-oled-display
     \endverb
     \verb{file}
     \verb 1{\_}3{\_}Zoll{\_}Display{\_}Datenblatt{\_}AZ-Delivery{\_}Vertriebs{\
@@ -82,7 +82,7 @@
     \field{title}{AMS1117 ADMOS | Alldatasheet: 800mA LOW DROPOUT VOLTAGE
   REGULATOR}
     \verb{url}
-    \verb \url{http://www.advanced-monolithic.com/pdf/ds1117.pdf}
+    \verb http://www.advanced-monolithic.com/pdf/ds1117.pdf
     \endverb
     \verb{file}
     \verb AMS1117-Datasheet:Attachments/AMS1117-Datasheet.PDF:application/pdf
@@ -116,10 +116,11 @@
     \field{edition}{8}
     \field{title}{A4988-Datasheet}
     \verb{url}
-    \verb \url{https://www.allegromicro.com}
+    \verb https://www.allegromicro.com
     \endverb
     \verb{file}
-    \verb A4988-Datasheet:Attachments/A4988-Datasheet.pdf:application/pdf
+    \verb A4988-Datasheet:Attachments/A4988-Datasheet.pdf:application/pdf;ME018
+    \verb :Attachments/ME018.pdf:application/pdf
     \endverb
     \field{year}{2022}
     \warn{\item Invalid format of field 'urldate'}
@@ -149,6 +150,9 @@
   aller im Arduino integrierten Sensoren gegeben.%
     }
     \field{title}{ABX00031-Datasheet}
+    \verb{url}
+    \verb https://docs.arduino.cc/resources/datasheets/ABX00031-datasheet.pdf
+    \endverb
     \verb{file}
     \verb ABX00031-datasheet:Attachments/ABX00031-datasheet.pdf:application/pdf
     \endverb
@@ -179,7 +183,7 @@
     \field{sortinithash}{A}
     \field{title}{Downloads: Arduino IDE 2.3.2}
     \verb{url}
-    \verb \url{https://www.arduino.cc/en/software}
+    \verb https://www.arduino.cc/en/software
     \endverb
     \list{location}{1}{%
       {https://www.arduino.cc/en/software}%
@@ -216,8 +220,8 @@
     \field{sortinithash}{A}
     \field{title}{Installing Libraries}
     \verb{url}
-    \verb \url{https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-install
-    \verb ing-a-library/}
+    \verb https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a
+    \verb -library/
     \endverb
     \verb{file}
     \verb 20240412InstallingLibraries:Attachments/20240412InstallingLibraries.p
@@ -251,13 +255,13 @@
     \field{sortinithash}{A}
     \field{title}{Installing a Board Package in the IDE 2}
     \verb{url}
-    \verb \url{https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-m
-    \verb anager/?queryID=145da8e8c0ca68927b79659df14079a5&_gl=1*1c27moy*_ga*MT
-    \verb Q0NDAyMjU0Ni4xNzEyMjI4NjMx*_ga_NEXN8H46L5*MTcxMjkzNTM5NS4xMi4xLjE3MTI
-    \verb 5MzYxNTguMC4wLjE4MTYyNDUyNw..*_fplc*R3haa2kwYmJ5b0owSXBZQmNtNDElMkYyS
-    \verb TNJZEZjVDdueVdoViUyQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1ST
-    \verb FaZDl6c0txNGtBV1lETklqUzdGUFdKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHd
-    \verb uVnhKWEd6dyUzRCUzRA..}
+    \verb https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manage
+    \verb r/?queryID=145da8e8c0ca68927b79659df14079a5&_gl=1*1c27moy*_ga*MTQ0NDA
+    \verb yMjU0Ni4xNzEyMjI4NjMx*_ga_NEXN8H46L5*MTcxMjkzNTM5NS4xMi4xLjE3MTI5MzYx
+    \verb NTguMC4wLjE4MTYyNDUyNw..*_fplc*R3haa2kwYmJ5b0owSXBZQmNtNDElMkYySTNJZE
+    \verb ZjVDdueVdoViUyQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1STFaZDl
+    \verb 6c0txNGtBV1lETklqUzdGUFdKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHduVnhK
+    \verb WEd6dyUzRCUzRA..
     \endverb
     \verb{file}
     \verb 20240412InstallingaBoardPackage:Attachments/20240412InstallingaBoardP
@@ -291,8 +295,7 @@
     \field{sortinithash}{A}
     \field{title}{loop()}
     \verb{url}
-    \verb \url{https://www.arduino.cc/reference/en/language/structure/sketch/lo
-    \verb op/}
+    \verb https://www.arduino.cc/reference/en/language/structure/sketch/loop/
     \endverb
     \verb{file}
     \verb 20240412loop:Attachments/20240412loop.pdf:application/pdf
@@ -325,8 +328,7 @@
     \field{sortinithash}{A}
     \field{title}{setup()}
     \verb{url}
-    \verb \url{https://www.arduino.cc/reference/en/language/structure/sketch/se
-    \verb tup/}
+    \verb https://www.arduino.cc/reference/en/language/structure/sketch/setup/
     \endverb
     \verb{file}
     \verb 20240412setup:Attachments/20240412setup.pdf:application/pdf
@@ -354,6 +356,9 @@
     Datenblatt f{\"u}r den Arm Cortex-M4 Prozessor.%
     }
     \field{title}{Arm-Cortex-M4-Processor-Datasheet}
+    \verb{url}
+    \verb https://developer.arm.com/documentation/102832/latest/
+    \endverb
     \verb{file}
     \verb Arm-Cortex-M4-Processor-Datasheet:Attachments/Arm-Cortex-M4-Processor
     \verb -Datasheet.pdf:application/pdf
@@ -382,11 +387,16 @@
     }
     \field{title}{Datasheet - APDS-9960 - Digital Proximity, Ambient Light, RGB
   and Gesture Sensor}
+    \verb{url}
+    \verb https://cdn.sparkfun.com/assets/learn_tutorials/3/2/1/Avago-APDS-9960
+    \verb -datasheet.pdf
+    \endverb
     \verb{file}
     \verb APDS-9960-datasheet:Attachments/APDS-9960-datasheet.pdf:application/p
     \verb df
     \endverb
     \field{year}{2015}
+    \warn{\item Invalid format of field 'urldate'}
   \endentry
 
   \entry{Babiel.2023}{book}{}
@@ -425,7 +435,7 @@
   Flugsystemen wird ein St{\"u}ck weit in die Zukunft geblickt.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-658-40586-1}
+    \verb 10.1007/978-3-658-40586-1
     \endverb
     \field{edition}{5. Auflage}
     \field{isbn}{978-3-658-40585-4}
@@ -477,12 +487,12 @@
   Automation und bei Servoantrieben.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-658-12844-9}
+    \verb 10.1007/978-3-658-12844-9
     \endverb
     \field{isbn}{978-3-658-12843-2}
     \field{title}{Encoder und Motor-Feedback-Systeme}
     \verb{url}
-    \verb \url{https://link.springer.com/book/10.1007/978-3-658-12844-9}
+    \verb https://link.springer.com/book/10.1007/978-3-658-12844-9
     \endverb
     \list{location}{1}{%
       {Wiesbaden}%
@@ -527,7 +537,7 @@
   dargestellt.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-658-20838-7}
+    \verb 10.1007/978-3-658-20838-7
     \endverb
     \field{edition}{3., {\"u}berarbeitete Auflage}
     \field{isbn}{978-3-658-20837-0}
@@ -629,7 +639,7 @@
     \field{title}{Computergest{\"u}tzte Audio- und Videotechnik:
   Multimediatechnik in der Anwendung}
     \verb{url}
-    \verb \url{https://link.springer.com/book/10.1007/978-3-662-58873-4}
+    \verb https://link.springer.com/book/10.1007/978-3-662-58873-4
     \endverb
     \list{location}{1}{%
       {Berlin, Heidelberg}%
@@ -672,8 +682,8 @@
     \field{title}{FAULHABER Tutorial: Schrittverluste verhindern bei
   Schrittmotoren}
     \verb{url}
-    \verb \url{https://www.faulhaber.com/de/know-how/tutorials/schrittmotoren-t
-    \verb utorial-schrittverluste-verhindern-bei-schrittmotoren/}
+    \verb https://www.faulhaber.com/de/know-how/tutorials/schrittmotoren-tutori
+    \verb al-schrittverluste-verhindern-bei-schrittmotoren/
     \endverb
     \list{location}{1}{%
       {Sch{\"o}naich · Deutschland}%
@@ -722,7 +732,7 @@
     \field{isbn}{9783662639535}
     \field{title}{Digitaltechnik: Grundlagen, VHDL, FPGAs, Mikrocontroller}
     \verb{url}
-    \verb \url{https://link.springer.com/book/10.1007/978-3-662-63954-2}
+    \verb https://link.springer.com/book/10.1007/978-3-662-63954-2
     \endverb
     \list{location}{2}{%
       {Berlin}%
@@ -764,11 +774,12 @@
     }
     \field{title}{NEMA 17, 1.8° 42mm GM42BYG Stepper Motors}
     \verb{url}
-    \verb \url{https://gemsmotor.com/stepper/nema17-stepper-motor.pdf}
+    \verb https://gemsmotor.com/stepper/nema17-stepper-motor.pdf
     \endverb
     \verb{file}
-    \verb nema17-stepper-motor:Attachments/nema17-stepper-motor.pdf:application
-    \verb /pdf
+    \verb BJ42D15-26V09 drawing:Attachments/BJ42D15-26V09 drawing.pdf:applicati
+    \verb on/pdf;nema17-stepper-motor:Attachments/nema17-stepper-motor.pdf:appl
+    \verb ication/pdf
     \endverb
     \warn{\item Invalid format of field 'urldate'}
   \endentry
@@ -812,7 +823,7 @@
   dargestellt.%
     }
     \verb{doi}
-    \verb \url{10.3139/9783446468214}
+    \verb 10.3139/9783446468214
     \endverb
     \field{edition}{3., {\"u}berarbeitete und erweiterte Auflage}
     \field{isbn}{978-3-446-46572-5}
@@ -864,7 +875,7 @@
   Entwurfsflusses, d. h. in der Reihenfolge ihrer Bearbeitung.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-642-30572-6}
+    \verb 10.1007/978-3-642-30572-6
     \endverb
     \field{isbn}{978-3-642-30572-6}
     \field{title}{Entwurf integrierter 3D-Systeme der Elektronik}
@@ -919,12 +930,12 @@
   Tricks zum Programmieren.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-658-31709-6}
+    \verb 10.1007/978-3-658-31709-6
     \endverb
     \field{isbn}{978-3-658-31708-9}
     \field{title}{Sensornetzwerke in Theorie und Praxis}
     \verb{url}
-    \verb \url{https://link.springer.com/book/10.1007/978-3-658-31709-6}
+    \verb https://link.springer.com/book/10.1007/978-3-658-31709-6
     \endverb
     \list{location}{1}{%
       {Wiesbaden}%
@@ -955,8 +966,7 @@
     }
     \field{title}{RD-50-20190729.cdr}
     \verb{url}
-    \verb \url{https://cdn-reichelt.de/documents/datenblatt/D500/RD-50_DS-EN.PD
-    \verb F}
+    \verb https://cdn-reichelt.de/documents/datenblatt/D500/RD-50_DS-EN.PDF
     \endverb
     \verb{file}
     \verb RD-50{\_}DS-Datasheet:Attachments/RD-50{\_}DS-Datasheet.PDF:applicati
@@ -986,7 +996,7 @@
     }
     \field{title}{SIGNALLEUCHTENSMD-LED-Datenblatt}
     \verb{url}
-    \verb \url{https://www.mentor.de.com/bauelemente/product/2660-8301}
+    \verb https://www.mentor.de.com/bauelemente/product/2660-8301
     \endverb
     \verb{file}
     \verb SIGNALLEUCHTENSMD-LED-Datenblatt:Attachments/SIGNALLEUCHTENSMD-LED-Da
@@ -1014,7 +1024,7 @@
     \field{title}{nRF5340 Product Specification: QSPI --- Quad serial
   peripheral interface}
     \verb{url}
-    \verb \url{https://infocenter.nordicsemi.com}
+    \verb https://infocenter.nordicsemi.com
     \endverb
     \verb{file}
     \verb quad{\_}serial{\_}peripheral{\_}interface-techDoc:Attachments/quad{\_
@@ -1041,6 +1051,9 @@
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{title}{nRF52840 Product Specification 2}
+    \verb{url}
+    \verb https://infocenter.nordicsemi.com
+    \endverb
     \verb{file}
     \verb nrf52840{\_}product{\_}specification-techDoc:Attachments/nrf52840{\_}
     \verb product{\_}specification-techDoc.pdf:application/pdf
@@ -1066,6 +1079,9 @@
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{title}{nRF52840 Product Specification Memory}
+    \verb{url}
+    \verb https://infocenter.nordicsemi.com
+    \endverb
     \verb{file}
     \verb nrf52840{\_}product{\_}specification{\_}memory-techDoc:Attachments/nr
     \verb f52840{\_}product{\_}specification{\_}memory-techDoc.pdf:application/
@@ -1092,6 +1108,9 @@
     \field{sortinithash}{N}
     \field{title}{nRF9161 Product Specification: Cryptocell-ARM TrustZone
   CryptoCell 310}
+    \verb{url}
+    \verb https://infocenter.nordicsemi.com
+    \endverb
     \verb{file}
     \verb cryptocell{\_}310-technicalDocument:Attachments/cryptocell{\_}310-tec
     \verb hnicalDocument.pdf:application/pdf
@@ -1127,8 +1146,8 @@
     \field{title}{Difference{\_}between{\_}A33BLESense{\_}and{\_}SenseLite: A
   Difference between A N 33 BLE Sense vs. Sense Lite}
     \verb{url}
-    \verb \url{https://forum.arduino.cc/t/a-difference-between-a-n-33-ble-sense
-    \verb -vs-sense-lite/1030305}
+    \verb https://forum.arduino.cc/t/a-difference-between-a-n-33-ble-sense-vs-s
+    \verb ense-lite/1030305
     \endverb
     \verb{file}
     \verb Difference{\_}between{\_}A33BLESense{\_}and{\_}SenseLite:Attachments/
@@ -1178,7 +1197,7 @@
   Pr{\"u}fungsaufgaben mit L{\"o}sungen zur Verf{\"u}gung.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-662-63101-0}
+    \verb 10.1007/978-3-662-63101-0
     \endverb
     \field{isbn}{978-3-662-63100-3}
     \field{title}{Elektrische Antriebe -- Grundlagen}
@@ -1221,7 +1240,7 @@
     \field{title}{Datasheet - LSM9DS1- iNEMO inertial module: 3D accelerometer,
   3D gyroscope, 3D magnetometer}
     \verb{url}
-    \verb \url{https://www.st.com/en/mems-and-sensors/lsm9ds1.html}
+    \verb https://www.st.com/en/mems-and-sensors/lsm9ds1.html
     \endverb
     \verb{file}
     \verb LSM9DS1-datasheet:Attachments/LSM9DS1-datasheet.pdf:application/pdf
@@ -1260,7 +1279,7 @@
     \field{title}{Datasheet - LPS22HB-MEMS nano pressure sensor: 260-1260 hPa
   absolute digital output barometer}
     \verb{url}
-    \verb \url{https://www.st.com/en/mems-and-sensors/lps22hb.html}
+    \verb https://www.st.com/en/mems-and-sensors/lps22hb.html
     \endverb
     \verb{file}
     \verb LPS22HB-datasheet:Attachments/LPS22HB-datasheet.pdf:application/pdf
@@ -1324,7 +1343,7 @@
     }
     \field{title}{COM-KY040RE-Datenblatt: Drehencoder mit Tasterfunktion}
     \verb{url}
-    \verb \url{www.joy-it.net}
+    \verb www.joy-it.net
     \endverb
     \verb{file}
     \verb COM-KY040RE-Datenblatt:Attachments/COM-KY040RE-Datenblatt.pdf:applica
@@ -1368,7 +1387,7 @@
   administrierbar zu gestalten.%
     }
     \verb{doi}
-    \verb \url{10.1007/978-3-658-42717-7}
+    \verb 10.1007/978-3-658-42717-7
     \endverb
     \field{isbn}{978-3-658-42716-0}
     \field{title}{VBA f{\"u}r Office-Automatisierung und Digitalisierung}
