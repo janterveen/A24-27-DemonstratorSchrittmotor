@@ -4,7 +4,7 @@
 % $Autor: ter Veen, Theilmann $
 % $Datum: 09.06.2024 $
 % $Pfad: DemonstratorSchrittmotor/DeveloperDoc/Contents/de/OffenePunkte.tex $
-% $Version: 1 $
+% $Version: 2 $
 %
 %
 %%%%%%%%%%%%%%%%%%%
@@ -12,6 +12,28 @@
 \chapter{Offene Punkte}
 
 Dieses Projekt befindet sich noch in der Entwicklungsphase. Bei dem Demonstrator handelt es sich um ein Prototyp und es bietet noch an Verbesserungs- und Erweiterungspotenzial. In diesem Fall findet ausschließlich ein Ausblick zu Lern- und Demonstrationszwecken statt. 
+
+\section{Misslungene Messung der Beschleunigung des Schlittens}
+
+Zunächst sollte die Beschleunigung gemessen werden. Um die Beschleunigung des Schlittens zu messen, muss auf den Schlitten ein Beschleunigungssensor integriert werden. Dafür wurde ein Arduino Nano 33 Ble Sense Rev2 verwendet, der die gleiche 9-Achs-IMU (LSM9DS1) verwendet wie die im Arduino Nano 33 BLE Sense Lite. Die 9-Achs-IMU wird in Kapitel \ref{9Achs} genauer erläutert. Für die Befestigung des Arduinos wurde eine Konstruktion aus einem älteren Projekt verwendet, dabei handelt es sich um ein kleines Gehäuse indem der Arduino reingelegt wird und mit einer DIN 912 M3 Schraube an dem Schlitten befestigt wurde, zu sehen in Abbildung \ref{ArdRev2Schlitten}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{Images/Tests/ArdRev2Schlitten.jpg}
+		\caption{Montage des Arduino Nano 33 Ble Sense Rev2 auf dem Schlitten} \label{ArdRev2Schlitten}
+	\end{center}
+\end{figure} 
+
+Der notwendige Code für den Arduino lieferte die IDE mithilfe der Bibliothek ArduinoLSM9DS1 unter dem Pfad File/Examples/ArduinoLSM9DS1/SimpleAccelerometer. Der Code wurde lediglich an das Ausgeben der wichtigen Achse und die Umrechnung in m/s$^2$ angepasst. Der Messaufbau wird in Abbildung \ref{TestAuffbauACC} dargestellt. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{Images/Tests/TestAufbauACC.jpg}
+		\caption{Testaufbau Messung Beschleunigung} \label{TestAuffbauACC}
+	\end{center}
+	\end{figure} 
+
+Bei der Auswertung jedoch fiel auf, das obwohl mit verschiedenen eingestellten aber auch ersichtlichen Beschleunigungswerten oft der identische Wert angezeigt wurde. Es wurde dabei vermutet, dass durch die Vibrationen und die Eigenfrequenz des Systems es zu Ausreißern kommt. Zunächst wurde das Gehäuse demontiert, ergab keine Abhilfe. Der nächste Schritt war einen Filter gegen Ausreißer in dem Code einzupflegen, allerdings auch ohne Erfolg. Aus zeitlichen Gründen wurde nur die Messung der mittleren Geschwindigkeit durchgeführt.   
 
 \section{Verbesserungen}
 
