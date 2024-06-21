@@ -14,11 +14,11 @@
 
 \section{Aufgabenstellung}
 
-Die Aufgabe besteht darin, mithilfe eines Arduino Nano 33 BLE Sense Lite einen Demonstrator für einen Schrittmotor zu entwickeln. Mittels einer Konstruktion, die über einen Schrittmotor verfügt, welcher einen Riemen antreibt, soll ein Schlitten auf einer Linearführung verfahren werden. Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Durch die Programmierung des Arduino, wird der Schrittmotor gesteuert und wird in die gewünschte Richtung und Position bewegt. Dies beinhaltet eine korrekte Programmierung, sowie die korrekte Ausgabe durch den Schrittmotor und eine Konstruktion, die mit allen Teilen funktionsfähig ist. Nachfolgend wird die Hardware beschrieben, sowie die Entwicklung der Software und die Konstruktion und Fertigung des Demonstrators.
+Mittels einer Konstruktion, die über einen Schrittmotor verfügt, wird ein Riemen angetrieben. An diesem Riemen ist ein Schlitten befestigt, der durch die Bewegung des Schrittmotors auf einer Linearführung verfahren wird. An dem Gehäuse befindet sich ein Drehschalter, mit dem eine von zehn Bewegungsstufen ausgewählt werden kann. Nach der Auswahl kann das Programm über den grünen Start-Stopp-Knopf gestartet werden. Die Status-LED leuchtet rot, sobald das Gerät einsatzbereit ist. Für die Referenzfahrt wurde ein Endschalter an der Halterung des Schrittmotors befestigt, damit der Schrittmotor auf eine definierte Position referenzieren kann. Es gibt zehn verschiedene Bewegungsstufen. Die Bewegungsstufen unterscheiden sich in der Geschwindigkeit. Pro Stufe wird die Geschwindigkeit erhöht. 
 
 \section{Herausforderungen}
 
-Das Projekt lässt sich in 3 verschiedene Teilprojekte unterteilen, die zum Abschluss der Aufgabe führen. Zuerst ist da die Programmierung und die Arbeit mit der Arduino IDE. Außerdem die Konstruktion des Demonstrators und zuletzt die hierfür benötigte Auswahl der Hardware-Teile. Ebenfalls wichtig ist der Umgang mit den elektronischen Bauteilen, dass diese nicht durch den elektrischen Strom beschädigt werden und das der Demonstrator für den Transport geeignet ist. 
+Das Projekt lässt sich in drei verschiedene Teilprojekte unterteilen, die zum Abschluss der Aufgabe führen. Zuerst ist da die Konstruktion des Demonstrators und die hierfür benötigte Auswahl der Hardware-Teile. Vorgabe war, dass der Aufbau nicht zu komplex ist und man sich so auf die wesentlichen Teile konzentriert. Außerdem ist die Arbeit mit der Arduino IDE und die Programmierung des Arduino ein weiterer Teil. Als letzten Punkt ist der Umgang mit den elektronischen Bauteilen zu erwähnen. Der Umgang mit den elektronischen Bauteilen sollte unter großer Vorsicht geschehen, sodass diese nicht durch den elektrischen Strom beschädigt werden. 
 
 \section{Lösungsansatz}
 Durch die Ausarbeitung der Herausforderungen, können Lösungsansätze entwickelt werden. Vorab wurde eine erste Konzeptskizze angefertigt, aus der Ideen entstanden. Im ersten Konzept sollte der Schrittmotor eine Plattform über einen Riementrieb axial verfahren, erkennbar in Abbildung \ref{ErsteKonzeptskizze}. Dabei sollte der Verfahrweg der Plattform über einen Abstandssensor mit einem vorher definierten Abstand zu einem Objekt, geregelt werden. Wird das Objekt näher oder weiter entfernt vom Abstandssensor bewegt, verfährt die Plattform mit einem definierten Abstand mit. Alle vorhandenen Bauteile sollten an einem Alu-Profil befestigt werden.
@@ -39,7 +39,7 @@ Aufgrund der hohen Komplexität wurde die Plattform inklusive des Abstandssensor
 	\end{center}
 \end{figure}
 
-Das zweite Konzept fand gefallen und wurde weiter durchdacht, sodass mit dem Handbuch angefangen werden konnte (siehe Handbuch Demonstrator für einen Schrittmotor). In diesem Handbuch sollte vor allem aus Kundenperspektive die einzelnen Funktionen und die Bedienung geklärt werden. Parallel konnte ein CAD-Modell konstruiert werden, erkennbar in Abbildung \Ref{CADMOD}. Gegenüber dem zweiten Konzept wurde die Hardware aus Transportiergründen mit auf dem Aluprofil verlegt und erhielt zum Schutz ein Gehäuse. Des Weiteren konnte eine Materialliste erstellt werden. 
+Das zweite Konzept fand gefallen und wurde weiter durchdacht, sodass mit dem Handbuch angefangen werden konnte (siehe Handbuch Demonstrator für einen Schrittmotor). In diesem Handbuch sollte vor allem aus Kundenperspektive die einzelnen Funktionen und die Bedienung geklärt werden. Parallel konnte ein CAD-Modell konstruiert werden, erkennbar in Abbildung \Ref{CADMOD}. Dazu konnte im Team eine MindMap ausgearbeitet werden, die alle möglichen Inhalte und anstehenden Aufgaben zusammenfasst \ref{Mindmap}. Gegenüber dem zweiten Konzept wurde die Hardware aus Transportiergründen mit auf dem Aluprofil verlegt und erhielt zum Schutz ein Gehäuse. Des Weiteren konnte eine Materialliste erstellt werden. 
 
 \begin{figure}[H]
 	\begin{center}
@@ -48,8 +48,10 @@ Das zweite Konzept fand gefallen und wurde weiter durchdacht, sodass mit dem Han
 	\end{center}
 \end{figure} 
 
-%Durch die Ausarbeitung der Herausforderungen, können Lösungsansätze hierfür entwickelt werden. Indem vorab eine Skizze für die Konstruktion angefertigt wird, kann darauf basierend die Suche nach Teilen durchgeführt werden. Um den Demonstrator mit all seinen Teilen und seiner unhandlichen Größe trotzdem transportfähig zu konstruieren, werden die elektronischen Bauteile mit auf dem Alu-Profil montiert. Außerdem spielt es für die %Programmierung eine entscheidende Rolle, wie die verschiedenen Stufen angefahren werden sollen. Hierfür wurde sich von vornherein überlegt, wie die Stufen auszuwählen sind und in welche Positionen und in welchen Geschwindigkeiten verfahren wird.
-
-
-
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{../Appendix/Mindmap/Mindmap.png}
+		\caption{Mindmap} \label{Mindmap}
+	\end{center}
+\end{figure} 
 
