@@ -63,7 +63,7 @@ Zunächst muss ein passender Motor für die Anwendung gewählt werden. Dabei sol
 \end{itemize}
 
 Sind die geforderten Drehmomente bei den jeweiligen Drehzahlen, den Motorspezifikation entsprechend, dann sind keine Probleme zu erwarten. Ist der Motor zu schwach gewählt und die Anwendung fordert mehr Leistung als der Motor abgeben kann, so bleibt der Motor stehen. Der nächste Schritt ist die Durchführung von Testdurchläufen. Es soll im Betrieb überprüft werden, ob Schrittverluste auftreten. Schrittmotoren verlieren konstruktionsbedingt nicht nur einen einzigen Schritt. Bei geringen Drehzahlen verliert der Motor ein Vielfaches von vier Schritten.\cite{FaulhaberDriveSystems.2020}
-%% Sind es immer vielfache von vier oder wo kommt diese Zahl her?
+
 
 \subsection{Betriebsart}
 
@@ -71,8 +71,8 @@ In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, fa
 
 \subsubsection{Start-Stopp-Betrieb}
 
-Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
-%% Ich würde nicht Frequenz und Drehzahl verwenden. Vorschlag: Ersetzte Frequenz überall mit Drehzahl, Drehzahl ist bei Motoren mit Kreisförmiger Bewegung sowieso üblicher
+Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen wie in Abbildung \ref{Start-Stopp Frequenz} zu sehen ist.\cite{FaulhaberDriveSystems.2020} 
+
 \begin{figure}[!ht]
 	\centering
 	\resizebox{1\textwidth}{!}{%
@@ -94,7 +94,8 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 	\caption{Start-Stopp Frequenz \cite{FaulhaberDriveSystems.2020}} \label{Start-Stopp Frequenz}
 \end{figure}
 
-{\textbf{Fehlerbild: Motor läuft nicht an} 
+{\textbf{Fehlerbild: Motor läuft nicht an (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA})} 
+\begin{figure}
 	\begin{center}
 		\fontsize{8}{10}\selectfont
 		\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -108,11 +109,12 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 		\end{tabularx}
 		\captionof{table}{Ursachen und Lösungen: Motor läuft nicht an \cite{FaulhaberDriveSystems.2020}} \label{MOTLNA} 
 	\end{center}
+\end{figure}
 	
 	
 	\subsubsection{Beschleunigung und Rampenprofil (Trapezförmig)}
 	
-	Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
+Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen wie in Abbildung \ref{Trapezförmiges Geschwindigkeitsprofil} zu sehen ist.\cite{FaulhaberDriveSystems.2020} 
 	
 	\begin{figure}[!ht]
 		\centering
@@ -145,9 +147,9 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 		}%
 		\caption{Trapezförmiges Geschwindigkeitsprofil \cite{FaulhaberDriveSystems.2020}} \label{Trapezförmiges Geschwindigkeitsprofil}
 	\end{figure}
-	{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})% noch eine verlinkung machen ! 
+
 		
-		{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht}
+{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht (siehe Ursachen und Lösungen aus Tabelle \ref{Beschleunigungsrampe})}
 			\begin{center}
 				\fontsize{8}{10}\selectfont
 				\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -177,10 +179,11 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 						\item {Anderen Controller verwenden }
 					\end{itemize}\\ \hline
 				\end{tabularx}
-				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}}	
+				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}}
+				\label{Beschleunigungsrampe}	
 			\end{center}
 			
-			{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist.}
+{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist (siehe Ursachen und Lösungen aus Tabelle \ref{stehenderMotor})}
 				\begin{center}
 					\fontsize{8}{10}\selectfont
 					\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -196,30 +199,33 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 						\end{itemize}	 \\	\hline
 					\end{tabularx}
 					\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \cite{FaulhaberDriveSystems.2020}}
+					\label{stehenderMotor}
 				\end{center}
 				
 				
 				
-				\subsection{Externe Ereignisse}
-				\subsubsection{Lastrückkopplung}
+\subsection{Externe Ereignisse}
+
+\subsubsection{Lastrückkopplung}
+
 				\textit{\glqq Manchmal wird der vom Motor angetriebene Mechanismus/Last während der Bewegung \glqq aufgezogen \grqq und gibt diese Energie wieder an den Motor zurück, wenn die Ströme ausgeschaltet werden. Der Mechanismus könnte z.B. ein Untersetzungsgetriebe sein.\grqq}\cite{FaulhaberDriveSystems.2020} 
 				Wird diese Energie an den Motor zurück geleitet, kann es passieren, dass der Motor sich um einen Winkel verdreht, der mehr als einem Schritt entspricht. Dabei kann es passieren, dass der Motor nicht ausreichend Drehmoment entwickelt und nicht oder erst nach 4 Vollschritten anläuft. \cite{FaulhaberDriveSystems.2020}
 				
-				\textbf{Lösungen:}
-				\begin{itemize}
+\textbf{Lösungen:}
+    \begin{itemize}
 					\item Die Kommutierung so programmieren, dass Wert und Polarität vor dem Abschalten gespeichert und beim Wiedereinschalten verwenden werden kann. 
 					\item Nicht vollständig den Strom abschalten, sondern bei Motorstillstand einen reduzierten \textit{Stand-By} Strom aufrechterhalten
-				\end{itemize}
+	\end{itemize}
 				
-				\subsubsection{Erhöhung der Nutzlast mit der Zeit}
+\subsubsection{Erhöhung der Nutzlast mit der Zeit}
 				\textit{\glqq Manchmal läuft der Motor für eine lange Zeit störungsfrei und viel später treten die ersten Schrittverluste auf. In diesem Fall ist es sehr wahrscheinlich, dass die Last, die der Motor „sieht“, sich geändert hat. Das kann auf Verschleiß der Motorlager oder ein externes Ereignis zurückzuführen sein.\grqq}\cite{FaulhaberDriveSystems.2020}
 				
-				\textbf{Lösungen:}
-				\begin{itemize}
+\textbf{Lösungen:}
+	\begin{itemize}
 					\item Prüfen ob ein externes Ereignis durch Veränderung des Mechanismus vorliegt.
 					\item Prüfen ob Lagerverschleiß vorhanden ist. Verwendung von Kugellager erhöhen die Lebensdauer des Motors.
 					\item Verwendung von Schmiermittel um Reibung zu verhindern.
-				\end{itemize}
+	\end{itemize}
 
 
 \section{Beschreibung des verwendeten Schrittmotors}
