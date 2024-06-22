@@ -64,28 +64,28 @@
 \contentsline {chapter}{\numberline {8}Schrittverluste verhindern}{45}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Auswahl des Schrittmotors}{45}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Betriebsart}{45}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Start-Stopp-Betrieb}{45}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.1}Start-Stopp-Betrieb}{46}{subsection.8.2.1}%
 \contentsline {subsection}{\numberline {8.2.2}Beschleunigung und Rampenprofil (Trapezförmig)}{46}{subsection.8.2.2}%
 \contentsline {section}{\numberline {8.3}Externe Ereignisse}{48}{section.8.3}%
 \contentsline {subsection}{\numberline {8.3.1}Lastrückkopplung}{48}{subsection.8.3.1}%
 \contentsline {subsection}{\numberline {8.3.2}Erhöhung der Nutzlast mit der Zeit}{48}{subsection.8.3.2}%
-\contentsline {chapter}{\numberline {9}Testdurchläufe}{49}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Arduino Nano 33 BLE Sense Lite}{49}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Schaltnetzteil}{49}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Spannungsregler AMS1117}{49}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988}{50}{section.9.4}%
-\contentsline {section}{\numberline {9.5}OLED-Display}{50}{section.9.5}%
-\contentsline {section}{\numberline {9.6}SMD-LED}{50}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Drucktaster}{50}{section.9.7}%
-\contentsline {section}{\numberline {9.8}Microschalter}{50}{section.9.8}%
-\contentsline {section}{\numberline {9.9}Drehwinkel-Encoder}{50}{section.9.9}%
-\contentsline {section}{\numberline {9.10}Demonstrator}{50}{section.9.10}%
-\contentsline {chapter}{\numberline {10}Offene Punkte}{51}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Verbesserungen}{51}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Erweiterung}{51}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Anwendung in der Lehre}{51}{section.10.3}%
-\contentsline {chapter}{ Literaturverzeichnis}{53}{section.10.3}%
-\contentsline {chapter}{Anhang}{57}{chapter*.31}%
-\contentsline {chapter}{\numberline {11}Schaltplan}{59}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Materialliste}{61}{chapter.12}%
-\contentsline {chapter}{Index}{67}{table.12.1}%
+\contentsline {chapter}{\numberline {9}Testdurchläufe}{51}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Arduino Nano 33 BLE Sense Lite}{51}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Schaltnetzteil}{51}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Spannungsregler AMS1117}{51}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988}{52}{section.9.4}%
+\contentsline {section}{\numberline {9.5}OLED-Display}{52}{section.9.5}%
+\contentsline {section}{\numberline {9.6}SMD-LED}{52}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Drucktaster}{52}{section.9.7}%
+\contentsline {section}{\numberline {9.8}Microschalter}{52}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Drehwinkel-Encoder}{52}{section.9.9}%
+\contentsline {section}{\numberline {9.10}Demonstrator}{52}{section.9.10}%
+\contentsline {chapter}{\numberline {10}Offene Punkte}{53}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Verbesserungen}{53}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Erweiterung}{53}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Anwendung in der Lehre}{53}{section.10.3}%
+\contentsline {chapter}{ Literaturverzeichnis}{55}{section.10.3}%
+\contentsline {chapter}{Anhang}{59}{chapter*.31}%
+\contentsline {chapter}{\numberline {11}Schaltplan}{61}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Materialliste}{63}{chapter.12}%
+\contentsline {chapter}{Index}{69}{table.12.1}%

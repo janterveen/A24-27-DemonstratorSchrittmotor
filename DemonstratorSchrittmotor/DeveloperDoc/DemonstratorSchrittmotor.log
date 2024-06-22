@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  21 JUN 2024 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  22 JUN 2024 01:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3566,15 +3566,24 @@ Package biblatex Info: Reference segment=27 on input line 14.
 Package biblatex Info: Setting label 'refsegment:027' on input line 14.
 Package biblatex Info: Reference segment=28 on input line 25.
 Package biblatex Info: Setting label 'refsegment:028' on input line 25.
+[45
+
+
+]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 66.
 See the caption package documentation for explanation.
 
-[45
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 137.
+See the caption package documentation for explanation.
 
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3584,12 +3593,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [46]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 137.
-See the caption package documentation for explanation.
-
-
 Underfull \hbox (badness 1400) in paragraph at lines 154--154
 []\T1/lmr/m/n/8 (+20) Ruckeln ver-rin-gern durch ge-rin-ge-re
  []
@@ -3599,9 +3602,23 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 155.
 See the caption package documentation for explanation.
 
+
+Underfull \vbox (badness 4378) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 155.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[47]
 Package biblatex Info: Reference segment=29 on input line 160.
 Package biblatex Info: Setting label 'refsegment:029' on input line 160.
-Package cleveref Info: loaded `ngerman' language definitions on input line 164.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3611,7 +3628,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[47])
+[48])
+Package cleveref Info: loaded `ngerman' language definitions on input line 92.
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3620,7 +3639,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[48] (./Contents/de/Testdurch.tex
+[49] [50
+
+
+] (./Contents/de/Testdurch.tex
 chapter 9.
 Package biblatex Info: Reference segment=30 on input line 16.
 Package biblatex Info: Setting label 'refsegment:030' on input line 16.
@@ -3630,9 +3652,7 @@ Package biblatex Info: Reference segment=32 on input line 29.
 Package biblatex Info: Setting label 'refsegment:032' on input line 29.
 Package biblatex Info: Reference segment=33 on input line 34.
 Package biblatex Info: Setting label 'refsegment:033' on input line 34.
-[49
-
-
+[51
 
 
 ]
@@ -3657,7 +3677,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[50] (./Contents/de/OffenePunkte.tex
+[52] (./Contents/de/OffenePunkte.tex
 chapter 10.
 Package biblatex Info: Reference segment=40 on input line 16.
 Package biblatex Info: Setting label 'refsegment:040' on input line 16.
@@ -3665,7 +3685,7 @@ Package biblatex Info: Reference segment=41 on input line 23.
 Package biblatex Info: Setting label 'refsegment:041' on input line 23.
 Package biblatex Info: Reference segment=42 on input line 27.
 Package biblatex Info: Setting label 'refsegment:042' on input line 27.
-) [51
+) [53
 
 
 
@@ -3679,7 +3699,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[52]
+[54]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3720,7 +3740,7 @@ yQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1STFaZDl6c0txNGtBV1lETklqUzdGUF
 dKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHduVnhKWEd6dyUzRCUzRA .
  []
 
-[53
+[55
 
 
 
@@ -3763,7 +3783,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[54]
+[56]
 Overfull \hbox (3.43654pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) Mentor. \T1/lmr/m/it/12 (-20) SIGNALLEUCHTENSMD-LED-Date
 nblatt\T1/lmr/m/n/12 (-20) . 2024. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20
@@ -3793,7 +3813,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[55]
+[57]
 Overfull \hbox (6.75783pt too wide) in paragraph at lines 101--101
 []\T1/lmr/m/n/12 (-20) STMICROELECTRONICS. \T1/lmr/m/it/12 (-20) Da-tas-heet - 
 MP34DT05-A - MEMS
@@ -3807,22 +3827,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[56] (../Appendix/Schaltplan.tex [57
+[58] (../Appendix/Schaltplan.tex [59
 
 
 
 
-] [58
+] [60
 
 
 ]
 chapter 11.
-<Images/Schaltplan1.png, id=962, 1261.78067pt x 993.04333pt>
+<Images/Schaltplan1.png, id=973, 1261.78067pt x 993.04333pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 14.
 (pdftex.def)             Requested size: 369.88583pt x 291.11177pt.
-) (../Appendix/Materialliste.tex [59 <./Images/Schaltplan1.png>] [60
+) (../Appendix/Materialliste.tex [61 <./Images/Schaltplan1.png>] [62
 
 
 ]
@@ -3997,7 +4017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [63]
 Overfull \vbox (106.244pt too high) has occurred while \output is active []
 
 
@@ -4009,7 +4029,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[62 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
+[64 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
 Material/aluprofil.jpg> <./Images/Material/RD50.png> <./Images/Material/ams1117
 .jpg> <./Images/Material/RBS10277.jpg> <./Images/Material/RBS12569.jpg> <./Imag
 es/Material/RBS16371.jpg>]
@@ -4207,7 +4227,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[63 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
+[65 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
 /Material/RBS11229.jpg> <./Images/Material/M3.PNG> <./Images/Material/M3Mutter.
 PNG> <./Images/Material/M2.PNG>]
 Overfull \hbox (6.15483pt too wide) in paragraph at lines 100--100
@@ -4384,7 +4404,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[64 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
+[66 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
 Material/RBS10136.jpg> <./Images/Material/RBS10038.jpg> <./Images/Material/CABL
 E4PIN20.png> <./Images/Material/RBS10966.jpg> <./Images/Material/VTRKB4.png> <.
 /Images/Material/VTFSHB475.png> <./Images/Material/H07RNF31.png> <./Images/Mate
@@ -4570,7 +4590,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[65 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
+[67 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
 Material/DEBOENCODER.png> <./Images/Material/ENCMUTTER.png> <./Images/Material/
 Taster.jpg> <./Images/Material/RBS10856.jpg> <./Images/Material/A4988.png> <./I
 mages/Material/LED.png> <./Images/Material/oled96.jpg>]
@@ -4635,11 +4655,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[66 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
+[68 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
 
-(./DemonstratorSchrittmotor.ind [67
+(./DemonstratorSchrittmotor.ind [69
 
 
 
@@ -4667,11 +4687,11 @@ Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 ### simple group (level 1) entered at line 54 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 93018 strings out of 476024
- 2412203 string characters out of 5794016
- 3542605 words of memory out of 5000000
- 111648 multiletter control sequences out of 15000+600000
- 635673 words of font info for 355 fonts, out of 8000000 for 9000
+ 93002 strings out of 476024
+ 2411604 string characters out of 5794016
+ 3543090 words of memory out of 5000000
+ 111630 multiletter control sequences out of 15000+600000
+ 635675 words of font info for 355 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c
@@ -4691,10 +4711,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (81 pages, 13146982 bytes).
+Output written on DemonstratorSchrittmotor.pdf (83 pages, 13148365 bytes).
 PDF statistics:
- 1612 PDF objects out of 1728 (max. 8388607)
- 1286 compressed objects within 13 object streams
- 243 named destinations out of 1000 (max. 500000)
+ 1622 PDF objects out of 1728 (max. 8388607)
+ 1294 compressed objects within 13 object streams
+ 245 named destinations out of 1000 (max. 500000)
  59469 words of extra memory for PDF output out of 61914 (max. 10000000)
 
