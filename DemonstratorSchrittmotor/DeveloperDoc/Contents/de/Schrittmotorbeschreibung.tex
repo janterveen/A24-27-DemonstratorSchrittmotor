@@ -10,8 +10,8 @@
 %%%%%%%%%%%%%%%%%%%
 
 \chapter{Schrittmotor}
-
 In diesem Kapitel folgt eine grundsätzliche Beschreibung eines Schrittmotors. Darauf folgt die Erläuterungen zum Aufbau und Funktionsweise eines Schrittmotors sowie die Aufzählung verschiedener Grundbauarten.
+%\chapter{Steuerung eines Schrittmotors}
 
 \section{Beschreibung eines Schrittmotors}
 
@@ -23,8 +23,8 @@ Der Schrittmotor besteht aus einem Stator, einem Rotor ohne Wicklungen und einer
 
 \subsection{Schrittmotor Bauformen}
 
-Wie bei anderen Elektromotoren gibt es auch bei dem Schrittmotor verschiedene Grundbauarten. 
-
+Wie bei anderen Elektromotoren gibt es auch bei dem Schrittmotor verschiedene Grundbauarten.
+ 
 \begin{itemize}
 	\item {Permanentmagneterreger-Schrittmotor (PM-Schrittmotor)}
 	\item {Reluktanzschrittmotor (VR-Schrittmotor)}
@@ -37,44 +37,11 @@ Der \textbf{permanentmagnetische Schrittmotor} hat einen Permanentmagneten in de
 
 Neben den oben bereits genannten Betriebsarten, kann außerdem zwischen dem Unipolarbetrieb und dem Bipolarbetrieb unterschieden werden. Der große Unterschied zwischen den beiden Betreibsarten besteht darin, dass in dem Unipolarbetrieb der Strom in eine Richtung fließt. Bei dem Bipolarbetrieb hingegen fließt der Strom in beide Richtungen. Dies ist möglich, da jeder Wicklungsstrang über eine Vollbrücke gespeist wird. Ein weiterer Unterschied besteht in der Schaltung der Zweige, durch die ein Gleichstrom fließt. In dem Unipolarbetrieb werden die beiden Zweige in Reihe geschaltet. Jeder Wicklungsstrang wird mit zwei Drähten parallel gewickelt. Sind die beiden Wicklungsstränge in dem Bipolarbetrieb parallel gewickelt, müssen die Zweige parallelgeschaltet werden. Im Bipolarbetrieb kann ein höherer Wirkungsgrad erzielt werden, wo hingegen der Unipolarbetrieb eine deutlich einfachere Schaltung aufweist. \cite{Schroder.2021}
 
+\subsection{Mikroschrittverfahren}
+
+Das Mikroschrittverfahren dient dazu, Zwischenschritte oder auch Mikroschritte zu erzeugen. Durch diese höhere Auflösung der Umdrehungen kann eine präzisere Bewegung erzeugt werden. Außerdem hat das Mikroschrittverfahren die Fähigkeit, die Auswirkung von Geräuschen und Vibrationen zu minimieren. Damit diese Zwischenschritte erreicht werden können, müssen beide Stränge gleichzeitig mit Strom versorgt werden. Ein Verfahren um das Mikroschrittverfahren zu erreichen ist das sogenannte Sinus/Cosinus-Mikroschrittverfahren. Hierbei wird der Strom in jeder Phase sinusförmig variiert. \cite{MarcMcComb.2024}
+Der sogenannte Mikroschritt-Treiber unterteilt die Motorschrittwinkel in vier oder mehrere Teile. Hierbei handelt es sich um einen Controller, der die Methode der Strom-Regelung verwendet, um die Mikroschritte zu erzeugen. Dieser Controller hat außerdem den Vorteil einer zusätzlichen Flexibilität bei der Integration der Strombegrenzung und der Anpassung der Antriebscharakteristik als Reaktion auf Änderungen der Systemdynamik. Die Anzahl mit der der Motorschrittwinkel unterteilt werden soll ist hierbei einstellbar. \cite{Babiel.2023}
+
 \section{Beschreibung des verwendeten Schrittmotors}
 
-Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt somit 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Dadurch, dass er mit einer niedrigen Spannung arbeitet, kann kein hohes Drehmoment erzeugt werden. Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung 42 x 42 x 34 mm sowie die geringe Masse mit 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
-
-\begin{figure}[H]
-	\centering
-	\begin{tikzpicture}
-		\begin{axis}[
-			width=10cm,
-			height=6cm,
-			xlabel={SPEED (PPS)},
-			ylabel={TORQUE (kg·cm)},
-			xmin=0, xmax=4000,
-			ymin=0, ymax=1.6,
-			xtick={0,500,1000,1500,2000,2500,3000,3500,4000},
-			ytick={0,0.2,0.4,0.6,0.8,1,1.2,1.4,1.6},
-			legend pos=north east,
-			grid=both,
-			major grid style={line width=.2pt,draw=gray!50},
-			minor grid style={line width=.1pt,draw=gray!20},
-			]
-			\addplot[
-			color=purple,
-			line width=1pt
-			]
-			coordinates {
-				(0,0.7)
-				(500,0.82)
-				(1000,0.82)
-				(1500,0.8)
-				(2000,0.78)
-				(2500,0.75)
-				(3000,0.73)
-				(3500,0.7)
-				(4000,0.68)
-			};
-		\end{axis}
-	\end{tikzpicture}
-	\caption{Drehmoment-Diagramm für den Schrittmotor 42BYG015}
-	\label{DrehmomentDiagramm}
-\end{figure}
+Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt so für eine Umdrehung 200 Schritte. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Da der Schrittmotor häufig Anwendung im 3D-Druck findet und kaum Masse bewegen muss, ist der Motor für schnelle und präzise Bewegungen und weniger für hohes Drehmoment ausgelegt. Durch den Schrittwinkel von 1.8° kann der Schrittmotor eine hohe Positioniergenauigkeit erzielen. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung 42 x 42 x 34 mm sowie die geringe Masse mit 220\ g. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -20\ °C bis +50\ °C.\cite{Gems.2024}
