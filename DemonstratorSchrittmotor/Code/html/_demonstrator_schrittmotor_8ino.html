@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstrator Schrittmotor: DemonstratorSchrittmotor/DemonstratorSchrittmotor.ino-Dateireferenz</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Demonstrator Schrittmotor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Suchen',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Lade ...</div>
+<div class="SRStatus" id="Searching">Suche ...</div>
+<div class="SRStatus" id="NoMatches">Keine Treffer</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_eec3eea93d6f89fedd24a87a39a3359f.html">DemonstratorSchrittmotor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Makrodefinitionen</a> &#124;
+<a href="#func-members">Funktionen</a> &#124;
+<a href="#var-members">Variablen</a>  </div>
+  <div class="headertitle"><div class="title">DemonstratorSchrittmotor.ino-Dateireferenz</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;AccelStepper.h&quot;</code><br />
+<code>#include &lt;SPI.h&gt;</code><br />
+<code>#include &lt;Wire.h&gt;</code><br />
+<code>#include &lt;Adafruit_GFX.h&gt;</code><br />
+<code>#include &lt;Adafruit_SSD1306.h&gt;</code><br />
+<code>#include &lt;Encoder.h&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Makrodefinitionen</h2></td></tr>
+<tr class="memitem:a30c5844e943bc0a982169f30bc07e497" id="r_a30c5844e943bc0a982169f30bc07e497"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c5844e943bc0a982169f30bc07e497">MOTOR_INTERFACE_TYPE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:a30c5844e943bc0a982169f30bc07e497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Demonstration eines Stepper-Motors mit Encoder und OLED-Anzeige.  <br /></td></tr>
+<tr class="separator:a30c5844e943bc0a982169f30bc07e497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cd109632a6dcccaa80b43561b1ab700" id="r_a2cd109632a6dcccaa80b43561b1ab700"><td class="memItemLeft" align="right" valign="top"><a id="a2cd109632a6dcccaa80b43561b1ab700" name="a2cd109632a6dcccaa80b43561b1ab700"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_WIDTH</b>&#160;&#160;&#160;128</td></tr>
+<tr class="memdesc:a2cd109632a6dcccaa80b43561b1ab700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Festlegung der Breite des Displays. <br /></td></tr>
+<tr class="separator:a2cd109632a6dcccaa80b43561b1ab700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6974d08a74da681b3957b2fead2608b8" id="r_a6974d08a74da681b3957b2fead2608b8"><td class="memItemLeft" align="right" valign="top"><a id="a6974d08a74da681b3957b2fead2608b8" name="a6974d08a74da681b3957b2fead2608b8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_HEIGHT</b>&#160;&#160;&#160;64</td></tr>
+<tr class="memdesc:a6974d08a74da681b3957b2fead2608b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Festlegung der Höhe des Displays. <br /></td></tr>
+<tr class="separator:a6974d08a74da681b3957b2fead2608b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619e07239fb3b9b14d40646ab41d5b4f" id="r_a619e07239fb3b9b14d40646ab41d5b4f"><td class="memItemLeft" align="right" valign="top"><a id="a619e07239fb3b9b14d40646ab41d5b4f" name="a619e07239fb3b9b14d40646ab41d5b4f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>OLED_RESET</b>&#160;&#160;&#160;-1</td></tr>
+<tr class="memdesc:a619e07239fb3b9b14d40646ab41d5b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Festlegung des OLED-Resets. <br /></td></tr>
+<tr class="separator:a619e07239fb3b9b14d40646ab41d5b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc358585abdaa9531e340bab60ae0b5" id="r_a4dc358585abdaa9531e340bab60ae0b5"><td class="memItemLeft" align="right" valign="top"><a id="a4dc358585abdaa9531e340bab60ae0b5" name="a4dc358585abdaa9531e340bab60ae0b5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SCREEN_ADDRESS</b>&#160;&#160;&#160;0x3C</td></tr>
+<tr class="memdesc:a4dc358585abdaa9531e340bab60ae0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Festlegung der I2C-Adresse des Displays. <br /></td></tr>
+<tr class="separator:a4dc358585abdaa9531e340bab60ae0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113e736ef0534a8dc68c73cfa87a51de" id="r_a113e736ef0534a8dc68c73cfa87a51de"><td class="memItemLeft" align="right" valign="top"><a id="a113e736ef0534a8dc68c73cfa87a51de" name="a113e736ef0534a8dc68c73cfa87a51de"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_STEP_DIR</b>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a113e736ef0534a8dc68c73cfa87a51de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am Direction-Pin des Motortreibers. <br /></td></tr>
+<tr class="separator:a113e736ef0534a8dc68c73cfa87a51de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a58730e0505d5863df72c240cd2eb90" id="r_a1a58730e0505d5863df72c240cd2eb90"><td class="memItemLeft" align="right" valign="top"><a id="a1a58730e0505d5863df72c240cd2eb90" name="a1a58730e0505d5863df72c240cd2eb90"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_STEP_STEP</b>&#160;&#160;&#160;5</td></tr>
+<tr class="memdesc:a1a58730e0505d5863df72c240cd2eb90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am Step-Pin des Motortreibers. <br /></td></tr>
+<tr class="separator:a1a58730e0505d5863df72c240cd2eb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d0d24c0102aad69aaceaef20b13bbc" id="r_a12d0d24c0102aad69aaceaef20b13bbc"><td class="memItemLeft" align="right" valign="top"><a id="a12d0d24c0102aad69aaceaef20b13bbc" name="a12d0d24c0102aad69aaceaef20b13bbc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_LED_RED</b>&#160;&#160;&#160;6</td></tr>
+<tr class="memdesc:a12d0d24c0102aad69aaceaef20b13bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am roten Kabel der LED. <br /></td></tr>
+<tr class="separator:a12d0d24c0102aad69aaceaef20b13bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e4e814b09d5c412ee012efc58acfa4" id="r_a02e4e814b09d5c412ee012efc58acfa4"><td class="memItemLeft" align="right" valign="top"><a id="a02e4e814b09d5c412ee012efc58acfa4" name="a02e4e814b09d5c412ee012efc58acfa4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_LED_GREEN</b>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a02e4e814b09d5c412ee012efc58acfa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am grünen Kabel der LED. <br /></td></tr>
+<tr class="separator:a02e4e814b09d5c412ee012efc58acfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf23f961d4a5a1b764da361ecd6f9ebd" id="r_abf23f961d4a5a1b764da361ecd6f9ebd"><td class="memItemLeft" align="right" valign="top"><a id="abf23f961d4a5a1b764da361ecd6f9ebd" name="abf23f961d4a5a1b764da361ecd6f9ebd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_LED_BLUE</b>&#160;&#160;&#160;9</td></tr>
+<tr class="memdesc:abf23f961d4a5a1b764da361ecd6f9ebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am blauen Kabel der LED. <br /></td></tr>
+<tr class="separator:abf23f961d4a5a1b764da361ecd6f9ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be8154d350ce65f5e6c1dfc284700af" id="r_a3be8154d350ce65f5e6c1dfc284700af"><td class="memItemLeft" align="right" valign="top"><a id="a3be8154d350ce65f5e6c1dfc284700af" name="a3be8154d350ce65f5e6c1dfc284700af"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_BUTTON</b>&#160;&#160;&#160;11</td></tr>
+<tr class="memdesc:a3be8154d350ce65f5e6c1dfc284700af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am Taster. <br /></td></tr>
+<tr class="separator:a3be8154d350ce65f5e6c1dfc284700af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fce84a9f1cb9f2cbcfdce129dae6baf" id="r_a0fce84a9f1cb9f2cbcfdce129dae6baf"><td class="memItemLeft" align="right" valign="top"><a id="a0fce84a9f1cb9f2cbcfdce129dae6baf" name="a0fce84a9f1cb9f2cbcfdce129dae6baf"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_ENDSTOP</b>&#160;&#160;&#160;12</td></tr>
+<tr class="memdesc:a0fce84a9f1cb9f2cbcfdce129dae6baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am Endschalter. <br /></td></tr>
+<tr class="separator:a0fce84a9f1cb9f2cbcfdce129dae6baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e4cd8304fdcdd2e715189dfaaf31c2" id="r_a29e4cd8304fdcdd2e715189dfaaf31c2"><td class="memItemLeft" align="right" valign="top"><a id="a29e4cd8304fdcdd2e715189dfaaf31c2" name="a29e4cd8304fdcdd2e715189dfaaf31c2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_CLK</b>&#160;&#160;&#160;9</td></tr>
+<tr class="memdesc:a29e4cd8304fdcdd2e715189dfaaf31c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am CLK-Pin des Encoders. <br /></td></tr>
+<tr class="separator:a29e4cd8304fdcdd2e715189dfaaf31c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85404c69d2206709cb017be8f557e330" id="r_a85404c69d2206709cb017be8f557e330"><td class="memItemLeft" align="right" valign="top"><a id="a85404c69d2206709cb017be8f557e330" name="a85404c69d2206709cb017be8f557e330"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_DT</b>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a85404c69d2206709cb017be8f557e330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am DT-Pin des Encoders. <br /></td></tr>
+<tr class="separator:a85404c69d2206709cb017be8f557e330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3089662282f36c76b432a600f8943568" id="r_a3089662282f36c76b432a600f8943568"><td class="memItemLeft" align="right" valign="top"><a id="a3089662282f36c76b432a600f8943568" name="a3089662282f36c76b432a600f8943568"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PIN_SW</b>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a3089662282f36c76b432a600f8943568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verknüpfter digitaler Pin am SW-Pin des Encoders. <br /></td></tr>
+<tr class="separator:a3089662282f36c76b432a600f8943568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funktionen</h2></td></tr>
+<tr class="memitem:a61d0e968efb96b75d3a8e592749a4c61" id="r_a61d0e968efb96b75d3a8e592749a4c61"><td class="memItemLeft" align="right" valign="top"><a id="a61d0e968efb96b75d3a8e592749a4c61" name="a61d0e968efb96b75d3a8e592749a4c61"></a>
+AccelStepper&#160;</td><td class="memItemRight" valign="bottom"><b>stepper</b> (<a class="el" href="#a30c5844e943bc0a982169f30bc07e497">MOTOR_INTERFACE_TYPE</a>, <a class="el" href="#a1a58730e0505d5863df72c240cd2eb90">PIN_STEP_STEP</a>, <a class="el" href="#a113e736ef0534a8dc68c73cfa87a51de">PIN_STEP_DIR</a>)</td></tr>
+<tr class="memdesc:a61d0e968efb96b75d3a8e592749a4c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition des Stepper-Motors. <br /></td></tr>
+<tr class="separator:a61d0e968efb96b75d3a8e592749a4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae780a76d06cb56e14435ebfe3db3f6d3" id="r_ae780a76d06cb56e14435ebfe3db3f6d3"><td class="memItemLeft" align="right" valign="top"><a id="ae780a76d06cb56e14435ebfe3db3f6d3" name="ae780a76d06cb56e14435ebfe3db3f6d3"></a>
+Adafruit_SSD1306&#160;</td><td class="memItemRight" valign="bottom"><b>display</b> (<a class="el" href="#a2cd109632a6dcccaa80b43561b1ab700">SCREEN_WIDTH</a>, <a class="el" href="#a6974d08a74da681b3957b2fead2608b8">SCREEN_HEIGHT</a>, &amp;Wire, <a class="el" href="#a619e07239fb3b9b14d40646ab41d5b4f">OLED_RESET</a>)</td></tr>
+<tr class="memdesc:ae780a76d06cb56e14435ebfe3db3f6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition des Displays. <br /></td></tr>
+<tr class="separator:ae780a76d06cb56e14435ebfe3db3f6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a589c2f488d89b2f451dadd26180a29c3" id="r_a589c2f488d89b2f451dadd26180a29c3"><td class="memItemLeft" align="right" valign="top"><a id="a589c2f488d89b2f451dadd26180a29c3" name="a589c2f488d89b2f451dadd26180a29c3"></a>
+Encoder&#160;</td><td class="memItemRight" valign="bottom"><b>encoder</b> (<a class="el" href="#a85404c69d2206709cb017be8f557e330">PIN_DT</a>, <a class="el" href="#a29e4cd8304fdcdd2e715189dfaaf31c2">PIN_CLK</a>)</td></tr>
+<tr class="memdesc:a589c2f488d89b2f451dadd26180a29c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition des Encoders. <br /></td></tr>
+<tr class="separator:a589c2f488d89b2f451dadd26180a29c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d" id="r_a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
+<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisierung des Systems.  <br /></td></tr>
+<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe461d27b9c48d5921c00d521181f12f" id="r_afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
+<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hauptprogrammschleife.  <br /></td></tr>
+<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbba8dc36531c51b23ca1f504629a6c4" id="r_adbba8dc36531c51b23ca1f504629a6c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbba8dc36531c51b23ca1f504629a6c4">updateLEDs</a> (bool red, bool green, bool blue)</td></tr>
+<tr class="memdesc:adbba8dc36531c51b23ca1f504629a6c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktualisiert die Farbe der LEDs.  <br /></td></tr>
+<tr class="separator:adbba8dc36531c51b23ca1f504629a6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fae5f1bbeed8dce6bd7a8f24971e22" id="r_a67fae5f1bbeed8dce6bd7a8f24971e22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67fae5f1bbeed8dce6bd7a8f24971e22">updateDisplay</a> (const char *line1, const char *line2)</td></tr>
+<tr class="memdesc:a67fae5f1bbeed8dce6bd7a8f24971e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktualisiert das Display basierend auf der eingestellten Nachricht.  <br /></td></tr>
+<tr class="separator:a67fae5f1bbeed8dce6bd7a8f24971e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5947dcc9b6e496d90e041f8bad0e3e74" id="r_a5947dcc9b6e496d90e041f8bad0e3e74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5947dcc9b6e496d90e041f8bad0e3e74">findReference</a> ()</td></tr>
+<tr class="memdesc:a5947dcc9b6e496d90e041f8bad0e3e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Führt die Referenzfahrt aus.  <br /></td></tr>
+<tr class="separator:a5947dcc9b6e496d90e041f8bad0e3e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cb72a248a56b5dc2b2ed27db7560b90" id="r_a1cb72a248a56b5dc2b2ed27db7560b90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cb72a248a56b5dc2b2ed27db7560b90">handleInterrupt</a> ()</td></tr>
+<tr class="memdesc:a1cb72a248a56b5dc2b2ed27db7560b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funktion für die Ausführung des Interrupts.  <br /></td></tr>
+<tr class="separator:a1cb72a248a56b5dc2b2ed27db7560b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variablen</h2></td></tr>
+<tr class="memitem:a1377677ef2d12456d91c13dc21a6bdc1" id="r_a1377677ef2d12456d91c13dc21a6bdc1"><td class="memItemLeft" align="right" valign="top"><a id="a1377677ef2d12456d91c13dc21a6bdc1" name="a1377677ef2d12456d91c13dc21a6bdc1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>buttonStatus</b> = HIGH</td></tr>
+<tr class="memdesc:a1377677ef2d12456d91c13dc21a6bdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktueller Status des Tasters (gedrückt oder nicht gedrückt) <br /></td></tr>
+<tr class="separator:a1377677ef2d12456d91c13dc21a6bdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe01d8ac4dd9d45bf81cb4050354fdb6" id="r_abe01d8ac4dd9d45bf81cb4050354fdb6"><td class="memItemLeft" align="right" valign="top"><a id="abe01d8ac4dd9d45bf81cb4050354fdb6" name="abe01d8ac4dd9d45bf81cb4050354fdb6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>lastButtonStatus</b> = HIGH</td></tr>
+<tr class="memdesc:abe01d8ac4dd9d45bf81cb4050354fdb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Letzter Status des Tasters (gedrückt oder nicht gedrückt) <br /></td></tr>
+<tr class="separator:abe01d8ac4dd9d45bf81cb4050354fdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025a85b33749fd5dde5cb7edd7aea941" id="r_a025a85b33749fd5dde5cb7edd7aea941"><td class="memItemLeft" align="right" valign="top"><a id="a025a85b33749fd5dde5cb7edd7aea941" name="a025a85b33749fd5dde5cb7edd7aea941"></a>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>lastDebounceTime</b> = 0</td></tr>
+<tr class="memdesc:a025a85b33749fd5dde5cb7edd7aea941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Die letzte Zeit, zu der der Taster gedrückt wurde. <br /></td></tr>
+<tr class="separator:a025a85b33749fd5dde5cb7edd7aea941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d7d18f51343feebbe6d0eea7b4ac57" id="r_a77d7d18f51343feebbe6d0eea7b4ac57"><td class="memItemLeft" align="right" valign="top"><a id="a77d7d18f51343feebbe6d0eea7b4ac57" name="a77d7d18f51343feebbe6d0eea7b4ac57"></a>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>debounceDelay</b> = 50</td></tr>
+<tr class="memdesc:a77d7d18f51343feebbe6d0eea7b4ac57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eine Verzögerung für die Abfrage der Schalter, um die mechanischen Schwingungen auszugleichen. <br /></td></tr>
+<tr class="separator:a77d7d18f51343feebbe6d0eea7b4ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac192b28f90a950a653d6b9ce0b58d7d1" id="r_ac192b28f90a950a653d6b9ce0b58d7d1"><td class="memItemLeft" align="right" valign="top"><a id="ac192b28f90a950a653d6b9ce0b58d7d1" name="ac192b28f90a950a653d6b9ce0b58d7d1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>endstopStatus</b> = HIGH</td></tr>
+<tr class="memdesc:ac192b28f90a950a653d6b9ce0b58d7d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aktueller Status des Endtasters (gedrückt oder nicht gedrückt) <br /></td></tr>
+<tr class="separator:ac192b28f90a950a653d6b9ce0b58d7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61d0758042d54164f01264daddf589a" id="r_ae61d0758042d54164f01264daddf589a"><td class="memItemLeft" align="right" valign="top"><a id="ae61d0758042d54164f01264daddf589a" name="ae61d0758042d54164f01264daddf589a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>lastEndstopStatus</b> = HIGH</td></tr>
+<tr class="memdesc:ae61d0758042d54164f01264daddf589a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Letzter Status des Tasters (gedrückt oder nicht gedrückt) <br /></td></tr>
+<tr class="separator:ae61d0758042d54164f01264daddf589a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b665c0ebb89aad12ca58919f4dd9b6a" id="r_a0b665c0ebb89aad12ca58919f4dd9b6a"><td class="memItemLeft" align="right" valign="top"><a id="a0b665c0ebb89aad12ca58919f4dd9b6a" name="a0b665c0ebb89aad12ca58919f4dd9b6a"></a>
+unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>lastEndstopDebounceTime</b> = 0</td></tr>
+<tr class="memdesc:a0b665c0ebb89aad12ca58919f4dd9b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Die letzte Zeit, zu der der Endschalter gedrückt wurde. <br /></td></tr>
+<tr class="separator:a0b665c0ebb89aad12ca58919f4dd9b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2474817ddb7d8b524ad42e2455ed2e06" id="r_a2474817ddb7d8b524ad42e2455ed2e06"><td class="memItemLeft" align="right" valign="top"><a id="a2474817ddb7d8b524ad42e2455ed2e06" name="a2474817ddb7d8b524ad42e2455ed2e06"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>stage</b> = 0</td></tr>
+<tr class="memdesc:a2474817ddb7d8b524ad42e2455ed2e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Die Stufe, die für die Demonstration eingestellt ist. <br /></td></tr>
+<tr class="separator:a2474817ddb7d8b524ad42e2455ed2e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266e9e6947fe076cfa370e6a80126dee" id="r_a266e9e6947fe076cfa370e6a80126dee"><td class="memItemLeft" align="right" valign="top"><a id="a266e9e6947fe076cfa370e6a80126dee" name="a266e9e6947fe076cfa370e6a80126dee"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>speeds</b> [] = {1000, 1000, 500, 2000, 3500, 2000, 2000, 2000, 2000, 500, 3500}</td></tr>
+<tr class="memdesc:a266e9e6947fe076cfa370e6a80126dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geschwindigkeiten für jede Stufe. <br /></td></tr>
+<tr class="separator:a266e9e6947fe076cfa370e6a80126dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c1c94506d310b4f65c8448f37da25e" id="r_ac8c1c94506d310b4f65c8448f37da25e"><td class="memItemLeft" align="right" valign="top"><a id="ac8c1c94506d310b4f65c8448f37da25e" name="ac8c1c94506d310b4f65c8448f37da25e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>accelerations</b> [] = {1000, 2000, 2000, 2000, 2000, 300, 1000, 4000, 7000, 300, 7000}</td></tr>
+<tr class="memdesc:ac8c1c94506d310b4f65c8448f37da25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Beschleunigungen für jede Stufe. <br /></td></tr>
+<tr class="separator:ac8c1c94506d310b4f65c8448f37da25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e1ba7210d0853437606e573b4435b7" id="r_a69e1ba7210d0853437606e573b4435b7"><td class="memItemLeft" align="right" valign="top"><a id="a69e1ba7210d0853437606e573b4435b7" name="a69e1ba7210d0853437606e573b4435b7"></a>
+long&#160;</td><td class="memItemRight" valign="bottom"><b>oldPosition</b> = -999</td></tr>
+<tr class="memdesc:a69e1ba7210d0853437606e573b4435b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alte Position des Encoders für den Abgleich. Es ist nötig, dass ein Wert vorher eingestellt ist für die Funktion des Programms. <br /></td></tr>
+<tr class="separator:a69e1ba7210d0853437606e573b4435b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559b4542c0c755f1d1c42a9e88f653ac" id="r_a559b4542c0c755f1d1c42a9e88f653ac"><td class="memItemLeft" align="right" valign="top"><a id="a559b4542c0c755f1d1c42a9e88f653ac" name="a559b4542c0c755f1d1c42a9e88f653ac"></a>
+const int&#160;</td><td class="memItemRight" valign="bottom"><b>safeSteps</b> = 70</td></tr>
+<tr class="memdesc:a559b4542c0c755f1d1c42a9e88f653ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Anzahl der Schritte, die als Sicherheitsabstand zum Endschalter gehalten werden. <br /></td></tr>
+<tr class="separator:a559b4542c0c755f1d1c42a9e88f653ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe22ddb0b5ae5107e85ebf685d3fe89c" id="r_abe22ddb0b5ae5107e85ebf685d3fe89c"><td class="memItemLeft" align="right" valign="top"><a id="abe22ddb0b5ae5107e85ebf685d3fe89c" name="abe22ddb0b5ae5107e85ebf685d3fe89c"></a>
+const int&#160;</td><td class="memItemRight" valign="bottom"><b>trackLength</b> = 1750</td></tr>
+<tr class="memdesc:abe22ddb0b5ae5107e85ebf685d3fe89c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Anzahl der Schritte, die bis zum Ende der Bahn durchgeführt werden können. <br /></td></tr>
+<tr class="separator:abe22ddb0b5ae5107e85ebf685d3fe89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad216cc95753720ac36ce4daf49285454" id="r_ad216cc95753720ac36ce4daf49285454"><td class="memItemLeft" align="right" valign="top"><a id="ad216cc95753720ac36ce4daf49285454" name="ad216cc95753720ac36ce4daf49285454"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><b>stageMessages</b> [] = {&quot;Keine Stufe eingestellt&quot;, &quot;Stufe 1&quot;, &quot;Stufe 2&quot;, &quot;Stufe 3&quot;, &quot;Stufe 4&quot;, &quot;Stufe 5&quot;, &quot;Stufe 6&quot;, &quot;Stufe 7&quot;, &quot;Stufe 8&quot;, &quot;Stufe 9&quot;, &quot;Stufe 10&quot;}</td></tr>
+<tr class="memdesc:ad216cc95753720ac36ce4daf49285454"><td class="mdescLeft">&#160;</td><td class="mdescRight">Anzeige der eingestellten Stufe auf dem Display. <br /></td></tr>
+<tr class="separator:ad216cc95753720ac36ce4daf49285454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77267a5ccad6a7a1e681f541b9c7b345" id="r_a77267a5ccad6a7a1e681f541b9c7b345"><td class="memItemLeft" align="right" valign="top"><a id="a77267a5ccad6a7a1e681f541b9c7b345" name="a77267a5ccad6a7a1e681f541b9c7b345"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><b>messages</b> [] = {&quot;Start...&quot;, &quot;Startbereit&quot;, &quot;Programm wird ausgefuehrt...&quot;, &quot;Vorgang abgebrochen, das Geraet muss neu gestartet werden&quot;, &quot;&quot;}</td></tr>
+<tr class="memdesc:a77267a5ccad6a7a1e681f541b9c7b345"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nachricht auf dem Display. <br /></td></tr>
+<tr class="separator:a77267a5ccad6a7a1e681f541b9c7b345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Makro-Dokumentation</h2>
+<a id="a30c5844e943bc0a982169f30bc07e497" name="a30c5844e943bc0a982169f30bc07e497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c5844e943bc0a982169f30bc07e497">&#9670;&#160;</a></span>MOTOR_INTERFACE_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOTOR_INTERFACE_TYPE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Demonstration eines Stepper-Motors mit Encoder und OLED-Anzeige. </p>
+<p>Dieses Programm steuert einen Stepper-Motor über einen Encoder und zeigt Informationen auf einem OLED-Display an. Es beinhaltet auch Taster- und Endschalter-Funktionalitäten. &lt; Bibliothek für den Stepper-Motor Bibliothek für die Kommunikation mit Displays Bibliothek für die Kommunikation über das I2C-Protokoll Bibliothek für viele Grafikfunktionen und Operationen für Displays Bibliothek für die Ansteuerung von OLEDs mit SSD1306-Treiber Bibliothek für den Encoder Festlegung der Anbindung des Stepper-Motors, 1 bedeutet, dass der Motor über einen Treiber angeschlossen ist </p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentation der Funktionen</h2>
+<a id="a5947dcc9b6e496d90e041f8bad0e3e74" name="a5947dcc9b6e496d90e041f8bad0e3e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5947dcc9b6e496d90e041f8bad0e3e74">&#9670;&#160;</a></span>findReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool findReference </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Führt die Referenzfahrt aus. </p>
+<dl class="section return"><dt>Rückgabe</dt><dd>true Wenn der Referenzpunkt gefunden wurde </dd>
+<dd>
+false Wenn der Referenzpunkt noch nicht gefunden wurde </dd></dl>
+<p>&lt; Auswertung des Endschalters</p>
+<p>&lt; Wenn der Zustand des Endschalters sich geändert hat</p>
+<p>&lt; Aktualisierung der Zeit, zu der der Endschalter gedrückt wurde</p>
+<p>&lt; Falls die Zeit zwischen dem Drücken des Endschalters größer ist, als die Verzögerung für die Auswertung des Endschalters</p>
+<p>&lt; Falls der gespeicherte Status nicht dem tatsächlichen Status des Endschalters entspricht</p>
+<p>&lt; Speichern des aktuellen Status des Endschalters</p>
+<p>&lt; Falls der Endschalter gedrückt wurde</p>
+<p>&lt; Motor stoppen</p>
+<p>&lt; Positive Rückmeldung der Funktion</p>
+<p>&lt; Aktualisierung des letzten Status des Endschalters</p>
+<p>&lt; Negative Rückmeldung der Funktion</p>
+
+</div>
+</div>
+<a id="a1cb72a248a56b5dc2b2ed27db7560b90" name="a1cb72a248a56b5dc2b2ed27db7560b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cb72a248a56b5dc2b2ed27db7560b90">&#9670;&#160;</a></span>handleInterrupt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void handleInterrupt </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funktion für die Ausführung des Interrupts. </p>
+<p>Diese Funktion wird aufgerufen, wenn der Encoder-Taster gedrückt wird. </p>
+<p>&lt; Stoppen des Motors</p>
+<p>&lt; Aktualisierung der Anzeige auf dem Display</p>
+
+</div>
+</div>
+<a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe461d27b9c48d5921c00d521181f12f">&#9670;&#160;</a></span>loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hauptprogrammschleife. </p>
+<p>Diese Funktion wird kontinuierlich ausgeführt und steuert die Hauptlogik des Programms. </p>
+<p>&lt; Auswertung der Encoder-Position</p>
+<p>&lt; Falls die neue Position des Encoders nicht der alten Position des Encoders entspricht</p>
+<p>&lt; Übernahme der neuen Position für die Anzeige der Stufe auf dem Bildschirm</p>
+<p>&lt; Anzeige der eingestellten Stufe auf dem Display</p>
+<p>&lt; Aktualisieren der alten Position</p>
+<p>&lt; Auswertung des Tasters, ob er gedrückt wurde oder nicht</p>
+<p>&lt; Wenn der Zustand des Tasters sich geändert hat</p>
+<p>&lt; Aktualisierung der Zeit, zu der der Taster gedrückt wurde</p>
+<p>&lt; Falls die Zeit zwischen dem Drücken des Tasters größer ist, als die Verzögerung für die Auswertung des Schalters</p>
+<p>&lt; Falls der gespeicherte Status nicht dem tatsächlichen Status des Tasters entspricht</p>
+<p>&lt; Speichern des aktuellen Status des Tasters</p>
+<p>&lt; Falls der Taster gedrückt wurde</p>
+<p>&lt; Einstellung der Beschleunigung des Motors auf eine angemessene Beschleunigung</p>
+<p>&lt; Geschwindigkeit des Steppers einstellen</p>
+<p>&lt; Einen einzelnen Schritt ausführen</p>
+<p>&lt; Speichern der eingestellten Stufe für den Demonstrationsprozess</p>
+<p>&lt; Update des Displays</p>
+<p>&lt; Update der LEDs</p>
+<p>&lt; Anzahl der auszuführenden Wiederholungen der Demonstration</p>
+<p>&lt; Einstellung der Geschwindigkeit für die Ausführung der Schritte für den Sicherheitsabstand</p>
+<p>&lt; Ändern der Beschleunigung basierend auf der Stufe</p>
+<p>&lt; Ausführung der Schritte für den Sicherheitsabstand</p>
+<p>&lt; Ändern der Geschwindigkeit basierend auf der Stufe</p>
+<p>&lt; Ändern der Beschleunigung basierend auf der Stufe</p>
+<p>&lt; Ausführung der Bewegung vom Motor weg</p>
+<p>&lt; Ausführung der Bewegung zum Motor hin</p>
+<p>&lt; Update des Displays</p>
+<p>&lt; Aktualisierung des letzten Status des Tasters</p>
+
+</div>
+</div>
+<a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc01d736fe50cf5b977f755b675f11d">&#9670;&#160;</a></span>setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialisierung des Systems. </p>
+<p>Diese Funktion wird einmal beim Start ausgeführt und initialisiert alle wichtigen Komponenten. </p>
+<p>&lt; Einstellung des Startwerts für die maximale Geschwindigkeit</p>
+<p>&lt; Einstellung des Startwerts für die Beschleunigung</p>
+<p>&lt; Initialisierung des Pins der roten LED</p>
+<p>&lt; Initialisierung des Pins der grünen LED</p>
+<p>&lt; Initialisierung des Pins der blauen LED</p>
+<p>&lt; Initialisierung des Pins des Tasters</p>
+<p>&lt; Initialisierung des Pins des Endschalters</p>
+<p>&lt; Start der seriellen Kommunikation</p>
+<p>&lt; Festlegen eines Interrupts, der das Programm stoppt, sobald er gedrückt wird</p>
+<p>&lt; Start des Displays, inklusive einer Startanimation von Adafruit</p>
+<p>&lt; Festlegung der Textgröße</p>
+<p>&lt; Festlegung der Textfarbe</p>
+<p>&lt; Anzeige der Startbenachrichtigung</p>
+<p>&lt; Start der LED</p>
+
+</div>
+</div>
+<a id="a67fae5f1bbeed8dce6bd7a8f24971e22" name="a67fae5f1bbeed8dce6bd7a8f24971e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67fae5f1bbeed8dce6bd7a8f24971e22">&#9670;&#160;</a></span>updateDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateDisplay </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>line1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>line2</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Aktualisiert das Display basierend auf der eingestellten Nachricht. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">line1</td><td>Erste Zeile der Nachricht </td></tr>
+    <tr><td class="paramname">line2</td><td>Zweite Zeile der Nachricht (kann leer sein) </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>&lt; Leeren der aktuellen Anzeige des Displays</p>
+<p>&lt; Ausgabe der eingestellten Texte auf dem Display</p>
+
+</div>
+</div>
+<a id="adbba8dc36531c51b23ca1f504629a6c4" name="adbba8dc36531c51b23ca1f504629a6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbba8dc36531c51b23ca1f504629a6c4">&#9670;&#160;</a></span>updateLEDs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateLEDs </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>red</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>green</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>blue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Aktualisiert die Farbe der LEDs. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">red</td><td>Gibt an, ob die rote LED an oder aus ist </td></tr>
+    <tr><td class="paramname">green</td><td>Gibt an, ob die grüne LED an oder aus ist </td></tr>
+    <tr><td class="paramname">blue</td><td>Gibt an, ob die blaue LED an oder aus ist </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt von&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
