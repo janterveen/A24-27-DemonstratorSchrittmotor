@@ -33,7 +33,12 @@ Der notwendige Code für den Arduino lieferte die IDE mithilfe der Bibliothek Ar
 	\end{center}
 	\end{figure} 
 
-Bei der Auswertung jedoch fiel auf, das obwohl mit verschiedenen eingestellten aber auch ersichtlichen Beschleunigungswerten oft der identische Wert angezeigt wurde. Es wurde dabei vermutet, dass durch die Vibrationen und die Eigenfrequenz des Systems es zu Ausreißern kommt. Zunächst wurde das Gehäuse demontiert, ergab keine Abhilfe. Der nächste Schritt war einen Filter gegen Ausreißer in dem Code einzupflegen, allerdings auch ohne Erfolg. Aus zeitlichen Gründen wurde nur die Messung der mittleren Geschwindigkeit durchgeführt.   
+Bei der Auswertung jedoch fiel auf, das obwohl mit verschiedenen eingestellten aber auch ersichtlichen Beschleunigungswerten oft der identische Wert angezeigt wurde. Es wurde dabei vermutet, dass durch die Vibrationen und die Eigenfrequenz des Systems es zu Ausreißern kommt. Zunächst wurde das Gehäuse demontiert, ergab keine Abhilfe. Der nächste Schritt war einen Filter gegen Ausreißer in dem Code einzupflegen, allerdings auch ohne Erfolg. 
+Aus zeitlichen Gründen wurden die Bewegungsprofile in jeder Stufe auf die gleiche Beschleunigung angepasst. Unterschieden wird nur in den Geschwindigkeiten, sodass bei den Test ausschließlich die Messung der mittleren Geschwindigkeit durchgeführt werden konnte.    
+
+\section{Misslungene Ansteuerung der SMD-LED}
+
+Die Funktion der SMD-LED wurde im Test nachgewiesen und gab alle geforderten Farben aus. Die LED sollte die drei verschieden Demonstrator-Status anzeigen (Grün = Bereit für den Demonstrierablauf, Gelb = Referenzfahrt, Blau = Demonstrierablauf). Aufgrund mangelnder Digitalanschlüsse konnte nur die Farbe Rot ausgegeben werden, diese nun den Status anzeigt, dass das System allgemein bereit ist.  
 
 \section{Verbesserungen}
 
