@@ -15,11 +15,8 @@ Ein fehlerfreier Ablauf kann nie vollständig gewährleistet werden, es können 
 
 \section{Arduino Nano 33 BLE Sense Lite}
 
-Für die Überprüfung des Arduinos, werden Beispielsketche von der Arduino IDE zur Verfügung gestellt. Unter dem Pfad File/Examples/01.Basics können Beispielsketche ausgesucht werden. Mit dem Beispielprogramme Blink wird die Built In LED angesprochen. Bei richtiger Funktion des Arduinos sollte die LED für eine Sekunde eingeschaltet und für eine Sekunde ausgeschaltet werden. Dieses wiederholt sich fortlaufend. Ist die Ansteuerung des Arduinos sichergestellt. 
-
-% Code einfügen
-%
-%
+Für die Überprüfung des Arduinos, werden Beispielsketche von der Arduino IDE zur Verfügung gestellt. Unter dem Pfad File/Examples/01.Basics können Beispielsketche ausgesucht werden. Mit dem Beispielprogramm Blink wird die Built In LED angesprochen. Bei richtiger Funktion des Arduinos sollte die LED für eine Sekunde eingeschaltet und für eine Sekunde ausgeschaltet werden. Dieses wiederholt sich fortlaufend. Dadurch ist die Ansteuerung des Arduinos sichergestellt.
+Der Code dieser Anwendung wird detaillierter im Kapitel \ref{ersterprogrammtest} erläutert.
 
 \section{Schaltnetzteil}
 
@@ -33,53 +30,568 @@ Ist der Spannungswandler ordnungsgemäß angeschlossen, leuchtet eine Signalleuc
 
 \section{ Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988 }
 
-Text
+Der korrekte Anschluss der Pins und der Schrittmotorsteuerung wird durch das folgende Testprogramm \ref{Code:Testprogramm für den Schrittmotor} getestet, das den Schrittmotor in einer im Programm fest gelegten Geschwindigkeit rotieren lässt \cite{MikeMcCauley.2024}:
 
-% Code einfügen
-%
-%
+\begin{code}
+	\begin{lstlisting}[language=c++]
+	#include "AccelStepper.h"
+	
+	#define dirPin 0
+	#define stepPin 8
+	#define motorInterfaceType 1
+	
+	AccelStepper stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
+	
+	void setup() {
+		stepper.setMaxSpeed(1000);
+		stepper.setAcceleration(1000);
+	}
+	
+	void loop() {
+		stepper.setSpeed(500);
+		stepper.runSpeed();
+	}
+\end{lstlisting}      
+
+\caption[Testprogramm für den Schrittmotor]{Testprogramm für den Schrittmotor}\label{Code:Testprogramm für den Schrittmotor}    
+\end{code} 
+
+Zunächst hat die Ansteuerung des Motors nicht wie geplant funktioniert, statt zu rotieren hat der Motor nur vibriert. Nach der Überprüfung der Widerstände am Motor für die Zuordnung der Pins am Motor zu den Spulen und dem Abgleich mit dem Anschlussplan der Schrittmotorsteuerung wurde deutlich, dass über das Kabel die Spulen nicht korrekt mit den entsprechenden Spulen verbunden wurden. Durch die Umpolung des Steckkabels konnte die korrekte Ansteuerung des Schrittmotors hergestellt und bestätigt werden.
 
 \section{OLED-Display}
 
-Text
+Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folgendes Testprogramm verwendet, das Nacheinander verschiedene Abbildungen und Animationen auf dem Display darstellt und abspielt \cite{RuiSantos.2016}:
 
-% Code einfügen
-%
-%
+\begin{code}
+	\begin{lstlisting}[language=c++]
+	#include <SPI.h>
+	#include <Wire.h>
+	#include <Adafruit_GFX.h>
+	#include <Adafruit_SSD1306.h>
+	
+	#define SCREEN_WIDTH 128
+	#define SCREEN_HEIGHT 64
+	
+	#define OLED_RESET -1
+	#define SCREEN_ADDRESS 0x3C
+	Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+	
+	#define NUMFLAKES 10
+	
+	#define LOGO_HEIGHT 16
+	#define LOGO_WIDTH 16
+	static const unsigned char PROGMEM logo_bmp[] =
+	{ 0b00000000, 0b11000000,
+		0b00000001, 0b11000000,
+		0b00000001, 0b11000000,
+		0b00000011, 0b11100000,
+		0b11110011, 0b11100000,
+		0b11111110, 0b11111000,
+		0b01111110, 0b11111111,
+		0b00110011, 0b10011111,
+		0b00011111, 0b11111100,
+		0b00001101, 0b01110000,
+		0b00011011, 0b10100000,
+		0b00111111, 0b11100000,
+		0b00111111, 0b11110000,
+		0b01111100, 0b11110000,
+		0b01110000, 0b01110000,
+		0b00000000, 0b00110000 };
+	
+	void setup() {
+		Serial.begin(9600);
+		
+		if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+			Serial.println(F("SSD1306 allocation failed"));
+			for(;;);
+		}
+		
+		display.display();
+		delay(2000);
+		
+		display.clearDisplay();
+		
+		display.drawPixel(10, 10, SSD1306_WHITE);
+		display.display();
+		delay(2000);
+		
+		testdrawline();
+		testdrawrect();
+		testfillrect();
+		testdrawcircle();
+		testfillcircle();
+		testdrawroundrect();
+		testfillroundrect();
+		testdrawtriangle();
+		testfilltriangle();
+		testdrawchar();
+		testdrawstyles();
+		testscrolltext();
+		testdrawbitmap();
+		
+		display.invertDisplay(true);
+		delay(1000);
+		display.invertDisplay(false);
+		delay(1000);
+		
+		testanimate(logo_bmp, LOGO_WIDTH, LOGO_HEIGHT);
+	}
+	
+	void loop() {
+	}
+	
+	void testdrawline() {
+		int16_t i;
+		
+		display.clearDisplay();
+		
+		for(i=0; i<display.width(); i+=4) {
+			display.drawLine(0, 0, i, display.height()-1, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		for(i=0; i<display.height(); i+=4) {
+			display.drawLine(0, 0, display.width()-1, i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		delay(250);
+		
+		display.clearDisplay();
+		
+		for(i=0; i<display.width(); i+=4) {
+			display.drawLine(0, display.height()-1, i, 0, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		for(i=display.height()-1; i>=0; i-=4) {
+			display.drawLine(0, display.height()-1, display.width()-1, i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		delay(250);
+		
+		display.clearDisplay();
+		
+		for(i=display.width()-1; i>=0; i-=4) {
+			display.drawLine(display.width()-1, display.height()-1, i, 0, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		for(i=display.height()-1; i>=0; i-=4) {
+			display.drawLine(display.width()-1, display.height()-1, 0, i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		delay(250);
+		
+		display.clearDisplay();
+		
+		for(i=0; i<display.height(); i+=4) {
+			display.drawLine(display.width()-1, 0, 0, i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		for(i=0; i<display.width(); i+=4) {
+			display.drawLine(display.width()-1, 0, i, display.height()-1, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testdrawrect() {
+		display.clearDisplay();
+		
+		for(int16_t i=0; i<display.height()/2; i+=2) {
+			display.drawRect(i, i, display.width()-2*i, display.height()-2*i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testfillrect() {
+		display.clearDisplay();
+		
+		for(int16_t i=0; i<display.height()/2; i+=3) {
+			display.fillRect(i, i, display.width()-i*2, display.height()-i*2, SSD1306_INVERSE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testdrawcircle() {
+		display.clearDisplay();
+		
+		for(int16_t i=0; i<max(display.width(),display.height())/2; i+=2) {
+			display.drawCircle(display.width()/2, display.height()/2, i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testfillcircle() {
+		display.clearDisplay();
+		
+		for(int16_t i=max(display.width(),display.height())/2; i>0; i-=3) {
+			display.fillCircle(display.width() / 2, display.height() / 2, i, SSD1306_INVERSE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testdrawroundrect() {
+		display.clearDisplay();
+		
+		for(int16_t i=0; i<display.height()/2-2; i+=2) {
+			display.drawRoundRect(i, i, display.width()-2*i, display.height()-2*i,
+			display.height()/4, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testfillroundrect() {
+		display.clearDisplay();
+		
+		for(int16_t i=0; i<display.height()/2-2; i+=2) {
+			display.fillRoundRect(i, i, display.width()-2*i, display.height()-2*i,
+			display.height()/4, SSD1306_INVERSE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testdrawtriangle() {
+		display.clearDisplay();
+		
+		for(int16_t i=0; i<max(display.width(),display.height())/2; i+=5) {
+			display.drawTriangle(
+			display.width()/2  , display.height()/2-i,
+			display.width()/2-i, display.height()/2+i,
+			display.width()/2+i, display.height()/2+i, SSD1306_WHITE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testfilltriangle() {
+		display.clearDisplay();
+		
+		for(int16_t i=max(display.width(),display.height())/2; i>0; i-=5) {
+			display.fillTriangle(
+			display.width()/2  , display.height()/2-i,
+			display.width()/2-i, display.height()/2+i,
+			display.width()/2+i, display.height()/2+i, SSD1306_INVERSE);
+			display.display();
+			delay(1);
+		}
+		
+		delay(2000);
+	}
+	
+	void testdrawchar() {
+		display.clearDisplay();
+		
+		display.setTextSize(1);
+		display.setTextColor(SSD1306_WHITE);
+		display.setCursor(0, 0);
+		display.cp437(true);
+		
+		for(int16_t i=0; i<256; i++) {
+			if(i == '\n') display.write(' ');
+			else          display.write(i);
+		}
+		
+		display.display();
+		delay(2000);
+	}
+	
+	void testdrawstyles() {
+		display.clearDisplay();
+		
+		display.setTextSize(1);
+		display.setTextColor(SSD1306_WHITE);
+		display.setCursor(0,0);
+		display.println(F("Hello, world!"));
+		
+		display.setTextColor(SSD1306_BLACK, SSD1306_WHITE);
+		display.println(3.141592);
+		
+		display.setTextSize(2);
+		display.setTextColor(SSD1306_WHITE);
+		display.print(F("0x")); display.println(0xDEADBEEF, HEX);
+		
+		display.display();
+		delay(2000);
+	}
+	
+	void testscrolltext() {
+		display.clearDisplay();
+		
+		display.setTextSize(2);
+		display.setTextColor(SSD1306_WHITE);
+		display.setCursor(10, 0);
+		display.println(F("scroll"));
+		display.display();
+		delay(100);
+		
+		display.startscrollright(0x00, 0x0F);
+		delay(2000);
+		display.stopscroll();
+		delay(1000);
+		display.startscrollleft(0x00, 0x0F);
+		delay(2000);
+		display.stopscroll();
+		delay(1000);
+		display.startscrolldiagright(0x00, 0x07);
+		delay(2000);
+		display.startscrolldiagleft(0x00, 0x07);
+		delay(2000);
+		display.stopscroll();
+		delay(1000);
+	}
+	
+	void testdrawbitmap() {
+		display.clearDisplay();
+		
+		display.drawBitmap(
+		(display.width()  - LOGO_WIDTH ) / 2,
+		(display.height() - LOGO_HEIGHT) / 2,
+		logo_bmp, LOGO_WIDTH, LOGO_HEIGHT, 1);
+		display.display();
+		delay(1000);
+	}
+	
+	#define XPOS 0
+	#define YPOS 1
+	#define DELTAY 2
+	
+	void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
+		int8_t f, icons[NUMFLAKES][3];
+		
+		for(f=0; f< NUMFLAKES; f++) {
+			icons[f][XPOS]   = random(1 - LOGO_WIDTH, display.width());
+			icons[f][YPOS]   = -LOGO_HEIGHT;
+			icons[f][DELTAY] = random(1, 6);
+			Serial.print(F("x: "));
+			Serial.print(icons[f][XPOS], DEC);
+			Serial.print(F(" y: "));
+			Serial.print(icons[f][YPOS], DEC);
+			Serial.print(F(" dy: "));
+			Serial.println(icons[f][DELTAY], DEC);
+		}
+		
+		for(;;) {
+			display.clearDisplay();
+			
+			for(f=0; f< NUMFLAKES; f++) {
+				display.drawBitmap(icons[f][XPOS], icons[f][YPOS], bitmap, w, h, SSD1306_WHITE);
+			}
+			
+			display.display();
+			delay(200);
+			
+			for(f=0; f< NUMFLAKES; f++) {
+				icons[f][YPOS] += icons[f][DELTAY];
+				if (icons[f][YPOS] >= display.height()) {
+					icons[f][XPOS]   = random(1 - LOGO_WIDTH, display.width());
+					icons[f][YPOS]   = -LOGO_HEIGHT;
+					icons[f][DELTAY] = random(1, 6);
+				}
+			}
+		}
+	}
+\end{lstlisting}      
+
+\caption[Testprogramm für das OLED-Display]{Testprogramm für das OLED-Display}\label{Code:Testprogramm für das OLED-Display}    
+\end{code} 
+
+Mit Hilfe dieses Beispielprogrammes \ref{Code:Testprogramm für das OLED-Display} konnte die Funktion des OLED-Displays einwandfrei bestätigt werden.
 
 \section{SMD-LED}
 
-Text
+Analog zu dem Blink-Beispiel-Sketch für den Test der Funktion des Mikrocontrollers (verweis Kap Beispielprogramm) wird für den Test der Funktion und der Ansteuerung der LED ein Testprogramm \ref{Code:Testprogramm für die LED} genutzt, bei dem die LED in Abständen von wenigen Sekunden zwischen der Darstellung der verschiedenen Farben (Rot, Grün und blau) wechselt.
 
-% Code einfügen
-%
-%
+\begin{code}
+	\begin{lstlisting}[language=c++]
+	int Led_Rot = 3;
+	int Led_Gruen = 2;
+	int Led_Blau = 5;
+	
+	void setup ()
+	{
+		pinMode (Led_Rot, OUTPUT); 
+		pinMode (Led_Gruen, OUTPUT);
+		pinMode (Led_Blau, OUTPUT); 
+	}
+	
+	void loop ()
+	{
+		digitalWrite (Led_Rot, HIGH);
+		digitalWrite (Led_Gruen, LOW);
+		digitalWrite (Led_Blau, LOW);
+		delay (1000);
+		
+		digitalWrite (Led_Rot, LOW);
+		digitalWrite (Led_Gruen, HIGH);
+		digitalWrite (Led_Blau, LOW);
+		delay (1000);
+		
+		digitalWrite (Led_Rot, LOW);
+		digitalWrite (Led_Gruen, LOW);
+		digitalWrite (Led_Blau, HIGH);
+		delay (1000);
+	}
+\end{lstlisting}      
 
-\section{Drucktaster}
+\caption[Testprogramm für die LED]{Testprogramm für die LED}\label{Code:Testprogramm für die LED}    
+\end{code} 
 
-Text
+Dadurch konnte die Funktion der LED und die korrekte Ansteuerung der LED bestätigt werden.
 
-% Code einfügen
-%
-%
+\section{Drucktaster und Mikroschalter}
 
-\section{Microschalter}
+Die Funktion des Drucktasters und des Mikroschalters können auf die gleiche Art und Weise und mit Hilfe des gleichen Testprogramms geprüft werden. Bei dem Testprogramm wird zunächst die Farbe der LED geändert, wenn der Taster oder Schalter betätigt ist, wenn der Taster oder Schalter nicht mehr betätigt ist, kehrt die LED in den Ursprungszustand zurück \ref{Code:Testprogramm für die Taster}.
 
-Text
+\begin{code}
+	\begin{lstlisting}[language=c++]
+	int Taster = 11;
+	int StatusTaster = 0;
+	
+	void setup()
+	{
+		pinMode(LED_BUILTIN, OUTPUT);
+		pinMode(Taster, INPUT);
+		Serial.begin(9600);
+	}
+	
+	void loop()
+	{
+		StatusTaster = digitalRead(Taster);
+		
+		if (StatusTaster == HIGH)
+		{
+			digitalWrite(LEDR, HIGH);
+			digitalWrite(LEDG, LOW);
+			digitalWrite(LEDB, LOW);
+			delay(2000);
+			
+			digitalWrite(LEDR, LOW);
+			digitalWrite(LEDG, LOW);
+			digitalWrite(LEDB, HIGH);
+		}
+	}
+\end{lstlisting}      
 
-% Code einfügen
-%
-%
+\caption[Testprogramm für die Taster]{Testprogramm für die Taster}\label{Code:Testprogramm für die Taster}    
+\end{code} 
+
+Sowohl der Drucktaster als auch der Mikroschalter konnten durch diesen Test ihre Funktion bestätigen. Die Umsetzung dieser Auswertung im Code für den Demonstrator erwies sich jedoch als problematisch, der Zustand der beiden Schalter wurde nicht zuverlässig geprüft. Dies konnte durch die Implementierung eines Debounce-Delays \cite{SM.2022} im Code gelöst werden \ref{Code:Testprogramm für die Taster mit Debounce}.
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
+	int Taster = 3;
+	int StatusTaster = HIGH;
+	int letzterStatusTaster = HIGH;
+	unsigned long letzteZeit = 0;
+	unsigned long debounceDelay = 50;
+	
+	void setup()
+	{
+		pinMode(LED_BUILTIN, OUTPUT);
+		pinMode(Taster, INPUT_PULLUP);
+		Serial.begin(9600);
+	}
+	
+	void loop()
+	{
+		int reading = digitalRead(Taster);
+		
+		if (reading != letzterStatusTaster) {
+			letzteZeit = millis();
+		}
+		
+		if ((millis() - letzteZeit) > debounceDelay) {
+			if (reading != StatusTaster) {
+				StatusTaster = reading;
+				
+				if (StatusTaster == LOW) {
+					digitalWrite(LEDR, HIGH);
+					digitalWrite(LEDG, LOW);
+					digitalWrite(LEDB, LOW);
+					delay(2000);
+					
+					digitalWrite(LEDR, LOW);
+					digitalWrite(LEDG, LOW);
+					digitalWrite(LEDB, HIGH);
+				}
+			}
+		}
+		letzterStatusTaster = reading;
+	}
+\end{lstlisting}      
+
+\caption[Testprogramm für die Taster mit Debounce]{Testprogramm für die Taster mit Debounce}\label{Code:Testprogramm für die Taster mit Debounce}    
+\end{code}
+
 
 \section{Drehwinkel-Encoder}
 
-Text
+Um die Funktion und korrekte Ansteuerung des Drehwinkel-Encoders zu testen, wird Folgendes Testprogramm \ref{Code:Testprogramm für den Encoder} verwendet, das die Drehung des Encoders auswertet und den neuen Zustand im seriellen Monitor der Arduino IDE ausgibt \cite{Funduino.2024}.
 
-% Code einfügen
-%
-%
+\begin{code}
+	\begin{lstlisting}[language=c++]
+	#include <Encoder.h>
+	
+	const int CLK = 9;
+	const int DT = 2;
+	const int SW = 3;
+	long altePosition = -999;
+	
+	Encoder meinEncoder(DT, CLK);
+	
+	void setup()
+	{
+		Serial.begin(9600);
+		pinMode(SW, INPUT);
+	}
+	
+	void loop()
+	{
+		long neuePosition = meinEncoder.read();
+		
+		if (neuePosition != altePosition)
+		{
+			altePosition = neuePosition;
+			Serial.println(neuePosition);
+		}
+		
+		int StatusTaster = digitalRead(SW);
+		if (StatusTaster == 0) {
+			Serial.println("Switch betaetigt");
+			Serial.println("Switch betaetigte");
+		}
+	}
+\end{lstlisting}      
 
-
+\caption[Testprogramm für den Encoder]{Testprogramm für den Encoder}\label{Code:Testprogramm für den Encoder}    
+\end{code}
 
 \section{Mittlere Geschwindigkeit des Schlittens}
 
