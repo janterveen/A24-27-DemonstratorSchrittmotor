@@ -11,6 +11,338 @@
 
 \chapter{Beschreibung des Programms auf dem Arduino}
 
+\section{Aufgabe des Programms}
+Das Programm steuert einen Schrittmotor und zeigt Informationen auf einem OLED-Display an. Es nutzt einen Drehwinkel-Encoder, um verschiedene Betriebsstufen des Motors auszuwählen.
 
+\begin{center}
+	\resizebox{\textwidth}{!}{%
+		\begin{tikzpicture}[
+			node distance=0.8cm and 1.5cm,
+			startstop/.style={circle, draw, minimum size=0.8cm},
+			process/.style={rectangle, draw, text width=2.5cm, align=center},
+			decision/.style={diamond, draw, text width=2cm, align=center},
+			arrow/.style={->, thick}
+			]
+			
+			% Nodes
+			\node (start) [startstop] {Start};
+			\node (init) [process, below=of start] {Initialisierung};
+			\node (display) [process, below=of init] {Display-Start};
+			\node (status) [process, below=of display] {Status: Bereit};
+			\node (wait) [process, below=of status] {Warten auf Eingabe};
+			\node (enc_turned) [decision, below=of wait] {Encoder gedreht?};
+			\node (button_pressed) [decision, right=of enc_turned, xshift=1.5cm] {Taster gedrückt?};
+			\node (enc_left) [process, below left=of enc_turned] {Encoder links};
+			\node (enc_right) [process, below right=of enc_turned] {Encoder rechts};
+			\node (stage_gt1) [decision, below=of enc_left] {Stufe > 1};
+			\node (stage_lt10) [decision, below=of enc_right] {Stufe < 10};
+			\node (stage_dec) [process, below=of stage_gt1] {Stufe -1};
+			\node (stage_inc) [process, below=of stage_lt10] {Stufe +1};
+			\node (update1) [process, below=of stage_dec] {Display aktualisiert};
+			\node (update2) [process, below=of stage_inc] {Display aktualisiert};
+			\node (ref_run) [process, below right=of button_pressed, xshift=1.5cm] {Referenzfahrt};
+			\node (end_pressed) [decision, below=of ref_run] {Endschalter?};
+			\node (demo_run) [process, below=of end_pressed] {Demonstrationsfahrt};
+			\node (display_run) [process, below=of demo_run] {Display: wird ausgeführt};
+			\node (shuttle_move) [process, below=of display_run] {Schlitten pendelt};
+			\node (display_ready) [process, below=of shuttle_move] {Display: Startbereit};
+			
+			% Arrows
+			\draw [arrow] (start) -- (init);
+			\draw [arrow] (init) -- (display);
+			\draw [arrow] (display) -- (status);
+			\draw [arrow] (status) -- (wait);
+			\draw [arrow] (wait.south) -- ++(0,-0.5) -| (enc_turned.north);
+			\draw [arrow] (wait.south) -- ++(0,-0.5) -| (button_pressed.north);
+			\draw [arrow] (enc_turned) -- (enc_left);
+			\draw [arrow] (enc_turned) -- (enc_right);
+			\draw [arrow] (enc_left) -- (stage_gt1);
+			\draw [arrow] (enc_right) -- (stage_lt10);
+			\draw [arrow] (stage_gt1) -- (stage_dec);
+			\draw [arrow] (stage_lt10) -- (stage_inc);
+			\draw [arrow] (stage_dec) -- (update1);
+			\draw [arrow] (stage_inc) -- (update2);
+			\draw [arrow] (update1.south) -- ++(0,-0.5) -| ++(-5,0) |- (wait.west);
+			\draw [arrow] (update2.south) -- ++(0,-0.5) -| ++(-5,0) |- (wait.west);
+			\draw [arrow] (button_pressed) -- (ref_run);
+			\draw [arrow] (ref_run) -- (end_pressed);
+			\draw [arrow] (end_pressed) -- (demo_run);
+			\draw [arrow] (demo_run) -- (display_run);
+			\draw [arrow] (display_run) -- (shuttle_move);
+			\draw [arrow] (shuttle_move) -- (display_ready);
+			\draw [arrow] (display_ready.east) -- ++(1.5,0) |- (wait.east);
+		\end{tikzpicture}
+	} % end resizebox
+\end{center}
+
+Beim Start des Programms werden alle Komponenten, einschließlich des Schrittmotors, des Displays, der LEDs und des Encoders, initialisiert. Nach einer kurzen Startanimation auf dem Display wechselt das System in den Bereitschaftsmodus.
+Der Benutzer kann den Drehwinkel-Encoder drehen, um eine der zehn verfügbaren Stufen auszuwählen. Jede Stufe hat spezifische Geschwindigkeitswerte für den Schrittmotor. Die aktuell ausgewählte Stufe wird auf dem OLED-Display angezeigt, sodass der Benutzer immer über die gewählte Einstellung informiert ist.
+Ein Taster ermöglicht es dem Benutzer, den Startprozess des Schrittmotors zu initiieren. Nach dem Drücken des Tasters führt der Schrittmotor Bewegungen aus, die der ausgewählten Stufe entsprechen. Diese Bewegungen beinhalten das Fahren zu einem festgelegten Punkt und das anschließende Zurückfahren zur Ausgangsposition.
+Zusammengefasst ermöglicht das Programm dem Benutzer, durch Drehen des Encoders verschiedene Betriebsstufen auszuwählen und den Schrittmotor zu steuern. Die Stufenanzeige auf dem Display und die LED-Statusanzeigen bieten dabei eine klare und leicht verständliche Rückmeldung über den aktuellen Zustand des Systems.
+
+\section{Erklärung des Codes}
+
+Das Programm für die Steuerung des Demonstrators wurde zunächst aus Teilen der Testprogramme für jede Hardware-Komponente basierend auf der gewünschten Funktion zusammengefügt. Nachdem die gewünschte Funktionalität erreicht war, wurde der Code mit Hilfe des Large-Language-Models Chat GPT in der Version 4.o des US-Unternehmens OpenAI Inc. hinsichtlich der Lesbarkeit und Vereinheitlichung Benennung von Variablen.
+Zuerst werden die notwendigen Bibliotheken eingebunden, die für die Steuerung des Stepper-Motors, das Display und den Encoder erforderlich sind:
+
+\begin{lstlisting}
+#include "AccelStepper.h"
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Encoder.h>
+\end{lstlisting}
+
+Die define-Anweisungen legen Konstanten fest, wie die Art des Motorinterfaces, die Abmessungen des Displays und die Pin-Nummern für den Stepper-Motor, die LEDs, den Taster, den Endschalter und den Encoder.
+
+\begin{lstlisting}
+#define MOTOR_INTERFACE_TYPE 1
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+
+#define PIN_STEP_DIR 4
+#define PIN_STEP_STEP 5
+#define PIN_LED_RED 6
+#define PIN_LED_GREEN 3
+#define PIN_LED_BLUE 9
+#define PIN_BUTTON 11
+#define PIN_ENDSTOP 12
+#define PIN_CLK 9
+#define PIN_DT 2
+#define PIN_SW 3
+\end{lstlisting}
+
+Nun werden die Objekte für den Stepper-Motor, das Display und den Encoder erstellt.
+
+\begin{lstlisting}
+AccelStepper stepper(MOTOR_INTERFACE_TYPE, PIN_STEP_STEP, PIN_STEP_DIR);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Encoder encoder(PIN_DT, PIN_CLK);
+\end{lstlisting}
+
+Die globalen Variablen speichern den Status des Tasters, die Zeit der letzten Zustandsänderung, die aktuelle Stufe sowie die Geschwindigkeiten und Beschleunigungen für jede Stufe.
+
+\begin{lstlisting}
+int buttonStatus = HIGH;
+int lastButtonStatus = HIGH;
+unsigned long lastDebounceTime = 0;
+unsigned long debounceDelay = 50;
+int endstopStatus = HIGH;
+int lastEndstopStatus = HIGH;
+unsigned long lastEndstopDebounceTime = 0;
+int stage = 0;
+int speeds[] = {1000, 
+		 500,
+		 750, 
+		1000,
+		1250, 
+		1500, 
+		1750, 
+		2000, 
+		2250, 
+		2500, 
+		1750};
+int accelerations[] = 	{1000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000, 
+			 6000};
+long oldPosition = -999;
+const int safeSteps = 70;
+const int trackLength = 1750;
+const char* stageMessages[] =  {"Keine Stufe eingestellt", 
+				"Stufe 1", 
+				"Stufe 2", 
+				"Stufe 3", 
+				"Stufe 4", 
+				"Stufe 5", 
+				"Stufe 6", 
+				"Stufe 7", 
+				"Stufe 8", 
+				"Stufe 9", 
+				"Stufe 10"};
+const char* messages[] = 	{"Start...", 
+				 "Startbereit", 
+				 "Programm wird ausgefuehrt...", 
+				 "Vorgang abgebrochen, das Geraet
+				  muss neu gestartet werden", 
+				 ""};
+\end{lstlisting}
+
+In der setup-Funktion werden die Startwerte für die maximale Geschwindigkeit und Beschleunigung des Stepper-Motors gesetzt, die Pins für LEDs, Taster und Endschalter initialisiert, die serielle Kommunikation gestartet und das Display initialisiert. Ein Interrupt für den Encoder-Taster wird festgelegt. Das Display zeigt eine Startanimation, und die LEDs werden auf ihre Startzustände gesetzt.
+
+\begin{lstlisting}
+void setup() {
+	stepper.setMaxSpeed(1000);
+	stepper.setAcceleration(1000);
+	pinMode(PIN_LED_RED, OUTPUT);
+	pinMode(PIN_LED_GREEN, OUTPUT);
+	pinMode(PIN_LED_BLUE, OUTPUT);
+	pinMode(PIN_BUTTON, INPUT_PULLUP);
+	pinMode(PIN_ENDSTOP, INPUT_PULLUP);
+	
+	Serial.begin(9600);
+	if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+		Serial.println(F("SSD1306 allocation failed"));
+		for (;;);
+	}
+	
+	attachInterrupt(digitalPinToInterrupt(PIN_SW), handleInterrupt, CHANGE);
+	
+	display.display();
+	delay(2000);
+	display.setTextSize(2);
+	display.setTextColor(SSD1306_WHITE);
+	updateDisplay(messages[0], messages[4]);
+	delay(1000);
+	updateLEDs(false, true, false);
+}
+\end{lstlisting}
+
+Die loop-Funktion wird kontinuierlich ausgeführt. Sie liest die Position des Encoders aus und zeigt bei einer Änderung die entsprechende Stufe auf dem Display an. Der Zustand des Tasters wird abgefragt und bei Betätigung die Referenzfahrt des Motors gestartet. Nach der Referenzfahrt führt der Motor Bewegungen gemäß den eingestellten Stufen und Geschwindigkeiten aus.
+
+\begin{lstlisting}
+void loop() {
+	long newPosition = encoder.read();
+	if (newPosition != oldPosition) {
+		stage = constrain(newPosition / 4, 1, 10);
+		updateDisplay(messages[1], stageMessages[stage]);
+		oldPosition = newPosition;
+	}
+	
+	int buttonReading = digitalRead(PIN_BUTTON);
+	if (buttonReading != lastButtonStatus) {
+		lastDebounceTime = millis();
+	}
+	
+	if ((millis() - lastDebounceTime) > debounceDelay) {
+		if (buttonReading != buttonStatus) {
+			buttonStatus = buttonReading;
+			if (buttonStatus == LOW) {
+				stepper.setAcceleration(accelerations[0]);
+				while (!findReference()) {
+					stepper.setSpeed(-200);
+					stepper.runSpeed();
+				}
+				
+				int currentStage = stage;
+				updateDisplay(messages[2], stageMessages[currentStage]);
+				updateLEDs(false, false, true);
+				for (int i = 0; i < 2; i++) {
+					if (i == 0) {
+						stepper.setMaxSpeed(speeds[currentStage]);
+						stepper.setAcceleration(accelerations[currentStage]);
+						stepper.move(trackLength + safeSteps);
+						while (stepper.distanceToGo() != 0) {
+							stepper.run();
+						}
+					}
+					else {
+						stepper.setMaxSpeed(speeds[currentStage]);
+						stepper.setAcceleration(accelerations[currentStage]);
+						stepper.move(trackLength);
+						while (stepper.distanceToGo() != 0) {
+							stepper.run();
+						}
+					}
+					stepper.move(-trackLength);
+					while (stepper.distanceToGo() != 0) {
+						stepper.run();
+					}
+				}
+				updateDisplay(messages[1], stageMessages[currentStage]);
+			}
+		}
+	}
+	lastButtonStatus = buttonReading;
+}
+\end{lstlisting}
+
+Die updateLEDs-Funktion aktualisiert den Zustand der LEDs basierend auf den übergebenen Parametern.
+
+\begin{lstlisting}
+void updateLEDs(bool red, bool green, bool blue) {
+	digitalWrite(PIN_LED_RED, red ? HIGH : LOW);
+	digitalWrite(PIN_LED_GREEN, green ? HIGH : LOW);
+	digitalWrite(PIN_LED_BLUE, blue ? HIGH : LOW);
+}
+\end{lstlisting}
+
+Die updateDisplay-Funktion aktualisiert das Display mit den übergebenen Nachrichten.
+
+\begin{lstlisting}
+void updateDisplay(const char* line1, const char* line2) {
+	display.clearDisplay();
+	display.setCursor(0, 0);
+	display.println(F(line1));
+	if (line2 != "") {
+		display.println(F(line2));
+	}
+	display.display();
+}
+\end{lstlisting}
+
+Die findReference-Funktion führt die Referenzfahrt aus und überprüft den Endschalter. Wenn der Endschalter gedrückt ist, stoppt der Motor und die Funktion gibt true zurück.
+
+\begin{lstlisting}
+bool findReference() {
+	int endstopReading = digitalRead(PIN_ENDSTOP);
+	if (endstopReading != lastEndstopStatus) {
+		lastEndstopDebounceTime = millis();
+	}
+	
+	if ((millis() - lastEndstopDebounceTime) > debounceDelay) {
+		if (endstopReading != endstopStatus) {
+			endstopStatus = endstopReading;
+			if (endstopStatus == LOW) {
+				stepper.stop();
+				return true;
+			}
+		}
+	}
+	lastEndstopStatus = endstopReading;
+	return false;
+}
+\end{lstlisting}
+
+Die handleInterrupt-Funktion wird aufgerufen, wenn der Encoder-Taster gedrückt wird. Sie stoppt den Motor und aktualisiert das Display mit einer Abbruchnachricht:
+
+\begin{lstlisting}
+void handleInterrupt() {
+	stepper.stop();
+	updateDisplay(messages[3], messages[4]);
+}
+\end{lstlisting}
+
+\section{Bibliotheken}
+Für die Erstellung des Programms werden Bibliotheken verwendet, um die Programmierung zu vereinfachen.
+
+\subsection{Accelstepper}
+Die Arduino AccelStepper Bibliothek bietet eine objektorientierte Schnittstelle für die Steuerung von Schrittmotoren und Motortreibern über 2, 3 oder 4 Pins. Diese Bibliothek stellt eine wesentliche Verbesserung gegenüber der standardmäßigen Arduino Stepper Bibliothek dar und bietet zahlreiche erweiterte Funktionen, die für anspruchsvollere Anwendungen erforderlich sind. Sie wird in diesem Projekt in der Version 1.64 verwendet.
+Zu den herausragenden Merkmalen der AccelStepper Bibliothek gehört die Unterstützung von Beschleunigungs- und Verzögerungsprozessen. Dies ermöglicht eine feinere Steuerung der Motorbewegungen, was insbesondere bei präzisen Anwendungen von Vorteil ist. Darüber hinaus unterstützt die Bibliothek die gleichzeitige Steuerung mehrerer Schrittmotoren, wobei jeder Motor unabhängig voneinander gesteuert werden kann. Dies ist besonders nützlich in Anwendungen, die eine synchronisierte Bewegung mehrerer Motoren erfordern.
+Ein weiterer Vorteil der AccelStepper Bibliothek ist, dass die meisten API-Funktionen nicht blockieren oder verzögern, es sei denn, dies ist ausdrücklich angegeben. Dies trägt dazu bei, dass der Hauptprogrammfluss nicht unterbrochen wird, was die Effizienz und Reaktionsfähigkeit des Systems verbessert. Die Bibliothek unterstützt sowohl 2-, 3- als auch 4-Draht-Schrittmotoren sowie 3- und 4-Draht-Halbschrittmotoren. Darüber hinaus können alternative Schrittverfahren verwendet werden, um beispielsweise den AFMotor zu unterstützen.
+Die Theorie hinter der AccelStepper Bibliothek basiert auf den Geschwindigkeitsberechnungen, die in dem Artikel "Generate stepper-motor speed profiles in real time" von David Austin beschrieben sind. Die Bibliothek verwendet Schritte pro Sekunde anstelle von Radianten pro Sekunde, da der Schrittwinkel des Motors nicht bekannt ist. Ein anfängliches Schrittintervall wird basierend auf der gewünschten Beschleunigung berechnet, und bei nachfolgenden Schritten werden kürzere Schrittintervalle basierend auf dem vorherigen Schritt berechnet, bis die maximale Geschwindigkeit erreicht ist.
+Die AccelStepper Bibliothek wird unter einer freien GPL-Lizenz angeboten, was bedeutet, dass sie kostenlos genutzt und verändert werden kann, solange der Quellcode offengelegt wird. Für kommerzielle Anwendungen, bei denen der Quellcode nicht offengelegt werden soll, steht eine kommerzielle Lizenz zur Verfügung.
+Zusammenfassend bietet die Arduino AccelStepper Bibliothek eine leistungsstarke und flexible Lösung für die Steuerung von Schrittmotoren. Mit ihrer Unterstützung für Beschleunigung und Verzögerung, der gleichzeitigen Steuerung mehrerer Motoren und ihrer nicht blockierenden API ist sie eine ausgezeichnete Wahl für anspruchsvolle Anwendungen.\cite{MikeMcCauley.2024}
+
+\subsection {Wire}
+Die Wire Bibliothek ermöglicht die Kommunikation mit I2C-Geräten auf allen Arduino-Plattformen und ist ein weit verbreitetes Protokoll zum Lesen und Senden von Daten zu und von externen I2C-Komponenten. Die I2C-Pins variieren je nach Hardware-Design und Architektur der verschiedenen Arduino-Boards, wobei die Standard-I2C-Pins für Nano Boards die Pins A4 (SDA) und A5 (SDL) sind.
+
+\subsection{Adafruit GFX}
+Die Adafruit GFX Bibliothek ist eine Kern-Grafikbibliothek, die grundlegende Grafikprimitiven wie Punkte, Linien und Kreise für Adafruit-Displays bereitstellt. Sie ist unerlässlich für die Darstellung von Grafiken auf verschiedenen Hardware-Displays und erfordert für jedes Display eine spezifische Hardware-Bibliothek zur Verwaltung der niedrigeren Funktionen. Zusätzlich unterstützt sie verschiedene Bitmap-Schriftarten und bietet Werkzeuge wie Image2Code zur Konvertierung von BMP-Dateien in Code-Arrays für die Anzeige. Die Bibliothek legt besonderen Wert auf die Rückwärtskompatibilität mit bestehenden Arduino-Sketches und bietet umfassende Möglichkeiten zur Optimierung und Anpassung von Grafik- und Textdarstellungen auf den Displays. Sie wird in diesem Projekt in der Version 1.11.9 verwendet.\cite{AdafruitIndustries.14.06.2024}
+
+\subsection{Adafruit SSD1306}
+Die Adafruit SSD1306 Bibliothek ist speziell für monochrome OLED-Displays entwickelt, die den SSD1306 Treiber verwenden. Diese Displays kommunizieren über I2C oder SPI und erfordern 2 bis 5 Pins für die Verbindung. Die Bibliothek bietet grundlegende Funktionen zur Steuerung der Displays wie das Initialisieren der Kommunikation, das Zeichnen von Grafikelementen wie Linien und Kreisen sowie das Anzeigen von Text. Sie ermöglicht die einfache Anpassung der Displaygröße über den Konstruktor und unterstützt sowohl SPI-Transaktionen als auch die Spezifikation der SPI-Bitrate ab Arduino 1.6 oder höher. Die Installation erfolgt idealerweise über den Arduino IDE Bibliotheksmanager oder durch manuelles Herunterladen und Entpacken des Quellcodes von GitHub. Sie wird in diesem Projekt in der Version 2.5.10 verwendet.\cite{AdafruitIndustries.21.06.2024}
+
+\subsection{Encoder}
+Die Encoder Library ermöglicht das Zählen von Impulsen aus bestimmten Signalen, die häufig von Drehknöpfen, Motor- oder Wellensensoren sowie anderen Positionsgebern stammen. Diese Bibliothek ist für Arduino und Teensy Boards optimiert und bietet verschiedene Zählmodi, darunter 4X counting für präzise Positionserfassung. Die Verwendung erfolgt durch die Initialisierung eines Encoder-Objekts mit zwei Pins, wobei der erste Pin idealerweise über Interruptfähigkeit verfügt für optimale Leistung. Die Bibliothek unterstützt sowohl I2C- als auch SPI-Schnittstellen und bietet verschiedene Hardware- und Softwareoptionen zur Anpassung an die Anforderungen des Benutzers. Sie wird in diesem Projekt in der Version 1.4.4 verwendet.\cite{PaulStoffregen.2024}
 
 
