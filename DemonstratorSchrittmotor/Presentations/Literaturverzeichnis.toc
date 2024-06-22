@@ -1,4 +1,4 @@
 \babel@toc {german}{}\relax 
 \babel@toc {german}{}\relax 
 \beamer@sectionintoc {1}{Detailliertes Literaturverzeichnis}{3}{0}{1}
-\beamer@sectionintoc {2}{Quellen}{52}{0}{2}
+\beamer@sectionintoc {2}{Quellen}{62}{0}{2}

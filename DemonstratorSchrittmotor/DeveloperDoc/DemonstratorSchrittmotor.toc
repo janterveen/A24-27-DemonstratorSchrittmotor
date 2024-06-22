@@ -17,17 +17,17 @@
 \contentsline {subsection}{\numberline {2.2.1}9-Achs-IMU für die Bewegungserkennung (LSM9DS1)}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Näherungs-,Umgebungslicht-, Farb- und Gestensensor (APDS9960)}{8}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Barometrischer Drucksensor (LPS22HB)}{9}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Digitales Mikrophon (MP34DT05)}{9}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Digitales Mikrophon (MP34DT05)}{10}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}DC-DC-Wandler (MPM3610)}{10}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Beschreibung der Schnittstellen}{10}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}I2C}{10}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}USB}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.1}I\textsuperscript {2}C}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}USB}{12}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Bluetooth\textregistered 5}{12}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Weitere Kommunikationsschnittstellen}{12}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Digitale Ein- und Ausgangspins}{13}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}Analoge Eingangspins}{13}{subsection.2.3.6}%
 \contentsline {subsection}{\numberline {2.3.7}Weitere Pins}{13}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}LED-Lampen}{13}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.8}LED-Lampen}{14}{subsection.2.3.8}%
 \contentsline {section}{\numberline {2.4}Hinweis Arduino 33 BLE Sense Lite }{14}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Bezugsquellen}{14}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Schrittmotor}{15}{chapter.3}%
@@ -60,45 +60,45 @@
 \contentsline {section}{\numberline {5.3}Erste Schritte in der Entwicklungsumgebung}{30}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Auswahl des Mikrocontrollers}{30}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Bibliotheken einbinden}{31}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Programmierung}{33}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}header}{33}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}setup()}{33}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}loop()}{33}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Erster Programmtest}{33}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Beschreibung des Programms auf dem Arduino}{35}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Aufgabe des Programms}{35}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Erklärung des Codes}{37}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Bibliotheken}{42}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Accelstepper}{42}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Wire}{43}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Adafruit GFX}{44}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Adafruit SSD1306}{44}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Encoder}{44}{subsection.6.3.5}%
-\contentsline {chapter}{\numberline {7}Konstruktion}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Rahmenbedingungen}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Arbeiten mit SolidWorks 2023}{45}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Gehäusekonstruktion}{45}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Anbauteile}{53}{section.7.4}%
-\contentsline {section}{\numberline {7.5}3D-Druck mit PLA}{58}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Testdurchläufe}{61}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Arduino Nano 33 BLE Sense Lite}{61}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Schaltnetzteil}{61}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Spannungsregler AMS1117}{61}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988}{62}{section.8.4}%
-\contentsline {section}{\numberline {8.5}OLED-Display}{62}{section.8.5}%
-\contentsline {section}{\numberline {8.6}SMD-LED}{62}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Drucktaster}{62}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Microschalter}{62}{section.8.8}%
-\contentsline {section}{\numberline {8.9}Drehwinkel-Encoder}{62}{section.8.9}%
-\contentsline {section}{\numberline {8.10}Mittlere Geschwindigkeit des Schlittens}{62}{section.8.10}%
-\contentsline {chapter}{\numberline {9}Offene Punkte}{65}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Misslungene Messung der Beschleunigung des Schlittens}{65}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Misslungene Ansteuerung der SMD-LED}{67}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Verbesserungen}{68}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Erweiterung}{68}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Anwendung in der Lehre}{68}{section.9.5}%
-\contentsline {chapter}{ Literaturverzeichnis}{69}{section.9.5}%
-\contentsline {chapter}{Anhang}{73}{chapter*.48}%
-\contentsline {chapter}{\numberline {10}Schaltplan}{75}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Materialliste}{77}{chapter.11}%
-\contentsline {chapter}{Index}{83}{table.11.1}%
+\contentsline {section}{\numberline {5.4}Programmierung}{34}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}header}{34}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}setup()}{34}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}loop()}{34}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Erster Programmtest}{34}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Erster Programmtest}{34}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Beschreibung des Programms auf dem Arduino}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Aufgabe des Programms}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Erklärung des Codes}{39}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Bibliotheken}{45}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Accelstepper}{45}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Wire}{46}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Adafruit GFX}{46}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Adafruit SSD1306}{46}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Encoder}{47}{subsection.6.3.5}%
+\contentsline {chapter}{\numberline {7}Konstruktion}{49}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Rahmenbedingungen}{49}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Arbeiten mit SolidWorks 2023}{49}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Gehäusekonstruktion}{49}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Anbauteile}{57}{section.7.4}%
+\contentsline {section}{\numberline {7.5}3D-Druck mit PLA}{62}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Testdurchläufe}{65}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Arduino Nano 33 BLE Sense Lite}{65}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Schaltnetzteil}{65}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Spannungsregler AMS1117}{65}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988}{66}{section.8.4}%
+\contentsline {section}{\numberline {8.5}OLED-Display}{66}{section.8.5}%
+\contentsline {section}{\numberline {8.6}SMD-LED}{68}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Drucktaster und Mikroschalter}{69}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Drehwinkel-Encoder}{71}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Mittlere Geschwindigkeit des Schlittens}{71}{section.8.9}%
+\contentsline {chapter}{\numberline {9}Offene Punkte}{75}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Misslungene Messung der Beschleunigung des Schlittens}{75}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Misslungene Ansteuerung der SMD-LED}{77}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Verbesserungen}{78}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Erweiterung}{78}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Anwendung in der Lehre}{78}{section.9.5}%
+\contentsline {chapter}{ Literaturverzeichnis}{79}{section.9.5}%
+\contentsline {chapter}{Anhang}{83}{chapter*.64}%
+\contentsline {chapter}{\numberline {10}Schaltplan}{85}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Materialliste}{87}{chapter.11}%
+\contentsline {chapter}{Index}{93}{table.11.1}%

@@ -15,29 +15,29 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Drehmoment-Diagramm für den Schrittmotor 42BYG015\relax }}{23}{figure.caption.23}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hauptoberfläche in der Arduino IDE\relax }}{30}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Installation des Boards\relax }}{31}{figure.caption.25}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Herunterladen von Bibliotheken\relax }}{32}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hauptoberfläche in der Arduino IDE (Eigenaufnahme)\relax }}{30}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Installation des Boards (Eigenaufnahme)\relax }}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Herunterladen von Bibliotheken (Eigenaufnahme)\relax }}{33}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Flussdiagramm des Programms\relax }}{36}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Flussdiagramm des Programms\relax }}{38}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Baugruppe Gehäuse (Eigenaufnahme)\relax }}{46}{figure.caption.28}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Bodenplatte (Eigenaufnahme)\relax }}{47}{figure.caption.29}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Vorderplatte (Eigenaufnahme)\relax }}{48}{figure.caption.30}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Seitenplatte Links (Eigenaufnahme)\relax }}{49}{figure.caption.31}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Hinterplatte (Eigenaufnahme)\relax }}{50}{figure.caption.32}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Seitenplatte Rechts (Eigenaufnahme)\relax }}{51}{figure.caption.33}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Deckelplatte (Eigenaufnahme)\relax }}{52}{figure.caption.34}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Halterung für den Motor (Eigenaufnahme)\relax }}{54}{figure.caption.36}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Halterung für die Welle (Eigenaufnahme)\relax }}{55}{figure.caption.37}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Transportgriff (Eigenaufnahme)\relax }}{56}{figure.caption.38}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Drehknopf (Eigenaufnahme)\relax }}{57}{figure.caption.39}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Anzeiger (Eigenaufnahme)\relax }}{58}{figure.caption.40}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces AnyKubic 2 Kobra Neo (Eigenaufnahme)\relax }}{59}{figure.caption.42}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Baugruppe Gehäuse (Eigenaufnahme)\relax }}{50}{figure.caption.38}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Bodenplatte (Eigenaufnahme)\relax }}{51}{figure.caption.39}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Vorderplatte (Eigenaufnahme)\relax }}{52}{figure.caption.40}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Seitenplatte Links (Eigenaufnahme)\relax }}{53}{figure.caption.41}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Hinterplatte (Eigenaufnahme)\relax }}{54}{figure.caption.42}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Seitenplatte Rechts (Eigenaufnahme)\relax }}{55}{figure.caption.43}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Deckelplatte (Eigenaufnahme)\relax }}{56}{figure.caption.44}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Halterung für den Motor (Eigenaufnahme)\relax }}{58}{figure.caption.46}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Halterung für die Welle (Eigenaufnahme)\relax }}{59}{figure.caption.47}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Transportgriff (Eigenaufnahme)\relax }}{60}{figure.caption.48}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Drehknopf (Eigenaufnahme)\relax }}{61}{figure.caption.49}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Anzeiger (Eigenaufnahme)\relax }}{62}{figure.caption.50}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces AnyKubic 2 Kobra Neo (Eigenaufnahme)\relax }}{63}{figure.caption.52}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Montage des Arduino Nano 33 Ble Sense Rev2 auf dem Schlitten\relax }}{66}{figure.caption.46}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Testaufbau Messung Beschleunigung\relax }}{67}{figure.caption.47}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Montage des Arduino Nano 33 Ble Sense Rev2 auf dem Schlitten\relax }}{76}{figure.caption.62}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Testaufbau Messung Beschleunigung\relax }}{77}{figure.caption.63}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Schaltplan\relax }}{75}{figure.caption.50}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Schaltplan\relax }}{85}{figure.caption.66}%
 \addvspace {10\p@ }

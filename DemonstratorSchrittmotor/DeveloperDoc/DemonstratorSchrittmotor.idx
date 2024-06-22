@@ -46,7 +46,7 @@
 \indexentry{Inter-Integrated Circuit! \emph  {siehe} I\textsuperscript  {2}C}{8}
 \indexentry{I\textsuperscript  {2}C}{8}
 \indexentry{Light Emitting Diode! \emph  {siehe} {LED}}{8}
-\indexentry{LED}{8}
+\indexentry{LED}{9}
 \indexentry{LED}{9}
 \indexentry{Inter Circuit! \emph  {siehe} IC}{9}
 \indexentry{IC}{9}
@@ -69,9 +69,9 @@
 \indexentry{SCL}{11}
 \indexentry{Organic Light Emitting Diode! \emph  {siehe} OLED}{11}
 \indexentry{OLED}{11}
-\indexentry{Micro Universal Serial Bus! \emph  {siehe} {Micro USB}}{11}
-\indexentry{Micro USB}{11}
-\indexentry{Micro USB}{11}
+\indexentry{Micro Universal Serial Bus! \emph  {siehe} {Micro USB}}{12}
+\indexentry{Micro USB}{12}
+\indexentry{Micro USB}{12}
 \indexentry{Near Field Communication! \emph  {siehe} {NFC}}{12}
 \indexentry{NFC}{12}
 \indexentry{NFC}{12}
@@ -81,10 +81,10 @@
 \indexentry{DMA}{12}
 \indexentry{Analog to Digital Converter! \emph  {siehe} ADC}{12}
 \indexentry{ADC}{12}
-\indexentry{Advanced Encryption Standard! \emph  {siehe} AES}{12}
-\indexentry{AES}{12}
-\indexentry{Counter with CBC-MAC! \emph  {siehe} {CCM}}{12}
-\indexentry{CCM}{12}
-\indexentry{Automatic Address Recognition! \emph  {siehe} AAR}{12}
-\indexentry{AAR}{12}
+\indexentry{Advanced Encryption Standard! \emph  {siehe} AES}{13}
+\indexentry{AES}{13}
+\indexentry{Counter with CBC-MAC! \emph  {siehe} {CCM}}{13}
+\indexentry{CCM}{13}
+\indexentry{Automatic Address Recognition! \emph  {siehe} AAR}{13}
+\indexentry{AAR}{13}
 \indexentry{SPI}{13}
