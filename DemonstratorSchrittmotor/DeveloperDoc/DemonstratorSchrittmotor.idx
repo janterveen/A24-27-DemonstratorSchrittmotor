@@ -36,55 +36,55 @@
 \indexentry{System on Chip! \emph  {siehe} SoC}{xi}
 \indexentry{SPI}{xi}
 \indexentry{Serial Peripheral Interface! \emph  {siehe} SPI}{xi}
-\indexentry{Bluetooth Low Energie! \emph  {siehe} {BLE}}{5}
-\indexentry{BLE}{5}
-\indexentry{System on Chip! \emph  {siehe} SoC}{5}
-\indexentry{SoC}{5}
-\indexentry{BLE}{6}
-\indexentry{ Inertialmesseinheit! \emph  {siehe} IMU}{6}
-\indexentry{IMU}{6}
-\indexentry{Inter-Integrated Circuit! \emph  {siehe} I\textsuperscript  {2}C}{6}
-\indexentry{I\textsuperscript  {2}C}{6}
-\indexentry{Light Emitting Diode! \emph  {siehe} {LED}}{6}
-\indexentry{LED}{6}
-\indexentry{LED}{7}
-\indexentry{Inter Circuit! \emph  {siehe} IC}{7}
-\indexentry{IC}{7}
-\indexentry{I\textsuperscript  {2}C}{7}
-\indexentry{Serial Peripheral Interface! \emph  {siehe} SPI}{7}
-\indexentry{SPI}{7}
-\indexentry{IC}{8}
-\indexentry{IC}{8}
-\indexentry{Pulsdichtenmodulation! \emph  {siehe} PDM}{8}
-\indexentry{PDM}{8}
-\indexentry{Surface Mount Device! \emph  {siehe} SMD}{8}
-\indexentry{SMD}{8}
+\indexentry{Bluetooth Low Energie! \emph  {siehe} {BLE}}{7}
+\indexentry{BLE}{7}
+\indexentry{System on Chip! \emph  {siehe} SoC}{7}
+\indexentry{SoC}{7}
 \indexentry{BLE}{8}
+\indexentry{ Inertialmesseinheit! \emph  {siehe} IMU}{8}
+\indexentry{IMU}{8}
+\indexentry{Inter-Integrated Circuit! \emph  {siehe} I\textsuperscript  {2}C}{8}
 \indexentry{I\textsuperscript  {2}C}{8}
-\indexentry{Serial Data! \emph  {siehe} SDA}{9}
-\indexentry{SDA}{9}
-\indexentry{Serial Clock! \emph  {siehe} SCL}{9}
-\indexentry{SCL}{9}
-\indexentry{SDA}{9}
-\indexentry{SCL}{9}
-\indexentry{Organic Light Emitting Diode! \emph  {siehe} OLED}{9}
-\indexentry{OLED}{9}
-\indexentry{Micro Universal Serial Bus! \emph  {siehe} {Micro USB}}{9}
-\indexentry{Micro USB}{9}
-\indexentry{Micro USB}{9}
-\indexentry{Near Field Communication! \emph  {siehe} {NFC}}{10}
-\indexentry{NFC}{10}
-\indexentry{NFC}{10}
-\indexentry{NFC}{10}
-\indexentry{NFC}{10}
-\indexentry{Direkt Memory Access! \emph  {siehe} DMA}{10}
-\indexentry{DMA}{10}
-\indexentry{Analog to Digital Converter! \emph  {siehe} ADC}{10}
-\indexentry{ADC}{10}
-\indexentry{Advanced Encryption Standard! \emph  {siehe} AES}{10}
-\indexentry{AES}{10}
-\indexentry{Counter with CBC-MAC! \emph  {siehe} {CCM}}{10}
-\indexentry{CCM}{10}
-\indexentry{Automatic Address Recognition! \emph  {siehe} AAR}{10}
-\indexentry{AAR}{10}
-\indexentry{SPI}{11}
+\indexentry{Light Emitting Diode! \emph  {siehe} {LED}}{8}
+\indexentry{LED}{8}
+\indexentry{LED}{9}
+\indexentry{Inter Circuit! \emph  {siehe} IC}{9}
+\indexentry{IC}{9}
+\indexentry{I\textsuperscript  {2}C}{9}
+\indexentry{Serial Peripheral Interface! \emph  {siehe} SPI}{9}
+\indexentry{SPI}{9}
+\indexentry{IC}{10}
+\indexentry{IC}{10}
+\indexentry{Pulsdichtenmodulation! \emph  {siehe} PDM}{10}
+\indexentry{PDM}{10}
+\indexentry{Surface Mount Device! \emph  {siehe} SMD}{10}
+\indexentry{SMD}{10}
+\indexentry{BLE}{10}
+\indexentry{I\textsuperscript  {2}C}{10}
+\indexentry{Serial Data! \emph  {siehe} SDA}{11}
+\indexentry{SDA}{11}
+\indexentry{Serial Clock! \emph  {siehe} SCL}{11}
+\indexentry{SCL}{11}
+\indexentry{SDA}{11}
+\indexentry{SCL}{11}
+\indexentry{Organic Light Emitting Diode! \emph  {siehe} OLED}{11}
+\indexentry{OLED}{11}
+\indexentry{Micro Universal Serial Bus! \emph  {siehe} {Micro USB}}{11}
+\indexentry{Micro USB}{11}
+\indexentry{Micro USB}{11}
+\indexentry{Near Field Communication! \emph  {siehe} {NFC}}{12}
+\indexentry{NFC}{12}
+\indexentry{NFC}{12}
+\indexentry{NFC}{12}
+\indexentry{NFC}{12}
+\indexentry{Direkt Memory Access! \emph  {siehe} DMA}{12}
+\indexentry{DMA}{12}
+\indexentry{Analog to Digital Converter! \emph  {siehe} ADC}{12}
+\indexentry{ADC}{12}
+\indexentry{Advanced Encryption Standard! \emph  {siehe} AES}{12}
+\indexentry{AES}{12}
+\indexentry{Counter with CBC-MAC! \emph  {siehe} {CCM}}{12}
+\indexentry{CCM}{12}
+\indexentry{Automatic Address Recognition! \emph  {siehe} AAR}{12}
+\indexentry{AAR}{12}
+\indexentry{SPI}{13}

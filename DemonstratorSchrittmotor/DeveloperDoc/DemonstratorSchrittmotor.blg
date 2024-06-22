@@ -17,15 +17,20 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10040 items from 5000.
+Reallocated field_info (elt_size=4) to 10740 items from 5000.
 Database file #1: DemonstratorSchrittmotor-blx.bib
 Database file #2: ../Documents/Myliterature.bib
+Warning--I didn't find a database entry for "MarcMcComb.2024"
+Warning--I didn't find a database entry for "MikeMcCauley.2024"
+Warning--I didn't find a database entry for "AdafruitIndustries.14.06.2024"
+Warning--I didn't find a database entry for "AdafruitIndustries.21.06.2024"
+Warning--I didn't find a database entry for "PaulStoffregen.2024"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 36 entries,
             6399 wiz_defined-function locations,
-            1500 strings with 29704 characters,
+            1510 strings with 29922 characters,
 and the built_in function-call counts, 201712 in all, are:
 = -- 13241
 > -- 4068
@@ -64,3 +69,4 @@ warning$ -- 0
 while$ -- 2231
 width$ -- 0
 write$ -- 1225
+(There were 5 warnings)

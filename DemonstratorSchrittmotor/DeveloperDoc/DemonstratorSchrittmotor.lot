@@ -2,20 +2,22 @@
 \babel@toc {ngerman}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Arduino Nano 33 BLE Sense \blx@tocontentsinit {0}\cite {Ard.2024}\relax }}{5}{figure.caption.9}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Arduino Nano 33 BLE Sense \blx@tocontentsinit {0}\cite {Ard.2024}\relax }}{7}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Ursachen und Lösungen: Motor läuft nicht an \blx@tocontentsinit {0}\cite {FaulhaberDriveSystems.2020}\relax }}{19}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \blx@tocontentsinit {0}\cite {FaulhaberDriveSystems.2020}\relax }}{21}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \blx@tocontentsinit {0}\cite {FaulhaberDriveSystems.2020}\relax }}{21}{table.3.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Bohrungen im Gehäuse\relax }}{53}{figure.caption.35}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Bohrungen der Anbauteile\relax }}{58}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Bohrungen im Gehäuse\relax }}{37}{figure.caption.21}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Bohrungen der Anbauteile\relax }}{42}{figure.caption.27}%
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Ursachen und Lösungen: Motor läuft nicht an \blx@tocontentsinit {0}\cite {FaulhaberDriveSystems.2020}\relax }}{46}{table.8.1}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \blx@tocontentsinit {0}\cite {FaulhaberDriveSystems.2020}\relax }}{47}{table.8.2}%
-\contentsline {table}{\numberline {8.3}{\ignorespaces Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \blx@tocontentsinit {0}\cite {FaulhaberDriveSystems.2020}\relax }}{48}{table.8.3}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Ergebnisse Messung der Zeit eines Weges der einzelnen Stufen\relax }}{63}{figure.caption.43}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Mittlere Geschwindigkeit und Durchschnittswert in SI-Einheiten\relax }}{63}{figure.caption.44}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Durchschnittswerte umgerechnet in mm/s\relax }}{64}{figure.caption.45}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {12.1}{\ignorespaces Materialliste\relax }}{68}{table.12.1}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Materialliste\relax }}{82}{table.11.1}%

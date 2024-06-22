@@ -14,71 +14,15 @@
 \section{Aufgabe des Programms}
 Das Programm steuert einen Schrittmotor und zeigt Informationen auf einem OLED-Display an. Es nutzt einen Drehwinkel-Encoder, um verschiedene Betriebsstufen des Motors auszuwählen.
 
-\begin{center}
-	\resizebox{\textwidth}{!}{%
-		\begin{tikzpicture}[
-			node distance=0.8cm and 1.5cm,
-			startstop/.style={circle, draw, minimum size=0.8cm},
-			process/.style={rectangle, draw, text width=2.5cm, align=center},
-			decision/.style={diamond, draw, text width=2cm, align=center},
-			arrow/.style={->, thick}
-			]
-			
-			% Nodes
-			\node (start) [startstop] {Start};
-			\node (init) [process, below=of start] {Initialisierung};
-			\node (display) [process, below=of init] {Display-Start};
-			\node (status) [process, below=of display] {Status: Bereit};
-			\node (wait) [process, below=of status] {Warten auf Eingabe};
-			\node (enc_turned) [decision, below=of wait] {Encoder gedreht?};
-			\node (button_pressed) [decision, right=of enc_turned, xshift=1.5cm] {Taster gedrückt?};
-			\node (enc_left) [process, below left=of enc_turned] {Encoder links};
-			\node (enc_right) [process, below right=of enc_turned] {Encoder rechts};
-			\node (stage_gt1) [decision, below=of enc_left] {Stufe > 1};
-			\node (stage_lt10) [decision, below=of enc_right] {Stufe < 10};
-			\node (stage_dec) [process, below=of stage_gt1] {Stufe -1};
-			\node (stage_inc) [process, below=of stage_lt10] {Stufe +1};
-			\node (update1) [process, below=of stage_dec] {Display aktualisiert};
-			\node (update2) [process, below=of stage_inc] {Display aktualisiert};
-			\node (ref_run) [process, below right=of button_pressed, xshift=1.5cm] {Referenzfahrt};
-			\node (end_pressed) [decision, below=of ref_run] {Endschalter?};
-			\node (demo_run) [process, below=of end_pressed] {Demonstrationsfahrt};
-			\node (display_run) [process, below=of demo_run] {Display: wird ausgeführt};
-			\node (shuttle_move) [process, below=of display_run] {Schlitten pendelt};
-			\node (display_ready) [process, below=of shuttle_move] {Display: Startbereit};
-			
-			% Arrows
-			\draw [arrow] (start) -- (init);
-			\draw [arrow] (init) -- (display);
-			\draw [arrow] (display) -- (status);
-			\draw [arrow] (status) -- (wait);
-			\draw [arrow] (wait.south) -- ++(0,-0.5) -| (enc_turned.north);
-			\draw [arrow] (wait.south) -- ++(0,-0.5) -| (button_pressed.north);
-			\draw [arrow] (enc_turned) -- (enc_left);
-			\draw [arrow] (enc_turned) -- (enc_right);
-			\draw [arrow] (enc_left) -- (stage_gt1);
-			\draw [arrow] (enc_right) -- (stage_lt10);
-			\draw [arrow] (stage_gt1) -- (stage_dec);
-			\draw [arrow] (stage_lt10) -- (stage_inc);
-			\draw [arrow] (stage_dec) -- (update1);
-			\draw [arrow] (stage_inc) -- (update2);
-			\draw [arrow] (update1.south) -- ++(0,-0.5) -| ++(-5,0) |- (wait.west);
-			\draw [arrow] (update2.south) -- ++(0,-0.5) -| ++(-5,0) |- (wait.west);
-			\draw [arrow] (button_pressed) -- (ref_run);
-			\draw [arrow] (ref_run) -- (end_pressed);
-			\draw [arrow] (end_pressed) -- (demo_run);
-			\draw [arrow] (demo_run) -- (display_run);
-			\draw [arrow] (display_run) -- (shuttle_move);
-			\draw [arrow] (shuttle_move) -- (display_ready);
-			\draw [arrow] (display_ready.east) -- ++(1.5,0) |- (wait.east);
-		\end{tikzpicture}
-	} % end resizebox
-\end{center}
+\begin{figure}[H]
+	\begin{center}
+		\include{tikz/FlussdiagrammProgramm}
+		\caption{Flussdiagramm des Programms}
+		\label{fluss}
+	\end{center}
+\end{figure}
 
-Beim Start des Programms werden alle Komponenten, einschließlich des Schrittmotors, des Displays, der LEDs und des Encoders, initialisiert. Nach einer kurzen Startanimation auf dem Display wechselt das System in den Bereitschaftsmodus.
-Der Benutzer kann den Drehwinkel-Encoder drehen, um eine der zehn verfügbaren Stufen auszuwählen. Jede Stufe hat spezifische Geschwindigkeitswerte für den Schrittmotor. Die aktuell ausgewählte Stufe wird auf dem OLED-Display angezeigt, sodass der Benutzer immer über die gewählte Einstellung informiert ist.
-Ein Taster ermöglicht es dem Benutzer, den Startprozess des Schrittmotors zu initiieren. Nach dem Drücken des Tasters führt der Schrittmotor Bewegungen aus, die der ausgewählten Stufe entsprechen. Diese Bewegungen beinhalten das Fahren zu einem festgelegten Punkt und das anschließende Zurückfahren zur Ausgangsposition.
-Zusammengefasst ermöglicht das Programm dem Benutzer, durch Drehen des Encoders verschiedene Betriebsstufen auszuwählen und den Schrittmotor zu steuern. Die Stufenanzeige auf dem Display und die LED-Statusanzeigen bieten dabei eine klare und leicht verständliche Rückmeldung über den aktuellen Zustand des Systems.
+Beim Start des Programms werden alle Komponenten, einschließlich des Schrittmotors, des Displays, der LEDs und des Encoders, initialisiert. Nach einer kurzen Startanimation auf dem Display wechselt das System in den Bereitschaftsmodus. Der Benutzer kann den Drehwinkel-Encoder drehen, um eine der zehn verfügbaren Stufen auszuwählen. Jede Stufe hat spezifische Geschwindigkeitswerte für den Schrittmotor. Die aktuell ausgewählte Stufe wird auf dem OLED-Display angezeigt, sodass der Benutzer immer über die gewählte Einstellung informiert ist. Ein Taster ermöglicht es dem Benutzer, den Startprozess des Schrittmotors zu initiieren. Nach dem Drücken des Tasters führt der Schrittmotor Bewegungen aus, die der ausgewählten Stufe entsprechen. Diese Bewegungen beinhalten das Fahren zu einem festgelegten Punkt und das anschließende Zurückfahren zur Ausgangsposition. Zusammengefasst ermöglicht das Programm dem Benutzer, durch Drehen des Encoders verschiedene Betriebsstufen auszuwählen und den Schrittmotor zu steuern. Die Stufenanzeige auf dem Display und die LED-Statusanzeigen bieten dabei eine klare und leicht verständliche Rückmeldung über den aktuellen Zustand des Systems. Der Ablauf des Programms ist in Abbildung \ref{fluss} dargestellt.
 
 \section{Erklärung des Codes}
 

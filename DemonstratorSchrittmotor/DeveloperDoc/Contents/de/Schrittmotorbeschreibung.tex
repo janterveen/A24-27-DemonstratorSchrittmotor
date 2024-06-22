@@ -224,42 +224,11 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 
 \section{Beschreibung des verwendeten Schrittmotors}
 
-Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt somit 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Der Motor ist nicht für große Drehmomente ausgelegt, sondern für schnelle und präzise Bewegungen.  Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung 42 x 42 x 34 mm sowie die geringe Masse mit 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
+Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt somit 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Der Motor ist nicht für große Drehmomente ausgelegt, sondern für schnelle und präzise Bewegungen.  Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung $42\times 42\times 34$ mm sowie die geringe Masse mit 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
 
 \begin{figure}[H]
 	\centering
-	\begin{tikzpicture}
-		\begin{axis}[
-			width=10cm,
-			height=6cm,
-			xlabel={SPEED (PPS)},
-			ylabel={TORQUE (kg·cm)},
-			xmin=0, xmax=4000,
-			ymin=0, ymax=1.6,
-			xtick={0,500,1000,1500,2000,2500,3000,3500,4000},
-			ytick={0,0.2,0.4,0.6,0.8,1,1.2,1.4,1.6},
-			legend pos=north east,
-			grid=both,
-			major grid style={line width=.2pt,draw=gray!50},
-			minor grid style={line width=.1pt,draw=gray!20},
-			]
-			\addplot[
-			color=purple,
-			line width=1pt
-			]
-			coordinates {
-				(0,0.7)
-				(500,0.82)
-				(1000,0.82)
-				(1500,0.8)
-				(2000,0.78)
-				(2500,0.75)
-				(3000,0.73)
-				(3500,0.7)
-				(4000,0.68)
-			};
-		\end{axis}
-	\end{tikzpicture}
+	\input{tikz/MomentenverlaufSchrittmotor}
 	\caption{Drehmoment-Diagramm für den Schrittmotor 42BYG015}
 	\label{DrehmomentDiagramm}
 \end{figure}

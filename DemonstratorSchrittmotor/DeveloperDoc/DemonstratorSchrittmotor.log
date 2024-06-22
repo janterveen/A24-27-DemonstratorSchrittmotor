@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  22 JUN 2024 01:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  22 JUN 2024 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,7 +143,7 @@ Class scrbook Info: Redefining `\numberline' on input line 7330.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 18.
+e 20.
 
 (./General/packages.tex
 (c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
@@ -1704,7 +1704,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 19.
+e 21.
 
 (./General/commands.tex
 LaTeX Info: Redefining \Atan2 on input line 39.
@@ -1728,7 +1728,7 @@ Package tocbasic Info: setting babel extension for `locode' on input line 147.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 20.
+e 22.
 
 (./General/tikzdefs.tex
 (c:/texlive/2022/texmf-dist/tex/latex/pgfplots/pgfplots.sty
@@ -2145,28 +2145,28 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count674
 \@quotereset=\count675
-(./DemonstratorSchrittmotor.aux)
+(./DemonstratorSchrittmotor.aux (./tikz/FlussdiagrammProgramm.aux))
 \openout1 = `DemonstratorSchrittmotor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-Package tocbasic Info: usage of `tocbibind' detected on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+Package tocbasic Info: usage of `tocbibind' detected on input line 29.
 
 
 Package tocbasic Warning: `tocbibind' redefinition of `\tableofcontents'
@@ -2242,7 +2242,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (./DemonstratorSchrittmotor.out) (./DemonstratorSchrittmotor.out)
 \@outlinefile=\write7
@@ -2255,7 +2255,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 27.
+(scrbook)           before \begin{document} on input line 29.
 
 (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -2265,156 +2265,156 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count682
 ))
 \c@lstlisting=\count683
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 27
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 29
 .
 
 (c:/texlive/2022/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <12> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 27.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/scsl' undefined
-(Font)              using `T1/fvm/m/sc' instead on input line 27.
+(Font)              using `T1/fvm/m/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/sc' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 27.
+(Font)              using `T1/fvm/m/n' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/b/it' in size <12> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 27.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/b/scsl' undefined
-(Font)              using `T1/fvm/b/sc' instead on input line 27.
+(Font)              using `T1/fvm/b/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/b/sc' undefined
-(Font)              using `T1/fvm/b/n' instead on input line 27.
+(Font)              using `T1/fvm/b/n' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <12> not available
-(Font)              Font shape `T1/fvm/b/n' tried instead on input line 27.
+(Font)              Font shape `T1/fvm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/bx/it' in size <12> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 27.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/bx/sl' in size <12> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 27.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/bx/scsl' undefined
-(Font)              using `T1/fvm/bx/sc' instead on input line 27.
+(Font)              using `T1/fvm/bx/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/bx/sc' undefined
-(Font)              using `T1/fvm/bx/n' instead on input line 27.
+(Font)              using `T1/fvm/bx/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sbx/sc' undefined
-(Font)              using `T1/fvm/sb/sc' instead on input line 27.
+(Font)              using `T1/fvm/sb/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/n' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 27.
+(Font)              using `T1/fvm/m/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/it' undefined
-(Font)              using `T1/fvm/sb/n' instead on input line 27.
+(Font)              using `T1/fvm/sb/n' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/sb/n' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/sl' undefined
-(Font)              using `T1/fvm/sb/it' instead on input line 27.
+(Font)              using `T1/fvm/sb/it' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/sb/it' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/scit' undefined
-(Font)              using `T1/fvm/sb/sc' instead on input line 27.
+(Font)              using `T1/fvm/sb/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sb/sc' undefined
-(Font)              using `T1/fvm/sb/n' instead on input line 27.
+(Font)              using `T1/fvm/sb/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/sbc/sc' undefined
-(Font)              using `T1/fvm/c/sc' instead on input line 27.
+(Font)              using `T1/fvm/c/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/c/n' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 27.
+(Font)              using `T1/fvm/m/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/c/it' undefined
-(Font)              using `T1/fvm/c/n' instead on input line 27.
+(Font)              using `T1/fvm/c/n' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/c/n' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/c/sl' undefined
-(Font)              using `T1/fvm/c/it' instead on input line 27.
+(Font)              using `T1/fvm/c/it' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/c/it' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/c/scit' undefined
-(Font)              using `T1/fvm/c/sc' instead on input line 27.
+(Font)              using `T1/fvm/c/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/c/sc' undefined
-(Font)              using `T1/fvm/c/n' instead on input line 27.
+(Font)              using `T1/fvm/c/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/lc/sc' undefined
-(Font)              using `T1/fvm/l/sc' instead on input line 27.
+(Font)              using `T1/fvm/l/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/l/n' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 27.
+(Font)              using `T1/fvm/m/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/l/it' undefined
-(Font)              using `T1/fvm/l/n' instead on input line 27.
+(Font)              using `T1/fvm/l/n' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/l/n' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/l/sl' undefined
-(Font)              using `T1/fvm/l/it' instead on input line 27.
+(Font)              using `T1/fvm/l/it' instead on input line 29.
 
 LaTeX Font Info:    Font shape `T1/fvm/l/it' will be
-(Font)              scaled to size 10.79993pt on input line 27.
+(Font)              scaled to size 10.79993pt on input line 29.
 
 LaTeX Font Warning: Font shape `T1/fvm/l/scit' undefined
-(Font)              using `T1/fvm/l/sc' instead on input line 27.
+(Font)              using `T1/fvm/l/sc' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/l/sc' undefined
-(Font)              using `T1/fvm/l/n' instead on input line 27.
+(Font)              using `T1/fvm/l/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/ui' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 27.
+(Font)              using `T1/fvm/m/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/bx/ui' undefined
-(Font)              using `T1/fvm/bx/n' instead on input line 27.
+(Font)              using `T1/fvm/bx/n' instead on input line 29.
 
 
 LaTeX Font Warning: Font shape `T1/fvm/m/In' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 27.
+(Font)              using `T1/fvm/m/n' instead on input line 29.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionar
@@ -2423,7 +2423,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 27.
+or `german'. on input line 29.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2022/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -2570,29 +2570,29 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'urldate'.
 
 )
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+Package biblatex Info: Reference section=0 on input line 29.
+Package biblatex Info: Reference segment=0 on input line 29.
 Package newfloat Info: `float' package detected.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 27.
+ on input line 29.
 
-LaTeX Info: Redefining \microtypecontext on input line 27.
-Package microtype Info: Applying patch `item' on input line 27.
-Package microtype Info: Applying patch `toc' on input line 27.
-Package microtype Info: Applying patch `eqnum' on input line 27.
-Package microtype Info: Applying patch `footnote' on input line 27.
-Package microtype Info: Applying patch `verbatim' on input line 27.
+LaTeX Info: Redefining \microtypecontext on input line 29.
+Package microtype Info: Applying patch `item' on input line 29.
+Package microtype Info: Applying patch `toc' on input line 29.
+Package microtype Info: Applying patch `eqnum' on input line 29.
+Package microtype Info: Applying patch `footnote' on input line 29.
+Package microtype Info: Applying patch `verbatim' on input line 29.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 27.
+LaTeX Info: Redefining \showhyphens on input line 29.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2695,7 +2695,7 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 9.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-3.
+5.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -2715,7 +2715,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 \tf@toc=\write8
 \openout8 = `DemonstratorSchrittmotor.toc'.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 36.
+Package cleveref Info: loaded `ngerman' language definitions on input line 38.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2797,17 +2797,12 @@ Package biblatex Info: Reference segment=2 on input line 19.
 Package biblatex Info: Setting label 'refsegment:02' on input line 19.
 Package biblatex Info: Reference segment=3 on input line 23.
 Package biblatex Info: Setting label 'refsegment:03' on input line 23.
-<Images/Konzeptskizze1.png, id=367, 837.1275pt x 617.30624pt>
-File: Images/Konzeptskizze1.png Graphic file (type png)
-<use Images/Konzeptskizze1.png>
-Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 28.
-(pdftex.def)             Requested size: 369.88583pt x 272.75533pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 
+l.25 
       [1
 
 
@@ -2816,7 +2811,12 @@ l.34
 
 
 ]
-<Images/Konzeptskizze2.png, id=374, 837.1275pt x 661.97313pt>
+<Images/Konzeptskizze1.png, id=410, 837.1275pt x 617.30624pt>
+File: Images/Konzeptskizze1.png Graphic file (type png)
+<use Images/Konzeptskizze1.png>
+Package pdftex.def Info: Images/Konzeptskizze1.png  used on input line 28.
+(pdftex.def)             Requested size: 369.88583pt x 272.75533pt.
+<Images/Konzeptskizze2.png, id=413, 837.1275pt x 661.97313pt>
 File: Images/Konzeptskizze2.png Graphic file (type png)
 <use Images/Konzeptskizze2.png>
 Package pdftex.def Info: Images/Konzeptskizze2.png  used on input line 37.
@@ -2840,13 +2840,21 @@ been already used, duplicate ignored
                    \relax 
 l.41 
       [2 <./Images/Konzeptskizze1.png>]
-<Images/Konstruktion1.png, id=381, 1754.05313pt x 338.01282pt>
+<Images/Konstruktion1.png, id=421, 1754.05313pt x 338.01282pt>
 File: Images/Konstruktion1.png Graphic file (type png)
 <use Images/Konstruktion1.png>
 Package pdftex.def Info: Images/Konstruktion1.png  used on input line 46.
 (pdftex.def)             Requested size: 369.88583pt x 71.27876pt.
-)
-Package cleveref Info: loaded `ngerman' language definitions on input line 71.
+<../Appendix/Mindmap/Mindmap.png, id=422, 1379.1525pt x 837.1275pt>
+File: ../Appendix/Mindmap/Mindmap.png Graphic file (type png)
+<use ../Appendix/Mindmap/Mindmap.png>
+Package pdftex.def Info: ../Appendix/Mindmap/Mindmap.png  used on input line 53
+.
+(pdftex.def)             Requested size: 369.88583pt x 224.5074pt.
+
+Underfull \vbox (badness 2951) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 57.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2856,11 +2864,35 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[3 <./Images/Konzeptskizze2.png> <./Images/Konstruktion1.PNG>] [4
+[3 <./Images/Konzeptskizze2.png> <./Images/Konstruktion1.PNG>]
+Package biblatex Info: Reference segment=4 on input line 58.
+Package biblatex Info: Setting label 'refsegment:04' on input line 58.
+Package biblatex Info: Reference segment=5 on input line 62.
+Package biblatex Info: Setting label 'refsegment:05' on input line 62.
+)
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[4 <../Appendix/Mindmap/Mindmap.PNG>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 73.
 
 
-]
-(./Contents/de/HardwarebeschreibungArduino.tex
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[5] [6
+
+
+] (./Contents/de/HardwarebeschreibungArduino.tex
 chapter 2.
 (./tikz/ArduinoNano33BLESense.tex)
 Overfull \hbox (0.91452pt too wide) in paragraph at lines 30--30
@@ -2872,14 +2904,14 @@ Package caption Warning: The type was already set to `figure'
 (caption)                 on input line 31.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=4 on input line 34.
-Package biblatex Info: Setting label 'refsegment:04' on input line 34.
-[5
+Package biblatex Info: Reference segment=6 on input line 34.
+Package biblatex Info: Setting label 'refsegment:06' on input line 34.
+[7
 
 
 ]
-Package biblatex Info: Reference segment=5 on input line 37.
-Package biblatex Info: Setting label 'refsegment:05' on input line 37.
+Package biblatex Info: Reference segment=7 on input line 37.
+Package biblatex Info: Setting label 'refsegment:07' on input line 37.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2889,7 +2921,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[6]
+[8]
 Package cleveref Info: loaded `ngerman' language definitions on input line 56.
 
 
@@ -2900,9 +2932,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[7]
-Package biblatex Info: Reference segment=6 on input line 60.
-Package biblatex Info: Setting label 'refsegment:06' on input line 60.
+[9]
+Package biblatex Info: Reference segment=8 on input line 60.
+Package biblatex Info: Setting label 'refsegment:08' on input line 60.
  (./tikz/ArduinoPinout.tex)
 Overfull \hbox (5.38652pt too wide) in paragraph at lines 75--65
 [][]
@@ -2921,7 +2953,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[8]
+[10]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
 75.
  (c:/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
@@ -2941,7 +2973,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[9]
+[11]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2950,7 +2982,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[10]
+[12]
 Package cleveref Info: loaded `ngerman' language definitions on input line 110.
 
 
@@ -2962,11 +2994,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[11]
-Package biblatex Info: Reference segment=7 on input line 115.
-Package biblatex Info: Setting label 'refsegment:07' on input line 115.
-Package biblatex Info: Reference segment=8 on input line 117.
-Package biblatex Info: Setting label 'refsegment:08' on input line 117.
+[13]
+Package biblatex Info: Reference segment=9 on input line 115.
+Package biblatex Info: Setting label 'refsegment:09' on input line 115.
+Package biblatex Info: Reference segment=10 on input line 117.
+Package biblatex Info: Setting label 'refsegment:010' on input line 117.
 )
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -2976,22 +3008,21 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[12] (./Contents/de/WeitereHardware.tex
+[14] (./Contents/de/Schrittmotorbeschreibung.tex
 chapter 3.
-Package biblatex Info: Reference segment=9 on input line 15.
-Package biblatex Info: Setting label 'refsegment:09' on input line 15.
-Package biblatex Info: Reference segment=10 on input line 27.
-Package biblatex Info: Setting label 'refsegment:010' on input line 27.
-[13
+Package biblatex Info: Reference segment=11 on input line 16.
+Package biblatex Info: Setting label 'refsegment:011' on input line 16.
+[15
 
 
 
 
 ]
-Package biblatex Info: Reference segment=11 on input line 30.
-Package biblatex Info: Setting label 'refsegment:011' on input line 30.
-Package biblatex Info: Reference segment=12 on input line 51.
-Package biblatex Info: Setting label 'refsegment:012' on input line 51.
+<Images/PrinzipSchritmotor.png, id=566, 418.56375pt x 368.87813pt>
+File: Images/PrinzipSchritmotor.png Graphic file (type png)
+<use Images/PrinzipSchritmotor.png>
+Package pdftex.def Info: Images/PrinzipSchritmotor.png  used on input line 26.
+(pdftex.def)             Requested size: 369.88583pt x 325.97586pt.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3001,11 +3032,144 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[14]
-Package biblatex Info: Reference segment=13 on input line 55.
-Package biblatex Info: Setting label 'refsegment:013' on input line 55.
-Package biblatex Info: Reference segment=14 on input line 62.
-Package biblatex Info: Setting label 'refsegment:014' on input line 62.
+[16 <./Images/PrinzipSchritmotor.PNG>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 42.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[17]
+
+LaTeX Warning: Citation 'MarcMcComb.2024' on page 18 undefined on input line 50
+.
+
+Package biblatex Info: Reference segment=12 on input line 54.
+Package biblatex Info: Setting label 'refsegment:012' on input line 54.
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[18]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 109.
+See the caption package documentation for explanation.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 147.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[19]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 180.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[20]
+Underfull \hbox (badness 1400) in paragraph at lines 197--197
+[]\T1/lmr/m/n/8 (+20) Ruckeln ver-rin-gern durch ge-rin-ge-re
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 198.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 6380) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 207.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[21]
+Package biblatex Info: Reference segment=13 on input line 225.
+Package biblatex Info: Setting label 'refsegment:013' on input line 225.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[22] (./tikz/MomentenverlaufSchrittmotor.tex))
+Package cleveref Info: loaded `ngerman' language definitions on input line 79.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[23] [24
+
+
+] (./Contents/de/WeitereHardware.tex
+chapter 4.
+Package biblatex Info: Reference segment=14 on input line 15.
+Package biblatex Info: Setting label 'refsegment:014' on input line 15.
+Package biblatex Info: Reference segment=15 on input line 27.
+Package biblatex Info: Setting label 'refsegment:015' on input line 27.
+[25
+
+
+]
+Package biblatex Info: Reference segment=16 on input line 30.
+Package biblatex Info: Setting label 'refsegment:016' on input line 30.
+Package biblatex Info: Reference segment=17 on input line 51.
+Package biblatex Info: Setting label 'refsegment:017' on input line 51.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[26]
+Package biblatex Info: Reference segment=18 on input line 55.
+Package biblatex Info: Setting label 'refsegment:018' on input line 55.
+Package biblatex Info: Reference segment=19 on input line 62.
+Package biblatex Info: Setting label 'refsegment:019' on input line 62.
 Package cleveref Info: loaded `ngerman' language definitions on input line 65.
 
 
@@ -3016,7 +3180,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[15])
+[27])
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3025,32 +3189,32 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[16] (./Contents/de/SoftwarebeschreibungIDE.tex
-chapter 4.
-Package biblatex Info: Reference segment=15 on input line 14.
-Package biblatex Info: Setting label 'refsegment:015' on input line 14.
-Package biblatex Info: Reference segment=16 on input line 20.
-Package biblatex Info: Setting label 'refsegment:016' on input line 20.
-<General/HauptoberflaecheIDE.png, id=538, 455.45157pt x 283.81032pt>
+[28] (./Contents/de/SoftwarebeschreibungIDE.tex
+chapter 5.
+Package biblatex Info: Reference segment=20 on input line 14.
+Package biblatex Info: Setting label 'refsegment:020' on input line 14.
+Package biblatex Info: Reference segment=21 on input line 20.
+Package biblatex Info: Setting label 'refsegment:021' on input line 20.
+<General/HauptoberflaecheIDE.png, id=698, 455.45157pt x 283.81032pt>
 File: General/HauptoberflaecheIDE.png Graphic file (type png)
 <use General/HauptoberflaecheIDE.png>
 Package pdftex.def Info: General/HauptoberflaecheIDE.png  used on input line 24
 .
 (pdftex.def)             Requested size: 369.88583pt x 230.4957pt.
-[17
+[29
 
 
 
 
 ]
-Package biblatex Info: Reference segment=17 on input line 32.
-Package biblatex Info: Setting label 'refsegment:017' on input line 32.
-<General/Boardsmanager.png, id=546, 269.50688pt x 260.47313pt>
+Package biblatex Info: Reference segment=22 on input line 32.
+Package biblatex Info: Setting label 'refsegment:022' on input line 32.
+<General/Boardsmanager.png, id=706, 269.50688pt x 260.47313pt>
 File: General/Boardsmanager.png Graphic file (type png)
 <use General/Boardsmanager.png>
 Package pdftex.def Info: General/Boardsmanager.png  used on input line 39.
 (pdftex.def)             Requested size: 369.88583pt x 357.49387pt.
-<General/Librarymanager.png, id=549, 268.75406pt x 402.75468pt>
+<General/Librarymanager.png, id=709, 268.75406pt x 402.75468pt>
 File: General/Librarymanager.png Graphic file (type png)
 <use General/Librarymanager.png>
 Package pdftex.def Info: General/Librarymanager.png  used on input line 51.
@@ -3067,9 +3231,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[18 <./General/HauptoberflaecheIDE.png>]
-Package biblatex Info: Reference segment=18 on input line 58.
-Package biblatex Info: Setting label 'refsegment:018' on input line 58.
+[30 <./General/HauptoberflaecheIDE.png>]
+Package biblatex Info: Reference segment=23 on input line 58.
+Package biblatex Info: Setting label 'refsegment:023' on input line 58.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3083,7 +3247,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[19 <./General/Boardsmanager.png>]
+[31 <./General/Boardsmanager.png>]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3092,11 +3256,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[20 <./General/Librarymanager.png>]
-Package biblatex Info: Reference segment=19 on input line 71.
-Package biblatex Info: Setting label 'refsegment:019' on input line 71.
+[32 <./General/Librarymanager.png>]
+Package biblatex Info: Reference segment=24 on input line 71.
+Package biblatex Info: Setting label 'refsegment:024' on input line 71.
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 79.
+Package cleveref Info: loaded `ngerman' language definitions on input line 84.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3106,7 +3270,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[21]
+[33]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3115,14 +3279,26 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[22] (./Contents/de/Schrittmotorbeschreibung.tex
-chapter 5.
-Package biblatex Info: Reference segment=20 on input line 15.
-Package biblatex Info: Setting label 'refsegment:020' on input line 15.
+[34] (./Contents/de/SchrittmotorProgrammbeschreibung.tex
+chapter 6.
+Package biblatex Info: Reference segment=25 on input line 14.
+Package biblatex Info: Setting label 'refsegment:025' on input line 14.
+\openout2 = `tikz/FlussdiagrammProgramm.aux'.
 
-LaTeX Warning: Reference `HaPrSchritt' on page 23 undefined on input line 18.
+(./tikz/FlussdiagrammProgramm.tex
+Overfull \hbox (6.8172pt too wide) in paragraph at lines 69--69
+ [][]\T1/lmr/m/n/12 (-20) Endschalter? 
+ []
 
-[23
+
+Overfull \hbox (4.34586pt too wide) in paragraph at lines 69--69
+ [][]\T1/lmr/m/n/12 (-20) Demonstrations- 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35
 
 
 
@@ -3136,14 +3312,317 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[24]
-Package biblatex Info: Reference segment=21 on input line 29.
-Package biblatex Info: Setting label 'refsegment:021' on input line 29.
+[36
+
+
+
+]
+Package biblatex Info: Reference segment=26 on input line 27.
+Package biblatex Info: Setting label 'refsegment:026' on input line 27.
+Package cleveref Info: loaded `ngerman' language definitions on input line 57.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[37]
+Overfull \hbox (137.71109pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (144.76105pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[38]
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 105--106
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 118--119
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (88.36139pt too wide) in paragraph at lines 119--120
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.16156pt too wide) in paragraph at lines 120--121
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (102.4613pt too wide) in paragraph at lines 137--138
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.26147pt too wide) in paragraph at lines 138--139
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (194.11075pt too wide) in paragraph at lines 142--144
+[][][][][][][][][][][][][][][][] 
+ []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 146.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[39]
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 160--161
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (88.36139pt too wide) in paragraph at lines 161--162
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (53.1116pt too wide) in paragraph at lines 170--171
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 172--173
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (151.811pt too wide) in paragraph at lines 174--175
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 175--176
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.26147pt too wide) in paragraph at lines 176--177
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (46.06165pt too wide) in paragraph at lines 177--178
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (31.96173pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (250.5104pt too wide) in paragraph at lines 181--182
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.26147pt too wide) in paragraph at lines 182--183
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.16156pt too wide) in paragraph at lines 183--184
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 184--185
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (264.61032pt too wide) in paragraph at lines 185--186
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (342.15985pt too wide) in paragraph at lines 186--187
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (236.41049pt too wide) in paragraph at lines 187--188
+[][][][][][][][][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[40]
+Overfull \hbox (229.36053pt too wide) in paragraph at lines 188--189
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.61118pt too wide) in paragraph at lines 189--190
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (264.61032pt too wide) in paragraph at lines 193--194
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (342.15985pt too wide) in paragraph at lines 194--195
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (151.811pt too wide) in paragraph at lines 195--196
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (229.36053pt too wide) in paragraph at lines 196--197
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.61118pt too wide) in paragraph at lines 197--198
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (102.4613pt too wide) in paragraph at lines 200--201
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (172.96088pt too wide) in paragraph at lines 201--202
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (67.21152pt too wide) in paragraph at lines 202--203
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (250.5104pt too wide) in paragraph at lines 205--206
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.91177pt too wide) in paragraph at lines 218--219
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.81186pt too wide) in paragraph at lines 219--220
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 226--227
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 238.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[41]
+Overfull \hbox (10.81186pt too wide) in paragraph at lines 241--242
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (102.4613pt too wide) in paragraph at lines 246--247
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.81186pt too wide) in paragraph at lines 247--248
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.86182pt too wide) in paragraph at lines 248--249
+[][][][][][][][][][] 
+ []
+
+Package biblatex Info: Reference segment=27 on input line 269.
+Package biblatex Info: Setting label 'refsegment:027' on input line 269.
+
+LaTeX Warning: Citation 'MikeMcCauley.2024' on page 42 undefined on input line 
+278.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[42]
+
+LaTeX Warning: Citation 'AdafruitIndustries.14.06.2024' on page 43 undefined on
+ input line 284.
+
+
+Underfull \vbox (badness 7814) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 285.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[43]
+
+LaTeX Warning: Citation 'AdafruitIndustries.21.06.2024' on page 44 undefined on
+ input line 287.
+
+
+LaTeX Warning: Citation 'PaulStoffregen.2024' on page 44 undefined on input lin
+e 290.
+
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 82.
-
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3152,34 +3631,15 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[25]
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[26] (./Contents/de/SchrittmotorProgrammbeschreibung.tex
-chapter 6.
-) [27
-
-
-
-
-] [28
-
-
-] (./Contents/de/Konstruktion.tex
+[44] (./Contents/de/Konstruktion.tex
 chapter 7.
-Package biblatex Info: Reference segment=22 on input line 15.
-Package biblatex Info: Setting label 'refsegment:022' on input line 15.
-Package biblatex Info: Reference segment=23 on input line 18.
-Package biblatex Info: Setting label 'refsegment:023' on input line 18.
-Package biblatex Info: Reference segment=24 on input line 22.
-Package biblatex Info: Setting label 'refsegment:024' on input line 22.
-<Images/Konstruktion/GehaeuseK.png, id=645, 784.43062pt x 526.21594pt>
+Package biblatex Info: Reference segment=28 on input line 15.
+Package biblatex Info: Setting label 'refsegment:028' on input line 15.
+Package biblatex Info: Reference segment=29 on input line 18.
+Package biblatex Info: Setting label 'refsegment:029' on input line 18.
+Package biblatex Info: Reference segment=30 on input line 22.
+Package biblatex Info: Setting label 'refsegment:030' on input line 22.
+<Images/Konstruktion/GehaeuseK.png, id=1012, 784.43062pt x 526.21594pt>
 File: Images/Konstruktion/GehaeuseK.png Graphic file (type png)
 <use Images/Konstruktion/GehaeuseK.png>
 Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line 
@@ -3188,11 +3648,13 @@ Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line
 
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [29
+ [45
+
+
 
 
 ]
-<Images/Konstruktion/BodenK.png, id=655, 1282.7925pt x 734.745pt>
+<Images/Konstruktion/BodenK.png, id=1021, 1282.7925pt x 734.745pt>
 File: Images/Konstruktion/BodenK.png Graphic file (type png)
 <use Images/Konstruktion/BodenK.png>
 Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 35.
@@ -3210,8 +3672,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[30 <./Images/Konstruktion/GehaeuseK.PNG>]
-<Images/Konstruktion/VorneK.png, id=668, 899.61093pt x 758.835pt>
+[46 <./Images/Konstruktion/GehaeuseK.PNG>]
+<Images/Konstruktion/VorneK.png, id=1035, 899.61093pt x 758.835pt>
 File: Images/Konstruktion/VorneK.png Graphic file (type png)
 <use Images/Konstruktion/VorneK.png>
 Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 45.
@@ -3230,8 +3692,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[31 <./Images/Konstruktion/BodenK.PNG>]
-<Images/Konstruktion/SeiteLK.png, id=677, 721.19438pt x 670.00313pt>
+[47 <./Images/Konstruktion/BodenK.PNG>]
+<Images/Konstruktion/SeiteLK.png, id=1045, 721.19438pt x 670.00313pt>
 File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteLK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 55
@@ -3249,8 +3711,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[32 <./Images/Konstruktion/VorneK.PNG>]
-<Images/Konstruktion/HinterK.png, id=687, 875.52094pt x 744.53156pt>
+[48 <./Images/Konstruktion/VorneK.PNG>]
+<Images/Konstruktion/HinterK.png, id=1055, 875.52094pt x 744.53156pt>
 File: Images/Konstruktion/HinterK.png Graphic file (type png)
 <use Images/Konstruktion/HinterK.png>
 Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 64
@@ -3269,8 +3731,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[33 <./Images/Konstruktion/SeiteLK.PNG>]
-<Images/Konstruktion/SeiteRK.png, id=697, 758.08218pt x 726.46407pt>
+[49 <./Images/Konstruktion/SeiteLK.PNG>]
+<Images/Konstruktion/SeiteRK.png, id=1065, 758.08218pt x 726.46407pt>
 File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteRK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 74
@@ -3288,8 +3750,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[34 <./Images/Konstruktion/HinterK.PNG>]
-<Images/Konstruktion/DeckelK.png, id=707, 1315.16344pt x 778.40813pt>
+[50 <./Images/Konstruktion/HinterK.PNG>]
+<Images/Konstruktion/DeckelK.png, id=1074, 1315.16344pt x 778.40813pt>
 File: Images/Konstruktion/DeckelK.png Graphic file (type png)
 <use Images/Konstruktion/DeckelK.png>
 Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 83
@@ -3308,7 +3770,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[35 <./Images/Konstruktion/SeiteRK.PNG>]
+[51 <./Images/Konstruktion/SeiteRK.PNG>]
 Overfull \hbox (2.74211pt too wide) in paragraph at lines 113--113
 []|\T1/lmr/bx/n/8 (-20) Nr.| 
  []
@@ -3385,10 +3847,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[36 <./Images/Konstruktion/DeckelK.PNG>]
-Package biblatex Info: Reference segment=25 on input line 118.
-Package biblatex Info: Setting label 'refsegment:025' on input line 118.
-<Images/Konstruktion/FlankeMotorK.png, id=725, 542.025pt x 641.39626pt>
+[52 <./Images/Konstruktion/DeckelK.PNG>]
+Package biblatex Info: Reference segment=31 on input line 118.
+Package biblatex Info: Setting label 'refsegment:031' on input line 118.
+<Images/Konstruktion/FlankeMotorK.png, id=1091, 542.025pt x 641.39626pt>
 File: Images/Konstruktion/FlankeMotorK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeMotorK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeMotorK.png  used on input li
@@ -3408,8 +3870,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[37]
-<Images/Konstruktion/FlankeK.png, id=735, 522.45187pt x 660.96938pt>
+[53]
+<Images/Konstruktion/FlankeK.png, id=1101, 522.45187pt x 660.96938pt>
 File: Images/Konstruktion/FlankeK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeK.png  used on input line 13
@@ -3427,8 +3889,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[38 <./Images/Konstruktion/FlankeMotorK.PNG>]
-<Images/Konstruktion/GriffK.png, id=744, 963.6pt x 668.4975pt>
+[54 <./Images/Konstruktion/FlankeMotorK.PNG>]
+<Images/Konstruktion/GriffK.png, id=1110, 963.6pt x 668.4975pt>
 File: Images/Konstruktion/GriffK.png Graphic file (type png)
 <use Images/Konstruktion/GriffK.png>
 Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 143
@@ -3448,8 +3910,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[39 <./Images/Konstruktion/FlankeK.PNG>]
-<Images/Konstruktion/DrehKnopfK.png, id=753, 706.89093pt x 463.7325pt>
+[55 <./Images/Konstruktion/FlankeK.PNG>]
+<Images/Konstruktion/DrehKnopfK.png, id=1119, 706.89093pt x 463.7325pt>
 File: Images/Konstruktion/DrehKnopfK.png Graphic file (type png)
 <use Images/Konstruktion/DrehKnopfK.png>
 Package pdftex.def Info: Images/Konstruktion/DrehKnopfK.png  used on input line
@@ -3467,8 +3929,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[40 <./Images/Konstruktion/GriffK.PNG>]
-<Images/Konstruktion/AnzeigerK.png, id=763, 872.50969pt x 662.475pt>
+[56 <./Images/Konstruktion/GriffK.PNG>]
+<Images/Konstruktion/AnzeigerK.png, id=1129, 872.50969pt x 662.475pt>
 File: Images/Konstruktion/AnzeigerK.png Graphic file (type png)
 <use Images/Konstruktion/AnzeigerK.png>
 Package pdftex.def Info: Images/Konstruktion/AnzeigerK.png  used on input line 
@@ -3488,7 +3950,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[41 <./Images/Konstruktion/DrehKnopfK.PNG>]
+[57 <./Images/Konstruktion/DrehKnopfK.PNG>]
 Overfull \hbox (2.74211pt too wide) in paragraph at lines 179--179
 []|\T1/lmr/bx/n/8 (-20) Nr.| 
  []
@@ -3528,8 +3990,8 @@ Package caption Warning: The type was already set to `figure'
 (caption)                 on input line 180.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=26 on input line 185.
-Package biblatex Info: Setting label 'refsegment:026' on input line 185.
+Package biblatex Info: Reference segment=32 on input line 185.
+Package biblatex Info: Setting label 'refsegment:032' on input line 185.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3538,15 +4000,15 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[42 <./Images/Konstruktion/AnzeigerK.PNG>]
-<Images/Konstruktion/AKK2N.jpg, id=778, 604.1772pt x 511.6716pt>
+[58 <./Images/Konstruktion/AnzeigerK.PNG>]
+<Images/Konstruktion/AKK2N.jpg, id=1143, 604.1772pt x 511.6716pt>
 File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
 <use Images/Konstruktion/AKK2N.jpg>
 Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 190.
 
 (pdftex.def)             Requested size: 369.88583pt x 313.25911pt.
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 89.
+Package cleveref Info: loaded `ngerman' language definitions on input line 91.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3556,30 +4018,158 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[43 <./Images/Konstruktion/AKK2N.jpg>] [44
+[59 <./Images/Konstruktion/AKK2N.jpg>] [60
 
 
-]
-(./Contents/de/SchrittverlusteVer.tex
+] (./Contents/de/Testdurch.tex
 chapter 8.
-Package biblatex Info: Reference segment=27 on input line 14.
-Package biblatex Info: Setting label 'refsegment:027' on input line 14.
-Package biblatex Info: Reference segment=28 on input line 25.
-Package biblatex Info: Setting label 'refsegment:028' on input line 25.
-[45
+Package biblatex Info: Reference segment=33 on input line 16.
+Package biblatex Info: Setting label 'refsegment:033' on input line 16.
+Package biblatex Info: Reference segment=34 on input line 24.
+Package biblatex Info: Setting label 'refsegment:034' on input line 24.
+Package biblatex Info: Reference segment=35 on input line 29.
+Package biblatex Info: Setting label 'refsegment:035' on input line 29.
+Package biblatex Info: Reference segment=36 on input line 34.
+Package biblatex Info: Setting label 'refsegment:036' on input line 34.
+[61
 
 
 ]
+Package biblatex Info: Reference segment=37 on input line 42.
+Package biblatex Info: Setting label 'refsegment:037' on input line 42.
+Package biblatex Info: Reference segment=38 on input line 50.
+Package biblatex Info: Setting label 'refsegment:038' on input line 50.
+Package biblatex Info: Reference segment=39 on input line 58.
+Package biblatex Info: Setting label 'refsegment:039' on input line 58.
+Package biblatex Info: Reference segment=40 on input line 66.
+Package biblatex Info: Setting label 'refsegment:040' on input line 66.
+Package biblatex Info: Reference segment=41 on input line 74.
+Package biblatex Info: Setting label 'refsegment:041' on input line 74.
+Package biblatex Info: Reference segment=42 on input line 84.
+Package biblatex Info: Setting label 'refsegment:042' on input line 84.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 66.
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 107.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 137.
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 133.
 See the caption package documentation for explanation.
 
+
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 159.
+See the caption package documentation for explanation.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 93.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[63]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[64] (./Contents/de/OffenePunkte.tex
+chapter 9.
+Package biblatex Info: Reference segment=43 on input line 16.
+Package biblatex Info: Setting label 'refsegment:043' on input line 16.
+
+LaTeX Warning: Reference `9Achs' on page 65 undefined on input line 18.
+
+<Images/Tests/ArdRev2Schlitten.jpg, id=1181, 971.3088pt x 728.4816pt>
+File: Images/Tests/ArdRev2Schlitten.jpg Graphic file (type jpg)
+<use Images/Tests/ArdRev2Schlitten.jpg>
+Package pdftex.def Info: Images/Tests/ArdRev2Schlitten.jpg  used on input line 
+22.
+(pdftex.def)             Requested size: 369.88583pt x 277.41502pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65
+
+
+
+
+]
+<Images/Tests/TestAufbauACC.jpg, id=1189, 4047.12pt x 3035.34pt>
+File: Images/Tests/TestAufbauACC.jpg Graphic file (type jpg)
+<use Images/Tests/TestAufbauACC.jpg>
+Package pdftex.def Info: Images/Tests/TestAufbauACC.jpg  used on input line 31.
+
+(pdftex.def)             Requested size: 369.88583pt x 277.38353pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3592,21 +4182,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[46]
-Underfull \hbox (badness 1400) in paragraph at lines 154--154
-[]\T1/lmr/m/n/8 (+20) Ruckeln ver-rin-gern durch ge-rin-ge-re
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 155.
-See the caption package documentation for explanation.
-
-
-Underfull \vbox (badness 4378) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 155.
-
+[66 <./Images/Tests/ArdRev2Schlitten.JPG>]
+Package biblatex Info: Reference segment=44 on input line 38.
+Package biblatex Info: Setting label 'refsegment:044' on input line 38.
+Package cleveref Info: loaded `ngerman' language definitions on input line 45.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3616,58 +4195,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[47]
-Package biblatex Info: Reference segment=29 on input line 160.
-Package biblatex Info: Setting label 'refsegment:029' on input line 160.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[48])
-Package cleveref Info: loaded `ngerman' language definitions on input line 92.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[49] [50
-
-
-] (./Contents/de/Testdurch.tex
-chapter 9.
-Package biblatex Info: Reference segment=30 on input line 16.
-Package biblatex Info: Setting label 'refsegment:030' on input line 16.
-Package biblatex Info: Reference segment=31 on input line 24.
-Package biblatex Info: Setting label 'refsegment:031' on input line 24.
-Package biblatex Info: Reference segment=32 on input line 29.
-Package biblatex Info: Setting label 'refsegment:032' on input line 29.
-Package biblatex Info: Reference segment=33 on input line 34.
-Package biblatex Info: Setting label 'refsegment:033' on input line 34.
-[51
-
-
-]
-Package biblatex Info: Reference segment=34 on input line 42.
-Package biblatex Info: Setting label 'refsegment:034' on input line 42.
-Package biblatex Info: Reference segment=35 on input line 50.
-Package biblatex Info: Setting label 'refsegment:035' on input line 50.
-Package biblatex Info: Reference segment=36 on input line 58.
-Package biblatex Info: Setting label 'refsegment:036' on input line 58.
-Package biblatex Info: Reference segment=37 on input line 66.
-Package biblatex Info: Setting label 'refsegment:037' on input line 66.
-Package biblatex Info: Reference segment=38 on input line 74.
-Package biblatex Info: Setting label 'refsegment:038' on input line 74.
-Package biblatex Info: Reference segment=39 on input line 82.
-Package biblatex Info: Setting label 'refsegment:039' on input line 82.
+[67 <./Images/Tests/TestAufbauACC.JPG>]
+Package biblatex Info: Reference segment=45 on input line 45.
+Package biblatex Info: Setting label 'refsegment:045' on input line 45.
+Package biblatex Info: Reference segment=46 on input line 49.
+Package biblatex Info: Setting label 'refsegment:046' on input line 49.
 )
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3677,100 +4209,78 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[52] (./Contents/de/OffenePunkte.tex
-chapter 10.
-Package biblatex Info: Reference segment=40 on input line 16.
-Package biblatex Info: Setting label 'refsegment:040' on input line 16.
-Package biblatex Info: Reference segment=41 on input line 23.
-Package biblatex Info: Setting label 'refsegment:041' on input line 23.
-Package biblatex Info: Reference segment=42 on input line 27.
-Package biblatex Info: Setting label 'refsegment:042' on input line 27.
-) [53
-
-
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
-
-[54]
+[68]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (32.17654pt too wide) in paragraph at lines 101--101
+Overfull \hbox (32.17654pt too wide) in paragraph at lines 100--100
 []\T1/lmr/m/n/12 (-20) Allegro. \T1/lmr/m/it/12 (-20) A4988-Datasheet\T1/lmr/m/
 n/12 (-20) . 2022. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l
 /it/12 https : / / www . allegromicro .
  []
 
 
-Overfull \hbox (14.10791pt too wide) in paragraph at lines 101--101
+Overfull \hbox (14.10791pt too wide) in paragraph at lines 100--100
 \T1/fvm/l/it/12 arduino . cc / resources / datasheets / ABX00031 -[] datasheet 
 .
  []
 
 
-Overfull \hbox (10.85713pt too wide) in paragraph at lines 101--101
+Overfull \hbox (10.85713pt too wide) in paragraph at lines 100--100
 []$\T1/fvm/l/it/12 https : / / docs . arduino . cc / software / ide -[] v2 / tu
 torials /
  []
 
 
-Overfull \hbox (49.04247pt too wide) in paragraph at lines 101--101
+Overfull \hbox (49.04247pt too wide) in paragraph at lines 100--100
 \T1/fvm/l/it/12 1c27moy * _ga * MTQ0NDAyMjU0Ni4xNzEyMjI4NjMx * _ga _ NEXN8H46L5
  *
  []
 
 
-Overfull \hbox (39.61414pt too wide) in paragraph at lines 101--101
+Overfull \hbox (39.61414pt too wide) in paragraph at lines 100--100
 \T1/fvm/l/it/12 MTcxMjkzNTM5NS4xMi4xLjE3MTI5MzYxNTguMC4wLjE4MTYyNDUyNw .
  []
 
 
-Overfull \hbox (975.83826pt too wide) in paragraph at lines 101--101
+Overfull \hbox (975.83826pt too wide) in paragraph at lines 100--100
 \T1/fvm/l/it/12 . * _fplc * R3haa2kwYmJ5b0owSXBZQmNtNDElMkYySTNJZEZjVDdueVdoViU
 yQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1STFaZDl6c0txNGtBV1lETklqUzdGUF
 dKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHduVnhKWEd6dyUzRCUzRA .
  []
 
-[55
+[69
 
 
 
 
 ]
-Overfull \hbox (2.65036pt too wide) in paragraph at lines 101--101
+Overfull \hbox (2.65036pt too wide) in paragraph at lines 100--100
 \T1/lmr/m/n/12 (-20) Sprin^^?ger Fach^^?me^^?di^^?en Wies^^?ba^^?den, 2016. \T1
 /lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-658-12843-2.
  []
 
 
-Overfull \hbox (35.8264pt too wide) in paragraph at lines 101--101
+Overfull \hbox (35.8264pt too wide) in paragraph at lines 100--100
 \T1/lmr/m/n/12 (-20) ba^^?den und Hei^^?del^^?berg: Sprin^^?ger View^^?eg, 2020
 . \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-658-30067-8. 
  []
 
 
-Overfull \hbox (9.90234pt too wide) in paragraph at lines 101--101
+Overfull \hbox (9.90234pt too wide) in paragraph at lines 100--100
 \T1/fvm/l/it/12 tutorials / schrittmotoren -[] tutorial -[] schrittverluste -[]
 
  []
 
 
-Overfull \hbox (3.95943pt too wide) in paragraph at lines 101--101
+Overfull \hbox (3.95943pt too wide) in paragraph at lines 100--100
 []\T1/lmr/m/n/12 (-20) W. Gehr^^?ke und M. Winz^^?ker. \T1/lmr/m/it/12 (-20) Di
 -gi-tal-tech-nik: Grund-la-gen, VHDL,
  []
 
 
-Overfull \hbox (13.64789pt too wide) in paragraph at lines 101--101
+Overfull \hbox (13.64789pt too wide) in paragraph at lines 100--100
 \T1/lmr/m/n/12 (-20) wei^^?ter^^?te Auf^^?la^^?ge. Mün^^?chen: Han^^?ser, 2021.
  \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-446-46572-5.
  []
@@ -3783,28 +4293,27 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[56]
-Overfull \hbox (3.43654pt too wide) in paragraph at lines 101--101
+[70]
+Overfull \hbox (3.43654pt too wide) in paragraph at lines 100--100
 []\T1/lmr/m/n/12 (-20) Mentor. \T1/lmr/m/it/12 (-20) SIGNALLEUCHTENSMD-LED-Date
 nblatt\T1/lmr/m/n/12 (-20) . 2024. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20
 ) :
  []
 
 
-Overfull \hbox (14.9821pt too wide) in paragraph at lines 101--101
+Overfull \hbox (14.9821pt too wide) in paragraph at lines 100--100
 []\T1/lmr/m/n/12 (-20) Nordic Se^^?mi^^?con^^?duc^^?tor. \T1/lmr/m/it/12 (-20) 
 nRF9161 Pro-duct Spe-ci-fi-ca-ti-on: Cryptocell-
  []
 
 
-Overfull \hbox (25.51738pt too wide) in paragraph at lines 101--101
+Overfull \hbox (25.51738pt too wide) in paragraph at lines 100--100
 \T1/lmr/m/it/12 (-20) ARM Trust-Zo-ne Cryp-to-Cell 310\T1/lmr/m/n/12 (-20) . 20
 24. \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 https : 
 / / infocenter .
  []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 100.
-
+Package cleveref Info: loaded `ngerman' language definitions on input line 99.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3813,8 +4322,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[57]
-Overfull \hbox (6.75783pt too wide) in paragraph at lines 101--101
+[71]
+Overfull \hbox (6.75783pt too wide) in paragraph at lines 100--100
 []\T1/lmr/m/n/12 (-20) STMICROELECTRONICS. \T1/lmr/m/it/12 (-20) Da-tas-heet - 
 MP34DT05-A - MEMS
  []
@@ -3827,26 +4336,26 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[58] (../Appendix/Schaltplan.tex [59
+[72] (../Appendix/Schaltplan.tex [73
 
 
 
 
-] [60
+] [74
 
 
 ]
-chapter 11.
-<Images/Schaltplan1.png, id=973, 1261.78067pt x 993.04333pt>
+chapter 10.
+<Images/Schaltplan1.png, id=1314, 1261.78067pt x 993.04333pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 14.
 (pdftex.def)             Requested size: 369.88583pt x 291.11177pt.
-) (../Appendix/Materialliste.tex [61 <./Images/Schaltplan1.png>] [62
+) (../Appendix/Materialliste.tex [75 <./Images/Schaltplan1.png>] [76
 
 
 ]
-chapter 12.
+chapter 11.
 
 Overfull \hbox (6.15483pt too wide) in paragraph at lines 42--42
 []|\T1/lmr/bx/n/8 (-20) Pos.| 
@@ -4017,7 +4526,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [77]
 Overfull \vbox (106.244pt too high) has occurred while \output is active []
 
 
@@ -4029,7 +4538,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[64 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
+[78 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
 Material/aluprofil.jpg> <./Images/Material/RD50.png> <./Images/Material/ams1117
 .jpg> <./Images/Material/RBS10277.jpg> <./Images/Material/RBS12569.jpg> <./Imag
 es/Material/RBS16371.jpg>]
@@ -4227,7 +4736,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[65 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
+[79 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
 /Material/RBS11229.jpg> <./Images/Material/M3.PNG> <./Images/Material/M3Mutter.
 PNG> <./Images/Material/M2.PNG>]
 Overfull \hbox (6.15483pt too wide) in paragraph at lines 100--100
@@ -4404,7 +4913,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[66 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
+[80 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
 Material/RBS10136.jpg> <./Images/Material/RBS10038.jpg> <./Images/Material/CABL
 E4PIN20.png> <./Images/Material/RBS10966.jpg> <./Images/Material/VTRKB4.png> <.
 /Images/Material/VTFSHB475.png> <./Images/Material/H07RNF31.png> <./Images/Mate
@@ -4590,7 +5099,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[67 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
+[81 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
 Material/DEBOENCODER.png> <./Images/Material/ENCMUTTER.png> <./Images/Material/
 Taster.jpg> <./Images/Material/RBS10856.jpg> <./Images/Material/A4988.png> <./I
 mages/Material/LED.png> <./Images/Material/oled96.jpg>]
@@ -4655,17 +5164,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[68 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
+[82 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
 
-(./DemonstratorSchrittmotor.ind [69
+(./DemonstratorSchrittmotor.ind [83
 
 
 
 ]) (./DemonstratorSchrittmotor.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 34.
-)
+
+(./tikz/FlussdiagrammProgramm.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -4675,23 +5185,28 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `DemonstratorSchrittmotor.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                DemonstratorSchrittmotor
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 \openout1 = `DemonstratorSchrittmotor.run.xml'.
 
  )
 (\end occurred inside a group at level 4)
 
-### simple group (level 4) entered at line 140 ({)
-### simple group (level 3) entered at line 107 ({)
-### simple group (level 2) entered at line 105 ({)
-### simple group (level 1) entered at line 54 ({)
+### simple group (level 4) entered at line 183 ({)
+### simple group (level 3) entered at line 150 ({)
+### simple group (level 2) entered at line 148 ({)
+### simple group (level 1) entered at line 97 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 93002 strings out of 476024
- 2411604 string characters out of 5794016
- 3543090 words of memory out of 5000000
- 111630 multiletter control sequences out of 15000+600000
- 635675 words of font info for 355 fonts, out of 8000000 for 9000
+ 93994 strings out of 476024
+ 2434594 string characters out of 5794016
+ 3556726 words of memory out of 5000000
+ 112377 multiletter control sequences out of 15000+600000
+ 635444 words of font info for 352 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c
@@ -4711,10 +5226,10 @@ ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
 2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
 nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (83 pages, 13148365 bytes).
+Output written on DemonstratorSchrittmotor.pdf (97 pages, 20446536 bytes).
 PDF statistics:
- 1622 PDF objects out of 1728 (max. 8388607)
- 1294 compressed objects within 13 object streams
- 245 named destinations out of 1000 (max. 500000)
- 59469 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 2036 PDF objects out of 2073 (max. 8388607)
+ 1683 compressed objects within 17 object streams
+ 483 named destinations out of 1000 (max. 500000)
+ 59553 words of extra memory for PDF output out of 61914 (max. 10000000)
 

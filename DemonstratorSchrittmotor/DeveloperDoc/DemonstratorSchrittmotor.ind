@@ -1,94 +1,94 @@
 \begin{theindex}
 
   \item  Inertialmesseinheit
-    \subitem  \emph  {siehe} IMU, xi, 6
+    \subitem  \emph  {siehe} IMU, xi, 8
 
   \indexspace
 
-  \item AAR, xi, 10
-  \item ADC, xi, 10
+  \item AAR, xi, 12
+  \item ADC, xi, 12
   \item Advanced Encryption Standard
-    \subitem  \emph  {siehe} AES, xi, 10
-  \item AES, xi, 10
+    \subitem  \emph  {siehe} AES, xi, 12
+  \item AES, xi, 12
   \item Analog to Digital Converter
-    \subitem  \emph  {siehe} ADC, xi, 10
+    \subitem  \emph  {siehe} ADC, xi, 12
   \item Automatic Address Recognition
-    \subitem  \emph  {siehe} AAR, xi, 10
+    \subitem  \emph  {siehe} AAR, xi, 12
 
   \indexspace
 
-  \item BLE, xi, 5, 6, 8
+  \item BLE, xi, 7, 8, 10
   \item Bluetooth Low Energie
-    \subitem  \emph  {siehe} {BLE}, xi, 5
+    \subitem  \emph  {siehe} {BLE}, xi, 7
 
   \indexspace
 
-  \item CCM, xi, 10
+  \item CCM, xi, 12
   \item Counter with CBC-MAC
-    \subitem  \emph  {siehe} {CCM}, xi, 10
+    \subitem  \emph  {siehe} {CCM}, xi, 12
 
   \indexspace
 
   \item Direkt Memory Access
-    \subitem  \emph  {siehe} DMA, xi, 10
-  \item DMA, xi, 10
+    \subitem  \emph  {siehe} DMA, xi, 12
+  \item DMA, xi, 12
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, xi, 6--8
-  \item IC, xi, 7, 8
-  \item IMU, xi, 6
+  \item I\textsuperscript  {2}C, xi, 8--10
+  \item IC, xi, 9, 10
+  \item IMU, xi, 8
   \item Inter Circuit
-    \subitem  \emph  {siehe} IC, xi, 7
+    \subitem  \emph  {siehe} IC, xi, 9
   \item Inter-Integrated Circuit
-    \subitem  \emph  {siehe} I\textsuperscript  {2}C, xi, 6
+    \subitem  \emph  {siehe} I\textsuperscript  {2}C, xi, 8
 
   \indexspace
 
-  \item LED, xi, 6, 7
+  \item LED, xi, 8, 9
   \item Light Emitting Diode
-    \subitem  \emph  {siehe} {LED}, xi, 6
+    \subitem  \emph  {siehe} {LED}, xi, 8
 
   \indexspace
 
   \item Micro Universal Serial Bus
-    \subitem  \emph  {siehe} {Micro USB}, xi, 9
-  \item Micro USB, xi, 9
+    \subitem  \emph  {siehe} {Micro USB}, xi, 11
+  \item Micro USB, xi, 11
 
   \indexspace
 
   \item Near Field Communication
-    \subitem  \emph  {siehe} {NFC}, xi, 10
-  \item NFC, xi, 10
+    \subitem  \emph  {siehe} {NFC}, xi, 12
+  \item NFC, xi, 12
 
   \indexspace
 
-  \item OLED, xi, 9
+  \item OLED, xi, 11
   \item Organic Light Emitting Diode
-    \subitem  \emph  {siehe} OLED, xi, 9
+    \subitem  \emph  {siehe} OLED, xi, 11
 
   \indexspace
 
-  \item PDM, xi, 8
+  \item PDM, xi, 10
   \item Pulsdichtenmodulation
-    \subitem  \emph  {siehe} PDM, xi, 8
+    \subitem  \emph  {siehe} PDM, xi, 10
 
   \indexspace
 
-  \item SCL, xi, 9
-  \item SDA, xi, 9
+  \item SCL, xi, 11
+  \item SDA, xi, 11
   \item Serial Clock
-    \subitem  \emph  {siehe} SCL, xi, 9
+    \subitem  \emph  {siehe} SCL, xi, 11
   \item Serial Data
-    \subitem  \emph  {siehe} SDA, xi, 9
+    \subitem  \emph  {siehe} SDA, xi, 11
   \item Serial Peripheral Interface
-    \subitem  \emph  {siehe} SPI, xi, 7
-  \item SMD, xi, 8
-  \item SoC, xi, 5
-  \item SPI, xi, 7, 11
+    \subitem  \emph  {siehe} SPI, xi, 9
+  \item SMD, xi, 10
+  \item SoC, xi, 7
+  \item SPI, xi, 9, 13
   \item Surface Mount Device
-    \subitem  \emph  {siehe} SMD, xi, 8
+    \subitem  \emph  {siehe} SMD, xi, 10
   \item System on Chip
-    \subitem  \emph  {siehe} SoC, xi, 5
+    \subitem  \emph  {siehe} SoC, xi, 7
 
 \end{theindex}

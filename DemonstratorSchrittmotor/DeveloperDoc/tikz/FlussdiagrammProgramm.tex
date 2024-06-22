@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%%%%%%%%
+%
+% $Beschreibung: Flussdiagramm des Schrittmotors $
+% $Autor: Hanneken $
+% $Datum: 15.06.2024 $
+% $Pfad: DemonstratorSchrittmotor/DeveloperDoc/tikz/FlussdiagrammProgramm $
+% $Version: 1 $
+%
+%
+%%%%%%%%%%%%%%%%%%%
+
+\resizebox{\textwidth}{!}{%
+	\begin{tikzpicture}[
+		node distance=0.8cm and 1.5cm,
+		startstop/.style={circle, draw, minimum size=1cm},
+		process/.style={rectangle, draw, text width=2.7cm, align=center},
+		decision/.style={diamond, draw, text width=2cm, align=center},
+		arrow/.style={->, thick}
+		]
+		
+		% Nodes
+		\node (start) [startstop] {Start};
+		\node (init) [process, below=of start] {Initialisierung};
+		\node (display) [process, below=of init] {Display-Start};
+		\node (status) [process, below=of display] {Status: Bereit};
+		\node (wait) [process, below=of status] {Warten auf Eingabe};
+		\node (enc_turned) [decision, below=of wait] {Encoder gedreht?};
+		\node (button_pressed) [decision, right=of enc_turned, xshift=1.5cm] {Taster gedrückt?};
+		\node (enc_left) [process, below left=of enc_turned, xshift=1cm] {Encoder links};
+		\node (enc_right) [process, below right=of enc_turned, xshift=-1cm] {Encoder rechts};
+		\node (stage_gt1) [decision, below=of enc_left] {Stufe > 1};
+		\node (stage_lt10) [decision, below=of enc_right] {Stufe < 10};
+		\node (stage_dec) [process, below=of stage_gt1] {Stufe -1};
+		\node (stage_inc) [process, below=of stage_lt10] {Stufe +1};
+		\node (update1) [process, below=of stage_dec] {Display aktualisiert};
+		\node (update2) [process, below=of stage_inc] {Display aktualisiert};
+		\node (ref_run) [process, below right=of button_pressed, xshift=-1cm] {Referenzfahrt};
+		\node (end_pressed) [decision, below=of ref_run] {Endschalter?};
+		\node (demo_run) [process, below=of end_pressed] {Demonstrations- fahrt};
+		\node (display_run) [process, below=of demo_run] {Display: wird ausgeführt};
+		\node (shuttle_move) [process, below=of display_run] {Schlitten pendelt};
+		\node (display_ready) [process, below=of shuttle_move] {Display: Startbereit};
+		
+		% Arrows
+		\draw [arrow] (start) -- (init);
+		\draw [arrow] (init) -- (display);
+		\draw [arrow] (display) -- (status);
+		\draw [arrow] (status) -- (wait);
+		\draw [arrow] (wait.south) -- ++(0,-0.5) -| (enc_turned.north);
+		\draw [arrow] (wait.south) -- ++(0,-0.5) -| (button_pressed.north);
+		\draw [arrow] (enc_turned) -- (enc_left);
+		\draw [arrow] (enc_turned) -- (enc_right);
+		\draw [arrow] (enc_left) -- (stage_gt1);
+		\draw [arrow] (enc_right) -- (stage_lt10);
+		\draw [arrow] (stage_gt1) -- (stage_dec);
+		\draw [arrow] (stage_lt10) -- (stage_inc);
+		\draw [arrow] (stage_dec) -- (update1);
+		\draw [arrow] (stage_inc) -- (update2);
+		\draw [arrow] (update1.south) -- ++(0,-0.5) -| ++(-5,0) |- (wait.west);
+		\draw [arrow] (update2.south) -- ++(0,-0.5) -| ++(-8,0) |- (wait.west);
+		\draw [arrow] (button_pressed) -- (ref_run);
+		\draw [arrow] (ref_run) -- (end_pressed);
+		\draw [arrow] (end_pressed) -- (demo_run);
+		\draw [arrow] (demo_run) -- (display_run);
+		\draw [arrow] (display_run) -- (shuttle_move);
+		\draw [arrow] (shuttle_move) -- (display_ready);
+		\draw [arrow] (display_ready.east) -- ++(1.5,0) |- (wait.east);
+	\end{tikzpicture}
+} % end resizebox
