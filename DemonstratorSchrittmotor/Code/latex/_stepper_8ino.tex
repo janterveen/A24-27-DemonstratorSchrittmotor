@@ -1,0 +1,30 @@
+\doxysection{Stepper/\+Stepper.ino-\/\+Dateireferenz}
+\hypertarget{_stepper_8ino}{}\label{_stepper_8ino}\index{Stepper/Stepper.ino@{Stepper/Stepper.ino}}
+{\ttfamily \#include "{}Accel\+Stepper.\+h"{}}\newline
+\doxysubsubsection*{Makrodefinitionen}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{_stepper_8ino_a4a85ab03cecd5c848447656e4a54f858}\label{_stepper_8ino_a4a85ab03cecd5c848447656e4a54f858} 
+\#define {\bfseries dir\+Pin}~0
+\begin{DoxyCompactList}\small\item\em Programm für den Test der Funktionalität eines Stepper-\/\+Motors Beschreibung des Autors\+: Example sketch to control a stepper motor with A4988 stepper motor driver, Accel\+Stepper library and Arduino\+: continuous rotation. More info\+: \href{https://www.makerguides.com}{\texttt{ https\+://www.\+makerguides.\+com}}. \end{DoxyCompactList}\item 
+\Hypertarget{_stepper_8ino_a81d7b528b321b301a71d2eed09b638a0}\label{_stepper_8ino_a81d7b528b321b301a71d2eed09b638a0} 
+\#define {\bfseries step\+Pin}~8
+\item 
+\Hypertarget{_stepper_8ino_a097729309a7a756a88e3593d033f0cc7}\label{_stepper_8ino_a097729309a7a756a88e3593d033f0cc7} 
+\#define {\bfseries motor\+Interface\+Type}~1
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Funktionen}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{_stepper_8ino_a4fc01d736fe50cf5b977f755b675f11d}\label{_stepper_8ino_a4fc01d736fe50cf5b977f755b675f11d} 
+void {\bfseries setup} ()
+\item 
+\Hypertarget{_stepper_8ino_afe461d27b9c48d5921c00d521181f12f}\label{_stepper_8ino_afe461d27b9c48d5921c00d521181f12f} 
+void {\bfseries loop} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variablen}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{_stepper_8ino_aa9b47f0898ad90c5ae4b69c673c43621}\label{_stepper_8ino_aa9b47f0898ad90c5ae4b69c673c43621} 
+Accel\+Stepper {\bfseries stepper} = Accel\+Stepper(motor\+Interface\+Type, step\+Pin, \mbox{\hyperlink{_stepper_8ino_a4a85ab03cecd5c848447656e4a54f858}{dir\+Pin}})
+\end{DoxyCompactItemize}

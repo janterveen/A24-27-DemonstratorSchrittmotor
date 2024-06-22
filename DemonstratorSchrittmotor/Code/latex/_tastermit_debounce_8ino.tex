@@ -1,0 +1,42 @@
+\doxysection{Tastermit\+Debounce/\+Tastermit\+Debounce.ino-\/\+Dateireferenz}
+\hypertarget{_tastermit_debounce_8ino}{}\label{_tastermit_debounce_8ino}\index{TastermitDebounce/TastermitDebounce.ino@{TastermitDebounce/TastermitDebounce.ino}}
+\doxysubsubsection*{Funktionen}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{_tastermit_debounce_8ino_a4fc01d736fe50cf5b977f755b675f11d}\label{_tastermit_debounce_8ino_a4fc01d736fe50cf5b977f755b675f11d} 
+void {\bfseries setup} ()
+\item 
+\Hypertarget{_tastermit_debounce_8ino_afe461d27b9c48d5921c00d521181f12f}\label{_tastermit_debounce_8ino_afe461d27b9c48d5921c00d521181f12f} 
+void {\bfseries loop} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variablen}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_tastermit_debounce_8ino_ae4df85e73eac2d8b0a7d1636b4dfb669}{Taster}} = 3
+\begin{DoxyCompactList}\small\item\em Programm für den Test der Funktionalität eines Tasters. \end{DoxyCompactList}\item 
+\Hypertarget{_tastermit_debounce_8ino_aeacc93f8b9413914d98153cd990e69db}\label{_tastermit_debounce_8ino_aeacc93f8b9413914d98153cd990e69db} 
+int {\bfseries Status\+Taster} = HIGH
+\item 
+\Hypertarget{_tastermit_debounce_8ino_af72e115a3145c77e7e76bb454173612b}\label{_tastermit_debounce_8ino_af72e115a3145c77e7e76bb454173612b} 
+int {\bfseries letzter\+Status\+Taster} = HIGH
+\item 
+\Hypertarget{_tastermit_debounce_8ino_afe6d7f1905e6174c08cc6013f1cd98b9}\label{_tastermit_debounce_8ino_afe6d7f1905e6174c08cc6013f1cd98b9} 
+unsigned long {\bfseries letzte\+Zeit} = 0
+\item 
+\Hypertarget{_tastermit_debounce_8ino_a77d7d18f51343feebbe6d0eea7b4ac57}\label{_tastermit_debounce_8ino_a77d7d18f51343feebbe6d0eea7b4ac57} 
+unsigned long {\bfseries debounce\+Delay} = 50
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variablen-\/\+Dokumentation}
+\Hypertarget{_tastermit_debounce_8ino_ae4df85e73eac2d8b0a7d1636b4dfb669}\index{TastermitDebounce.ino@{TastermitDebounce.ino}!Taster@{Taster}}
+\index{Taster@{Taster}!TastermitDebounce.ino@{TastermitDebounce.ino}}
+\doxysubsubsection{\texorpdfstring{Taster}{Taster}}
+{\footnotesize\ttfamily \label{_tastermit_debounce_8ino_ae4df85e73eac2d8b0a7d1636b4dfb669} 
+int Taster = 3}
+
+
+
+Programm für den Test der Funktionalität eines Tasters. 
+
+Dieses Programm testet die Ansteuerung und Funktionalität eines Tasters mit zusätzlichem Debounce-\/\+Delay 

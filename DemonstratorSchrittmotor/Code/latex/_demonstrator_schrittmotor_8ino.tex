@@ -1,0 +1,328 @@
+\doxysection{Demonstrator\+Schrittmotor/\+Demonstrator\+Schrittmotor.ino-\/\+Dateireferenz}
+\hypertarget{_demonstrator_schrittmotor_8ino}{}\label{_demonstrator_schrittmotor_8ino}\index{DemonstratorSchrittmotor/DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor/DemonstratorSchrittmotor.ino}}
+{\ttfamily \#include "{}Accel\+Stepper.\+h"{}}\newline
+{\ttfamily \#include $<$SPI.\+h$>$}\newline
+{\ttfamily \#include $<$Wire.\+h$>$}\newline
+{\ttfamily \#include $<$Adafruit\+\_\+\+GFX.\+h$>$}\newline
+{\ttfamily \#include $<$Adafruit\+\_\+\+SSD1306.\+h$>$}\newline
+{\ttfamily \#include $<$Encoder.\+h$>$}\newline
+\doxysubsubsection*{Makrodefinitionen}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a30c5844e943bc0a982169f30bc07e497}{MOTOR\+\_\+\+INTERFACE\+\_\+\+TYPE}}~1
+\begin{DoxyCompactList}\small\item\em Demonstration eines Stepper-\/\+Motors mit Encoder und OLED-\/\+Anzeige. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a2cd109632a6dcccaa80b43561b1ab700}\label{_demonstrator_schrittmotor_8ino_a2cd109632a6dcccaa80b43561b1ab700} 
+\#define {\bfseries SCREEN\+\_\+\+WIDTH}~128
+\begin{DoxyCompactList}\small\item\em Festlegung der Breite des Displays. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a6974d08a74da681b3957b2fead2608b8}\label{_demonstrator_schrittmotor_8ino_a6974d08a74da681b3957b2fead2608b8} 
+\#define {\bfseries SCREEN\+\_\+\+HEIGHT}~64
+\begin{DoxyCompactList}\small\item\em Festlegung der Höhe des Displays. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a619e07239fb3b9b14d40646ab41d5b4f}\label{_demonstrator_schrittmotor_8ino_a619e07239fb3b9b14d40646ab41d5b4f} 
+\#define {\bfseries OLED\+\_\+\+RESET}~-\/1
+\begin{DoxyCompactList}\small\item\em Festlegung des OLED-\/\+Resets. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a4dc358585abdaa9531e340bab60ae0b5}\label{_demonstrator_schrittmotor_8ino_a4dc358585abdaa9531e340bab60ae0b5} 
+\#define {\bfseries SCREEN\+\_\+\+ADDRESS}~0x3C
+\begin{DoxyCompactList}\small\item\em Festlegung der I2\+C-\/\+Adresse des Displays. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a113e736ef0534a8dc68c73cfa87a51de}\label{_demonstrator_schrittmotor_8ino_a113e736ef0534a8dc68c73cfa87a51de} 
+\#define {\bfseries PIN\+\_\+\+STEP\+\_\+\+DIR}~4
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am Direction-\/\+Pin des Motortreibers. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a1a58730e0505d5863df72c240cd2eb90}\label{_demonstrator_schrittmotor_8ino_a1a58730e0505d5863df72c240cd2eb90} 
+\#define {\bfseries PIN\+\_\+\+STEP\+\_\+\+STEP}~5
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am Step-\/\+Pin des Motortreibers. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a12d0d24c0102aad69aaceaef20b13bbc}\label{_demonstrator_schrittmotor_8ino_a12d0d24c0102aad69aaceaef20b13bbc} 
+\#define {\bfseries PIN\+\_\+\+LED\+\_\+\+RED}~6
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am roten Kabel der LED. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a02e4e814b09d5c412ee012efc58acfa4}\label{_demonstrator_schrittmotor_8ino_a02e4e814b09d5c412ee012efc58acfa4} 
+\#define {\bfseries PIN\+\_\+\+LED\+\_\+\+GREEN}~3
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am grünen Kabel der LED. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_abf23f961d4a5a1b764da361ecd6f9ebd}\label{_demonstrator_schrittmotor_8ino_abf23f961d4a5a1b764da361ecd6f9ebd} 
+\#define {\bfseries PIN\+\_\+\+LED\+\_\+\+BLUE}~9
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am blauen Kabel der LED. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a3be8154d350ce65f5e6c1dfc284700af}\label{_demonstrator_schrittmotor_8ino_a3be8154d350ce65f5e6c1dfc284700af} 
+\#define {\bfseries PIN\+\_\+\+BUTTON}~11
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am Taster. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a0fce84a9f1cb9f2cbcfdce129dae6baf}\label{_demonstrator_schrittmotor_8ino_a0fce84a9f1cb9f2cbcfdce129dae6baf} 
+\#define {\bfseries PIN\+\_\+\+ENDSTOP}~12
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am Endschalter. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a29e4cd8304fdcdd2e715189dfaaf31c2}\label{_demonstrator_schrittmotor_8ino_a29e4cd8304fdcdd2e715189dfaaf31c2} 
+\#define {\bfseries PIN\+\_\+\+CLK}~9
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am CLK-\/\+Pin des Encoders. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a85404c69d2206709cb017be8f557e330}\label{_demonstrator_schrittmotor_8ino_a85404c69d2206709cb017be8f557e330} 
+\#define {\bfseries PIN\+\_\+\+DT}~2
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am DT-\/\+Pin des Encoders. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a3089662282f36c76b432a600f8943568}\label{_demonstrator_schrittmotor_8ino_a3089662282f36c76b432a600f8943568} 
+\#define {\bfseries PIN\+\_\+\+SW}~3
+\begin{DoxyCompactList}\small\item\em Verknüpfter digitaler Pin am SW-\/\+Pin des Encoders. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Funktionen}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a61d0e968efb96b75d3a8e592749a4c61}\label{_demonstrator_schrittmotor_8ino_a61d0e968efb96b75d3a8e592749a4c61} 
+Accel\+Stepper {\bfseries stepper} (\mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a30c5844e943bc0a982169f30bc07e497}{MOTOR\+\_\+\+INTERFACE\+\_\+\+TYPE}}, \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a1a58730e0505d5863df72c240cd2eb90}{PIN\+\_\+\+STEP\+\_\+\+STEP}}, \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a113e736ef0534a8dc68c73cfa87a51de}{PIN\+\_\+\+STEP\+\_\+\+DIR}})
+\begin{DoxyCompactList}\small\item\em Definition des Stepper-\/\+Motors. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_ae780a76d06cb56e14435ebfe3db3f6d3}\label{_demonstrator_schrittmotor_8ino_ae780a76d06cb56e14435ebfe3db3f6d3} 
+Adafruit\+\_\+\+SSD1306 {\bfseries display} (\mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a2cd109632a6dcccaa80b43561b1ab700}{SCREEN\+\_\+\+WIDTH}}, \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a6974d08a74da681b3957b2fead2608b8}{SCREEN\+\_\+\+HEIGHT}}, \&Wire, \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a619e07239fb3b9b14d40646ab41d5b4f}{OLED\+\_\+\+RESET}})
+\begin{DoxyCompactList}\small\item\em Definition des Displays. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a589c2f488d89b2f451dadd26180a29c3}\label{_demonstrator_schrittmotor_8ino_a589c2f488d89b2f451dadd26180a29c3} 
+Encoder {\bfseries encoder} (\mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a85404c69d2206709cb017be8f557e330}{PIN\+\_\+\+DT}}, \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a29e4cd8304fdcdd2e715189dfaaf31c2}{PIN\+\_\+\+CLK}})
+\begin{DoxyCompactList}\small\item\em Definition des Encoders. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a4fc01d736fe50cf5b977f755b675f11d}{setup}} ()
+\begin{DoxyCompactList}\small\item\em Initialisierung des Systems. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_afe461d27b9c48d5921c00d521181f12f}{loop}} ()
+\begin{DoxyCompactList}\small\item\em Hauptprogrammschleife. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_adbba8dc36531c51b23ca1f504629a6c4}{update\+LEDs}} (bool red, bool green, bool blue)
+\begin{DoxyCompactList}\small\item\em Aktualisiert die Farbe der LEDs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a67fae5f1bbeed8dce6bd7a8f24971e22}{update\+Display}} (const char \texorpdfstring{$\ast$}{*}line1, const char \texorpdfstring{$\ast$}{*}line2)
+\begin{DoxyCompactList}\small\item\em Aktualisiert das Display basierend auf der eingestellten Nachricht. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a5947dcc9b6e496d90e041f8bad0e3e74}{find\+Reference}} ()
+\begin{DoxyCompactList}\small\item\em Führt die Referenzfahrt aus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_demonstrator_schrittmotor_8ino_a1cb72a248a56b5dc2b2ed27db7560b90}{handle\+Interrupt}} ()
+\begin{DoxyCompactList}\small\item\em Funktion für die Ausführung des Interrupts. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variablen}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a1377677ef2d12456d91c13dc21a6bdc1}\label{_demonstrator_schrittmotor_8ino_a1377677ef2d12456d91c13dc21a6bdc1} 
+int {\bfseries button\+Status} = HIGH
+\begin{DoxyCompactList}\small\item\em Aktueller Status des Tasters (gedrückt oder nicht gedrückt) \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_abe01d8ac4dd9d45bf81cb4050354fdb6}\label{_demonstrator_schrittmotor_8ino_abe01d8ac4dd9d45bf81cb4050354fdb6} 
+int {\bfseries last\+Button\+Status} = HIGH
+\begin{DoxyCompactList}\small\item\em Letzter Status des Tasters (gedrückt oder nicht gedrückt) \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a025a85b33749fd5dde5cb7edd7aea941}\label{_demonstrator_schrittmotor_8ino_a025a85b33749fd5dde5cb7edd7aea941} 
+unsigned long {\bfseries last\+Debounce\+Time} = 0
+\begin{DoxyCompactList}\small\item\em Die letzte Zeit, zu der der Taster gedrückt wurde. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a77d7d18f51343feebbe6d0eea7b4ac57}\label{_demonstrator_schrittmotor_8ino_a77d7d18f51343feebbe6d0eea7b4ac57} 
+unsigned long {\bfseries debounce\+Delay} = 50
+\begin{DoxyCompactList}\small\item\em Eine Verzögerung für die Abfrage der Schalter, um die mechanischen Schwingungen auszugleichen. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_ac192b28f90a950a653d6b9ce0b58d7d1}\label{_demonstrator_schrittmotor_8ino_ac192b28f90a950a653d6b9ce0b58d7d1} 
+int {\bfseries endstop\+Status} = HIGH
+\begin{DoxyCompactList}\small\item\em Aktueller Status des Endtasters (gedrückt oder nicht gedrückt) \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_ae61d0758042d54164f01264daddf589a}\label{_demonstrator_schrittmotor_8ino_ae61d0758042d54164f01264daddf589a} 
+int {\bfseries last\+Endstop\+Status} = HIGH
+\begin{DoxyCompactList}\small\item\em Letzter Status des Tasters (gedrückt oder nicht gedrückt) \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a0b665c0ebb89aad12ca58919f4dd9b6a}\label{_demonstrator_schrittmotor_8ino_a0b665c0ebb89aad12ca58919f4dd9b6a} 
+unsigned long {\bfseries last\+Endstop\+Debounce\+Time} = 0
+\begin{DoxyCompactList}\small\item\em Die letzte Zeit, zu der der Endschalter gedrückt wurde. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a2474817ddb7d8b524ad42e2455ed2e06}\label{_demonstrator_schrittmotor_8ino_a2474817ddb7d8b524ad42e2455ed2e06} 
+int {\bfseries stage} = 0
+\begin{DoxyCompactList}\small\item\em Die Stufe, die für die Demonstration eingestellt ist. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a266e9e6947fe076cfa370e6a80126dee}\label{_demonstrator_schrittmotor_8ino_a266e9e6947fe076cfa370e6a80126dee} 
+int {\bfseries speeds} \mbox{[}$\,$\mbox{]} = \{1000, 1000, 500, 2000, 3500, 2000, 2000, 2000, 2000, 500, 3500\}
+\begin{DoxyCompactList}\small\item\em Geschwindigkeiten für jede Stufe. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_ac8c1c94506d310b4f65c8448f37da25e}\label{_demonstrator_schrittmotor_8ino_ac8c1c94506d310b4f65c8448f37da25e} 
+int {\bfseries accelerations} \mbox{[}$\,$\mbox{]} = \{1000, 2000, 2000, 2000, 2000, 300, 1000, 4000, 7000, 300, 7000\}
+\begin{DoxyCompactList}\small\item\em Beschleunigungen für jede Stufe. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a69e1ba7210d0853437606e573b4435b7}\label{_demonstrator_schrittmotor_8ino_a69e1ba7210d0853437606e573b4435b7} 
+long {\bfseries old\+Position} = -\/999
+\begin{DoxyCompactList}\small\item\em Alte Position des Encoders für den Abgleich. Es ist nötig, dass ein Wert vorher eingestellt ist für die Funktion des Programms. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a559b4542c0c755f1d1c42a9e88f653ac}\label{_demonstrator_schrittmotor_8ino_a559b4542c0c755f1d1c42a9e88f653ac} 
+const int {\bfseries safe\+Steps} = 70
+\begin{DoxyCompactList}\small\item\em Anzahl der Schritte, die als Sicherheitsabstand zum Endschalter gehalten werden. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_abe22ddb0b5ae5107e85ebf685d3fe89c}\label{_demonstrator_schrittmotor_8ino_abe22ddb0b5ae5107e85ebf685d3fe89c} 
+const int {\bfseries track\+Length} = 1750
+\begin{DoxyCompactList}\small\item\em Anzahl der Schritte, die bis zum Ende der Bahn durchgeführt werden können. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_ad216cc95753720ac36ce4daf49285454}\label{_demonstrator_schrittmotor_8ino_ad216cc95753720ac36ce4daf49285454} 
+const char \texorpdfstring{$\ast$}{*} {\bfseries stage\+Messages} \mbox{[}$\,$\mbox{]} = \{"{}Keine Stufe eingestellt"{}, "{}Stufe 1"{}, "{}Stufe 2"{}, "{}Stufe 3"{}, "{}Stufe 4"{}, "{}Stufe 5"{}, "{}Stufe 6"{}, "{}Stufe 7"{}, "{}Stufe 8"{}, "{}Stufe 9"{}, "{}Stufe 10"{}\}
+\begin{DoxyCompactList}\small\item\em Anzeige der eingestellten Stufe auf dem Display. \end{DoxyCompactList}\item 
+\Hypertarget{_demonstrator_schrittmotor_8ino_a77267a5ccad6a7a1e681f541b9c7b345}\label{_demonstrator_schrittmotor_8ino_a77267a5ccad6a7a1e681f541b9c7b345} 
+const char \texorpdfstring{$\ast$}{*} {\bfseries messages} \mbox{[}$\,$\mbox{]} = \{"{}Start..."{}, "{}Startbereit"{}, "{}Programm wird ausgefuehrt..."{}, "{}Vorgang abgebrochen, das Geraet muss neu gestartet werden"{}, "{}"{}\}
+\begin{DoxyCompactList}\small\item\em Nachricht auf dem Display. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Makro-\/\+Dokumentation}
+\Hypertarget{_demonstrator_schrittmotor_8ino_a30c5844e943bc0a982169f30bc07e497}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!MOTOR\_INTERFACE\_TYPE@{MOTOR\_INTERFACE\_TYPE}}
+\index{MOTOR\_INTERFACE\_TYPE@{MOTOR\_INTERFACE\_TYPE}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{MOTOR\_INTERFACE\_TYPE}{MOTOR\_INTERFACE\_TYPE}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_a30c5844e943bc0a982169f30bc07e497} 
+\#define MOTOR\+\_\+\+INTERFACE\+\_\+\+TYPE~1}
+
+
+
+Demonstration eines Stepper-\/\+Motors mit Encoder und OLED-\/\+Anzeige. 
+
+Dieses Programm steuert einen Stepper-\/\+Motor über einen Encoder und zeigt Informationen auf einem OLED-\/\+Display an. Es beinhaltet auch Taster-\/ und Endschalter-\/\+Funktionalitäten. \texorpdfstring{$<$}{<} Bibliothek für den Stepper-\/\+Motor Bibliothek für die Kommunikation mit Displays Bibliothek für die Kommunikation über das I2\+C-\/\+Protokoll Bibliothek für viele Grafikfunktionen und Operationen für Displays Bibliothek für die Ansteuerung von OLEDs mit SSD1306-\/\+Treiber Bibliothek für den Encoder Festlegung der Anbindung des Stepper-\/\+Motors, 1 bedeutet, dass der Motor über einen Treiber angeschlossen ist 
+
+\doxysubsection{Dokumentation der Funktionen}
+\Hypertarget{_demonstrator_schrittmotor_8ino_a5947dcc9b6e496d90e041f8bad0e3e74}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!findReference@{findReference}}
+\index{findReference@{findReference}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{findReference()}{findReference()}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_a5947dcc9b6e496d90e041f8bad0e3e74} 
+bool find\+Reference (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Führt die Referenzfahrt aus. 
+
+\begin{DoxyReturn}{Rückgabe}
+true Wenn der Referenzpunkt gefunden wurde 
+
+false Wenn der Referenzpunkt noch nicht gefunden wurde 
+\end{DoxyReturn}
+\texorpdfstring{$<$}{<} Auswertung des Endschalters
+
+\texorpdfstring{$<$}{<} Wenn der Zustand des Endschalters sich geändert hat
+
+\texorpdfstring{$<$}{<} Aktualisierung der Zeit, zu der der Endschalter gedrückt wurde
+
+\texorpdfstring{$<$}{<} Falls die Zeit zwischen dem Drücken des Endschalters größer ist, als die Verzögerung für die Auswertung des Endschalters
+
+\texorpdfstring{$<$}{<} Falls der gespeicherte Status nicht dem tatsächlichen Status des Endschalters entspricht
+
+\texorpdfstring{$<$}{<} Speichern des aktuellen Status des Endschalters
+
+\texorpdfstring{$<$}{<} Falls der Endschalter gedrückt wurde
+
+\texorpdfstring{$<$}{<} Motor stoppen
+
+\texorpdfstring{$<$}{<} Positive Rückmeldung der Funktion
+
+\texorpdfstring{$<$}{<} Aktualisierung des letzten Status des Endschalters
+
+\texorpdfstring{$<$}{<} Negative Rückmeldung der Funktion\Hypertarget{_demonstrator_schrittmotor_8ino_a1cb72a248a56b5dc2b2ed27db7560b90}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!handleInterrupt@{handleInterrupt}}
+\index{handleInterrupt@{handleInterrupt}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{handleInterrupt()}{handleInterrupt()}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_a1cb72a248a56b5dc2b2ed27db7560b90} 
+void handle\+Interrupt (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Funktion für die Ausführung des Interrupts. 
+
+Diese Funktion wird aufgerufen, wenn der Encoder-\/\+Taster gedrückt wird. \texorpdfstring{$<$}{<} Stoppen des Motors
+
+\texorpdfstring{$<$}{<} Aktualisierung der Anzeige auf dem Display\Hypertarget{_demonstrator_schrittmotor_8ino_afe461d27b9c48d5921c00d521181f12f}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!loop@{loop}}
+\index{loop@{loop}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_afe461d27b9c48d5921c00d521181f12f} 
+void loop (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Hauptprogrammschleife. 
+
+Diese Funktion wird kontinuierlich ausgeführt und steuert die Hauptlogik des Programms. \texorpdfstring{$<$}{<} Auswertung der Encoder-\/\+Position
+
+\texorpdfstring{$<$}{<} Falls die neue Position des Encoders nicht der alten Position des Encoders entspricht
+
+\texorpdfstring{$<$}{<} Übernahme der neuen Position für die Anzeige der Stufe auf dem Bildschirm
+
+\texorpdfstring{$<$}{<} Anzeige der eingestellten Stufe auf dem Display
+
+\texorpdfstring{$<$}{<} Aktualisieren der alten Position
+
+\texorpdfstring{$<$}{<} Auswertung des Tasters, ob er gedrückt wurde oder nicht
+
+\texorpdfstring{$<$}{<} Wenn der Zustand des Tasters sich geändert hat
+
+\texorpdfstring{$<$}{<} Aktualisierung der Zeit, zu der der Taster gedrückt wurde
+
+\texorpdfstring{$<$}{<} Falls die Zeit zwischen dem Drücken des Tasters größer ist, als die Verzögerung für die Auswertung des Schalters
+
+\texorpdfstring{$<$}{<} Falls der gespeicherte Status nicht dem tatsächlichen Status des Tasters entspricht
+
+\texorpdfstring{$<$}{<} Speichern des aktuellen Status des Tasters
+
+\texorpdfstring{$<$}{<} Falls der Taster gedrückt wurde
+
+\texorpdfstring{$<$}{<} Einstellung der Beschleunigung des Motors auf eine angemessene Beschleunigung
+
+\texorpdfstring{$<$}{<} Geschwindigkeit des Steppers einstellen
+
+\texorpdfstring{$<$}{<} Einen einzelnen Schritt ausführen
+
+\texorpdfstring{$<$}{<} Speichern der eingestellten Stufe für den Demonstrationsprozess
+
+\texorpdfstring{$<$}{<} Update des Displays
+
+\texorpdfstring{$<$}{<} Update der LEDs
+
+\texorpdfstring{$<$}{<} Anzahl der auszuführenden Wiederholungen der Demonstration
+
+\texorpdfstring{$<$}{<} Einstellung der Geschwindigkeit für die Ausführung der Schritte für den Sicherheitsabstand
+
+\texorpdfstring{$<$}{<} Ändern der Beschleunigung basierend auf der Stufe
+
+\texorpdfstring{$<$}{<} Ausführung der Schritte für den Sicherheitsabstand
+
+\texorpdfstring{$<$}{<} Ändern der Geschwindigkeit basierend auf der Stufe
+
+\texorpdfstring{$<$}{<} Ändern der Beschleunigung basierend auf der Stufe
+
+\texorpdfstring{$<$}{<} Ausführung der Bewegung vom Motor weg
+
+\texorpdfstring{$<$}{<} Ausführung der Bewegung zum Motor hin
+
+\texorpdfstring{$<$}{<} Update des Displays
+
+\texorpdfstring{$<$}{<} Aktualisierung des letzten Status des Tasters\Hypertarget{_demonstrator_schrittmotor_8ino_a4fc01d736fe50cf5b977f755b675f11d}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!setup@{setup}}
+\index{setup@{setup}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_a4fc01d736fe50cf5b977f755b675f11d} 
+void setup (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Initialisierung des Systems. 
+
+Diese Funktion wird einmal beim Start ausgeführt und initialisiert alle wichtigen Komponenten. \texorpdfstring{$<$}{<} Einstellung des Startwerts für die maximale Geschwindigkeit
+
+\texorpdfstring{$<$}{<} Einstellung des Startwerts für die Beschleunigung
+
+\texorpdfstring{$<$}{<} Initialisierung des Pins der roten LED
+
+\texorpdfstring{$<$}{<} Initialisierung des Pins der grünen LED
+
+\texorpdfstring{$<$}{<} Initialisierung des Pins der blauen LED
+
+\texorpdfstring{$<$}{<} Initialisierung des Pins des Tasters
+
+\texorpdfstring{$<$}{<} Initialisierung des Pins des Endschalters
+
+\texorpdfstring{$<$}{<} Start der seriellen Kommunikation
+
+\texorpdfstring{$<$}{<} Festlegen eines Interrupts, der das Programm stoppt, sobald er gedrückt wird
+
+\texorpdfstring{$<$}{<} Start des Displays, inklusive einer Startanimation von Adafruit
+
+\texorpdfstring{$<$}{<} Festlegung der Textgröße
+
+\texorpdfstring{$<$}{<} Festlegung der Textfarbe
+
+\texorpdfstring{$<$}{<} Anzeige der Startbenachrichtigung
+
+\texorpdfstring{$<$}{<} Start der LED\Hypertarget{_demonstrator_schrittmotor_8ino_a67fae5f1bbeed8dce6bd7a8f24971e22}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!updateDisplay@{updateDisplay}}
+\index{updateDisplay@{updateDisplay}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{updateDisplay()}{updateDisplay()}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_a67fae5f1bbeed8dce6bd7a8f24971e22} 
+void update\+Display (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{line1}{, }\item[{const char \texorpdfstring{$\ast$}{*}}]{line2}{}\end{DoxyParamCaption})}
+
+
+
+Aktualisiert das Display basierend auf der eingestellten Nachricht. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em line1} & Erste Zeile der Nachricht \\
+\hline
+{\em line2} & Zweite Zeile der Nachricht (kann leer sein) \\
+\hline
+\end{DoxyParams}
+\texorpdfstring{$<$}{<} Leeren der aktuellen Anzeige des Displays
+
+\texorpdfstring{$<$}{<} Ausgabe der eingestellten Texte auf dem Display\Hypertarget{_demonstrator_schrittmotor_8ino_adbba8dc36531c51b23ca1f504629a6c4}\index{DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}!updateLEDs@{updateLEDs}}
+\index{updateLEDs@{updateLEDs}!DemonstratorSchrittmotor.ino@{DemonstratorSchrittmotor.ino}}
+\doxysubsubsection{\texorpdfstring{updateLEDs()}{updateLEDs()}}
+{\footnotesize\ttfamily \label{_demonstrator_schrittmotor_8ino_adbba8dc36531c51b23ca1f504629a6c4} 
+void update\+LEDs (\begin{DoxyParamCaption}\item[{bool}]{red}{, }\item[{bool}]{green}{, }\item[{bool}]{blue}{}\end{DoxyParamCaption})}
+
+
+
+Aktualisiert die Farbe der LEDs. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em red} & Gibt an, ob die rote LED an oder aus ist \\
+\hline
+{\em green} & Gibt an, ob die grüne LED an oder aus ist \\
+\hline
+{\em blue} & Gibt an, ob die blaue LED an oder aus ist \\
+\hline
+\end{DoxyParams}

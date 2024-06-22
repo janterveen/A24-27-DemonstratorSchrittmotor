@@ -1,0 +1,9 @@
+/** \mainpage Dokumentation für den Code
+ 
+\section Einführung
+Dies ist die Dokumentation des Codes für ein Projekt, das im Rahmen des Kurses "Automatisierungstechnik" im Jahr 2024 erstellt wurde. In diesem Projekt wird ein Demonstrator für einen Schrittmotor entwickelt, der verschiedene Geschwindigkeitsstufen darstellt, indem ein Schlitten auf einer Linearführung pendelt.
+
+ \section Dateien
+ In der Datei \ref DemonstratorSchrittmotor.ino ist der Code für das eigentliche Produkt, den Demonstrator für den Schrittmotor, dokumentiert.
+ In allen anderen Ordnern ist der Code für die Tests für die einzelnen Komponenten dokumentiert. 
+ */
