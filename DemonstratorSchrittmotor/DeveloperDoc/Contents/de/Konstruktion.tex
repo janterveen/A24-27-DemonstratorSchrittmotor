@@ -4,23 +4,26 @@
 % $Autor: Theilmann $
 % $Datum: 09.06.2024 $
 % $Pfad: DemonstratorSchrittmotor/DeveloperDoc/Contents/de/Konstruktion.tex $
-% $Version: 1 $
+% $Version: 2 $
 %
 %
 %%%%%%%%%%%%%%%%%%%
 
 \chapter{Konstruktion}
+
 In diesem Kapitel wird die Konstruktion des Demonstrator-Schrittmotors beschrieben. Zunächst werden die Rahmenbedingungen erläutert, anschließend werden das Gehäuse und die Anbauteile des Aluprofils besprochen. Abschließend wird die gesamte Baugruppe betrachtet.
 
 \section{Rahmenbedingungen}
+
 Das Gehäuse sowie sämtliche Anbauteile sollen mittels additiver Fertigung aus Polylactic Acid (PLA) hergestellt werden. Im und am Gehäuse werden sämtliche Komponenten zur Bedienung und Steuerung des Demonstrators untergebracht. Die Konstruktion soll eine komfortable Handhabung ermöglichen und sicherstellen, dass die Komponenten, wie beispielsweise das Tiny Machine Learning Shield mit dem aufgesteckten Arduino, fest sitzen.
 
 \section{Arbeiten mit SolidWorks 2023}
-Zur Herstellung des Gehäuses muss ein 3D-Modell mittels Computer Aided Design (CAD) erstellt werden. Hierfür wurde die Software SolidWorks 2023 vom französischen Software-Entwicklungsunternehmen Dassault Systèmes (DS) verwendet. \glqq SOLIDWORKS ist eine professionelle und leistungsstarke CAD-Software, die vor allem 
-im Maschinenbau viel genutzt wird.\grqq \cite[S.225]{Weber.2024} Für die Additve Fertigung muss das CAD-Modell als STL-Datei gespeichert werden. 
+
+Zur Herstellung des Gehäuses muss ein 3D-Modell mittels Computer Aided Design (CAD) erstellt werden. Hierfür wurde die Software SolidWorks 2023 vom französischen Software-Entwicklungsunternehmen Dassault Systèmes (DS) verwendet. \glqq \textit{SOLIDWORKS ist eine professionelle und leistungsstarke CAD-Software, die vor allem im Maschinenbau viel genutzt wird.}\grqq \cite[S.225]{Weber.2024} Für die Additve Fertigung muss das CAD-Modell als STL-Datei gespeichert werden. 
 
 \section{Gehäusekonstruktion}
-Zu Beginn wurden die Abmessungen der einzelnen Komponenten ermittelt, um die Dimensionen des Gehäuses festzulegen. Das Gehäuse besteht aus sechs Einzelteilen, die in Abbildung \ref{GehK} dargestellt sind und mit Innensechskantschrauben DIN 912 M3 verbunden werden.
+
+Zu Beginn wurden die Abmessungen der einzelnen Komponenten ermittelt, um die Dimensionen des Gehäuses festzulegen. Das Gehäuse, ersichtlich in Abbildung \ref{GehK}, besteht aus sechs Einzelteilen, die mit Innensechskantschrauben DIN 912 M3 verbunden werden.
 	\begin{figure}[H]	
 	 	\begin{center}
 			\includegraphics[width=\textwidth]{Images/Konstruktion/GehaeuseK.png}
@@ -28,7 +31,7 @@ Zu Beginn wurden die Abmessungen der einzelnen Komponenten ermittelt, um die Dim
 		\end{center}
 	\end{figure}
 
-Die Basis der Baugruppe ist die Bodenplatte mit einer Länge von 180 \ mm, einer Breite von 180 \ mm und einer Dicke von 7 mm, wie in Abbildung \ref{BodenK} dargestellt. An der Bodenplatte werden die anderen Gehäuseteile befestigt, ebenso wie das Schaltnetzteil, das Tiny Machine Learning Shield, das Aluprofil, die Schrittmotorsteuerung und der Halter für den Spannungswandler. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 1 bis 6 sind in Tabelle \ref{BohrungenGK} aufgeführt.
+Die Basis der Baugruppe ist die Bodenplatte mit einer Länge von 180 \ mm, einer Breite von 180 \ mm und einer Dicke von 7 mm, wie in Abbildung \ref{BodenK} dargestellt. An der Bodenplatte werden die anderen Teile des Gehäuses, das Schaltnetzteil, das Tiny Machine Learning Shield, das Aluminiumprofil, die Schrittmotorsteuerung und die Halterung für den Spannungswandler befestigt. Die Ecken sind mit einem Radius von 10 \ mm abgerundet. Die Bohrungen 1 bis 6 sind in Tabelle \ref{BohrungenGK} aufgeführt.
 
 	\begin{figure}[H]
 		\begin{center}
@@ -57,7 +60,7 @@ Die Seitenplatte Links wird an der Vorder- und Hinterplatte befestigt. Die Seite
 		\end{center}
 	\end{figure}
 
-Die Hinterplatte wird an der Bodenplatte gefügt. Die Hinterplatte hat eine Breite B von 170 \ mm und eine Höhe H von 65 \ mm, erkennbar in Abbildung \ref{HinterK}. Der Kaltgeräteanschluss mit Wippschalter von Artillery wird von außen der Hinterplatte montiert, (siehe Markierung e $30,5 \times 47 \ mm$  in Abb.\ref{HinterK}). Die Bohrungen 12 bis 15 sind der Tabelle \ref{BohrungenGK} aufgeführt.
+Die Hinterplatte wird an der Bodenplatte gefügt. Die Hinterplatte hat eine Breite B von 170 \ mm und eine Höhe H von 65 \ mm, erkennbar in Abbildung \ref{HinterK}. Der Kaltgerätestecker mit Artillerie-Wippschalter wird an der Außenseite der Rückplatte montiert (siehe Markierung e $30,5 \times 47 \ mm$  in Abb.\ref{HinterK}). Die Bohrungen 12 bis 15 sind der Tabelle \ref{BohrungenGK} aufgeführt.
 
 	\begin{figure}[H]
 		\begin{center}
@@ -118,7 +121,7 @@ Die Deckelplatte wird an der Vorder- und Hinterplatte befestigt. Die Deckelplatt
 \section{Anbauteile}
 
 Nachfolgend werden die Anbauteile in der Konstruktion beschrieben. 
-In der Abbildung \ref{FlankeMotorK} zu erkennen, ist die Halterung für den Motor. Die Halterung hat ein Breite B von 50 \ mm und eine Höhe H von 70 mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{FlankeMotorK}. Sie enthält eine Aussparung für den Motor (siehe Markierung g Motor\O $ \ 22,5 \ mm$, Welle \O $ \ 6 \ mm$  in Abb.\ref{SeiteRK}). Die Halterung wird an dem Aluprofil montiert. Die Bohrungen 20 und 21 sind der Tabelle \ref{BohrungenAK} aufgeführt. 
+In der Abbildung \ref{FlankeMotorK} zu erkennen, ist die Halterung für den Motor. Die Halterung hat ein Breite B von 50 \ mm und eine Höhe H von 70 mm und eine Dicke von 5 \ mm, erkennbar in Abbildung \ref{FlankeMotorK}. Sie enthält eine Aussparung für den Motor (siehe Markierung g Motor \O $ \ 22,5 \ mm$, Welle \O $ \ 6 \ mm$  in Abb.\ref{SeiteRK}). Die Halterung wird an dem Aluprofil montiert. Die Bohrungen 20 und 21 sind der Tabelle \ref{BohrungenAK} aufgeführt. 
  
 	\begin{figure}[H]
 		\begin{center}
@@ -136,7 +139,7 @@ Die Halterung für die Welle hat eine Breite B von 50 \ mm und eine Höhe H von 
 		\end{center}
 	\end{figure} 
 	 
-Der Griff zum Transportieren hat eine Breite B von 170 \ mm und eine Höhe H von 60 \ mm bei einer Dicke von 20 \ mm, die innere Spannweite beträgt Li 100 \ mm mit einer Höhe Hi von  50 \ mm , erkennbar in Abbildung \ref{GriffK}. Die Bohrungen 23 sind der Tabelle \ref{BohrungenAK} aufgeführt.  
+Der Griff zum Transportieren hat eine Breite B von 170 \ mm und eine Höhe H von 60 \ mm bei einer Dicke von 20 \ mm, die innere Spannweite Li beträgt 100 \ mm mit einer Höhe Hi von  50 \ mm , erkennbar in Abbildung \ref{GriffK}. Die Bohrungen 23 sind der Tabelle \ref{BohrungenAK} aufgeführt.  
 
 	\begin{figure}[H]
 		\begin{center}
@@ -181,9 +184,8 @@ Der Anzeiger hat eine Breite B von 40 \ mm und eine Länge L von 50 \ mm, erkenn
 	 	\end{center}
 	 \end{figure}
 
-
 \section{3D-Druck mit PLA}
-Die Einzelteile ds Gehäuses sowie die Anbauteile wurde mit dem Anycubic Kobra 2 Neo gefertigt, wahrnehmbar in \ref{AKK2N}. Als Fertigungsmaterial wurde PLA gewählt. Das additve Verfahren eignet sich als kostengüstiges und schnelles Verfahren für den Prototypen-Bau. Für den Druck aller Einzelteile wurde c.a 0,5kg Filament verbraucht. Der Preis für einen kg liegt bei ungefähr 20 €. Der Längste Druck dauerte ca. 2,5h. 
+Die Einzelteile des Gehäuses sowie die Anbauteile wurden mit dem Anycubic Kobra 2 Neo gefertigt, wahrnehmbar in \ref{AKK2N}. Als Fertigungsmaterial wurde PLA gewählt. Das additve Verfahren eignet sich als kostengünstiges und schnelles Verfahren für den Prototypen-Bau. Für den Druck aller Einzelteile wurde c.a 0,5kg Filament verbraucht. Der Preis für einen kg liegt bei ungefähr 20 €. Der längste Druck dauerte ca. 2,5h. 
 
 	 \begin{figure}[H]
 	 	\begin{center}
