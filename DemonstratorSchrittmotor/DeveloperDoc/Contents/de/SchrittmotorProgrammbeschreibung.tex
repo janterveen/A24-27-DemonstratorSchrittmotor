@@ -27,19 +27,24 @@ Beim Start des Programms werden alle Komponenten, einschließlich des Schrittmot
 \section{Erklärung des Codes}
 
 Das Programm für die Steuerung des Demonstrators wurde zunächst aus Teilen der Testprogramme für jede Hardware-Komponente basierend auf der gewünschten Funktion zusammengefügt. Nachdem die gewünschte Funktionalität erreicht war, wurde der Code mit Hilfe des Large-Language-Models Chat GPT in der Version 4.o des US-Unternehmens OpenAI Inc. hinsichtlich der Lesbarkeit und Vereinheitlichung Benennung von Variablen.
-Zuerst werden die notwendigen Bibliotheken eingebunden, die für die Steuerung des Stepper-Motors, das Display und den Encoder erforderlich sind:
+Zuerst werden die notwendigen Bibliotheken eingebunden, die für die Steuerung des Stepper-Motors, das Display und den Encoder erforderlich sind. \ref{Code:Einbindung der Bibliotheken}
 
-\begin{lstlisting}
+\begin{code}
+	\begin{lstlisting}[language=c++]
 #include "AccelStepper.h"
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Encoder.h>
-\end{lstlisting}
+\end{lstlisting}      
 
-Die define-Anweisungen legen Konstanten fest, wie die Art des Motorinterfaces, die Abmessungen des Displays und die Pin-Nummern für den Stepper-Motor, die LEDs, den Taster, den Endschalter und den Encoder.
+\caption[Einbindung der Bibliotheken]{Einbindung der Bibliotheken}\label{Code:Einbindung der Bibliotheken}    
+\end{code} 
 
-\begin{lstlisting}
+Die define-Anweisungen legen Konstanten fest, wie die Art des Motorinterfaces, die Abmessungen des Displays und die Pin-Nummern für den Stepper-Motor, die LEDs, den Taster, den Endschalter und den Encoder. \ref{Code:define-Anweisungen}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 #define MOTOR_INTERFACE_TYPE 1
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -56,7 +61,10 @@ Die define-Anweisungen legen Konstanten fest, wie die Art des Motorinterfaces, d
 #define PIN_CLK 9
 #define PIN_DT 2
 #define PIN_SW 3
-\end{lstlisting}
+\end{lstlisting}      
+
+\caption[define-Anweisungen]{define-Anweisungen}\label{Code:define-Anweisungen}    
+\end{code} 
 
 Nun werden die Objekte für den Stepper-Motor, das Display und den Encoder erstellt.
 
@@ -66,9 +74,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 Encoder encoder(PIN_DT, PIN_CLK);
 \end{lstlisting}
 
-Die globalen Variablen speichern den Status des Tasters, die Zeit der letzten Zustandsänderung, die aktuelle Stufe sowie die Geschwindigkeiten und Beschleunigungen für jede Stufe.
+Die globalen Variablen speichern den Status des Tasters, die Zeit der letzten Zustandsänderung, die aktuelle Stufe sowie die Geschwindigkeiten und Beschleunigungen für jede Stufe. \ref{Code:globale Variablen}
 
-\begin{lstlisting}
+\begin{code}
+	\begin{lstlisting}[language=c++]
 int buttonStatus = HIGH;
 int lastButtonStatus = HIGH;
 unsigned long lastDebounceTime = 0;
@@ -119,11 +128,15 @@ const char* messages[] = 	{"Start...",
 				 "Vorgang abgebrochen, das Geraet
 				  muss neu gestartet werden", 
 				 ""};
-\end{lstlisting}
+\end{lstlisting}      
 
-In der setup-Funktion werden die Startwerte für die maximale Geschwindigkeit und Beschleunigung des Stepper-Motors gesetzt, die Pins für LEDs, Taster und Endschalter initialisiert, die serielle Kommunikation gestartet und das Display initialisiert. Ein Interrupt für den Encoder-Taster wird festgelegt. Das Display zeigt eine Startanimation, und die LEDs werden auf ihre Startzustände gesetzt.
+\caption[globale Variablen]{globale Variablen}\label{Code:globale Variablen}    
+\end{code} 
 
-\begin{lstlisting}
+In der setup-Funktion werden die Startwerte für die maximale Geschwindigkeit und Beschleunigung des Stepper-Motors gesetzt, die Pins für LEDs, Taster und Endschalter initialisiert, die serielle Kommunikation gestartet und das Display initialisiert. Ein Interrupt für den Encoder-Taster wird festgelegt. Das Display zeigt eine Startanimation, und die LEDs werden auf ihre Startzustände gesetzt. \ref{Code:void setup}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 void setup() {
 	stepper.setMaxSpeed(1000);
 	stepper.setAcceleration(1000);
@@ -149,11 +162,15 @@ void setup() {
 	delay(1000);
 	updateLEDs(false, true, false);
 }
-\end{lstlisting}
+\end{lstlisting}      
 
-Die loop-Funktion wird kontinuierlich ausgeführt. Sie liest die Position des Encoders aus und zeigt bei einer Änderung die entsprechende Stufe auf dem Display an. Der Zustand des Tasters wird abgefragt und bei Betätigung die Referenzfahrt des Motors gestartet. Nach der Referenzfahrt führt der Motor Bewegungen gemäß den eingestellten Stufen und Geschwindigkeiten aus.
+\caption[void setup]{void setup}\label{Code:void setup}    
+\end{code} 
 
-\begin{lstlisting}
+Die loop-Funktion wird kontinuierlich ausgeführt. Sie liest die Position des Encoders aus und zeigt bei einer Änderung die entsprechende Stufe auf dem Display an. Der Zustand des Tasters wird abgefragt und bei Betätigung die Referenzfahrt des Motors gestartet. Nach der Referenzfahrt führt der Motor Bewegungen gemäß den eingestellten Stufen und Geschwindigkeiten aus. \ref{Code:void loop}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 void loop() {
 	long newPosition = encoder.read();
 	if (newPosition != oldPosition) {
@@ -208,21 +225,29 @@ void loop() {
 	}
 	lastButtonStatus = buttonReading;
 }
-\end{lstlisting}
+\end{lstlisting}      
 
-Die updateLEDs-Funktion aktualisiert den Zustand der LEDs basierend auf den übergebenen Parametern.
+\caption[void loop]{void loop}\label{Code:void loop}    
+\end{code} 
 
-\begin{lstlisting}
+Die updateLEDs-Funktion aktualisiert den Zustand der LEDs basierend auf den übergebenen Parametern. \ref{Code:void updateLEDs}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 void updateLEDs(bool red, bool green, bool blue) {
 	digitalWrite(PIN_LED_RED, red ? HIGH : LOW);
 	digitalWrite(PIN_LED_GREEN, green ? HIGH : LOW);
 	digitalWrite(PIN_LED_BLUE, blue ? HIGH : LOW);
 }
-\end{lstlisting}
+\end{lstlisting}      
 
-Die updateDisplay-Funktion aktualisiert das Display mit den übergebenen Nachrichten.
+\caption[void updateLEDs]{void updateLEDs}\label{Code:void updateLEDs}    
+\end{code}
 
-\begin{lstlisting}
+Die updateDisplay-Funktion aktualisiert das Display mit den übergebenen Nachrichten. \ref{Code:void updateDisplay}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 void updateDisplay(const char* line1, const char* line2) {
 	display.clearDisplay();
 	display.setCursor(0, 0);
@@ -232,11 +257,15 @@ void updateDisplay(const char* line1, const char* line2) {
 	}
 	display.display();
 }
-\end{lstlisting}
+\end{lstlisting}      
 
-Die findReference-Funktion führt die Referenzfahrt aus und überprüft den Endschalter. Wenn der Endschalter gedrückt ist, stoppt der Motor und die Funktion gibt true zurück.
+\caption[void updateDisplay]{void updateDisplay}\label{Code:void updateDisplay}    
+\end{code}
 
-\begin{lstlisting}
+Die findReference-Funktion führt die Referenzfahrt aus und überprüft den Endschalter. Wenn der Endschalter gedrückt ist, stoppt der Motor und die Funktion gibt true zurück. \ref{Code:bool findReference}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 bool findReference() {
 	int endstopReading = digitalRead(PIN_ENDSTOP);
 	if (endstopReading != lastEndstopStatus) {
@@ -255,16 +284,23 @@ bool findReference() {
 	lastEndstopStatus = endstopReading;
 	return false;
 }
-\end{lstlisting}
+\end{lstlisting}      
 
-Die handleInterrupt-Funktion wird aufgerufen, wenn der Encoder-Taster gedrückt wird. Sie stoppt den Motor und aktualisiert das Display mit einer Abbruchnachricht:
+\caption[bool findReference]{bool findReference}\label{Code:bool findReference}    
+\end{code}
 
-\begin{lstlisting}
+Die handleInterrupt-Funktion wird aufgerufen, wenn der Encoder-Taster gedrückt wird. Sie stoppt den Motor und aktualisiert das Display mit einer Abbruchnachricht. \ref{Code:void handleInterrupt}
+
+\begin{code}
+	\begin{lstlisting}[language=c++]
 void handleInterrupt() {
 	stepper.stop();
 	updateDisplay(messages[3], messages[4]);
 }
-\end{lstlisting}
+\end{lstlisting}      
+
+\caption[void handleInterrupt]{void handleInterrupt}\label{Code:void handleInterrupt}    
+\end{code}
 
 \section{Bibliotheken}
 Für die Erstellung des Programms werden Bibliotheken verwendet, um die Programmierung zu vereinfachen.
