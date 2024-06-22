@@ -4,7 +4,7 @@
 % $Autor: Theilmann und Hanneken $
 % $Datum: 15.05.2024 $
 % $Pfad: DemonstratorSchrittmotor/DeveloperDoc/Contents/de/Testdurch.tex $
-% $Version: 2 $
+% $Version: 3 $
 %
 %
 %%%%%%%%%%%%%%%%%%%
@@ -30,9 +30,9 @@ Ist der Spannungswandler ordnungsgemäß angeschlossen, leuchtet eine Signalleuc
 
 \section{ Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988 }
 
-Der korrekte Anschluss der Pins und der Schrittmotorsteuerung wird durch das folgende Testprogramm \ref{Code:Testprogramm für den Schrittmotor} getestet, das den Schrittmotor in einer im Programm fest gelegten Geschwindigkeit rotieren lässt \cite{MikeMcCauley.2024}:
+Die korrekte Verbindung der Pins sowie der Schrittmotorsteuerung wird durch das folgende Testprogramm \ref{Code:Testprogramm für den Schrittmotor} getestet. Hierbei wird der Schrittmotor in einer fest gelegten Geschwindigkeit rotiert. \cite{MikeMcCauley.2024}:
 
-\begin{code}
+\begin{code}[H]
 	\begin{lstlisting}[language=c++]
 	#include "AccelStepper.h"
 	
@@ -56,13 +56,14 @@ Der korrekte Anschluss der Pins und der Schrittmotorsteuerung wird durch das fol
 \caption[Testprogramm für den Schrittmotor]{Testprogramm für den Schrittmotor}\label{Code:Testprogramm für den Schrittmotor}    
 \end{code} 
 
-Zunächst hat die Ansteuerung des Motors nicht wie geplant funktioniert, statt zu rotieren hat der Motor nur vibriert. Nach der Überprüfung der Widerstände am Motor für die Zuordnung der Pins am Motor zu den Spulen und dem Abgleich mit dem Anschlussplan der Schrittmotorsteuerung wurde deutlich, dass über das Kabel die Spulen nicht korrekt mit den entsprechenden Spulen verbunden wurden. Durch die Umpolung des Steckkabels konnte die korrekte Ansteuerung des Schrittmotors hergestellt und bestätigt werden.
+Zunächst hat die Ansteuerung des Motors nicht wie geplant funktioniert, statt zu rotieren, vibrierte der Motor lediglich. Nach der Überprüfung der Innenwiderstände am Motor und dem Abgleich mit dem Anschlussplan der Schrittmotorsteuerung wurde deutlich, dass die Zuordnung der Pins am Steckkabel nicht korrekt waren. Durch die Umpolung des Steckkabels konnte die korrekte Ansteuerung des Schrittmotors hergestellt und bestätigt werden.
 
 \section{OLED-Display}
 
-Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folgendes Testprogramm verwendet, das Nacheinander verschiedene Abbildungen und Animationen auf dem Display darstellt und abspielt \cite{RuiSantos.2016}:
+Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird ein Testprogramm (Listing \ref{Code:Testprogramm für das OLED-Display}) verwendet, welches nacheinander verschiedene Abbildungen und Animationen auf dem Display darstellt und abspielt \cite{RuiSantos.2016}:
 
-\begin{code}
+
+\begin{code} [H]
 	\begin{lstlisting}[language=c++]
 	#include <SPI.h>
 	#include <Wire.h>
@@ -115,6 +116,13 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 		display.display();
 		delay(2000);
 		
+\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
+		
+		
 		testdrawline();
 		testdrawrect();
 		testfillrect();
@@ -164,13 +172,20 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 			display.display();
 			delay(1);
 		}
+		
+\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
+	
 		for(i=display.height()-1; i>=0; i-=4) {
 			display.drawLine(0, display.height()-1, display.width()-1, i, SSD1306_WHITE);
 			display.display();
 			delay(1);
 		}
 		delay(250);
-		
+				
 		display.clearDisplay();
 		
 		for(i=display.width()-1; i>=0; i-=4) {
@@ -186,7 +201,7 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 		delay(250);
 		
 		display.clearDisplay();
-		
+				
 		for(i=0; i<display.height(); i+=4) {
 			display.drawLine(display.width()-1, 0, 0, i, SSD1306_WHITE);
 			display.display();
@@ -200,7 +215,13 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 		
 		delay(2000);
 	}
-	
+
+\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
+
 	void testdrawrect() {
 		display.clearDisplay();
 		
@@ -248,6 +269,12 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 		
 		delay(2000);
 	}
+
+\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
 	
 	void testdrawroundrect() {
 		display.clearDisplay();
@@ -292,6 +319,12 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 	
 	void testfilltriangle() {
 		display.clearDisplay();
+		
+\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
 		
 		for(int16_t i=max(display.width(),display.height())/2; i>0; i-=5) {
 			display.fillTriangle(
@@ -341,6 +374,12 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 		delay(2000);
 	}
 	
+	\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
+	
 	void testscrolltext() {
 		display.clearDisplay();
 		
@@ -384,6 +423,12 @@ Um die Funktion und korrekte Ansteuerung des OLED-Displays zu testen, wird Folge
 	
 	void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 		int8_t f, icons[NUMFLAKES][3];
+
+\end{lstlisting} 
+\end{code}
+
+\begin{code} [H]	
+\begin{lstlisting} 
 		
 		for(f=0; f< NUMFLAKES; f++) {
 			icons[f][XPOS]   = random(1 - LOGO_WIDTH, display.width());
@@ -426,9 +471,9 @@ Mit Hilfe dieses Beispielprogrammes \ref{Code:Testprogramm für das OLED-Display
 
 \section{SMD-LED}
 
-Analog zu dem Blink-Beispiel-Sketch für den Test der Funktion des Mikrocontrollers (verweis Kap Beispielprogramm) wird für den Test der Funktion und der Ansteuerung der LED ein Testprogramm \ref{Code:Testprogramm für die LED} genutzt, bei dem die LED in Abständen von wenigen Sekunden zwischen der Darstellung der verschiedenen Farben (Rot, Grün und blau) wechselt.
+Analog zum Blink-Beispiel-Sketch für den Test der Funktion des Mikrocontrollers (verweis Kap Beispielprogramm) wird für den Test der Funktion und der Ansteuerung der LED ein Testprogramm \ref{Code:Testprogramm für die LED} genutzt, bei dem die LED in Abständen von wenigen Sekunden zwischen der Darstellung der verschiedenen Farben (Rot, Grün und Blau) wechselt.
 
-\begin{code}
+\begin{code}[H]
 	\begin{lstlisting}[language=c++]
 	int Led_Rot = 3;
 	int Led_Gruen = 2;
@@ -467,9 +512,9 @@ Dadurch konnte die Funktion der LED und die korrekte Ansteuerung der LED bestät
 
 \section{Drucktaster und Mikroschalter}
 
-Die Funktion des Drucktasters und des Mikroschalters können auf die gleiche Art und Weise und mit Hilfe des gleichen Testprogramms geprüft werden. Bei dem Testprogramm wird zunächst die Farbe der LED geändert, wenn der Taster oder Schalter betätigt ist, wenn der Taster oder Schalter nicht mehr betätigt ist, kehrt die LED in den Ursprungszustand zurück \ref{Code:Testprogramm für die Taster}.
+Die Funktion des Drucktasters und des Mikroschalters können auf die gleiche Art und Weise mithilfe des gleichen Testprogramms geprüft werden. Bei dem Testprogramm wird zunächst die Farbe der LED geändert, wenn der Taster oder Schalter betätigt ist, sobald der Taster oder Schalter nicht mehr betätigt wird, kehrt die LED in ihren Ursprungszustand zurück \ref{Code:Testprogramm für die Taster}.
 
-\begin{code}
+\begin{code}[H]
 	\begin{lstlisting}[language=c++]
 	int Taster = 11;
 	int StatusTaster = 0;
@@ -502,9 +547,9 @@ Die Funktion des Drucktasters und des Mikroschalters können auf die gleiche Art
 \caption[Testprogramm für die Taster]{Testprogramm für die Taster}\label{Code:Testprogramm für die Taster}    
 \end{code} 
 
-Sowohl der Drucktaster als auch der Mikroschalter konnten durch diesen Test ihre Funktion bestätigen. Die Umsetzung dieser Auswertung im Code für den Demonstrator erwies sich jedoch als problematisch, der Zustand der beiden Schalter wurde nicht zuverlässig geprüft. Dies konnte durch die Implementierung eines Debounce-Delays \cite{SM.2022} im Code gelöst werden \ref{Code:Testprogramm für die Taster mit Debounce}.
+Sowohl der Drucktaster als auch der Mikroschalter konnten durch diesen Test ihre Funktion bestätigen. Die Umsetzung dieser Auswertung im Code für den Demonstrator erwies sich als problematisch, da der Zustand der beiden Schalter wurde nicht zuverlässig geprüft wurde. Dies konnte durch die Implementierung eines Debounce-Delays \cite{SM.2022} im Code gelöst werden \ref{Code:Testprogramm für die Taster mit Debounce}.
 
-\begin{code}
+\begin{code}[H]
 	\begin{lstlisting}[language=c++]
 	int Taster = 3;
 	int StatusTaster = HIGH;
@@ -553,9 +598,9 @@ Sowohl der Drucktaster als auch der Mikroschalter konnten durch diesen Test ihre
 
 \section{Drehwinkel-Encoder}
 
-Um die Funktion und korrekte Ansteuerung des Drehwinkel-Encoders zu testen, wird Folgendes Testprogramm \ref{Code:Testprogramm für den Encoder} verwendet, das die Drehung des Encoders auswertet und den neuen Zustand im seriellen Monitor der Arduino IDE ausgibt \cite{Funduino.2024}.
+Um die Funktion und korrekte Ansteuerung des Drehwinkel-Encoders zu testen, wird das Testprogramm \ref{Code:Testprogramm für den Encoder} verwendet. Das Programm wertet die Drehung des Encoders aus und gibt den neuen Zustand im seriellen Monitor der Arduino IDE aus \cite{Funduino.2024}.
 
-\begin{code}
+\begin{code}[H]
 	\begin{lstlisting}[language=c++]
 	#include <Encoder.h>
 	
@@ -595,7 +640,7 @@ Um die Funktion und korrekte Ansteuerung des Drehwinkel-Encoders zu testen, wird
 
 \section{Mittlere Geschwindigkeit des Schlittens}
 
-Um die mittlere Geschwindigkeit des Schlittens herauszufinden, muss die Strecke durch die Zeit dividiert werden. Für die Tests wurde der Demonstrator aufgebaut und die Stufen jeweils fünf mal gefahren. In der Stufe wurde die Zeit, die der Schlitten vom Wendepunkt bis zum Wendepunkt benötigt gestoppt. Die Strecke beträgt 0,35\ m. Gestoppt wurde mit einem Handelsüblichen Stoppuhr. Die Ergebnisse der Tests sind in der Tabelle \ref{TestZeitTab} aufgeführt.
+Zur Ermittlung der mittlere Geschwindigkeit des Schlittens, ist eine Division der zurückgelegten Strecke durch die dafür benötigte Zeit erforderlich. Für die Tests wurde der Demonstrator aufgebaut und die Stufen jeweils fünfmal gefahren. Die Zeit, die der Schlitten vom Wendepunkt bis zum Wendepunkt benötigt, wurde in der jeweiligen Stufe gestoppt. Die Strecke beträgt 0,35\ m. Die Zeitmessung erfolgte mit einer handelsüblichen Stoppuhr. Die Ergebnisse sind in der Tabelle \ref{TestZeitTab} aufgeführt.
 
 \begin{figure}[H]
 \begin{center}
