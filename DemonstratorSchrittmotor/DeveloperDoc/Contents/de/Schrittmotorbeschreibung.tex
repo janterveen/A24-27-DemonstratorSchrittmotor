@@ -4,7 +4,7 @@
 % $Autor: Stein und Theilmann $
 % $Datum: 05.04.2024 $
 % $Pfad: DemonstratorSchrittmotor/DeveloperDoc/Contents/de/Schrittmotorbeschreibung.tex $
-% $Version: 1 $
+% $Version: 3 $
 %
 %
 %%%%%%%%%%%%%%%%%%%
@@ -52,10 +52,13 @@ Mit dem Sinus/Cosinus-Mikroschrittverfahren können die Mikroschrittverfahren re
 Ein Mikroschritt-Treiber unterteilt die Motorschrittwinkel in vier oder mehr Teile. Es handelt sich um einen Controller, der die Methode der Stromregelung verwendet, um die Mikroschritte zu erzeugen. Der Controller bietet außerdem den Vorteil einer erhöhten Flexibilität bei der Integration der Strombegrenzung und der Anpassung der Antriebscharakteristik als Reaktion auf Änderungen der Systemdynamik. Die Anzahl der Unterteilungen ist einstellbar, was eine präzise Steuerung und Anpassung an spezifische Anforderungen ermöglicht.\cite{Babiel.2023}
 
 \section{Schrittverluste verhindern}
+
 Um mögliche Schrittverlusten einzugrenzen und oder sie zu verhindern, wird in diesem Kapitel beschrieben, wie die Ursachen für Schrittverluste oder Stillstand methodisch zu ermitteln sind. \cite{FaulhaberDriveSystems.2020}
 
 \subsection{Auswahl des Schrittmotors}
+
 Zunächst muss ein passender Motor für die Anwendung gewählt werden. Dabei sollten folgende grundlegende Regeln erfüllt sein:
+
 \begin{itemize}
 	\item Motorauswahl durch Höchstwerte für Drehmoment und Drehzahl (Worst-Case-Szenario)
 	\item Verwendung eines Sicherheitsaufschlag von 30 \% auf die Drehmoment-Drehzahl-Kennlinie(Kippmoment)
@@ -71,9 +74,9 @@ In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, fa
 
 \subsubsection{Start-Stopp-Betrieb}
 
-Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
-%% Ich würde nicht Frequenz und Drehzahl verwenden. Vorschlag: Ersetzte Frequenz überall mit Drehzahl, Drehzahl ist bei Motoren mit Kreisförmiger Bewegung sowieso üblicher
-\begin{figure}[!ht]
+Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen, in Abbildung \ref{StartStoppFrequenz} erkennbar.\cite{FaulhaberDriveSystems.2020} 
+
+\begin{figure}[H]
 	\centering
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
@@ -91,10 +94,10 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 		\end{circuitikz}
 	}%
 	
-	\caption{Start-Stopp Frequenz \cite{FaulhaberDriveSystems.2020}} \label{Start-Stopp Frequenz}
+	\caption{Start-Stopp Frequenz \cite{FaulhaberDriveSystems.2020}} \label{StartStoppFrequenz}
 \end{figure}
 
-{\textbf{Fehlerbild: Motor läuft nicht an} 
+{\textbf{Fehlerbild: Motor läuft nicht an(Ursachen und Lösungen ersichtlich in der Tabelle \ref{MOTLNA})} 
 	\begin{center}
 		\fontsize{8}{10}\selectfont
 		\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -112,9 +115,9 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 	
 	\subsubsection{Beschleunigung und Rampenprofil (Trapezförmig)}
 	
-	Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
+	Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen, in Abbildung \ref{TrapezförmigesGeschwindigkeitsprofil} erkennbar.\cite{FaulhaberDriveSystems.2020} 
 	
-	\begin{figure}[!ht]
+	\begin{figure}[H]
 		\centering
 		\resizebox{1\textwidth}{!}{%
 			\begin{circuitikz}
@@ -143,11 +146,11 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 				\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (38.75,8.25);
 			\end{circuitikz}
 		}%
-		\caption{Trapezförmiges Geschwindigkeitsprofil \cite{FaulhaberDriveSystems.2020}} \label{Trapezförmiges Geschwindigkeitsprofil}
+		\caption{Trapezförmiges Geschwindigkeitsprofil \cite{FaulhaberDriveSystems.2020}} \label{TrapezförmigesGeschwindigkeitsprofil}
 	\end{figure}
-	{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})% noch eine verlinkung machen ! 
+	{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})
 		
-		{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht}
+		{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht(Ursachen und Lösungen ersichtlich in der Tabelle \ref{MBRH})}
 			\begin{center}
 				\fontsize{8}{10}\selectfont
 				\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -177,10 +180,10 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 						\item {Anderen Controller verwenden }
 					\end{itemize}\\ \hline
 				\end{tabularx}
-				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}}	
+				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}} \label{MBRH}	
 			\end{center}
 			
-			{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist.}
+			{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist(Ursachen und Lösungen ersichtlich in der Tabelle \ref{MBEKD}).}
 				\begin{center}
 					\fontsize{8}{10}\selectfont
 					\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -195,7 +198,7 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 							\item {Mechanische Dämpfung vorsehen} 
 						\end{itemize}	 \\	\hline
 					\end{tabularx}
-					\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \cite{FaulhaberDriveSystems.2020}}
+					\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \cite{FaulhaberDriveSystems.2020}} \label{MBEKD}
 				\end{center}
 				
 				
