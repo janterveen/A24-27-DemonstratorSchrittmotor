@@ -9,28 +9,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {5.1}{\ignorespaces Blink.py}}{35}{code.caption.27}%
+\contentsline {code}{\numberline {5.1}{\ignorespaces Blink.py}}{35}{code.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {6.1}{\ignorespaces Einbindung der Bibliotheken}}{39}{code.caption.29}%
-\contentsline {code}{\numberline {6.2}{\ignorespaces define-Anweisungen}}{40}{code.caption.30}%
-\contentsline {code}{\numberline {6.3}{\ignorespaces globale Variablen}}{41}{code.caption.31}%
-\contentsline {code}{\numberline {6.4}{\ignorespaces void setup}}{42}{code.caption.32}%
-\contentsline {code}{\numberline {6.5}{\ignorespaces void loop}}{43}{code.caption.33}%
-\contentsline {code}{\numberline {6.6}{\ignorespaces void updateLEDs}}{44}{code.caption.34}%
-\contentsline {code}{\numberline {6.7}{\ignorespaces void updateDisplay}}{44}{code.caption.35}%
-\contentsline {code}{\numberline {6.8}{\ignorespaces bool findReference}}{44}{code.caption.36}%
-\contentsline {code}{\numberline {6.9}{\ignorespaces void handleInterrupt}}{45}{code.caption.37}%
+\contentsline {code}{\numberline {6.1}{\ignorespaces Einbindung der Bibliotheken}}{39}{code.caption.30}%
+\contentsline {code}{\numberline {6.2}{\ignorespaces define-Anweisungen}}{40}{code.caption.31}%
+\contentsline {code}{\numberline {6.3}{\ignorespaces globale Variablen}}{41}{code.caption.32}%
+\contentsline {code}{\numberline {6.4}{\ignorespaces void setup}}{42}{code.caption.33}%
+\contentsline {code}{\numberline {6.5}{\ignorespaces void loop}}{43}{code.caption.34}%
+\contentsline {code}{\numberline {6.6}{\ignorespaces void updateLEDs}}{44}{code.caption.35}%
+\contentsline {code}{\numberline {6.7}{\ignorespaces void updateDisplay}}{44}{code.caption.36}%
+\contentsline {code}{\numberline {6.8}{\ignorespaces bool findReference}}{44}{code.caption.37}%
+\contentsline {code}{\numberline {6.9}{\ignorespaces void handleInterrupt}}{45}{code.caption.38}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {8.1}{\ignorespaces Testprogramm für den Schrittmotor}}{66}{code.caption.53}%
-\contentsline {code}{\numberline {8.2}{\ignorespaces Testprogramm für das OLED-Display}}{67}{code.caption.54}%
-\contentsline {code}{\numberline {8.3}{\ignorespaces Testprogramm für die LED}}{68}{code.caption.55}%
-\contentsline {code}{\numberline {8.4}{\ignorespaces Testprogramm für die Taster}}{69}{code.caption.56}%
-\contentsline {code}{\numberline {8.5}{\ignorespaces Testprogramm für die Taster mit Debounce}}{70}{code.caption.57}%
-\contentsline {code}{\numberline {8.6}{\ignorespaces Testprogramm für den Encoder}}{72}{code.caption.58}%
+\contentsline {code}{\numberline {8.1}{\ignorespaces Testprogramm für den Schrittmotor}}{66}{code.caption.54}%
+\contentsline {code}{\numberline {8.2}{\ignorespaces Testprogramm für das OLED-Display}}{74}{code.caption.62}%
+\contentsline {code}{\numberline {8.3}{\ignorespaces Testprogramm für die LED}}{75}{code.caption.63}%
+\contentsline {code}{\numberline {8.4}{\ignorespaces Testprogramm für die Taster}}{76}{code.caption.64}%
+\contentsline {code}{\numberline {8.5}{\ignorespaces Testprogramm für die Taster mit Debounce}}{77}{code.caption.65}%
+\contentsline {code}{\numberline {8.6}{\ignorespaces Testprogramm für den Encoder}}{78}{code.caption.66}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

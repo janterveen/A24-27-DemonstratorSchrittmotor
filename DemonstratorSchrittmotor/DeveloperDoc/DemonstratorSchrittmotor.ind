@@ -23,7 +23,10 @@
 
   \indexspace
 
+  \item CCI, xi, 3, 49
   \item CCM, xi, 13
+  \item Computer Aided Design
+    \subitem  \emph  {siehe} {CCI}, xi, 3
   \item Counter with CBC-MAC
     \subitem  \emph  {siehe} {CCM}, xi, 13
 
@@ -32,6 +35,12 @@
   \item Direkt Memory Access
     \subitem  \emph  {siehe} DMA, xi, 12
   \item DMA, xi, 12
+
+  \indexspace
+
+  \item HDMI, xi, 17
+  \item Hybrid
+    \subitem  \emph  {siehe} {HDMI}, xi, 17
 
   \indexspace
 
@@ -53,7 +62,7 @@
 
   \item Micro Universal Serial Bus
     \subitem  \emph  {siehe} {Micro USB}, xi, 12
-  \item Micro USB, xi, 12
+  \item Micro USB, xi, xii, 9, 12
 
   \indexspace
 
@@ -82,13 +91,18 @@
   \item Serial Data
     \subitem  \emph  {siehe} SDA, xi, 11
   \item Serial Peripheral Interface
-    \subitem  \emph  {siehe} SPI, xi, 9
+    \subitem  \emph  {siehe} SPI, xii, 9
   \item SMD, xi, 10
-  \item SoC, xi, 7
-  \item SPI, xi, 9, 13
+  \item SoC, xii, 7
+  \item SPI, xii, 9, 13
   \item Surface Mount Device
     \subitem  \emph  {siehe} SMD, xi, 10
   \item System on Chip
-    \subitem  \emph  {siehe} SoC, xi, 7
+    \subitem  \emph  {siehe} SoC, xii, 7
+
+  \indexspace
+
+  \item Ultravioletter-Filter
+    \subitem  \emph  {siehe} {Micro USB}, xii, 9
 
 \end{theindex}

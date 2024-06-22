@@ -6,10 +6,14 @@
 \indexentry{Advanced Encryption Standard! \emph  {siehe} AES}{xi}
 \indexentry{BLE}{xi}
 \indexentry{Bluetooth Low Energie! \emph  {siehe} {BLE}}{xi}
+\indexentry{CCI}{xi}
+\indexentry{Computer Aided Design! \emph  {siehe} {CCI}}{xi}
 \indexentry{CCM}{xi}
 \indexentry{Counter with CBC-MAC! \emph  {siehe} {CCM}}{xi}
 \indexentry{DMA}{xi}
 \indexentry{Direkt Memory Access! \emph  {siehe} DMA}{xi}
+\indexentry{HDMI}{xi}
+\indexentry{Hybrid! \emph  {siehe} {HDMI}}{xi}
 \indexentry{I\textsuperscript  {2}C}{xi}
 \indexentry{Inter-Integrated Circuit! \emph  {siehe} I\textsuperscript  {2}C}{xi}
 \indexentry{IC}{xi}
@@ -32,10 +36,14 @@
 \indexentry{Serial Data! \emph  {siehe} SDA}{xi}
 \indexentry{SMD}{xi}
 \indexentry{Surface Mount Device! \emph  {siehe} SMD}{xi}
-\indexentry{SoC}{xi}
-\indexentry{System on Chip! \emph  {siehe} SoC}{xi}
-\indexentry{SPI}{xi}
-\indexentry{Serial Peripheral Interface! \emph  {siehe} SPI}{xi}
+\indexentry{SoC}{xii}
+\indexentry{System on Chip! \emph  {siehe} SoC}{xii}
+\indexentry{SPI}{xii}
+\indexentry{Serial Peripheral Interface! \emph  {siehe} SPI}{xii}
+\indexentry{Micro USB}{xii}
+\indexentry{Ultravioletter-Filter! \emph  {siehe} {Micro USB}}{xii}
+\indexentry{Computer Aided Design! \emph  {siehe} {CCI}}{3}
+\indexentry{CCI}{3}
 \indexentry{Bluetooth Low Energie! \emph  {siehe} {BLE}}{7}
 \indexentry{BLE}{7}
 \indexentry{System on Chip! \emph  {siehe} SoC}{7}
@@ -48,6 +56,8 @@
 \indexentry{Light Emitting Diode! \emph  {siehe} {LED}}{8}
 \indexentry{LED}{9}
 \indexentry{LED}{9}
+\indexentry{Ultravioletter-Filter! \emph  {siehe} {Micro USB}}{9}
+\indexentry{Micro USB}{9}
 \indexentry{Inter Circuit! \emph  {siehe} IC}{9}
 \indexentry{IC}{9}
 \indexentry{I\textsuperscript  {2}C}{9}
@@ -88,6 +98,13 @@
 \indexentry{Automatic Address Recognition! \emph  {siehe} AAR}{13}
 \indexentry{AAR}{13}
 \indexentry{SPI}{13}
+\indexentry{Hybrid! \emph  {siehe} {HDMI}}{17}
+\indexentry{HDMI}{17}
+\indexentry{HDMI}{17}
+\indexentry{HDMI}{17}
 \indexentry{I\textsuperscript  {2}C}{25}
 \indexentry{I\textsuperscript  {2}C}{25}
 \indexentry{I\textsuperscript  {2}C}{25}
+\indexentry{CCI}{49}
+\indexentry{CCI}{49}
+\indexentry{CCI}{49}

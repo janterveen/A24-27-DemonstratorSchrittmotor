@@ -40,10 +40,10 @@
 \contentsline {subsection}{\numberline {3.2.1}Auswahl des Schrittmotors}{19}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Betriebsart}{19}{subsection.3.2.2}%
 \contentsline {subsubsection}{\nonumberline Start-Stopp-Betrieb}{19}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline Beschleunigung und Rampenprofil (Trapezförmig)}{20}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Beschleunigung und Rampenprofil (Trapezförmig)}{20}{subsubsection*.18}%
 \contentsline {subsection}{\numberline {3.2.3}Externe Ereignisse}{22}{subsection.3.2.3}%
-\contentsline {subsubsection}{\nonumberline Lastrückkopplung}{22}{subsubsection*.20}%
-\contentsline {subsubsection}{\nonumberline Erhöhung der Nutzlast mit der Zeit}{22}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Lastrückkopplung}{22}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Erhöhung der Nutzlast mit der Zeit}{22}{subsubsection*.23}%
 \contentsline {section}{\numberline {3.3}Beschreibung des verwendeten Schrittmotors}{22}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Weitere Hardware}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}OLED-Display}{25}{section.4.1}%
@@ -87,18 +87,18 @@
 \contentsline {section}{\numberline {8.3}Spannungsregler AMS1117}{65}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Nema 17 Schrittmotor mit Schrittmotorsteuerung A4988}{66}{section.8.4}%
 \contentsline {section}{\numberline {8.5}OLED-Display}{66}{section.8.5}%
-\contentsline {section}{\numberline {8.6}SMD-LED}{68}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Drucktaster und Mikroschalter}{69}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Drehwinkel-Encoder}{71}{section.8.8}%
-\contentsline {section}{\numberline {8.9}Mittlere Geschwindigkeit des Schlittens}{71}{section.8.9}%
-\contentsline {chapter}{\numberline {9}Offene Punkte}{75}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Misslungene Messung der Beschleunigung des Schlittens}{75}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Misslungene Ansteuerung der SMD-LED}{77}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Verbesserungen}{78}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Erweiterung}{78}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Anwendung in der Lehre}{78}{section.9.5}%
-\contentsline {chapter}{ Literaturverzeichnis}{79}{section.9.5}%
-\contentsline {chapter}{Anhang}{83}{chapter*.64}%
-\contentsline {chapter}{\numberline {10}Schaltplan}{85}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Materialliste}{87}{chapter.11}%
-\contentsline {chapter}{Index}{93}{table.11.1}%
+\contentsline {section}{\numberline {8.6}SMD-LED}{75}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Drucktaster und Mikroschalter}{76}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Drehwinkel-Encoder}{78}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Mittlere Geschwindigkeit des Schlittens}{79}{section.8.9}%
+\contentsline {chapter}{\numberline {9}Offene Punkte}{81}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Misslungene Messung der Beschleunigung des Schlittens}{81}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Misslungene Ansteuerung der SMD-LED}{83}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Verbesserungen}{84}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Erweiterung}{84}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Anwendung in der Lehre}{84}{section.9.5}%
+\contentsline {chapter}{ Literaturverzeichnis}{85}{section.9.5}%
+\contentsline {chapter}{Anhang}{89}{chapter*.72}%
+\contentsline {chapter}{\numberline {10}Schaltplan}{91}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Materialliste}{93}{chapter.11}%
+\contentsline {chapter}{Index}{99}{table.11.1}%

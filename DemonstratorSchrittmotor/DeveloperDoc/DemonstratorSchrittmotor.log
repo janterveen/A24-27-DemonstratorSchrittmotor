@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  22 JUN 2024 17:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  22 JUN 2024 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2053,95 +2053,98 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \c@g@acro@ARM@int=\count589
 \c@g@acro@bs@int=\count590
 \c@g@acro@ble@int=\count591
-\c@g@acro@cci@int=\count592
-\c@g@acro@ccm@int=\count593
-\c@g@acro@cli@int=\count594
-\c@g@acro@csi@int=\count595
-\c@g@acro@cg@int=\count596
-\c@g@acro@cifar@int=\count597
-\c@g@acro@cnc@int=\count598
-\c@g@acro@cnn@int=\count599
-\c@g@acro@coco@int=\count600
-\c@g@acro@cpu@int=\count601
-\c@g@acro@csp@int=\count602
-\c@g@acro@cuda@int=\count603
-\c@g@acro@cudnn@int=\count604
-\c@g@acro@dac@int=\count605
-\c@g@acro@dll@int=\count606
-\c@g@acro@dma@int=\count607
-\c@g@acro@dnn@int=\count608
-\c@g@acro@ecb@int=\count609
-\c@g@acro@emi@int=\count610
-\c@g@acro@fp32@int=\count611
-\c@g@acro@flops@int=\count612
-\c@g@acro@fp16@int=\count613
-\c@g@acro@fpga@int=\count614
-\c@g@acro@fps@int=\count615
-\c@g@acro@fpu@int=\count616
-\c@g@acro@gpio@int=\count617
-\c@g@acro@gpgpu@int=\count618
-\c@g@acro@gpu@int=\count619
-\c@g@acro@hdmi@int=\count620
-\c@g@acro@ic@int=\count621
-\c@g@acro@i2c@int=\count622
-\c@g@acro@i2s@int=\count623
-\c@g@acro@ide@int=\count624
-\c@g@acro@imu@int=\count625
-\c@g@acro@int8@int=\count626
-\c@g@acro@iot@int=\count627
-\c@g@acro@kdd@int=\count628
-\c@g@acro@ki@int=\count629
-\c@g@acro@knn@int=\count630
-\c@g@acro@led@int=\count631
-\c@g@acro@mimd@int=\count632
-\c@g@acro@nn@int=\count633
-\c@g@acro@nfc@int=\count634
-\c@g@acro@opencl@int=\count635
-\c@g@acro@oled@int=\count636
-\c@g@acro@pan@int=\count637
-\c@g@acro@pdm@int=\count638
-\c@g@acro@ppa@int=\count639
-\c@g@acro@pip@int=\count640
-\c@g@acro@pypi@int=\count641
-\c@g@acro@ram@int=\count642
-\c@g@acro@relu@int=\count643
-\c@g@acro@resnets@int=\count644
-\c@g@acro@rle@int=\count645
-\c@g@acro@rgb@int=\count646
-\c@g@acro@roi@int=\count647
-\c@g@acro@rpc@int=\count648
-\c@g@acro@RTOS@int=\count649
-\c@g@acro@sd@int=\count650
-\c@g@acro@sda@int=\count651
-\c@g@acro@sd-1@int=\count652
-\c@g@acro@sd-3@int=\count653
-\c@g@acro@scl@int=\count654
-\c@g@acro@ssh@int=\count655
-\c@g@acro@spi@int=\count656
-\c@g@acro@sbc@int=\count657
-\c@g@acro@simd@int=\count658
-\c@g@acro@sm@int=\count659
-\c@g@acro@smd@int=\count660
-\c@g@acro@sp@int=\count661
-\c@g@acro@spp@int=\count662
-\c@g@acro@sps@int=\count663
-\c@g@acro@soc@int=\count664
-\c@g@acro@tpu@int=\count665
-\c@g@acro@uart@int=\count666
-\c@g@acro@ui@int=\count667
-\c@g@acro@uma@int=\count668
-\c@g@acro@musb@int=\count669
-\c@g@acro@venv@int=\count670
-\c@g@acro@vpu@int=\count671
-\c@g@acro@vm@int=\count672
-\c@g@acro@vnc@int=\count673
-\c@g@acro@yolo@int=\count674
+\c@g@acro@cad@int=\count592
+\c@g@acro@cci@int=\count593
+\c@g@acro@ccm@int=\count594
+\c@g@acro@cli@int=\count595
+\c@g@acro@csi@int=\count596
+\c@g@acro@cg@int=\count597
+\c@g@acro@cifar@int=\count598
+\c@g@acro@cnc@int=\count599
+\c@g@acro@cnn@int=\count600
+\c@g@acro@coco@int=\count601
+\c@g@acro@cpu@int=\count602
+\c@g@acro@csp@int=\count603
+\c@g@acro@cuda@int=\count604
+\c@g@acro@cudnn@int=\count605
+\c@g@acro@dac@int=\count606
+\c@g@acro@dll@int=\count607
+\c@g@acro@dma@int=\count608
+\c@g@acro@dnn@int=\count609
+\c@g@acro@ecb@int=\count610
+\c@g@acro@emi@int=\count611
+\c@g@acro@fp32@int=\count612
+\c@g@acro@flops@int=\count613
+\c@g@acro@fp16@int=\count614
+\c@g@acro@fpga@int=\count615
+\c@g@acro@fps@int=\count616
+\c@g@acro@fpu@int=\count617
+\c@g@acro@gpio@int=\count618
+\c@g@acro@gpgpu@int=\count619
+\c@g@acro@gpu@int=\count620
+\c@g@acro@hdmi@int=\count621
+\c@g@acro@hy@int=\count622
+\c@g@acro@ic@int=\count623
+\c@g@acro@i2c@int=\count624
+\c@g@acro@i2s@int=\count625
+\c@g@acro@ide@int=\count626
+\c@g@acro@imu@int=\count627
+\c@g@acro@int8@int=\count628
+\c@g@acro@iot@int=\count629
+\c@g@acro@kdd@int=\count630
+\c@g@acro@ki@int=\count631
+\c@g@acro@knn@int=\count632
+\c@g@acro@led@int=\count633
+\c@g@acro@mimd@int=\count634
+\c@g@acro@nn@int=\count635
+\c@g@acro@nfc@int=\count636
+\c@g@acro@opencl@int=\count637
+\c@g@acro@oled@int=\count638
+\c@g@acro@pan@int=\count639
+\c@g@acro@pdm@int=\count640
+\c@g@acro@ppa@int=\count641
+\c@g@acro@pip@int=\count642
+\c@g@acro@pypi@int=\count643
+\c@g@acro@ram@int=\count644
+\c@g@acro@relu@int=\count645
+\c@g@acro@resnets@int=\count646
+\c@g@acro@rle@int=\count647
+\c@g@acro@rgb@int=\count648
+\c@g@acro@roi@int=\count649
+\c@g@acro@rpc@int=\count650
+\c@g@acro@RTOS@int=\count651
+\c@g@acro@sd@int=\count652
+\c@g@acro@sda@int=\count653
+\c@g@acro@sd-1@int=\count654
+\c@g@acro@sd-3@int=\count655
+\c@g@acro@scl@int=\count656
+\c@g@acro@ssh@int=\count657
+\c@g@acro@spi@int=\count658
+\c@g@acro@sbc@int=\count659
+\c@g@acro@simd@int=\count660
+\c@g@acro@sm@int=\count661
+\c@g@acro@smd@int=\count662
+\c@g@acro@sp@int=\count663
+\c@g@acro@spp@int=\count664
+\c@g@acro@sps@int=\count665
+\c@g@acro@soc@int=\count666
+\c@g@acro@tpu@int=\count667
+\c@g@acro@uart@int=\count668
+\c@g@acro@ui@int=\count669
+\c@g@acro@uma@int=\count670
+\c@g@acro@musb@int=\count671
+\c@g@acro@uv@int=\count672
+\c@g@acro@venv@int=\count673
+\c@g@acro@vpu@int=\count674
+\c@g@acro@vm@int=\count675
+\c@g@acro@vnc@int=\count676
+\c@g@acro@yolo@int=\count677
 ) (./General/Hyphenations.tex
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks66
 \MT@tempbox=\box169
-\MT@count=\count675
+\MT@count=\count678
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks67
@@ -2149,7 +2152,7 @@ LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen403
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count676
+\MT@listname@count=\count679
 
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
@@ -2167,9 +2170,10 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count677
-\@quotereset=\count678
-(./DemonstratorSchrittmotor.aux (./tikz/FlussdiagrammProgramm.aux))
+\@quotelevel=\count680
+\@quotereset=\count681
+(./DemonstratorSchrittmotor.aux (./tikz/AufbauSchrittmotor.aux)
+(./tikz/FlussdiagrammProgramm.aux))
 \openout1 = `DemonstratorSchrittmotor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -2246,16 +2250,16 @@ Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count679
+\scratchcounter=\count682
 \scratchdimen=\dimen404
 \scratchbox=\box170
-\nofMPsegments=\count680
-\nofMParguments=\count681
+\nofMPsegments=\count683
+\nofMParguments=\count684
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count682
+\MPscratchCnt=\count685
 \MPscratchDim=\dimen405
-\MPnumerator=\count683
-\makeMPintoPDFobject=\count684
+\MPnumerator=\count686
+\makeMPintoPDFobject=\count687
 \everyMPtoPDFconversion=\toks69
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2286,9 +2290,9 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count685
+\BKM@id=\count688
 ))
-\c@lstlisting=\count686
+\c@lstlisting=\count689
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 30
 .
 
@@ -2852,10 +2856,16 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 1.
 ] [11
 
 
-] [12
+]
 
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-] (./Contents/de/Symbols.tex)
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[12] (./Contents/de/Symbols.tex)
 No file DemonstratorSchrittmotor.nls.
 (./Contents/de/Projektbeschreibung.tex
 chapter 1.
@@ -2898,6 +2908,8 @@ l.32 \end{figure}
 
 
 
+
+
 ]
 <Images/Konzeptskizze2.png, id=451, 837.1275pt x 661.97313pt>
 File: Images/Konzeptskizze2.png Graphic file (type png)
@@ -2934,9 +2946,6 @@ File: ../Appendix/Mindmap/Mindmap.png Graphic file (type png)
 Package pdftex.def Info: ../Appendix/Mindmap/Mindmap.png  used on input line 54
 .
 (pdftex.def)             Requested size: 369.88583pt x 224.5074pt.
-
-Underfull \vbox (badness 2951) has occurred while \output is active []
-
 Package cleveref Info: loaded `ngerman' language definitions on input line 58.
 
 
@@ -3129,11 +3138,11 @@ Package biblatex Info: Setting label 'refsegment:011' on input line 16.
 
 
 ]
-<Images/PrinzipSchritmotor.png, id=603, 418.56375pt x 368.87813pt>
-File: Images/PrinzipSchritmotor.png Graphic file (type png)
-<use Images/PrinzipSchritmotor.png>
-Package pdftex.def Info: Images/PrinzipSchritmotor.png  used on input line 26.
-(pdftex.def)             Requested size: 369.88583pt x 325.97586pt.
+\openout2 = `tikz/AufbauSchrittmotor.aux'.
+
+ (./tikz/AufbauSchrittmotor.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3143,7 +3152,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[16 <./Images/PrinzipSchritmotor.PNG>]
+[16
+
+
+
+]
 Package cleveref Info: loaded `ngerman' language definitions on input line 42.
 
 
@@ -3168,11 +3181,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [18]
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 109.
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 110.
 See the caption package documentation for explanation.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 147.
+Package cleveref Info: loaded `ngerman' language definitions on input line 149.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3184,15 +3197,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [19]
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 180.
-See the caption package documentation for explanation.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3201,20 +3205,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [20]
-Underfull \hbox (badness 1400) in paragraph at lines 197--197
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 182.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 200--200
 []\T1/lmr/m/n/8 (+20) Ruckeln ver-rin-gern durch ge-rin-ge-re
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 198.
+(caption)                particular \caption on input line 201.
 See the caption package documentation for explanation.
 
-
-Underfull \vbox (badness 6380) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 207.
-
+Package cleveref Info: loaded `ngerman' language definitions on input line 213.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3225,8 +3231,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [21]
-Package biblatex Info: Reference segment=13 on input line 225.
-Package biblatex Info: Setting label 'refsegment:013' on input line 225.
+Package biblatex Info: Reference segment=13 on input line 231.
+Package biblatex Info: Setting label 'refsegment:013' on input line 231.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3303,7 +3309,7 @@ Package biblatex Info: Reference segment=20 on input line 14.
 Package biblatex Info: Setting label 'refsegment:020' on input line 14.
 Package biblatex Info: Reference segment=21 on input line 19.
 Package biblatex Info: Setting label 'refsegment:021' on input line 19.
-<Images/IDE/HauptoberflaecheIDE.png, id=743, 455.45157pt x 283.81032pt>
+<Images/IDE/HauptoberflaecheIDE.png, id=744, 455.45157pt x 283.81032pt>
 File: Images/IDE/HauptoberflaecheIDE.png Graphic file (type png)
 <use Images/IDE/HauptoberflaecheIDE.png>
 Package pdftex.def Info: Images/IDE/HauptoberflaecheIDE.png  used on input line
@@ -3320,7 +3326,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Package biblatex Info: Reference segment=22 on input line 34.
 Package biblatex Info: Setting label 'refsegment:022' on input line 34.
-<Images/IDE/Boardsmanager.png, id=752, 269.50688pt x 260.47313pt>
+<Images/IDE/Boardsmanager.png, id=753, 269.50688pt x 260.47313pt>
 File: Images/IDE/Boardsmanager.png Graphic file (type png)
 <use Images/IDE/Boardsmanager.png>
 Package pdftex.def Info: Images/IDE/Boardsmanager.png  used on input line 44.
@@ -3346,7 +3352,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [31 <./Images/IDE/Boardsmanager.png>]
-<Images/IDE/Librarymanager.png, id=769, 268.75406pt x 402.75468pt>
+<Images/IDE/Librarymanager.png, id=770, 268.75406pt x 402.75468pt>
 File: Images/IDE/Librarymanager.png Graphic file (type png)
 <use Images/IDE/Librarymanager.png>
 Package pdftex.def Info: Images/IDE/Librarymanager.png  used on input line 59.
@@ -3783,7 +3789,7 @@ Package biblatex Info: Reference segment=30 on input line 20.
 Package biblatex Info: Setting label 'refsegment:030' on input line 20.
 Package biblatex Info: Reference segment=31 on input line 24.
 Package biblatex Info: Setting label 'refsegment:031' on input line 24.
-<Images/Konstruktion/GehaeuseK.png, id=1099, 784.43062pt x 526.21594pt>
+<Images/Konstruktion/GehaeuseK.png, id=1100, 784.43062pt x 526.21594pt>
 File: Images/Konstruktion/GehaeuseK.png Graphic file (type png)
 <use Images/Konstruktion/GehaeuseK.png>
 Package pdftex.def Info: Images/Konstruktion/GehaeuseK.png  used on input line 
@@ -3796,7 +3802,7 @@ Underfull \vbox (badness 1231) has occurred while \output is active []
 
 
 ]
-<Images/Konstruktion/BodenK.png, id=1108, 1282.7925pt x 734.745pt>
+<Images/Konstruktion/BodenK.png, id=1109, 1282.7925pt x 734.745pt>
 File: Images/Konstruktion/BodenK.png Graphic file (type png)
 <use Images/Konstruktion/BodenK.png>
 Package pdftex.def Info: Images/Konstruktion/BodenK.png  used on input line 38.
@@ -3815,7 +3821,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [50 <./Images/Konstruktion/GehaeuseK.PNG>]
-<Images/Konstruktion/VorneK.png, id=1121, 899.61093pt x 758.835pt>
+<Images/Konstruktion/VorneK.png, id=1122, 899.61093pt x 758.835pt>
 File: Images/Konstruktion/VorneK.png Graphic file (type png)
 <use Images/Konstruktion/VorneK.png>
 Package pdftex.def Info: Images/Konstruktion/VorneK.png  used on input line 48.
@@ -3835,7 +3841,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [51 <./Images/Konstruktion/BodenK.PNG>]
-<Images/Konstruktion/SeiteLK.png, id=1130, 721.19438pt x 670.00313pt>
+<Images/Konstruktion/SeiteLK.png, id=1131, 721.19438pt x 670.00313pt>
 File: Images/Konstruktion/SeiteLK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteLK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteLK.png  used on input line 58
@@ -3854,7 +3860,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [52 <./Images/Konstruktion/VorneK.PNG>]
-<Images/Konstruktion/HinterK.png, id=1140, 875.52094pt x 744.53156pt>
+<Images/Konstruktion/HinterK.png, id=1141, 875.52094pt x 744.53156pt>
 File: Images/Konstruktion/HinterK.png Graphic file (type png)
 <use Images/Konstruktion/HinterK.png>
 Package pdftex.def Info: Images/Konstruktion/HinterK.png  used on input line 67
@@ -3874,7 +3880,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [53 <./Images/Konstruktion/SeiteLK.PNG>]
-<Images/Konstruktion/SeiteRK.png, id=1151, 758.08218pt x 726.46407pt>
+<Images/Konstruktion/SeiteRK.png, id=1153, 758.08218pt x 726.46407pt>
 File: Images/Konstruktion/SeiteRK.png Graphic file (type png)
 <use Images/Konstruktion/SeiteRK.png>
 Package pdftex.def Info: Images/Konstruktion/SeiteRK.png  used on input line 77
@@ -3893,7 +3899,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [54 <./Images/Konstruktion/HinterK.PNG>]
-<Images/Konstruktion/DeckelK.png, id=1161, 1315.16344pt x 778.40813pt>
+<Images/Konstruktion/DeckelK.png, id=1162, 1315.16344pt x 778.40813pt>
 File: Images/Konstruktion/DeckelK.png Graphic file (type png)
 <use Images/Konstruktion/DeckelK.png>
 Package pdftex.def Info: Images/Konstruktion/DeckelK.png  used on input line 86
@@ -3992,7 +3998,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [56 <./Images/Konstruktion/DeckelK.PNG>]
 Package biblatex Info: Reference segment=32 on input line 121.
 Package biblatex Info: Setting label 'refsegment:032' on input line 121.
-<Images/Konstruktion/FlankeMotorK.png, id=1178, 542.025pt x 641.39626pt>
+<Images/Konstruktion/FlankeMotorK.png, id=1179, 542.025pt x 641.39626pt>
 File: Images/Konstruktion/FlankeMotorK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeMotorK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeMotorK.png  used on input li
@@ -4013,7 +4019,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [57]
-<Images/Konstruktion/FlankeK.png, id=1187, 522.45187pt x 660.96938pt>
+<Images/Konstruktion/FlankeK.png, id=1188, 522.45187pt x 660.96938pt>
 File: Images/Konstruktion/FlankeK.png Graphic file (type png)
 <use Images/Konstruktion/FlankeK.png>
 Package pdftex.def Info: Images/Konstruktion/FlankeK.png  used on input line 13
@@ -4032,7 +4038,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [58 <./Images/Konstruktion/FlankeMotorK.PNG>]
-<Images/Konstruktion/GriffK.png, id=1196, 963.6pt x 668.4975pt>
+<Images/Konstruktion/GriffK.png, id=1197, 963.6pt x 668.4975pt>
 File: Images/Konstruktion/GriffK.png Graphic file (type png)
 <use Images/Konstruktion/GriffK.png>
 Package pdftex.def Info: Images/Konstruktion/GriffK.png  used on input line 146
@@ -4053,7 +4059,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [59 <./Images/Konstruktion/FlankeK.PNG>]
-<Images/Konstruktion/DrehKnopfK.png, id=1206, 706.89093pt x 463.7325pt>
+<Images/Konstruktion/DrehKnopfK.png, id=1207, 706.89093pt x 463.7325pt>
 File: Images/Konstruktion/DrehKnopfK.png Graphic file (type png)
 <use Images/Konstruktion/DrehKnopfK.png>
 Package pdftex.def Info: Images/Konstruktion/DrehKnopfK.png  used on input line
@@ -4072,7 +4078,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [60 <./Images/Konstruktion/GriffK.PNG>]
-<Images/Konstruktion/AnzeigerK.png, id=1216, 872.50969pt x 662.475pt>
+<Images/Konstruktion/AnzeigerK.png, id=1217, 872.50969pt x 662.475pt>
 File: Images/Konstruktion/AnzeigerK.png Graphic file (type png)
 <use Images/Konstruktion/AnzeigerK.png>
 Package pdftex.def Info: Images/Konstruktion/AnzeigerK.png  used on input line 
@@ -4143,7 +4149,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [62 <./Images/Konstruktion/AnzeigerK.PNG>]
-<Images/Konstruktion/AKK2N.jpg, id=1230, 604.1772pt x 511.6716pt>
+<Images/Konstruktion/AKK2N.jpg, id=1231, 604.1772pt x 511.6716pt>
 File: Images/Konstruktion/AKK2N.jpg Graphic file (type jpg)
 <use Images/Konstruktion/AKK2N.jpg>
 Package pdftex.def Info: Images/Konstruktion/AKK2N.jpg  used on input line 192.
@@ -4184,327 +4190,29 @@ Overfull \hbox (201.1607pt too wide) in paragraph at lines 43--45
 Package biblatex Info: Reference segment=38 on input line 61.
 Package biblatex Info: Setting label 'refsegment:038' on input line 61.
 
-Overfull \hbox (201.1607pt too wide) in paragraph at lines 77--79
+Overfull \hbox (201.1607pt too wide) in paragraph at lines 78--80
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (17.86182pt too wide) in paragraph at lines 83--84
+Overfull \hbox (17.86182pt too wide) in paragraph at lines 84--85
 [][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (151.811pt too wide) in paragraph at lines 104--105
+Overfull \hbox (151.811pt too wide) in paragraph at lines 105--106
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (130.66113pt too wide) in paragraph at lines 105--106
+Overfull \hbox (130.66113pt too wide) in paragraph at lines 106--107
 [][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (31.96173pt too wide) in paragraph at lines 114--115
+Overfull \hbox (31.96173pt too wide) in paragraph at lines 115--116
 [][][][][][][][][][][][][] 
  []
-
-
-Overfull \hbox (74.26147pt too wide) in paragraph at lines 137--138
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (229.36053pt too wide) in paragraph at lines 149--150
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (222.31058pt too wide) in paragraph at lines 154--155
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (229.36053pt too wide) in paragraph at lines 163--164
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (17.86182pt too wide) in paragraph at lines 167--168
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (342.15985pt too wide) in paragraph at lines 168--169
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (10.81186pt too wide) in paragraph at lines 176--177
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (342.15985pt too wide) in paragraph at lines 177--178
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (17.86182pt too wide) in paragraph at lines 181--182
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (342.15985pt too wide) in paragraph at lines 182--183
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (222.31058pt too wide) in paragraph at lines 191--192
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (342.15985pt too wide) in paragraph at lines 196--197
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (67.21152pt too wide) in paragraph at lines 207--208
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (370.35968pt too wide) in paragraph at lines 208--209
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (67.21152pt too wide) in paragraph at lines 219--220
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (384.4596pt too wide) in paragraph at lines 220--221
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (215.26062pt too wide) in paragraph at lines 231--232
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (335.1099pt too wide) in paragraph at lines 232--233
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (215.26062pt too wide) in paragraph at lines 243--244
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (377.40964pt too wide) in paragraph at lines 244--245
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.31143pt too wide) in paragraph at lines 255--256
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (292.81015pt too wide) in paragraph at lines 256--257
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (46.06165pt too wide) in paragraph at lines 257--258
-[][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.31143pt too wide) in paragraph at lines 268--269
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (292.81015pt too wide) in paragraph at lines 269--270
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.16156pt too wide) in paragraph at lines 270--271
-[][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (215.26062pt too wide) in paragraph at lines 281--282
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-[][][][][][][][][][]
- []
-
-
-Overfull \hbox (95.41135pt too wide) in paragraph at lines 284--285
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (208.21066pt too wide) in paragraph at lines 285--286
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (215.26062pt too wide) in paragraph at lines 296--297
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
-[][][][][][][][][][]
- []
-
-
-Overfull \hbox (95.41135pt too wide) in paragraph at lines 299--300
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (222.31058pt too wide) in paragraph at lines 300--301
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (31.96173pt too wide) in paragraph at lines 317--318
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-[][][][][][][]
- []
-
-
-Overfull \hbox (102.4613pt too wide) in paragraph at lines 333--334
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (144.76105pt too wide) in paragraph at lines 338--340
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (3.7619pt too wide) in paragraph at lines 354--355
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (31.96173pt too wide) in paragraph at lines 362--363
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.91177pt too wide) in paragraph at lines 364--365
-[][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-[][][][][][][][][][][]
- []
-
-
-Overfull \hbox (3.7619pt too wide) in paragraph at lines 375--376
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (10.81186pt too wide) in paragraph at lines 376--377
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (130.66113pt too wide) in paragraph at lines 385--386
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
-[][][][][][][][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-[][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (24.91177pt too wide) in paragraph at lines 391--392
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (39.01169pt too wide) in paragraph at lines 393--394
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (39.01169pt too wide) in paragraph at lines 395--396
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (67.21152pt too wide) in paragraph at lines 397--398
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (3.7619pt too wide) in paragraph at lines 403--404
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (419.70938pt too wide) in paragraph at lines 404--405
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (3.7619pt too wide) in paragraph at lines 410--411
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (102.4613pt too wide) in paragraph at lines 411--412
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (144.76105pt too wide) in paragraph at lines 412--413
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (31.96173pt too wide) in paragraph at lines 413--414
-[][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (31.96173pt too wide) in paragraph at lines 414--415
-[][][][][][][][][][][][]
- []
-
-
-Overfull \hbox (137.71109pt too wide) in paragraph at lines 415--416
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-LaTeX Warning: Float too large for page by 4630.38913pt on input line 423.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4515,7 +4223,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [66]
-Package cleveref Info: loaded `ngerman' language definitions on input line 427.
+Overfull \vbox (96.38914pt too high) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 121.
 
 
 
@@ -4527,10 +4237,28 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [67]
-Package biblatex Info: Reference segment=39 on input line 427.
-Package biblatex Info: Setting label 'refsegment:039' on input line 427.
-Package biblatex Info: Reference segment=40 on input line 468.
-Package biblatex Info: Setting label 'refsegment:040' on input line 468.
+Overfull \hbox (74.26147pt too wide) in paragraph at lines 145--146
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (229.36053pt too wide) in paragraph at lines 157--158
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (222.31058pt too wide) in paragraph at lines 162--163
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (229.36053pt too wide) in paragraph at lines 171--172
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \vbox (110.88914pt too high) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4541,63 +4269,90 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [68]
-Overfull \hbox (3.7619pt too wide) in paragraph at lines 526--527
-[][][][][][][][][][][][][][][] 
+Overfull \hbox (17.86182pt too wide) in paragraph at lines 182--183
+[][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (67.21152pt too wide) in paragraph at lines 530--531
-[][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (342.15985pt too wide) in paragraph at lines 183--184
+[][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (10.81186pt too wide) in paragraph at lines 531--532
-[][][][][][][][][][][][][][][] 
+Overfull \hbox (10.81186pt too wide) in paragraph at lines 191--192
+[][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (17.86182pt too wide) in paragraph at lines 532--534
-[][][][][][][][][][] 
+Overfull \hbox (342.15985pt too wide) in paragraph at lines 192--193
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (39.01169pt too wide) in paragraph at lines 534--535
-[][][][][][][][][][][][][][][] 
+Overfull \hbox (17.86182pt too wide) in paragraph at lines 196--197
+[][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (88.36139pt too wide) in paragraph at lines 535--536
-[][][][][][][][][][][] 
+Overfull \hbox (342.15985pt too wide) in paragraph at lines 197--198
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (81.31143pt too wide) in paragraph at lines 536--537
-[][][][][][][][][][][] 
+Overfull \hbox (222.31058pt too wide) in paragraph at lines 206--207
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (81.31143pt too wide) in paragraph at lines 537--538
-[][][][][][][][][][][] 
+Overfull \hbox (342.15985pt too wide) in paragraph at lines 211--212
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (81.31143pt too wide) in paragraph at lines 540--541
-[][][][][][][][][][][] 
+Overfull \hbox (67.21152pt too wide) in paragraph at lines 228--229
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (81.31143pt too wide) in paragraph at lines 541--542
-[][][][][][][][][][][] 
+Overfull \hbox (370.35968pt too wide) in paragraph at lines 229--230
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (88.36139pt too wide) in paragraph at lines 542--543
-[][][][][][][][][][][] 
+Overfull \hbox (67.21152pt too wide) in paragraph at lines 240--241
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-Package biblatex Info: Reference segment=41 on input line 554.
-Package biblatex Info: Setting label 'refsegment:041' on input line 554.
-Package cleveref Info: loaded `ngerman' language definitions on input line 557.
+
+Overfull \hbox (384.4596pt too wide) in paragraph at lines 241--242
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (215.26062pt too wide) in paragraph at lines 252--253
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (335.1099pt too wide) in paragraph at lines 253--254
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (215.26062pt too wide) in paragraph at lines 264--265
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (377.40964pt too wide) in paragraph at lines 265--266
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 275.
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4608,6 +4363,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [69]
+Overfull \vbox (67.38914pt too high) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4617,91 +4375,59 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [70]
-Overfull \hbox (17.86182pt too wide) in paragraph at lines 577--579
-[][][][][][][][][][][][][][] 
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 282--283
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (3.7619pt too wide) in paragraph at lines 582--583
-[][][][][][][][][][] 
+Overfull \hbox (292.81015pt too wide) in paragraph at lines 283--284
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (46.06165pt too wide) in paragraph at lines 587--588
-[][][][][][][][][][][][][][] 
+Overfull \hbox (46.06165pt too wide) in paragraph at lines 284--285
+[][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (53.1116pt too wide) in paragraph at lines 588--589
-[][][][][][][][][][][][][][] 
- []
-
-Package biblatex Info: Reference segment=42 on input line 596.
-Package biblatex Info: Setting label 'refsegment:042' on input line 596.
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 295--296
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Overfull \hbox (292.81015pt too wide) in paragraph at lines 296--297
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Overfull \hbox (60.16156pt too wide) in paragraph at lines 297--298
+[][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Overfull \hbox (215.26062pt too wide) in paragraph at lines 308--309
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+[][][][][][][][][][]
  []
 
 
-Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 619.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Overfull \hbox (95.41135pt too wide) in paragraph at lines 311--312
+[][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+Overfull \hbox (208.21066pt too wide) in paragraph at lines 312--313
+[][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
- []
+Overfull \vbox (23.88914pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
-[]|\T1/lmr/bx/n/8 (+20) Ergebnis
- []
-
-
-Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 645.
-See the caption package documentation for explanation.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 649.
+Package cleveref Info: loaded `ngerman' language definitions on input line 325.
 
 
 
@@ -4713,6 +4439,49 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [71]
+Overfull \hbox (215.26062pt too wide) in paragraph at lines 329--330
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+[][][][][][][][][][]
+ []
+
+
+Overfull \hbox (95.41135pt too wide) in paragraph at lines 332--333
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (222.31058pt too wide) in paragraph at lines 333--334
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (31.96173pt too wide) in paragraph at lines 350--351
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+[][][][][][][]
+ []
+
+
+Overfull \hbox (102.4613pt too wide) in paragraph at lines 366--367
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (144.76105pt too wide) in paragraph at lines 371--373
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \vbox (96.38914pt too high) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4722,13 +4491,45 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
 [72]
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 393--394
+[][][][][][][][][][][][][][] 
+ []
 
-Package caption Warning: The type was already set to `figure'
-(caption)                 on input line 671.
-See the caption package documentation for explanation.
 
-)
-Package cleveref Info: loaded `ngerman' language definitions on input line 95.
+Overfull \hbox (31.96173pt too wide) in paragraph at lines 401--402
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.91177pt too wide) in paragraph at lines 403--404
+[][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+[][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 414--415
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.81186pt too wide) in paragraph at lines 415--416
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (130.66113pt too wide) in paragraph at lines 424--425
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \vbox (23.88914pt too high) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 429.
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4738,14 +4539,315 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[73] [74
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+[][][][][][][][][][][][]
+ []
 
 
-] (./Contents/de/OffenePunkte.tex
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+[][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (24.91177pt too wide) in paragraph at lines 436--437
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 438--439
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 440--441
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (67.21152pt too wide) in paragraph at lines 442--443
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 448--449
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (419.70938pt too wide) in paragraph at lines 449--450
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 455--456
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (102.4613pt too wide) in paragraph at lines 456--457
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (144.76105pt too wide) in paragraph at lines 457--458
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (31.96173pt too wide) in paragraph at lines 458--459
+[][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (31.96173pt too wide) in paragraph at lines 459--460
+[][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (137.71109pt too wide) in paragraph at lines 460--461
+[][][][][][][][][][][][][][][][][] 
+ []
+
+Package biblatex Info: Reference segment=39 on input line 472.
+Package biblatex Info: Setting label 'refsegment:039' on input line 472.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[74]
+Package biblatex Info: Reference segment=40 on input line 513.
+Package biblatex Info: Setting label 'refsegment:040' on input line 513.
+
+Underfull \vbox (badness 5022) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 516.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[75]
+
+LaTeX Warning: Citation 'SM.2022' on page 76 undefined on input line 550.
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 571--572
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (67.21152pt too wide) in paragraph at lines 575--576
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.81186pt too wide) in paragraph at lines 576--577
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.86182pt too wide) in paragraph at lines 577--579
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.01169pt too wide) in paragraph at lines 579--580
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (88.36139pt too wide) in paragraph at lines 580--581
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 581--582
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 582--583
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 585--586
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.31143pt too wide) in paragraph at lines 586--587
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (88.36139pt too wide) in paragraph at lines 587--588
+[][][][][][][][][][][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[76]
+Package biblatex Info: Reference segment=41 on input line 599.
+Package biblatex Info: Setting label 'refsegment:041' on input line 599.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 602.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[77]
+Overfull \hbox (17.86182pt too wide) in paragraph at lines 622--624
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.7619pt too wide) in paragraph at lines 627--628
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (46.06165pt too wide) in paragraph at lines 632--633
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (53.1116pt too wide) in paragraph at lines 633--634
+[][][][][][][][][][][][][][] 
+ []
+
+Package biblatex Info: Reference segment=42 on input line 641.
+Package biblatex Info: Setting label 'refsegment:042' on input line 641.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--663
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 664.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
+[]|\T1/lmr/bx/n/8 (+20) Ergebnis
+ []
+
+
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 690.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The type was already set to `figure'
+(caption)                 on input line 716.
+See the caption package documentation for explanation.
+
+)
+Package cleveref Info: loaded `ngerman' language definitions on input line 94.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[79]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
+
+[80] (./Contents/de/OffenePunkte.tex
 chapter 9.
 Package biblatex Info: Reference segment=43 on input line 16.
 Package biblatex Info: Setting label 'refsegment:043' on input line 16.
-<Images/Tests/ArdRev2Schlitten.jpg, id=1819, 971.3088pt x 728.4816pt>
+<Images/Tests/ArdRev2Schlitten.jpg, id=1866, 971.3088pt x 728.4816pt>
 File: Images/Tests/ArdRev2Schlitten.jpg Graphic file (type jpg)
 <use Images/Tests/ArdRev2Schlitten.jpg>
 Package pdftex.def Info: Images/Tests/ArdRev2Schlitten.jpg  used on input line 
@@ -4754,11 +4856,13 @@ Package pdftex.def Info: Images/Tests/ArdRev2Schlitten.jpg  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75
+ [81
+
+
 
 
 ]
-<Images/Tests/TestAufbauACC.jpg, id=1826, 4047.12pt x 3035.34pt>
+<Images/Tests/TestAufbauACC.jpg, id=1873, 4047.12pt x 3035.34pt>
 File: Images/Tests/TestAufbauACC.jpg Graphic file (type jpg)
 <use Images/Tests/TestAufbauACC.jpg>
 Package pdftex.def Info: Images/Tests/TestAufbauACC.jpg  used on input line 31.
@@ -4776,7 +4880,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[76 <./Images/Tests/ArdRev2Schlitten.JPG>]
+[82 <./Images/Tests/ArdRev2Schlitten.JPG>]
 Package biblatex Info: Reference segment=44 on input line 39.
 Package biblatex Info: Setting label 'refsegment:044' on input line 39.
 Package biblatex Info: Reference segment=45 on input line 43.
@@ -4791,7 +4895,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[77 <./Images/Tests/TestAufbauACC.JPG>]
+[83 <./Images/Tests/TestAufbauACC.JPG>]
 Package biblatex Info: Reference segment=46 on input line 50.
 Package biblatex Info: Setting label 'refsegment:046' on input line 50.
 Package biblatex Info: Reference segment=47 on input line 54.
@@ -4805,7 +4909,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[78]
+[84]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4846,7 +4950,7 @@ yQkg1NmlHTCUyRkRxUWlkQmlvMmxYMjMybmcycGZRZ295TjR1STFaZDl6c0txNGtBV1lETklqUzdGUF
 dKbjFmQktyVXhQWHclMkJiQVMlMkZka1pNRkVUWHduVnhKWEd6dyUzRCUzRA .
  []
 
-[79
+[85
 
 
 
@@ -4883,7 +4987,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[80]
+[86]
 Overfull \hbox (14.62714pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) wei^^?ter^^?te Auf^^?la^^?ge. Mün^^?chen: Han^^?ser, 2021.
  \T1/lmr/m/sc/12 (-20) isbn\T1/lmr/m/n/12 (-20) : 978-3-446-46572-5.
@@ -4919,7 +5023,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[81]
+[87]
 Overfull \hbox (11.19293pt too wide) in paragraph at lines 101--101
 \T1/lmr/m/n/12 (-20) Ro^^?bo^^?ter-^^?Bau^^?satz. 2024. \T1/lmr/m/sc/12 (-20) u
 rl\T1/lmr/m/n/12 (-20) : []$\T1/fvm/l/it/12 https : / / www . roboter -[] bausa
@@ -4940,22 +5044,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[82] (../Appendix/Schaltplan.tex [83
+[88] (../Appendix/Schaltplan.tex [89
 
 
 
 
-] [84
+] [90
 
 
 ]
 chapter 10.
-<Images/Schaltplan1.png, id=1959, 1261.78067pt x 993.04333pt>
+<Images/Schaltplan1.png, id=2007, 1261.78067pt x 993.04333pt>
 File: Images/Schaltplan1.png Graphic file (type png)
 <use Images/Schaltplan1.png>
 Package pdftex.def Info: Images/Schaltplan1.png  used on input line 14.
 (pdftex.def)             Requested size: 369.88583pt x 291.11177pt.
-) (../Appendix/Materialliste.tex [85 <./Images/Schaltplan1.png>] [86
+) (../Appendix/Materialliste.tex [91 <./Images/Schaltplan1.png>] [92
 
 
 ]
@@ -5130,7 +5234,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [93]
 Overfull \vbox (106.244pt too high) has occurred while \output is active []
 
 
@@ -5142,7 +5246,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[88 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
+[94 <./Images/Material/Arduino.png> <./Images/Material/RBS12536.png> <./Images/
 Material/aluprofil.jpg> <./Images/Material/RD50.png> <./Images/Material/ams1117
 .jpg> <./Images/Material/RBS10277.jpg> <./Images/Material/RBS12569.jpg> <./Imag
 es/Material/RBS16371.jpg>]
@@ -5340,7 +5444,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[89 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
+[95 <./Images/Material/RBS12916.jpg> <./Images/Material/RBS10161.jpg> <./Images
 /Material/RBS11229.jpg> <./Images/Material/M3.PNG> <./Images/Material/M3Mutter.
 PNG> <./Images/Material/M2.PNG>]
 Overfull \hbox (6.15483pt too wide) in paragraph at lines 100--100
@@ -5517,7 +5621,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[90 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
+[96 <./Images/Material/Linieal.png> <./Images/Material/RBS10023.jpg> <./Images/
 Material/RBS10136.jpg> <./Images/Material/RBS10038.jpg> <./Images/Material/CABL
 E4PIN20.png> <./Images/Material/RBS10966.jpg> <./Images/Material/VTRKB4.png> <.
 /Images/Material/VTFSHB475.png> <./Images/Material/H07RNF31.png> <./Images/Mate
@@ -5703,7 +5807,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[91 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
+[97 <./Images/Material/4650057.PNG> <./Images/Material/RBS15072.jpg> <./Images/
 Material/DEBOENCODER.png> <./Images/Material/ENCMUTTER.png> <./Images/Material/
 Taster.jpg> <./Images/Material/RBS10856.jpg> <./Images/Material/A4988.png> <./I
 mages/Material/LED.png> <./Images/Material/oled96.jpg>]
@@ -5768,18 +5872,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-13.49998pt}.
 
-[92 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
+[98 <./Images/Material/RBS15553.jpg> <./Images/Material/RBS16624.jpg>]
 runsystem(makeindex DemonstratorSchrittmotor.idx)...executed safely (allowed).
 
 
-(./DemonstratorSchrittmotor.ind [93
+(./DemonstratorSchrittmotor.ind [99
 
 
 
 ]) (./DemonstratorSchrittmotor.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 34.
 
-(./tikz/FlussdiagrammProgramm.aux))
+(./tikz/AufbauSchrittmotor.aux) (./tikz/FlussdiagrammProgramm.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -5790,48 +5894,51 @@ Package rerunfilecheck Info: File `DemonstratorSchrittmotor.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package biblatex Warning: Please rerun LaTeX.
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                DemonstratorSchrittmotor
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'DemonstratorSchrittmotor.run.xml'.
 \openout1 = `DemonstratorSchrittmotor.run.xml'.
 
  )
-(\end occurred inside a group at level 4)
+(\end occurred inside a group at level 3)
 
-### simple group (level 4) entered at line 183 ({)
-### simple group (level 3) entered at line 150 ({)
-### simple group (level 2) entered at line 148 ({)
+### simple group (level 3) entered at line 186 ({)
+### simple group (level 2) entered at line 152 ({)
 ### simple group (level 1) entered at line 97 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 95823 strings out of 476024
- 2467022 string characters out of 5794016
- 3881571 words of memory out of 5000000
- 113624 multiletter control sequences out of 15000+600000
- 651357 words of font info for 377 fonts, out of 8000000 for 9000
+ 96188 strings out of 476024
+ 2480762 string characters out of 5794016
+ 3656669 words of memory out of 5000000
+ 113959 multiletter control sequences out of 15000+600000
+ 652363 words of font info for 381 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,13n,136p,10619b,3456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c
 :/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2022/texmf-
 dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/l
-m/lm-rm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/te
-xlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/f
-onts/type1/public/bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/publi
-c/lm/lmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:
-/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/tex
-mf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type
-1/public/lm/lmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2022/texmf-dist/fonts/t
-ype1/public/lm/lmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri1
-2.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmro17.pfb><c:/texlive/
-2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2022/texmf-dist/fo
-nts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/lm/lmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on DemonstratorSchrittmotor.pdf (107 pages, 20482810 bytes).
+m/lm-mathex.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/te
+xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2022/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/
+bera/fvmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c
+:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type
+1/public/lm/lmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi12
+.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/20
+22/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2022/texmf-dist/fonts
+/type1/public/lm/lmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lm
+r17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/
+2022/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2022/texmf-dist/fo
+nts/type1/public/lm/lmro17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/l
+m/lmss17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:
+/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2022/texm
+f-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on DemonstratorSchrittmotor.pdf (113 pages, 20463453 bytes).
 PDF statistics:
- 2791 PDF objects out of 2984 (max. 8388607)
- 2419 compressed objects within 25 object streams
- 1020 named destinations out of 1200 (max. 500000)
- 67753 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2849 PDF objects out of 2984 (max. 8388607)
+ 2471 compressed objects within 25 object streams
+ 1042 named destinations out of 1200 (max. 500000)
+ 67748 words of extra memory for PDF output out of 74296 (max. 10000000)
 
