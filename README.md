@@ -51,6 +51,26 @@ Es sollen unterschiedliche Bewegungscharaketeristiken demonstriert werden. Der S
 
 ## verwendeter Code
 - [Code](DemonstratorSchrittmotor/Code)
+- [Arduino](DemonstratorSchrittmotor/Code/Arduino)
+ - Testprogramm für den Arduino
+- [DemonstratorSchrittmotor](DemonstratorSchrittmotor/Code/DemonstratorSchrittmotor)
+ - Fertiges Programm für den Arduino
+- [Encoder](DemonstratorSchrittmotor/Code/Encoder)
+ - Testprogramm für den Encoder
+- [html](DemonstratorSchrittmotor/Code/html)
+ - Ordner für die doxygen Dokumentation
+- [latex](DemonstratorSchrittmotor/Code/latex)
+ - Ordner für die doxygen Dokumentation als Latex-Code
+- [LED](DemonstratorSchrittmotor/Code/LED)
+ - Testprogramm für die LED
+- [OLEDDisplay](DemonstratorSchrittmotor/Code/OLEDDisplay)
+ - Testprogramm für das OLED Display
+- [Stepper](DemonstratorSchrittmotor/Code/Stepper)
+ - Testprogramm für den Stepper
+- [Taster](DemonstratorSchrittmotor/Code/Taster)
+ - Testprogramm für den Taster
+- [TastermitDebounce](DemonstratorSchrittmotor/Code/TastermitDebounce)
+ - Testprogramm für den Taster mit Debounce
 
 ## Service- und Entwicklerdocumentation
 - [Service- und Entwicklerdocumentation](DemonstratorSchrittmotor/DeveloperDoc)
