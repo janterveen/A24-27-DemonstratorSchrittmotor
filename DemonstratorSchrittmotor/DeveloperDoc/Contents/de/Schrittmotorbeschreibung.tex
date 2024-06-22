@@ -1,25 +1,25 @@
 %%%%%%%%%%%%%%%%%%%%
 %
 % $Beschreibung: Schrittmotorbeschreibung allgemein und speziell für den NEMA 17 $
-% $Autor: Stein und Theilmann $
+% $Autor: Stein, Theilmann und Grönke $
 % $Datum: 05.04.2024 $
 % $Pfad: DemonstratorSchrittmotor/DeveloperDoc/Contents/de/Schrittmotorbeschreibung.tex $
-% $Version: 3 $
+% $Version: 1 $
 %
 %
 %%%%%%%%%%%%%%%%%%%
 
 \chapter{Schrittmotor}
 
-In diesem Kapitel erfolgt zunächst eine grundlegende Beschreibung des Schrittmotors. Im Anschluss werden der Aufbau und die Funktionsweise des Schrittmotors erörtert sowie verschiedene Grundbauarten vorgestellt. Im weiteren Verlauf werden Ursachen und Lösungen zur Verhinderung von Schrittfehlern dargelegt und der verwendete Schrittmotor näher erläutert.
+In diesem Kapitel folgt eine grundsätzliche Beschreibung eines Schrittmotors. Darauf folgt die Erläuterungen zum Aufbau und Funktionsweise eines Schrittmotors sowie die Aufzählung verschiedener Grundbauarten. Nachfolgend werden Ursachen und Lösungen zum Verhindern von Schrittfehlern und der verwendete Schrittmotor genauer erläutert.
 
 \section{Beschreibung eines Schrittmotors}
 
-Ein Schrittmotor ist ein Elektromotor, der sich für präzise Positionierungsaufgaben eignet. Im Gegensatz zu anderen Elektromotoren wird bei einem Schrittmotor keine Positionsmessung oder Positionsregelung benötigt. Andere mechanische Antriebssysteme benötigen einen geschlossenen Regelkreis und mechanische Bremsen um Drehzahl und Position einzuhalten. Der Motor führt durch die Rotation des Rotors diskrete Schritte aus, wobei jeder Steuerimpuls eine Verschiebung um einen konstanten Winkel bewirkt. Mit diesem Motor ist eine erreichbare Positioniergenauigkeit von 0,1° möglich. Diese Art von Elektromotor wird beispielsweise in Druckern oder Scannern, aber auch im Kraftfahrzeugbereich verwendet. Im Kraftfahrzeugbereich werden die Schrittmotoren zur Spiegelverstellung sowie der Sitzverstellung verwendet. Das maximal erreichbare Drehmoment eines Schrittmotors liegt bei zwei Newtonmetern und die maximal erreichbare Drehzahl bei ca. 2000 Umdrehungen pro Minute. Der Vorteil eines Schrittmotors ist die Wartungsfreiheit, da der Rotor keine Wicklungen hat. \cite{Babiel.2023}\cite{Hagl.2021}\cite{Bernstein.2018}\cite{Schroder.2021}
+Ein Schrittmotor ist ein Elektromotor, der sich für präzise Positionierungsaufgaben eignet. Im Gegenteil zu anderen Elektromotoren wird bei einem Schrittmotor keine Positionsmessung oder Positionsregelung benötigt. Andere mechanische Antriebssysteme benötigen einen geschlossenen Regelkreis und mechanische Bremsen um Drehzahl und Position einzuhalten. Der Motor führt durch die Rotation des Rotors diskrete Schritte aus, wobei jeder Steuerimpuls eine Verschiebung um einen konstanten Winkel bewirkt. Mit diesem Motor ist eine erreichbare Positioniergenauigkeit von 0,1° möglich. Diese Art von Elektromotor wird beispielsweise in Druckern oder Scanner, aber auch im Kraftfahrzeugbereich verwendet. Im Kraftfahrzeugbereich werden die Schrittmotoren zur Spiegelverstellung sowie der Sitzverstellung verwendet. Das maximal erreichbare Drehmoment eines Schrittmotors liegt bei zwei Newtonmeter und die maximal erreichbare Drehzahl bei ca. 2000 Umdrehung pro Minute. Der Vorteil eines Schrittmotors ist die Wartungsfreiheit, da der Rotor keine Wicklungen hat. \cite{Babiel.2023}\cite{Hagl.2021}\cite{Bernstein.2018}\cite{Schroder.2021}
 
 \subsection{Aufbau und Funktionsweise eines Schrittmotors}
 
-Der Schrittmotor besteht aus einem Stator, einem Rotor ohne Wicklungen und einer Steuerelektronik. Diese Steuerelektronik setzt sich aus einer Treiberstufe und der eigentlichen Steuerung zusammen. Bei dem Stator handelt es sich um den feststehenden äußeren Teil und bei dem Rotor um den beweglichen inneren Teil, wie in Abbildung \ref{HaPrSchritt} zu erkennen ist. Im Stator sind Spulen verbaut, die von einem Strom durchflossen werden. Hierdurch entsteht ein magnetisches Feld. Da der Rotor magnetisch ist, folgt er dem Magnetfeld des Stators. Soll eine Bewegung hervorgerufen werden, werden einzelne Wicklungsstränge ein-, aus- oder umgeschaltet. Durch diesen Vorgang wird ein rotierendes Magnetfeld erzeugt. Das erzeugte Magnetfeld zieht den Rotor an. Der Rotor wird bei jedem Puls (Takt) um einen Winkelschritt weitergeschaltet. Die Anzahl der Polpaare im Stator geben die Anzahl der Schritte vor. Die Drehzahl und die Drehrichtung hängen von der Reihenfolge und der Häufigkeit der Stromimpulse ab. Es gibt drei verschiedene Betriebsarten, die abhängig von der Genauigkeit und der Drehzahl sind. Im Vollschrittbetrieb werden alle Polpaare bestromt. In dem Halbschrittbetrieb wird die Schrittzahl des Motors verdoppelt, wodurch sich die Positionsauflösung im Gegensatz zum Vollschrittbetrieb verdoppelt. Allerdings wird in diesem Betrieb das Drehmoment reduziert. In dem Mikroschrittbetrieb bewegt sich der Rotor in sehr kleinen Schritten. Dadurch wird eine hohe Positioniergenauigkeit und ein ruhiger Lauf erreicht, da die Ströme und das Drehmoment in kleineren Schritten verändert werden. Bei einer zu hohen Schrittfrequenz kann ein Schrittverlust entstehen. Bei einem Schrittverlust überspringt der Motor einzelne Winkelschritte und landet in einer vorherigen oder nächsten Position gleicher Phase. Durch die offene Steuerkette werden die Verluste nicht erkannt.    \cite{Hagl.2021}\cite{Bernstein.2018}\cite{Schroder.2021}
+Der Schrittmotor besteht aus einem Stator, einem Rotor ohne Wicklungen und einer Steuerelektronik. Diese Steuerelektronik setzt sich zusammen aus einer Treiberstufe und der eigentlichen Steuerung. Bei dem Stator handelt es sich um den feststehenden äußeren Teil und bei dem Rotor um den beweglichen inneren Teil, wie in Abbildung \ref{HaPrSchritt} zu erkennen ist. Im Stator sind Spulen verbaut, die von einem Strom durchflossen werden. Hierdurch entsteht ein magnetisches Feld. Da der Rotor magnetisch ist, folgt er dem Magnetfeld des Stators. Soll eine Bewegung hervorgerufen werden, werden einzelne Wicklungsstränge ein- aus- oder umgeschaltet. Durch diesen Vorgang wird ein rotierendes Magnetfeld erzeugt. Das erzeugte Magnetfeld zieht den Rotor an. Der Rotor wird bei jedem Puls (Takt) um einen Winkelschritt weitergeschaltet. Die Anzahl der Polpaare im Stator geben die Anzahl der Schritte vor. Die Drehzahl und die Drehrichtung hängt von der Reihenfolge und der Häufigkeit der Stromimpulse ab. Es gibt drei verschiedene Betriebsarten, die abhängig von der Genauigkeit und der Drehzahl sind. Im Vollschrittbetrieb werden alle Polpaare bestromt. In dem Halbschrittbetrieb wird die Schrittzahl des Motors verdoppelt, wodurch sich die Positionsauflösung im Gegensatz zum Vollschrittbetrieb verdoppelt. Allerdings wird in diesem Betrieb das Drehmoment reduziert. In dem Mikroschrittbetrieb bewegt sich der Rotor in sehr kleinen Schritten. Hierdurch wird eine hohe Positioniergenauigkeit und ein ruhiger Lauf erreicht, da die Ströme und das Drehmoment in kleineren Schritten verändert werden. Bei einer zu hohen Schrittfrequenz kann ein Schrittverlust entstehen. Bei einem Schrittverlust überspringt der Motor einzelne Winkelschritte und landet in einer vorherigen oder nächsten Position gleicher Phase. Durch die offene Steuerkette werden die Verluste nicht erkannt.    \cite{Hagl.2021}\cite{Bernstein.2018}\cite{Schroder.2021}
 
 \begin{figure}[H]
 	\begin{center}
@@ -38,27 +38,24 @@ Wie bei anderen Elektromotoren gibt es auch bei dem Schrittmotor verschiedene Gr
 	\item {Hybridschrittmotor (HY-Schrittmotor)}
 \end{itemize}
 
-Der \textbf{permanentmagnetische Schrittmotor} hat einen Permanentmagneten in dem Rotor verbaut. Hierbei stellt sich der permanentmagnetische Rotor immer so ein, dass der Nordpol des Rotors dem Nordpol des Statorfeldes gegenüberliegt und der Südpol des Rotors dem Südpol des Statorfeldes. In dieser Ausrichtung ziehen sich die Pole gegenseitig an. Die Drehrichtung des Rotors hängt von der Fließrichtung des Stromes ab. Der permanentmagnetische Schrittmotor entwickelt im ausgeschalteten Zustand ein Drehmoment zur Selbsthaltung. Dies ist aufgrund des permanentmagnetischen Rotors möglich. Bei diesem Drehmoment handelt es sich um das höchste Drehmoment, das auf die Welle des Motors übertragen werden kann, ohne dass diese sich in eine rotierende Bewegung versetzt. Zu dieser Art von Schrittmotoren gehören beispielsweise der Klauenpol-Schrittmotor und der Scheibenmagnet-Schrittmotor. Bei der zweiten Bauart handelt es sich um den \textbf{Reluktanzschrittmotor}. Bei dieser Bauart besteht der Rotor aus einem weichmagnetischen Material und besitzt eine gezahnte Form. So lange der Schrittmotor von keinem Strom durchflossen wird, entsteht kein Magnetfeld. Sobald der Motor in Betrieb genommen wird, entsteht ein magnetischer Fluss innerhalb des Rotors. Wird nun eine Wicklung erregt, wird der nächste Zahn des Rotors angezogen. Dadurch, dass die Rotorzähne ungleich der Polteilung sind, kann das System unendlich lange fortgesetzt werden. Die Anzahl der Schritte und die Genauigkeit des Reluktanzschrittmotors ist abhängig von der Anzahl der Zähne auf dem Rotor. Aus technischer Sicht sind mit dieser Bauart Schrittwinkel unter 1° möglich. Damit die Drehrichtung verändert werden kann, sind mindestens zwei Strangwicklungen nötig. Bei den \textbf{Hybridschrittmotoren}, auch bekannt als HY-Schrittmotoren, handelt es sich um eine Kombination aus dem Reluktanzschrittmotor und dem Permanentmagneterreger-Schrittmotor. Durch diese Kombination aus den beiden Schrittmotoren werden die Vorteile aus der kleinen Schrittweite, dem hohen Drehmoment und dem Selbsthaltemoment genutzt. Bei dem HY-Schrittmotor besteht der Rotor aus zwei um eine halbe Zahnteilung versetzten weichmagnetischen Polrädern, die eine zahnförmige Form haben. Bei den beiden Polrädern bildet das eine Polrad den Nordpol und das zweite Polrad den Südpol. Zwischen den beiden Polrädern befindet sich ein Permanentmagnet. Anders als bei anderen Schrittmotoren wird der Rotor bei dieser Bauart axial magnetisiert. Damit ein kleiner Schrittwinkel möglich ist, haben die Statorpole ebenfalls eine zahnförmige Form. Die Ausrichtung des Rotors ist abhängig von der Stromrichtung und wird durch den minimalen Widerstand bestimmt, der sich aus dem Stromfluss durch die einzelnen Stränge ergibt. Wird ein besonders kleiner Schrittwinkel benötigt, kann dies durch Erhöhung der Zähnezahl erreicht werden. \cite{Schroder.2021} \cite{Hagl.2021} \cite{Babiel.2023}
+Der \textbf{permanentmagnetische Schrittmotor} hat einen Permanentmagneten in dem Rotor verbaut. Hierbei stellt sich der permanentmagnetische Rotor immer so, dass der Nordpol des Rotors dem Nordpol des Statorfeldes gegenüber liegt und der Südpol des Rotors dem Südpol des Statorfeldes. In dieser Ausrichtung ziehen sich die Pole gegenseitig an. Die Drehrichtung des Rotors hängt von der Fließrichtung des Stromes ab. Der permanentmagnetische Schrittmotor entwickelt im ausgeschalteten Zustand ein Drehmoment zur Selbsthaltung. Dies ist aufgrund des permanentmagentischen Rotors möglich. Bei diesem Drehmoment handelt es sich um das höchste Drehmoment, das auf die Welle des Motors übertragen werden kann, ohne dass diese sich in eine rotierende Bewegung versetzt. Zu dieser Art von Schrittmotoren gehören beispielsweise der Klauenpol-Schrittmotor und der Scheibenmagnet-Schrittmotor. Bei der zweiten Bauart handelt es sich um den \textbf{Reluktanzschrittmotor}. Bei dieser Bauart besteht der Rotor aus einem weichmagentischen Material und besitzt eine gezahnte Form. So lange der Schrittmotor von keinem Strom durchflossen wird, entsteht kein Magnetfeld. Sobald der Motor in Betrieb genommen wird, entsteht ein magnetischer Fluss innerhalb des Rotors. Wird nun eine Wicklung erregt, wird der nächste Zahn des Rotors angezogen. Dadurch, dass die Rotorzähne ungleich der Polteilung sind, kann das System unendlich lange fortgesetzt werden. Die Anzahl der Schritte und die Genauigkeit des Reluktanzschrittmotors ist abhängig von der Anzahl der Zähne auf dem Rotor. Aus technischer Sicht sind mit dieser Bauart Schrittwinkel unter 1° möglich. Damit die Drehrichtung verändert werden kann, sind mindestens zwei Strangwicklungen nötig. Bei den \textbf{Hybridschrittmotoren}, auch bekannt als HY-Schrittmotoren handelt es sich um eine Kombination aus dem Reluktanzschrittmotor und dem Permanentmagneterreger-Schrittmotor. Durch diese Kombination aus den beiden Schrittmotoren werden die Vorteile aus der kleinen Schrittweite, dem hohen Drehmoment und dem Selbsthaltemoment genutzt. Bei dem HY-Schrittmotor besteht der Rotor aus zwei um eine halbe Zahnteilung versetzten weichmagnetischen Polrädern, die eine zahnförmige Form haben. Bei den beiden Polrädern bildet das eine Polrad den Nordpol und das zweite Polrad den Südpol. Zwischen den beiden Polrädern befindet sich ein Permanentmagnet. Anders als bei anderen Schrittmotoren wird der Rotor bei dieser Bauart axial magnetisiert. Damit ein kleiner Schrittwinkel möglich ist, haben die Statorpole ebenfalls eine zahnförmige Form. Die Ausrichtung des Rotors ist abhängig von der Stromrichtung und wird durch den minimalen Widerstand bestimmt, der sich aus dem Stromfluss durch die einzelnen Stränge ergibt. Wird ein besonders kleiner Schrittwinkel benötigt, kann dies durch Erhöhung der Zähnezahl erreicht werden. \cite{Schroder.2021} \cite{Hagl.2021} \cite{Babiel.2023}
 
 \subsection{Betriebsarten unipolar und bipolar}
 
-Neben den oben bereits genannten Betriebsarten, kann außerdem zwischen dem Unipolarbetrieb und dem Bipolarbetrieb unterschieden werden. Der große Unterschied zwischen den beiden Betriebsarten besteht darin, dass in dem Unipolarbetrieb der Strom in eine Richtung fließt. Bei dem Bipolarbetrieb hingegen fließt der Strom in beide Richtungen. Dies ist möglich, da jeder Wicklungsstrang über eine Vollbrücke gespeist wird. Ein weiterer Unterschied besteht in der Schaltung der Zweige, durch die ein Gleichstrom fließt. In dem Unipolarbetrieb werden die beiden Zweige in Reihe geschaltet. Jeder Wicklungsstrang wird mit zwei Drähten parallel gewickelt. Sind die beiden Wicklungsstränge in dem Bipolarbetrieb parallel gewickelt, müssen die Zweige parallelgeschaltet werden. Im Bipolarbetrieb kann ein höherer Wirkungsgrad erzielt werden, wohingegen der Unipolarbetrieb eine deutlich einfachere Schaltung aufweist. \cite{Schroder.2021}
+Neben den oben bereits genannten Betriebsarten, kann außerdem zwischen dem Unipolarbetrieb und dem Bipolarbetrieb unterschieden werden. Der große Unterschied zwischen den beiden Betreibsarten besteht darin, dass in dem Unipolarbetrieb der Strom in eine Richtung fließt. Bei dem Bipolarbetrieb hingegen fließt der Strom in beide Richtungen. Dies ist möglich, da jeder Wicklungsstrang über eine Vollbrücke gespeist wird. Ein weiterer Unterschied besteht in der Schaltung der Zweige, durch die ein Gleichstrom fließt. In dem Unipolarbetrieb werden die beiden Zweige in Reihe geschaltet. Jeder Wicklungsstrang wird mit zwei Drähten parallel gewickelt. Sind die beiden Wicklungsstränge in dem Bipolarbetrieb parallel gewickelt, müssen die Zweige parallelgeschaltet werden. Im Bipolarbetrieb kann ein höherer Wirkungsgrad erzielt werden, wo hingegen der Unipolarbetrieb eine deutlich einfachere Schaltung aufweist. \cite{Schroder.2021}
 
 \subsection{Mikroschrittverfahren}
 
 Mit dem Mikroschrittverfahren können Zwischenschritte und Mikroschritte erzeugt werden. Es bietet die Fähigkeit, Geräusche und Vibrationen zu minimieren sowie die Auflösung der Umdrehung zu erhöhen. Um Zwischenschritte zu erreichen, müssen beide Wicklungen eines Schrittmotors gleichzeitig mit Strom versorgt werden. 
-Mit dem Sinus/Cosinus-Mikroschrittverfahren können die Mikroschrittverfahren realisiert werden, indem der Strom in jeder Phase des Motors sinusförmig variiert. Durch die Anwendung sinusförmiger Ströme auf die Motorwicklungen wird eine feinere und gleichmäßigere Bewegung erzielt, was zu einer präziseren Steuerung und reduzierten mechanischen Vibrationen führt.\cite{MarcMcComb.2024}
+Mit dem Sinus/Cosinus-Mikroschrittverfahren können die Mikroschrittverfahren realisiert werden, indem der Strom in jeder Phase des Motors sinusförmig variiert. Durch die Anwendung sinusförmiger Ströme auf die Motorwicklungen wird eine feinere und gleichmäßigere Bewegung erzielt, was zur einer präziseren Steuerung und reduzierten mechanischen Vibrationen führt.\cite{MarcMcComb.2024}
   
-Ein Mikroschritt-Treiber unterteilt die Motorschrittwinkel in vier oder mehr Teile. Es handelt sich um einen Controller, der die Methode der Stromregelung verwendet, um die Mikroschritte zu erzeugen. Der Controller bietet außerdem den Vorteil einer erhöhten Flexibilität bei der Integration der Strombegrenzung und der Anpassung der Antriebscharakteristik als Reaktion auf Änderungen der Systemdynamik. Die Anzahl der Unterteilungen ist einstellbar, was eine präzise Steuerung und Anpassung an spezifische Anforderungen ermöglicht.\cite{Babiel.2023}
+Ein Mikroschritt-Treiber unterteilt die Motorschrittwinkel in vier oder mehr Teil. Es handelt sich um einen Controller, der die Methode der Stromreglung verwendet, um die Mikroschritte zu erzeugen. Der Controller bietet außerdem den Vorteil einer erhöhten Flexibilität bei der Integration der Strombegrenzung und der Anpassung der Antriebscharakteristik als Reaktion auf Änderungen der Systemdynamik. Die Anzahl der Unterteilungen ist einstellbar, was eine präzise Steuerung und Anpassung an spezifische Anforderungen ermöglicht.\cite{Babiel.2023}
 
 \section{Schrittverluste verhindern}
-
 Um mögliche Schrittverlusten einzugrenzen und oder sie zu verhindern, wird in diesem Kapitel beschrieben, wie die Ursachen für Schrittverluste oder Stillstand methodisch zu ermitteln sind. \cite{FaulhaberDriveSystems.2020}
 
 \subsection{Auswahl des Schrittmotors}
-
 Zunächst muss ein passender Motor für die Anwendung gewählt werden. Dabei sollten folgende grundlegende Regeln erfüllt sein:
-
 \begin{itemize}
 	\item Motorauswahl durch Höchstwerte für Drehmoment und Drehzahl (Worst-Case-Szenario)
 	\item Verwendung eines Sicherheitsaufschlag von 30 \% auf die Drehmoment-Drehzahl-Kennlinie(Kippmoment)
@@ -74,9 +71,9 @@ In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, fa
 
 \subsubsection{Start-Stopp-Betrieb}
 
-Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen, in Abbildung \ref{StartStoppFrequenz} erkennbar.\cite{FaulhaberDriveSystems.2020} 
-
-\begin{figure}[H]
+Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
+%% Ich würde nicht Frequenz und Drehzahl verwenden. Vorschlag: Ersetzte Frequenz überall mit Drehzahl, Drehzahl ist bei Motoren mit Kreisförmiger Bewegung sowieso üblicher
+\begin{figure}[!ht]
 	\centering
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
@@ -94,10 +91,10 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 		\end{circuitikz}
 	}%
 	
-	\caption{Start-Stopp Frequenz \cite{FaulhaberDriveSystems.2020}} \label{StartStoppFrequenz}
+	\caption{Start-Stopp Frequenz \cite{FaulhaberDriveSystems.2020}} \label{Start-Stopp Frequenz}
 \end{figure}
 
-{\textbf{Fehlerbild: Motor läuft nicht an(Ursachen und Lösungen ersichtlich in der Tabelle \ref{MOTLNA})} 
+{\textbf{Fehlerbild: Motor läuft nicht an} 
 	\begin{center}
 		\fontsize{8}{10}\selectfont
 		\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -115,9 +112,9 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 	
 	\subsubsection{Beschleunigung und Rampenprofil (Trapezförmig)}
 	
-	Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen, in Abbildung \ref{TrapezförmigesGeschwindigkeitsprofil} erkennbar.\cite{FaulhaberDriveSystems.2020} 
+	Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
 	
-	\begin{figure}[H]
+	\begin{figure}[!ht]
 		\centering
 		\resizebox{1\textwidth}{!}{%
 			\begin{circuitikz}
@@ -146,11 +143,11 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 				\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (38.75,8.25);
 			\end{circuitikz}
 		}%
-		\caption{Trapezförmiges Geschwindigkeitsprofil \cite{FaulhaberDriveSystems.2020}} \label{TrapezförmigesGeschwindigkeitsprofil}
+		\caption{Trapezförmiges Geschwindigkeitsprofil \cite{FaulhaberDriveSystems.2020}} \label{Trapezförmiges Geschwindigkeitsprofil}
 	\end{figure}
-	{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})
+	{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})% noch eine verlinkung machen ! 
 		
-		{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht(Ursachen und Lösungen ersichtlich in der Tabelle \ref{MBRH})}
+		{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht}
 			\begin{center}
 				\fontsize{8}{10}\selectfont
 				\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -180,10 +177,10 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 						\item {Anderen Controller verwenden }
 					\end{itemize}\\ \hline
 				\end{tabularx}
-				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}} \label{MBRH}	
+				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}}	
 			\end{center}
 			
-			{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist(Ursachen und Lösungen ersichtlich in der Tabelle \ref{MBEKD}).}
+			{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist.}
 				\begin{center}
 					\fontsize{8}{10}\selectfont
 					\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
@@ -198,7 +195,7 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 							\item {Mechanische Dämpfung vorsehen} 
 						\end{itemize}	 \\	\hline
 					\end{tabularx}
-					\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \cite{FaulhaberDriveSystems.2020}} \label{MBEKD}
+					\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \cite{FaulhaberDriveSystems.2020}}
 				\end{center}
 				
 				
@@ -227,11 +224,11 @@ Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betri
 
 \section{Beschreibung des verwendeten Schrittmotors}
 
-Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt somit 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Der Motor ist nicht für große Drehmomente ausgelegt, sondern für schnelle und präzise Bewegungen.  Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des Weiteren arbeitet der Motor mit 0,84 Ampere pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessungen $42\times 42\times 34$ mm sowie die geringe Masse von 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
+Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Der Motor ist nicht für große Drehmomente ausgelegt, sondern für schnelle und präzise Bewegungen.  Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung $42\times 42\times 34$ mm sowie die geringe Masse mit 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
 
 \begin{figure}[H]
 	\centering
 	\input{tikz/MomentenverlaufSchrittmotor}
-	\caption{Drehmoment-Diagramm für den Schrittmotor 42BYG015}
+	\caption{Drehmoment-Diagramm für den Schrittmotor 42BYG015 \cite{Gems.2024}}
 	\label{DrehmomentDiagramm}
 \end{figure}
