@@ -11,7 +11,7 @@
 
 \chapter{Schrittmotor}
 
-In diesem Kapitel folgt eine grundsätzliche Beschreibung eines Schrittmotors. Darauf folgt die Erläuterungen zum Aufbau und Funktionsweise eines Schrittmotors sowie die Aufzählung verschiedener Grundbauarten.
+In diesem Kapitel folgt eine grundsätzliche Beschreibung eines Schrittmotors. Darauf folgt die Erläuterungen zum Aufbau und Funktionsweise eines Schrittmotors sowie die Aufzählung verschiedener Grundbauarten. Nachfolgend werden Ursachen und Lösungen zum Verhindern von Schrittfehlern und der verwendete Schrittmotor genauer erläutert.
 
 \section{Beschreibung eines Schrittmotors}
 
@@ -19,7 +19,14 @@ Ein Schrittmotor ist ein Elektromotor, der sich für präzise Positionierungsauf
 
 \subsection{Aufbau und Funktionsweise eines Schrittmotors}
 
-Der Schrittmotor besteht aus einem Stator, einem Rotor ohne Wicklungen und einer Steuerelektronik. Diese Steuerelektronik setzt sich zusammen aus einer Treiberstufe und der eigentlichen Steuerung. Bei dem Stator handelt es sich um den feststehenden äußeren Teil und bei dem Rotor um den beweglichen inneren Teil, wie in Abbildung \ref{HaPrSchritt} zu erkennbar ist. Im Stator sind Spulen verbaut, die von einem Strom durchflossen werden. Hierdurch entsteht ein magnetisches Feld. Da der Rotor magnetisch ist, folgt er dem Magnetfeld des Stators. Soll eine Bewegung hervorgerufen werden, werden einzelne Wicklungsstränge ein- aus- oder umgeschaltet. Durch diesen Vorgang wird ein rotierendes Magnetfeld erzeugt. Das erzeugte Magnetfeld zieht den Rotor an. Der Rotor wird bei jedem Puls (Takt) um einen Winkelschritt weitergeschaltet. Die Anzahl der Polpaare im Stator geben die Anzahl der Schritte vor. Die Drehzahl und die Drehrichtung hängt von der Reihenfolge und der Häufigkeit der Stromimpulse ab. Es gibt drei verschiedene Betriebsarten, die abhängig von der Genauigkeit und der Drehzahl sind. Im Vollschrittbetrieb werden alle Polpaare bestromt. In dem Halbschrittbetrieb wird die Schrittzahl des Motors verdoppelt, wodurch sich die Positionsauflösung im Gegensatz zum Vollschrittbetrieb verdoppelt. Allerdings wird in diesem Betrieb das Drehmoment reduziert. In dem Mikroschrittbetrieb bewegt sich der Rotor in sehr kleinen Schritten. Hierdurch wird eine hohe Positioniergenauigkeit und ein ruhiger Lauf erreicht, da die Ströme und das Drehmoment in kleineren Schritten verändert werden. Bei einer zu hohen Schrittfrequenz kann ein Schrittverlust entstehen. Bei einem Schrittverlust überspringt der Motor einzelne Winkelschritte und landet in einer vorherigen oder nächsten Position gleicher Phase. Durch die offene Steuerkette werden die Verluste nicht erkannt.    \cite{Hagl.2021}\cite{Bernstein.2018}\cite{Schroder.2021}
+Der Schrittmotor besteht aus einem Stator, einem Rotor ohne Wicklungen und einer Steuerelektronik. Diese Steuerelektronik setzt sich zusammen aus einer Treiberstufe und der eigentlichen Steuerung. Bei dem Stator handelt es sich um den feststehenden äußeren Teil und bei dem Rotor um den beweglichen inneren Teil, wie in Abbildung \ref{HaPrSchritt} zu erkennen ist. Im Stator sind Spulen verbaut, die von einem Strom durchflossen werden. Hierdurch entsteht ein magnetisches Feld. Da der Rotor magnetisch ist, folgt er dem Magnetfeld des Stators. Soll eine Bewegung hervorgerufen werden, werden einzelne Wicklungsstränge ein- aus- oder umgeschaltet. Durch diesen Vorgang wird ein rotierendes Magnetfeld erzeugt. Das erzeugte Magnetfeld zieht den Rotor an. Der Rotor wird bei jedem Puls (Takt) um einen Winkelschritt weitergeschaltet. Die Anzahl der Polpaare im Stator geben die Anzahl der Schritte vor. Die Drehzahl und die Drehrichtung hängt von der Reihenfolge und der Häufigkeit der Stromimpulse ab. Es gibt drei verschiedene Betriebsarten, die abhängig von der Genauigkeit und der Drehzahl sind. Im Vollschrittbetrieb werden alle Polpaare bestromt. In dem Halbschrittbetrieb wird die Schrittzahl des Motors verdoppelt, wodurch sich die Positionsauflösung im Gegensatz zum Vollschrittbetrieb verdoppelt. Allerdings wird in diesem Betrieb das Drehmoment reduziert. In dem Mikroschrittbetrieb bewegt sich der Rotor in sehr kleinen Schritten. Hierdurch wird eine hohe Positioniergenauigkeit und ein ruhiger Lauf erreicht, da die Ströme und das Drehmoment in kleineren Schritten verändert werden. Bei einer zu hohen Schrittfrequenz kann ein Schrittverlust entstehen. Bei einem Schrittverlust überspringt der Motor einzelne Winkelschritte und landet in einer vorherigen oder nächsten Position gleicher Phase. Durch die offene Steuerkette werden die Verluste nicht erkannt.    \cite{Hagl.2021}\cite{Bernstein.2018}\cite{Schroder.2021}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=\textwidth]{Images/PrinzipSchritmotor.png}
+		\caption{Prinzipieller Aufbau Schrittmotor (2-phasig) \cite{Hagl.2021}} \label{HaPrSchritt}
+	\end{center}
+\end{figure}
 
 \subsection{Schrittmotor Bauformen}
 
@@ -37,9 +44,187 @@ Der \textbf{permanentmagnetische Schrittmotor} hat einen Permanentmagneten in de
 
 Neben den oben bereits genannten Betriebsarten, kann außerdem zwischen dem Unipolarbetrieb und dem Bipolarbetrieb unterschieden werden. Der große Unterschied zwischen den beiden Betreibsarten besteht darin, dass in dem Unipolarbetrieb der Strom in eine Richtung fließt. Bei dem Bipolarbetrieb hingegen fließt der Strom in beide Richtungen. Dies ist möglich, da jeder Wicklungsstrang über eine Vollbrücke gespeist wird. Ein weiterer Unterschied besteht in der Schaltung der Zweige, durch die ein Gleichstrom fließt. In dem Unipolarbetrieb werden die beiden Zweige in Reihe geschaltet. Jeder Wicklungsstrang wird mit zwei Drähten parallel gewickelt. Sind die beiden Wicklungsstränge in dem Bipolarbetrieb parallel gewickelt, müssen die Zweige parallelgeschaltet werden. Im Bipolarbetrieb kann ein höherer Wirkungsgrad erzielt werden, wo hingegen der Unipolarbetrieb eine deutlich einfachere Schaltung aufweist. \cite{Schroder.2021}
 
+\subsection{Mikroschrittverfahren}
+
+Mit dem Mikroschrittverfahren können Zwischenschritte und Mikroschritte erzeugt werden. Es bietet die Fähigkeit, Geräusche und Vibrationen zu minimieren sowie die Auflösung der Umdrehung zu erhöhen. Um Zwischenschritte zu erreichen, müssen beide Wicklungen eines Schrittmotors gleichzeitig mit Strom versorgt werden. 
+Mit dem Sinus/Cosinus-Mikroschrittverfahren können die Mikroschrittverfahren realisiert werden, indem der Strom in jeder Phase des Motors sinusförmig variiert. Durch die Anwendung sinusförmiger Ströme auf die Motorwicklungen wird eine feinere und gleichmäßigere Bewegung erzielt, was zur einer präziseren Steuerung und reduzierten mechanischen Vibrationen führt.\cite{MarcMcComb.2024}
+  
+Ein Mikroschritt-Treiber unterteilt die Motorschrittwinkel in vier oder mehr Teil. Es handelt sich um einen Controller, der die Methode der Stromreglung verwendet, um die Mikroschritte zu erzeugen. Der Controller bietet außerdem den Vorteil einer erhöhten Flexibilität bei der Integration der Strombegrenzung und der Anpassung der Antriebscharakteristik als Reaktion auf Änderungen der Systemdynamik. Die Anzahl der Unterteilungen ist einstellbar, was eine präzise Steuerung und Anpassung an spezifische Anforderungen ermöglicht.\cite{Babiel.2023}
+
+\section{Schrittverluste verhindern}
+Um mögliche Schrittverlusten einzugrenzen und oder sie zu verhindern, wird in diesem Kapitel beschrieben, wie die Ursachen für Schrittverluste oder Stillstand methodisch zu ermitteln sind. \cite{FaulhaberDriveSystems.2020}
+
+\subsection{Auswahl des Schrittmotors}
+Zunächst muss ein passender Motor für die Anwendung gewählt werden. Dabei sollten folgende grundlegende Regeln erfüllt sein:
+\begin{itemize}
+	\item Motorauswahl durch Höchstwerte für Drehmoment und Drehzahl (Worst-Case-Szenario)
+	\item Verwendung eines Sicherheitsaufschlag von 30 \% auf die Drehmoment-Drehzahl-Kennlinie(Kippmoment)
+	\item Sicherstellen, dass externe Ereignisse die Anwendung nicht blockieren können
+\end{itemize}
+
+Sind die geforderten Drehmomente bei den jeweiligen Drehzahlen, den Motorspezifikation entsprechend, dann sind keine Probleme zu erwarten. Ist der Motor zu schwach gewählt und die Anwendung fordert mehr Leistung als der Motor abgeben kann, so bleibt der Motor stehen. Der nächste Schritt ist die Durchführung von Testdurchläufen. Es soll im Betrieb überprüft werden, ob Schrittverluste auftreten. Schrittmotoren verlieren konstruktionsbedingt nicht nur einen einzigen Schritt. Bei geringen Drehzahlen verliert der Motor ein Vielfaches von vier Schritten.\cite{FaulhaberDriveSystems.2020}
+%% Sind es immer vielfache von vier oder wo kommt diese Zahl her?
+
+\subsection{Betriebsart}
+
+In diesem Abschnitt werden je nach Betriebsart mögliche Ursachen erläutert, falls der Schrittmotor bei den Tests versagt.
+
+\subsubsection{Start-Stopp-Betrieb}
+
+Der Motor ist mit der Last fest verbunden und wird mit konstanter Drehzahl betrieben. Innerhalb des ersten Schrittes muss der Motor auf die vorgegebene Frequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
+%% Ich würde nicht Frequenz und Drehzahl verwenden. Vorschlag: Ersetzte Frequenz überall mit Drehzahl, Drehzahl ist bei Motoren mit Kreisförmiger Bewegung sowieso üblicher
+\begin{figure}[!ht]
+	\centering
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (11.25,22);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (36.25,12) -- (36.25,8.25);
+			\node [font=\LARGE] at (38.75,7.5) {Zeit};
+			\node [font=\huge] at (8.75,12.25) {f};
+			\node [font=\LARGE] at (9.75,22) {Frequenz};
+			\node [font=\normalsize] at (10,12) {Start/Stopp};
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (17.5,8.25);
+			\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (38.75,8.25);
+			\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (36.25,12);
+			\draw [line width=1pt, dashed] (11.25,12) -- (17.5,12);
+		\end{circuitikz}
+	}%
+	
+	\caption{Start-Stopp Frequenz \cite{FaulhaberDriveSystems.2020}} \label{Start-Stopp Frequenz}
+\end{figure}
+
+{\textbf{Fehlerbild: Motor läuft nicht an} 
+	\begin{center}
+		\fontsize{8}{10}\selectfont
+		\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+			\hline 
+			\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
+			Last zu Hoch & Falscher Motor, größeren Motor wählen \\ \hline
+			Frequenz zu hoch & Frequenz reduzieren\\ \hline
+			Pendelt der Motor von Links nach Rechts & Es könnte eine Phase unterbrochen oder nicht angeschlossen sein, dies muss repariert werden \\ \hline
+			Phasenstrom passt nicht & Phasenstrom erhöhen\\ \hline
+			
+		\end{tabularx}
+		\captionof{table}{Ursachen und Lösungen: Motor läuft nicht an \cite{FaulhaberDriveSystems.2020}} \label{MOTLNA} 
+	\end{center}
+	
+	
+	\subsubsection{Beschleunigung und Rampenprofil (Trapezförmig)}
+	
+	Der Motor kann mit einer im Controller vorgegebenen Beschleunigungsrate bis auf die Maximalfrequenz beschleunigen.\cite{FaulhaberDriveSystems.2020} 
+	
+	\begin{figure}[!ht]
+		\centering
+		\resizebox{1\textwidth}{!}{%
+			\begin{circuitikz}
+				\tikzstyle{every node}=[font=\LARGE]
+				\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (11.25,22);
+				\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (22.5,19.5);
+				\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (22.5,19.5) -- (27.5,19.5);
+				\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (27.5,19.5) -- (36.25,12);
+				\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (36.25,12) -- (36.25,8.25);
+				\draw [line width=1pt, dashed] (11.25,19.5) -- (22.5,19.5);
+				\draw [line width=1pt, dashed] (27.5,19.5) -- (38.75,19.5);
+				\draw [line width=1pt, dashed] (22.5,19.5) -- (22.5,8.25);
+				\draw [line width=1pt, dashed] (27.5,19.5) -- (27.5,8.25);
+				\draw [line width=1pt, dashed] (11.25,12) -- (38.75,12);
+				\node [font=\LARGE] at (38.75,7.5) {Zeit};
+				\node [font=\LARGE] at (19.25,7.75) {t};
+				\node [font=\huge] at (32.5,7.75) {t};
+				\node [font=\huge] at (8.75,12.25) {f};
+				\node [font=\huge] at (9.75,19.75) {f};
+				\node [font=\LARGE] at (9.75,22) {Frequenz};
+				\node [font=\normalsize] at (19.75,7.5) {acc};
+				\node [font=\normalsize] at (33,7.5) {dec};
+				\node [font=\normalsize] at (10,12) {Start/Stopp};
+				\node [font=\normalsize] at (10.25,19.5) {max};
+				\draw [ color={rgb,255:red,0; green,199; blue,252}, line width=1pt, short] (17.5,12) -- (17.5,8.25);
+				\draw [line width=1pt, ->, >=Stealth] (11.25,8.25) -- (38.75,8.25);
+			\end{circuitikz}
+		}%
+		\caption{Trapezförmiges Geschwindigkeitsprofil \cite{FaulhaberDriveSystems.2020}} \label{Trapezförmiges Geschwindigkeitsprofil}
+	\end{figure}
+	{\textbf{Fehlerbild: Motor läuft nicht an} (siehe Ursachen und Lösungen aus Tabelle \ref{MOTLNA} \nameref{MOTLNA})% noch eine verlinkung machen ! 
+		
+		{\textbf{Fehlerbild: Motor beendet die Beschleunigungsrampe nicht}
+			\begin{center}
+				\fontsize{8}{10}\selectfont
+				\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+					\hline 
+					\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
+					
+					Motor bleibt bei der Resonanzfrequenz hängen & 
+					\begin{itemize} 
+						\item {Beschleunigung erhöhen, um die Resonanzfrequenz schneller zu durchlaufen} 
+						\item {Start-Stopp Frequenz über dem Resonanzpunkt wählen} 
+						\item {Halbschritt- oder Mikroschrittbetrieb verwenden} 
+						\item {Mechanische Dämpfung vorsehen} 
+					\end{itemize}	 \\	\hline
+					Falsche Einstellung von Versorgungsspannung oder Strom zu gering & 
+					\begin{itemize}
+						\item {Spannung oder Strom erhöhen} 
+						\item {Motor mit geringerer Impedanz testen} 
+						\item {Stromregelung verwenden}
+					\end{itemize}\\	\hline
+					Maximaldrehzahl zu hoch & 
+					\begin{itemize}
+						\item {Maximaldrehzahl reduzieren} 
+						\item {Beschleunigungsrampe abflachen}
+					\end{itemize}\\ \hline
+					Schlechte Vorgabe der Beschleunigungsrampe durch Elektronik & 
+					\begin{itemize}
+						\item {Anderen Controller verwenden }
+					\end{itemize}\\ \hline
+				\end{tabularx}
+				\captionof{table}{Ursachen und Lösungen: Motor beendet die Beschleunigungsrampe nicht \cite{FaulhaberDriveSystems.2020}}	
+			\end{center}
+			
+			{\textbf{Fehlerbild: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist.}
+				\begin{center}
+					\fontsize{8}{10}\selectfont
+					\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
+						\hline 
+						\textbf{Ursachen} & \textbf{Lösungen} \\ \hline
+						
+						Motor wird an Leistungsgrenze betrieben und bleibt stehen aufgrund zu hoher Beschleunigung & 
+						\begin{itemize} 
+							\item {Ruckeln verringern durch geringere Beschleunigungsrate oder durch unterschiedliche Beschleunigungsrampen, erst steil dann flacher} 
+							\item {Drehmoment erhöhen} 
+							\item {Motor im Mikroschrittbetrieb betreiben} 
+							\item {Mechanische Dämpfung vorsehen} 
+						\end{itemize}	 \\	\hline
+					\end{tabularx}
+					\captionof{table}{Ursachen und Lösungen: Motor beschleunigt bis zur Enddrehzahl und bleibt stehen, sobald eine konstante Drehzahl erreicht ist. \cite{FaulhaberDriveSystems.2020}}
+				\end{center}
+				
+				
+				
+				\subsection{Externe Ereignisse}
+				\subsubsection{Lastrückkopplung}
+				\textit{"Manchmal wird der vom Motor angetriebene Mechanismus/Last während der Bewegung „aufgezogen“ und gibt diese Energie wieder an den Motor zurück, wenn die Ströme ausgeschaltet werden. Der Mechanismus könnte z.B. ein Untersetzungsgetriebe sein."}\cite{FaulhaberDriveSystems.2020} 
+				Wird diese Energie an den Motor zurück geleitet, kann es passieren, dass der Motor sich um einen Winkel verdreht, der mehr als einem Schritt entspricht. Dabei kann es passieren, dass der Motor nicht ausreichend Drehmoment entwickelt und nicht oder erst nach 4 Vollschritten anläuft. \cite{FaulhaberDriveSystems.2020}
+				
+				\textbf{Lösungen:}
+				\begin{itemize}
+					\item Die Kommutierung so programmieren, dass Wert und Polarität vor dem Abschalten gespeichert und beim Wiedereinschalten verwenden werden kann. 
+					\item Nicht vollständig den Strom abschalten, sondern bei Motorstillstand einen reduzierten \textit{Stand-By} Strom aufrechterhalten
+				\end{itemize}
+				
+				\subsubsection{Erhöhung der Nutzlast mit der Zeit}
+				\textit{"Manchmal läuft der Motor für eine lange Zeit störungsfrei und viel später treten die ersten Schrittverluste auf. In diesem Fall ist es sehr wahrscheinlich, dass die Last, die der Motor „sieht“, sich geändert hat. Das kann auf Verschleiß der Motorlager oder ein externes Ereignis zurückzuführen sein."}\cite{FaulhaberDriveSystems.2020}
+				
+				\textbf{Lösungen:}
+				\begin{itemize}
+					\item Prüfen ob ein externes Ereignis durch Veränderung des Mechanismus vorliegt.
+					\item Prüfen ob Lagerverschleiß vorhanden ist. Verwendung von Kugellager erhöhen die Lebensdauer des Motors.
+					\item Verwendung von Schmiermittel um Reibung zu verhindern.
+				\end{itemize}
+
+
 \section{Beschreibung des verwendeten Schrittmotors}
 
-Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt somit 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Dadurch, dass er mit einer niedrigen Spannung arbeitet, kann kein hohes Drehmoment erzeugt werden. Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung 42 x 42 x 34 mm sowie die geringe Masse mit 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
+Für das Automatisierungsprojekt wird ein Nema 17 Schrittmotor der Firma Creality3D verwendet. Dieser Schrittmotor wird im 3D-Druck sowie in CNC-Maschinen eingesetzt. Der Motor arbeitet im Bipolarbetrieb und es sind zwei Spulen verbaut. Er hat einen Schrittwinkel von 1,8 ° und benötigt somit 200 Schritte für eine volle Umdrehung. Die Wellenlänge beträgt 20 mm und der Wellendurchmesser 5 mm. Der ausgewählte Schrittmotor arbeitet mit einer Nennspannung von 12 Volt. Der Motor ist nicht für große Drehmomente ausgelegt, sondern für schnelle und präzise Bewegungen.  Dies wird qualitativ in der Abbildung \ref{DrehmomentDiagramm} für den Schrittmotor GM42BYG015 dargestellt. Hier ist zu erkennen, dass der Schrittmotor ein Drehmoment von ca. 0,8 kg$\cdot$cm erreicht. Auf der x-Achse wird die Geschwindigkeit in Pulses per Second (PPS) angegeben, d.h. die Anzahl der Steuerimpulse pro Sekunde. Der Schrittmotor erzielt aber eine gute Positioniergenauigkeit durch den kleinen Schrittwinkel und die Microstepp-Funktion. Des weiteren arbeitet der Motor mit 0,84 Amper pro Phase. Weitere Vorteile des Schrittmotors sind die kompakte Bauform mit den Abmessung 42 x 42 x 34 mm sowie die geringe Masse mit 220 Gramm. Betrieben werden kann der Schrittmotor in einer Umgebungstemperatur von -10\ °C bis +50\ °C.\cite{Gems.2024}
 
 \begin{figure}[H]
 	\centering
