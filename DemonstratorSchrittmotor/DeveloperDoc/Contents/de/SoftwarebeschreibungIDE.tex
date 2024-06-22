@@ -68,7 +68,7 @@ Hier wird zum Beispiel die serielle Kommunikation gestartet, aber auch verwendet
 \subsection{loop()}
 In der \textit{void loop()}-Funktion findet der größte Teil des Programms statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird und somit zunächst erst die \textit{void setup()}-Funktion wieder gestartet wird \cite{ArdIDE.2024e}.
 
-\section{Erster Programmtest}
+\section{Erster Programmtest}\label{ersterprogrammtest}
 Um die Funktion eines Systems zu testen, wird oft zunächst ein sehr simples Programm oder eine sehr grundlegende Funktion getestet.
 In diesem Fall kann hier über \textit{Datei -> Beispiele -> 01.Basics -> Blink} ein Sketch geöffnet werden, in dem die auf dem Arduino Nano 33 BLE Sense Lite aufgebrachte LED in einem fest gelegten Takt blinkt, wodurch die korrekte Auswahl des Boards und die Übertragung des Sketches auf den Mikrocontroller getestet werden können.
 
@@ -85,4 +85,4 @@ void loop() {
 \end{lstlisting}
 
 In der \textit{void setup()}-Funktion wird in diesem Beispiel über den Ausdruck \textit{pinMode(LED BUILTIN, OUTPUT)} die auf dem Mikrocontroller verbaute LED in dem Sketch aufgerufen und eingebunden.
-In \textit{void loop()} wird durch den Befehl\textit{ digitalWrite()} die LED eingeschaltet, indem eine Spannung an sie angelegt wird. Nach einer kurzen Verzögerung durch den gleichen Befehl wird die LED dann wieder ausgeschaltet, indem die anliegende Spannung gesenkt wird. Die Verzögerung kann mit dem \textit{delay()}-Befehl eingestellt werden, indem der Wert in der Klammer angepasst wird. Dabei wird der Wert in Millisekunden angegeben.
+In \textit{void loop()} wird durch den Befehl\textit{ digitalWrite()} die LED eingeschaltet, indem eine Spannung an sie angelegt wird. Nach einer kurzen Verzögerung durch den gleichen Befehl wird die LED dann wieder ausgeschaltet, indem die anliegende Spannung gesenkt wird. Die Verzögerung kann mit dem \textit{delay()}-Befehl eingestellt werden, indem der Wert in der Klammer angepasst wird. Dabei wird der Wert in Millisekunden angegeben.\cite{Arduino.2014}

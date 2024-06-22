@@ -6,7 +6,7 @@
 \contentsline {chapter}{ Liste des Listings}{ix}{chapter*.4}%
 \contentsline {chapter}{Acronyms}{xi}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Projektbeschreibung}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Aufgabenstellung}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Kurzbeschreibung des Demonstrators}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Herausforderungen}{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Lösungsansatz}{1}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Anwendungsbereich des Demonstrators}{4}{section.1.4}%
@@ -93,10 +93,11 @@
 \contentsline {section}{\numberline {8.10}Mittlere Geschwindigkeit des Schlittens}{62}{section.8.10}%
 \contentsline {chapter}{\numberline {9}Offene Punkte}{65}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Misslungene Messung der Beschleunigung des Schlittens}{65}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Verbesserungen}{67}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Erweiterung}{68}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Anwendung in der Lehre}{68}{section.9.4}%
-\contentsline {chapter}{ Literaturverzeichnis}{69}{section.9.4}%
+\contentsline {section}{\numberline {9.2}Misslungene Ansteuerung der SMD-LED}{67}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Verbesserungen}{68}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Erweiterung}{68}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Anwendung in der Lehre}{68}{section.9.5}%
+\contentsline {chapter}{ Literaturverzeichnis}{69}{section.9.5}%
 \contentsline {chapter}{Anhang}{73}{chapter*.48}%
 \contentsline {chapter}{\numberline {10}Schaltplan}{75}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Materialliste}{77}{chapter.11}%
