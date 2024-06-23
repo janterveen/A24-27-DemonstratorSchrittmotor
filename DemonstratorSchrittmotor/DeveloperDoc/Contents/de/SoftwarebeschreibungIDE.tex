@@ -65,28 +65,29 @@ Nachdem die Bibliothek installiert wurde, kann sie im header in den Sketch einge
 Bei Verwendung von Bibliotheken, die nicht im \textit{Library Manager} zu finden sind, besteht die Möglichkeit diese über \textit{Sketch->Include Libraries->Add .ZIP Library…} einzubinden.
 
 \section{Programmierung}
+
 Bei einem neuen Sketch sind bereits die Funktionen \textit{void setup()} und \textit{void loop()} hinterlegt.
 
 \subsection{header}
+
 Im \textit{header} werden die erforderlichen Bibliotheken hinterlegt und initialisiert. Gleichzeitig können hier auch Adressen von Peripheriegeräten hinterlegt und erste wichtige Variablen definiert werden.
 
 \subsection{setup()}
+
 Die \textit{void setup()}-Funktion wird bei jedem Neustart oder Reset einmal ausgeführt \cite{ArdIDE.2024d}.
 In diesem Beispiel wird die serielle Kommunikation gestartet, aber auch verwendete Pins initialisiert und zugewiesen.
 
 \subsection{loop()}
+
 In der \textit{void loop()}-Funktion findet der größte Teil des Programms statt. Der Inhalt dieser Funktion wird dauerhaft wiederholt, bis entweder kein Strom mehr an dem Arduino anliegt, oder der Reset-Knopf gedrückt wird, wodurch zunächst erst die \textit{void setup()}-Funktion wieder gestartet wird \cite{ArdIDE.2024e}.
 
 \section{Erster Programmtest}\label{ersterprogrammtest}
-Um die Funktion eines Systems zu testen, wird oft zunächst ein sehr simples Programm oder eine sehr grundlegende Funktion getestet.
-In diesem Fall kann hier über \textit{Datei -> Beispiele -> 01.Basics -> Blink} ein Sketch geöffnet werden, in dem die auf dem Arduino Nano 33 BLE Sense Lite aufgebrachte LED in einem fest gelegten Takt blinkt, wodurch die korrekte Auswahl des Boards und die Übertragung des Sketches auf den Mikrocontroller getestet werden können.
 
-\section{Erster Programmtest}
 Um die Funktionalität eines Systems zu testen, wird in der Regel zunächst ein simples Programm oder eine grundlegende Funktion getestet.
 In diesem Fall kann hier über \textit{Datei -> Beispiele -> 01.Basics -> Blink} ein Sketch geöffnet werden, in dem die auf dem Arduino Nano 33 BLE Sense Lite aufgebrachte LED in einem fest gelegten Takt blinkt. Auf diese Weise kann die korrekte Auswahl des Boards und die Übertragung des Sketches auf den Mikrocontroller getestet werden.
 \ref{Code:Blink}
 
-\begin{code}
+\begin{code}[H]
 	\begin{lstlisting}[language=c++]
 void setup() {
 	pinMode(LED_BUILTIN, OUTPUT);
